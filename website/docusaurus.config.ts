@@ -4,11 +4,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Noi',
-  tagline: '🚀 Power Your World with AI - Explore, Extend, Empower.',
+  tagline: '🚀 Less chaos. More flow.',
   favicon: 'img/noi.png',
 
   // Set the production url of your site here
-  url: 'https://noi.nofwl.com',
+  url: 'https://noib.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -26,7 +26,8 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-CN'],
+    locales: ['en'],
+    // locales: ['en', 'zh-CN'],
   },
 
   plugins: [
@@ -98,7 +99,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} <a target="_blank" href="https://github.com/lencx">lencx</a>.`,
+      copyright: `© ${new Date().getFullYear()} <a target="_blank" href="https://lencx.me">lencx</a>. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
