@@ -1,0 +1,306 @@
+[
+  {
+    "id": "noi:google",
+    "parent": 0,
+    "text": "Google",
+    "url": "https://google.com",
+    "active": false,
+    "favicon": "https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico"
+  },
+  {
+    "id": "noi@ai",
+    "text": "AI",
+    "parent": 0,
+    "dir": true,
+    "dirOpen": true,
+    "iconDir": "noi_ai",
+    "iconDirOpen": "noi_ai"
+  },
+  {
+    "id": "noi@dev",
+    "text": "Dev",
+    "parent": 0,
+    "dir": true,
+    "dirOpen": true,
+    "iconDir": "noi_dev",
+    "iconDirOpen": "noi_dev"
+  },
+  {
+    "id": "noi@other",
+    "text": "Other",
+    "parent": 0,
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_other",
+    "iconDirOpen": "noi_other"
+  },
+  {
+    "id": "noi@fork",
+    "text": "Session isolation",
+    "parent": 0,
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_fork",
+    "iconDirOpen": "noi_fork"
+  },
+  {
+    "id": "noi:aiplayground",
+    "parent": "noi@ai",
+    "text": "AI Playground",
+    "url": "noi://view",
+    "active": false,
+    "view": [
+      { "id": "noi:chatgpt", "ask": true },
+      { "id": "noi:claude", "ask": true },
+      { "id": "noi:gemini", "ask": true },
+      { "id": "noi:grok", "ask": true }
+    ]
+  },
+  {
+    "id": "noi:chatgpt",
+    "parent": "noi@ai",
+    "text": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "active": true,
+    "ask": true,
+    "askFixInput": 2,
+    "favicon": "https://cdn.oaistatic.com/assets/favicon-l4nq08hd.svg"
+  },
+  {
+    "id": "noi:claude",
+    "parent": "noi@ai",
+    "text": "Claude",
+    "url": "https://claude.ai",
+    "active": false,
+    "ask": true,
+    "favicon": "https://claude.ai/favicon.ico"
+  },
+  {
+    "id": "noi:gemini",
+    "parent": "noi@ai",
+    "text": "Gemini",
+    "url": "https://gemini.google.com",
+    "active": false,
+    "ask": true,
+    "favicon": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg"
+  },
+  {
+    "id": "noi:grok",
+    "parent": "noi@ai",
+    "text": "Grok",
+    "url": "https://grok.com",
+    "active": false,
+    "ask": true,
+    "favicon": "https://grok.com/images/favicon-dark.png"
+  },
+  {
+    "id": "noi:githubcopilot",
+    "parent": "noi@ai",
+    "text": "GitHub Copilot",
+    "url": "https://github.com/copilot",
+    "active": false,
+    "ask": true,
+    "favicon": "https://github.githubassets.com/favicons/favicon-dark.svg"
+  },
+  {
+    "id": "noi:aistudio",
+    "parent": "noi@ai",
+    "text": "AI Studio",
+    "url": "https://aistudio.google.com",
+    "active": false,
+    "ask": true,
+    "favicon": "https://www.gstatic.com/aistudio/ai_studio_favicon_2_256x256.png"
+  },
+  {
+    "id": "noi:notebooklm",
+    "parent": "noi@ai",
+    "text": "NotebookLM",
+    "url": "https://notebooklm.google.com",
+    "active": false,
+    "ask": true,
+    "favicon": "https://notebooklm.google.com/_/static/branding/v5/dark_mode/favicon/favicon.svg"
+  },
+  {
+    "id": "noi:perplexity",
+    "parent": "noi@ai",
+    "text": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "active": false,
+    "ask": true,
+    "askFixInput": 1,
+    "favicon": "https://www.perplexity.ai/favicon.ico",
+    "askFixSend": 0
+  },
+  {
+    "id": "noi:deepseek",
+    "parent": "noi@ai",
+    "text": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "active": false,
+    "ask": true,
+    "favicon": "https://chat.deepseek.com/favicon.svg"
+  },
+  {
+    "id": "noi:qwen",
+    "text": "Qwen",
+    "parent": "noi@ai",
+    "url": "https://qwen.ai",
+    "active": false,
+    "ask": true,
+    "favicon": "https://g.alicdn.com/qwenweb/qwen-ai-fe/0.0.4/favicon.ico"
+  },
+  {
+    "id": "noi:zai",
+    "text": "Z.ai",
+    "parent": "noi@ai",
+    "url": "https://chat.z.ai",
+    "active": false,
+    "ask": true,
+    "favicon": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg"
+  },
+  {
+    "id": "noi:kimi",
+    "parent": "noi@ai",
+    "text": "Kimi",
+    "url": "https://www.kimi.com",
+    "active": false,
+    "ask": true,
+    "askFixInput": 1,
+    "favicon": "https://statics.moonshot.cn/kimi-web-seo/favicon.ico"
+  },
+  {
+    "id": "noi:nsh",
+    "parent": "noi@dev",
+    "text": "NSH",
+    "url": "noi://nsh"
+  },
+  {
+    "id": "noi:github",
+    "parent": "noi@dev",
+    "text": "GitHub",
+    "url": "https://github.com",
+    "active": false,
+    "favicon": "https://github.githubassets.com/favicons/favicon-dark.svg"
+  },
+  {
+    "id": "noi:huggingface",
+    "parent": "noi@dev",
+    "text": "Hugging Face",
+    "url": "https://huggingface.co",
+    "active": false,
+    "favicon": "https://huggingface.co/favicon.ico"
+  },
+  {
+    "id": "noi:vscode",
+    "parent": "noi@dev",
+    "text": "VS Code",
+    "url": "https://vscode.dev",
+    "active": false,
+    "favicon": "https://vscode.dev/static/stable/favicon.ico"
+  },
+  {
+    "id": "noi:deepwiki",
+    "parent": "noi@dev",
+    "text": "DeepWiki",
+    "url": "https://deepwiki.com",
+    "active": false,
+    "favicon": "https://deepwiki.com/favicon.ico"
+  },
+  {
+    "id": "noi:v0",
+    "parent": "noi@dev",
+    "text": "v0 by Vercel",
+    "url": "https://v0.app",
+    "active": false,
+    "favicon": "https://v0.app/assets/icon.svg"
+  },
+  {
+    "id": "noi:bolt",
+    "parent": "noi@dev",
+    "text": "bolt.new",
+    "url": "https://bolt.new",
+    "active": false,
+    "favicon": "https://bolt.new/static/favicon.svg"
+  },
+  {
+    "id": "noi_fork_google",
+    "parent": "noi@fork",
+    "text": "Google",
+    "url": "https://google.com",
+    "partition": true,
+    "active": false,
+    "favicon": "https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico"
+  },
+  {
+    "id": "noi:hackernews",
+    "text": "Hacker News",
+    "url": "https://news.ycombinator.com",
+    "active": false,
+    "favicon": "https://news.ycombinator.com/y18.svg",
+    "parent": "noi@other"
+  },
+  {
+    "id": "noi:x",
+    "text": "X",
+    "url": "https://x.com",
+    "active": false,
+    "favicon": "https://abs.twimg.com/favicons/twitter.3.ico",
+    "parent": "noi@other"
+  },
+
+  {
+    "id": "noi@tool",
+    "text": "Tool",
+    "parent": "noi@other",
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_tool",
+    "iconDirOpen": "noi_tool"
+  },
+  {
+    "id": "noi@todo",
+    "text": "TODO",
+    "parent": "noi@other",
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_todo",
+    "iconDirOpen": "noi_todo"
+  },
+  {
+    "id": "noi@study",
+    "text": "Study",
+    "parent": "noi@other",
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_study",
+    "iconDirOpen": "noi_study"
+  },
+
+  {
+    "id": "noi@notification",
+    "text": "Notification",
+    "parent": "noi@other",
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_notify",
+    "iconDirOpen": "noi_notify"
+  },
+  {
+    "id": "noi@productivity",
+    "text": "Productivity",
+    "parent": "noi@other",
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_lightning",
+    "iconDirOpen": "noi_lightning"
+  },
+  {
+    "id": "noi@game",
+    "text": "Game",
+    "parent": "noi@other",
+    "dir": true,
+    "dirOpen": false,
+    "iconDir": "noi_game",
+    "iconDirOpen": "noi_game"
+  }
+]

@@ -1,0 +1,586 @@
+{
+  "language": "Bahasa Melayu",
+  "engines": "Enjin Carian",
+  "version": "Versi",
+  "doc": "Dokumentasi",
+  "sponsor": "Penaja",
+  "website": "Laman web",
+  "menu": {
+    "name": "Menu",
+    "about": "Perihal Noi",
+    "hide": "Sembunyikan Noi",
+    "hideOthers": "Sembunyikan yang lain",
+    "quit": "Keluar daripada Noi",
+    "unhide": "Tunjukkan semua",
+    "noiHotkey": "Kekunci Pintas Noi",
+    "noiAskHotkey": "Kekunci Pintas NoiAsk",
+    "sidebar": "Bar sisi",
+    "checkUpdates": "Semak kemas kini…",
+    "settings": "Tetapan",
+    "stayOnTop": "Sentiasa di Atas",
+    "services": "Perkhidmatan",
+    "newTabSidePanel": "Tab Baharu di Panel Sisi",
+    "newTabMain": "Tab Baharu di Tetingkap Utama",
+    "bordless": "Tetingkap Tanpa Bingkai",
+    "theme": {
+      "name": "Tema",
+      "system": "Sistem",
+      "light": "Terang",
+      "dark": "Gelap",
+      "style": "Gaya Tema"
+    },
+    "find": {
+      "name": "Cari",
+      "next": "Cari Seterusnya",
+      "previous": "Cari Sebelumnya",
+      "jumpToSelection": "Lompat ke Pilihan"
+    },
+    "edit": {
+      "name": "Edit",
+      "undo": "Buat asal",
+      "redo": "Buat semula",
+      "cut": "Potong",
+      "copy": "Salin",
+      "paste": "Tampal",
+      "pasteAndMatchStyle": "Tampal dan Padankan Gaya",
+      "delete": "Padam",
+      "selectAll": "Pilih Semua"
+    },
+    "tab": {
+      "openDefault": "Buka dalam Pelayar Lalai",
+      "addSidebarTemp": "Tambah ke Bar Sisi (TempLink)",
+      "copyUrl": "Salin URL",
+      "copyUrlMd": "Salin URL sebagai Markdown"
+    },
+    "help": {
+      "name": "Bantuan",
+      "feedback": "Maklum balas…"
+    }
+  },
+  "session": {
+    "clearCurrent": "Kosongkan Data Sesi",
+    "clearAll": "Kosongkan Semua Data Sesi",
+    "clearRemovedSites": "Kosongkan Data untuk Laman yang Dibuang",
+    "confirmCurrent": "Kosongkan data laman untuk “{target}”? Ini akan mengalih keluar kuki dan storan bagi sesi ini.",
+    "confirmAll": "Kosongkan data laman untuk semua sesi? Ini mungkin akan mengeluarkan anda daripada beberapa laman.",
+    "confirmRemovedSites": "Alih keluar data laman untuk {count, plural, one {# sesi} other {# sesi}} daripada laman yang tiada lagi dalam indeks anda?",
+    "resultNoRemovedSites": "Tiada data cache ditemui untuk laman yang dibuang.",
+    "helpRemovedSites": "Sesi bagi laman yang dibuang ialah kuki dan storan yang masih tinggal selepas laman tersebut dikeluarkan daripada indeks anda."
+  },
+  "view": {
+    "name": "Paparan",
+    "tabs": "Tab Noi",
+    "spaces": "{count, plural, one {Ruang Noi} other {Ruang Noi}}",
+    "toolbar": "Bar Alat Noi",
+    "markdown": "Markdown",
+    "minibar": "Bar mini",
+    "manageSpaces": "Urus Ruang",
+    "reload": "Muat Semula",
+    "goBack": "Kembali",
+    "goForward": "Maju",
+    "zoom": "Zum",
+    "actualSize": "Saiz Sebenar",
+    "zoomIn": "Zum Masuk",
+    "zoomOut": "Zum Keluar",
+    "devTools": "Alat Pembangun",
+    "newTab": "Tab Baharu",
+    "newTabPlaceholder": "{hasEngine, select, true {Cari dengan {engine} atau masukkan URL…} other {Cari atau masukkan URL…}}",
+    "closeTab": "Tutup Tab",
+    "closeOtherTabs": "Tutup Tab Lain",
+    "mute": "Senyapkan",
+    "unmute": "Bunyikan",
+    "incognito": "Pelayaran Peribadi",
+    "sidePanel": "Panel Sisi",
+    "newFolder": "Folder Baharu",
+    "addLink": "Tambah Pautan",
+    "mainWindow": "Tetingkap Utama",
+    "switchMainTab": "Tukar ke Tab Utama",
+    "switchSideTab": "Tukar ke Tab Panel Sisi",
+    "newFile": "Fail Baharu",
+    "bookmark": "Penanda Buku",
+    "bookmarkTab": "Tambah tab ini ke penanda buku",
+    "copyUrlMetadata": "Salin Metadata URL",
+    "removeNoiView": "Alih keluar daripada NoiView",
+    "addNoiView": "Tambah ke NoiView",
+    "openNewWindow": "Buka dalam Tetingkap Baharu",
+    "openSidePanel": "Buka di Panel Sisi",
+    "pin": "Semat",
+    "unpin": "Nyahsemat",
+    "lockLink": "Kunci pautan",
+    "unlockLink": "Nyahkunci pautan",
+    "buttonHighlight": "Sorotan Butang Bar Tajuk"
+  },
+  "window": {
+    "close": "Tutup",
+    "goMain": "Pergi ke Tetingkap Utama",
+    "dialog": "Tetingkap Dialog",
+    "drag": "Seret untuk alih",
+    "minimize": "Minimumkan",
+    "maximize": "Maksimumkan",
+    "restore": "Pulihkan"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Prompt}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Segerakkan",
+    "manageSemVer": "Urus SemVer",
+    "manageLog": "Urus LOG",
+    "addPrompt": "Tambah prompt",
+    "lockPrompt": "Kunci prompt",
+    "unlockPrompt": "Buka kunci prompt",
+    "copyPrompt": "Salin prompt",
+    "deletePrompt": "Padam prompt",
+    "filterTags": "Tapis TAG",
+    "filterRule": "Peraturan Penapis",
+    "filterLockPrompts": "Penapis: prompt terkunci"
+  },
+  "history": {
+    "name": "Sejarah",
+    "clearAll": "Kosongkan Semua Sejarah",
+    "refresh": "Segarkan Sejarah",
+    "remove": "Alih keluar daripada Sejarah",
+    "search": "Cari Sejarah",
+    "searchClear": "Kosongkan Carian",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {Tiada hasil carian untuk “{q}”} one {Ditemui # hasil carian untuk “{q}”} other {Ditemui # hasil carian untuk “{q}”}}} other {{count, plural, =0 {Tiada hasil} one {Ditemui # hasil} other {Ditemui # hasil}}}}",
+    "moreThisSite": "Lagi dari laman ini",
+    "dialogTitle": "Kosongkan semua sejarah?",
+    "dialogMessage": "Tindakan ini memadam semua rekod sejarah yang disimpan secara kekal dan tidak boleh dibatalkan.",
+    "result1": "Gagal memuatkan sejarah: {error}",
+    "result2": "Belum ada sejarah.",
+    "result3": "Tiada hasil carian",
+    "result4": "Tiada data ditemui.",
+    "tips": "Padanan kabur merentasi tajuk dan URL. Perincikan dengan penapis medan:",
+    "tip1": "tajuk mengandungi “example”",
+    "tip2": "halaman daripada “example.com”",
+    "tip3": "pada 2024/01/01",
+    "tip4": "antara 2024/01/01–2025/12/31",
+    "tip5": "sebelum 2024/01/01",
+    "tip6": "selepas 2024/01/01",
+    "tip7": "dilawati tepat 3 kali",
+    "tip8": "dilawati kurang daripada 3 kali",
+    "tip9": "dilawati lebih daripada 3 kali"
+  },
+  "form": {
+    "editor": "Editor",
+    "partition": "Pengasingan Sesi",
+    "name": "Nama",
+    "url": "URL",
+    "small": "Kecil",
+    "medium": "Sederhana",
+    "large": "Besar",
+    "icon": "Ikon",
+    "inputElement": "Elemen Input",
+    "sendElement": "Elemen Hantar",
+    "cssSelector": "Pemilih CSS",
+    "lightMode": "Mod Terang",
+    "darkMode": "Mod Gelap",
+    "customIcon": "Ikon Tersuai",
+    "linkIcon": "Ikon Pautan",
+    "dirIcon": "Ikon Folder",
+    "dirOpenIcon": "Ikon Folder Terbuka",
+    "selectUA": "Pilih User Agent",
+    "customUA": "Atau masukkan rentetan User Agent tersuai…",
+    "rawJson": "JSON Mentah",
+    "validation": {
+      "nameRequired": "Sila masukkan nama.",
+      "urlRequired": "Sila masukkan URL.",
+      "userAgentRequired": "Sila masukkan rentetan User Agent.",
+      "invalidJson": "JSON tidak sah.",
+      "fixJsonErrors": "Sila betulkan ralat pengesahan JSON sebelum menyimpan.",
+      "required": "Medan ini diperlukan."
+    },
+    "tip": {
+      "agentWarning": "Amaran keselamatan: membenarkan laman web mengakses API Noi boleh berbahaya."
+    }
+  },
+  "action": {
+    "name": "Tindakan",
+    "archive": "Arkibkan",
+    "back": "Kembali",
+    "cancel": "Batal",
+    "confirm": "Sahkan",
+    "create": "Cipta",
+    "delete": "Padam",
+    "details": "Butiran",
+    "edit": "Edit",
+    "restore": "Pulihkan",
+    "query": "Pertanyaan",
+    "refresh": "Segarkan",
+    "rename": "Namakan Semula",
+    "reset": "Tetapkan Semula",
+    "save": "Simpan",
+    "send": "Hantar",
+    "use": "Gunakan",
+    "clean": "Padam dari Cakera",
+    "enable": "Dayakan",
+    "disable": "Lumpuhkan",
+    "importAsk": "Import ke NoiAsk",
+    "openLocales": "Buka folder Locales"
+  },
+  "table": {
+    "active": "Aktif",
+    "archived": "Diarkibkan",
+    "color": "Warna",
+    "createdAt": "Dicipta Pada",
+    "delete": "Padam",
+    "description": "Huraian",
+    "details": "Butiran",
+    "disabled": "Dinyahdayakan",
+    "enabled": "Didayakan",
+    "entries": "Entri",
+    "fileSize": "Saiz Fail",
+    "mode": "Mod",
+    "status": "Status",
+    "trash": "Tong Sampah",
+    "unknown": "Tidak Diketahui",
+    "updatedAt": "Dikemas Kini Pada",
+    "usageCount": "Bilangan Penggunaan",
+    "tagAdd": "Tambah TAG",
+    "tagRemove": "Buang TAG",
+    "visible": "Kelihatan",
+    "total": "Jumlah",
+    "locked": "Dikunci",
+    "text": "Teks",
+    "sendCount": "Bilangan Hantaran",
+    "addSource": "Tambah Sumber",
+    "lastSynced": "Terakhir Disegerakkan",
+    "message": {
+      "completed": "Tindakan selesai.",
+      "failed": "Tindakan gagal.",
+      "noData": "Tiada data ditemui.",
+      "dataExist": "Data sudah wujud.",
+      "dataExistOrDuplicated": "Semua data sudah wujud atau diduplikasi.",
+      "failedLoad": "Gagal memuatkan data.",
+      "importedCount": "Diimport: {count}.",
+      "skippedCount": "Dilangkau: {count}.",
+      "deleteSelected": "Adakah anda pasti mahu memadam baris yang dipilih? Tindakan ini tidak boleh dibatalkan.",
+      "deleteItem": "Adakah anda pasti mahu memadam item ini? Tindakan ini tidak boleh dibatalkan.",
+      "deleteFile": "Padam fail ini dari cakera? Tindakan ini tidak boleh dibatalkan.",
+      "removeItem": "Alih keluar item ini daripada senarai? Fail akan kekal di cakera.",
+      "deleteBuiltin": "Sumber terbina dalam tidak boleh dipadam.",
+      "importedAsk": "Diimport ke NoiAsk.",
+      "deleteUseTag": "TAG ini sedang digunakan dan tidak boleh dipadam."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Perlu pengesahan sebelum keluar",
+      "title": "Keluar dari Noi sekarang?",
+      "detail": "Semua tetingkap dan tugas akan ditutup."
+    },
+    "nshQuit": {
+      "title": "Tutup terminal?",
+      "detail": "Tugas yang sedang berjalan akan ditamatkan serta-merta."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Umum",
+      "language": "Bahasa",
+      "sidebarIcon": "Saiz ikon bar sisi",
+      "homeLink": "Pautan laman utama",
+      "limit": "Had pertanyaan",
+      "cometCursor": "Kursor Komet NoiAsk",
+      "cometTrail": "Jejak Komet NoiAsk",
+      "lockLocales": "Kunci folder Locales",
+      "lockLocalesTip": "Kunci folder Locales untuk menghalang kemas kini automatik daripada mengubah fail bahasa. Berguna untuk terjemahan tersuai.",
+      "urlMetadata": "Metadata URL",
+      "sidebarAnchor": {
+        "name": "Sauh Bar Sisi",
+        "off": "Matikan",
+        "leftTop": "Kiri Atas",
+        "leftCenter": "Kiri Tengah",
+        "leftBottom": "Kiri Bawah",
+        "rightTop": "Kanan Atas",
+        "rightCenter": "Kanan Tengah",
+        "rightBottom": "Kanan Bawah",
+        "disableWarning": "Mematikannya menyembunyikan pencetus terapung. Hanya pintasan Noi boleh membuka semula bar sisi, dan konflik pintasan dengan laman web adalah biasa, jadi tidak disyorkan untuk mematikannya.",
+        "disableConfirmTitle": "Matikan sauh bar sisi?"
+      },
+      "nsh": {
+        "name": "NSH (Terminal)",
+        "fontFamily": "Keluarga Fon",
+        "fontSize": "Saiz Fon",
+        "lineHeight": "Ketinggian Baris",
+        "cursorBlink": "Kelip Kursor",
+        "cursorStyle": "Gaya Kursor",
+        "cursorWidth": "Lebar Kursor",
+        "cursorInactiveStyle": "Gaya Kursor Tidak Aktif",
+        "scrollback": "Sejarah Tatal",
+        "tip": {
+          "cursorWidth": "Hanya terpakai apabila gaya kursor ialah “Bar”.",
+          "scrollback": "Bilangan baris yang disimpan dalam sejarah apabila terminal menatal."
+        }
+      },
+      "proxy": {
+        "name": "Proksi",
+        "rules": "Peraturan Proksi",
+        "bypass": "Peraturan Pintasan Proksi"
+      }
+    },
+    "shortcuts": {
+      "name": "Pintasan",
+      "noiAskPrompt": "Prompt NoiAsk: {action}",
+      "noiAskPromptWithContext": "Prompt NoiAsk: {action} ({context})",
+      "placeholder": "Tekan kombinasi atau taip",
+      "helpText": "Tekan kombinasi kekunci yang dikehendaki, atau taipkan (cth. Ctrl+Shift+X)",
+      "conflict": "Pintasan sudah digunakan"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "JSON Jauh",
+        "remoteCsv": "CSV Jauh",
+        "localJson": "JSON Setempat",
+        "localCsv": "CSV Setempat"
+      },
+      "filePathMissing": "Laluan fail tidak sah.",
+      "fileReadFailed": "Gagal membaca kandungan fail.",
+      "fileOpenFailed": "Tidak dapat membuka pemilih fail.",
+      "fileRequired": "Sila pilih fail untuk disegerakkan.",
+      "notFound": "Sumber penyegerakan tidak ditemui.",
+      "error": "Ralat penyegerakan prompt",
+      "pickLocalFile": "Pilih fail setempat",
+      "type": "Jenis sumber",
+      "alias": "Pemetaan medan",
+      "upload": "Muat naik fail",
+      "dragJson": "Seret fail JSON atau klik untuk melayari",
+      "dragCsv": "Seret fail CSV atau klik untuk melayari",
+      "browseLocal": "Pilih dari cakera"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "Semak sambungan internet anda",
+        "Semak proksi dan tembok api"
+      ],
+      "platform": {
+        "windows": "Jalankan Diagnostik Rangkaian Windows",
+        "mac": "Jalankan Diagnostik Tanpa Wayar (macOS)"
+      },
+      "unknownError": "Ralat tidak diketahui berlaku",
+      "site": "laman ini"
+    },
+    "html": {
+      "tryLabel": "Cuba:",
+      "showDetails": "Tunjukkan butiran",
+      "hideDetails": "Sembunyikan butiran",
+      "openAction": "Buka",
+      "reload": "Muat Semula"
+    },
+    "offline": {
+      "headline": "Tiada Internet",
+      "message": "Anda sedang luar talian.",
+      "tryTips": [
+        "Semak kabel rangkaian, modem atau penghala",
+        "Sambung semula ke Wi-Fi atau tukar rangkaian"
+      ],
+      "action": "Muat Semula"
+    },
+    "network": {
+      "headline": "Laman ini tidak dapat dicapai",
+      "message": "Sambungan ke {hostname} tamat masa.",
+      "messageFallback": "Laman ini mengambil masa terlalu lama untuk memberi respons.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} menolak sambungan.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "Laman ini menolak sambungan.",
+        "ERR_CONNECTION_RESET": "Sambungan diset semula.",
+        "ERR_CONNECTION_TIMED_OUT": "Sambungan tamat masa.",
+        "ERR_TIMED_OUT": "Sambungan tamat masa.",
+        "ERR_ADDRESS_UNREACHABLE": "Alamat tidak dapat dicapai.",
+        "ERR_NETWORK_CHANGED": "Sambungan rangkaian anda berubah.",
+        "ERR_CONNECTION_ABORTED": "Sambungan dibatalkan.",
+        "ERR_CONNECTION_FAILED": "Gagal menyambung.",
+        "ERR_CONNECTION_CLOSED": "Sambungan ditutup.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "Sambungan terganggu (ralat protokol HTTP/2).",
+        "ERR_QUIC_PROTOCOL_ERROR": "Sambungan terganggu (ralat protokol QUIC)."
+      },
+      "tryTips": [
+        "Semak sama ada laman lain boleh dibuka; jika tidak, sambung semula ke rangkaian",
+        "Mulakan semula penghala atau togol mod kapal terbang mati/hidup"
+      ],
+      "suggestions": [
+        {
+          "title": "Semak ketersediaan pelayan",
+          "detail": "Jika {site} ialah perkhidmatan dalaman, sahkan ia dalam talian atau boleh dicapai dari rangkaian semasa."
+        },
+        {
+          "title": "Periksa perisian keselamatan",
+          "detail": "Firewall, antivirus, atau klien VPN boleh mengganggu permintaan—jeda alat ini sementara dan cuba lagi."
+        }
+      ],
+      "action": "Muat semula"
+    },
+    "dns": {
+      "headline": "Laman ini tidak dapat dicapai",
+      "message": "Alamat IP {hostname} tidak ditemui.",
+      "messageFallback": "Alamat IP pelayan tidak ditemui.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "Alamat IP {hostname} tidak ditemui.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Alamat IP pelayan tidak ditemui.",
+        "ERR_NAME_RESOLUTION_FAILED": "Carian DNS gagal untuk {hostname}.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "Carian DNS gagal.",
+        "ERR_DNS_TIMED_OUT": "Pelayan DNS tamat masa.",
+        "ERR_DNS_SERVER_FAILED": "Pelayan DNS gagal memberikan respons.",
+        "ERR_DNS_MALFORMED_RESPONSE": "Pelayan DNS mengembalikan respons tidak sah."
+      },
+      "tryTips": [
+        "Sahkan ejaan alamat web",
+        "Semak konfigurasi proksi, tembok api dan DNS"
+      ],
+      "suggestions": [
+        {
+          "title": "Semak alamat web",
+          "detail": "Pastikan {site} dieja dengan betul. Jika betul, pelayan DNS mungkin sementara tidak tersedia."
+        },
+        {
+          "title": "Bersihkan cache DNS",
+          "detail": "Bersihkan cache DNS dan muat semula (contohnya, `ipconfig /flushdns` di Windows atau `sudo killall -HUP mDNSResponder` di macOS)."
+        }
+      ],
+      "action": "Muat semula"
+    },
+    "ssl": {
+      "headline": "Sambungan Anda Tidak Peribadi",
+      "headlineSecure": "Laman Ini Tidak Dapat Menyediakan Sambungan Selamat",
+      "message": "Penyerang mungkin cuba mencuri maklumat daripada {hostname} (contohnya, kata laluan, mesej atau kad kredit).",
+      "messageSecure": "Noi tidak dapat mewujudkan sambungan selamat ke {hostname}.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "Laman menggunakan protokol SSL yang tidak sah atau tidak disokong.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "Laman menggunakan protokol SSL atau sifer yang tidak disokong.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "Rantaian sijil tidak sepadan dengan kunci yang dipinkan.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Sijil klien diperlukan untuk mengakses laman ini.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "Sijil klien tidak sah atau ditolak.",
+        "ERR_CERT_COMMON_NAME_INVALID": "Sijil sah untuk alamat yang berbeza.",
+        "ERR_CERT_DATE_INVALID": "Sijil telah tamat tempoh atau belum sah.",
+        "ERR_CERT_AUTHORITY_INVALID": "Sijil tidak dipercayai.",
+        "ERR_CERT_REVOKED": "Sijil telah dibatalkan.",
+        "ERR_CERT_INVALID": "Sijil tidak sah.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "Sijil menggunakan algoritma tandatangan yang lemah.",
+        "ERR_CERT_WEAK_KEY": "Sijil menggunakan kunci yang lemah.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "Sijil melanggar kekangan nama.",
+        "ERR_CERT_NON_UNIQUE_NAME": "Sijil dikongsi oleh beberapa laman."
+      },
+      "suggestions": [
+        {
+          "title": "Semak tarikh dan masa komputer",
+          "detail": "Jam yang tidak tepat boleh menyebabkan ralat sijil."
+        },
+        {
+          "title": "Teruskan dengan berhati-hati",
+          "detail": "Hanya teruskan jika anda memahami risikonya dan mempercayai laman tersebut."
+        }
+      ],
+      "action": "Muat Semula"
+    },
+    "proxy": {
+      "headline": "Sambungan Proksi Gagal",
+      "message": "Noi cuba mencapai laman melalui proksi yang dikonfigurasikan, tetapi sambungan tidak berjaya. Tab ini kini menggunakan sambungan langsung sebagai sandaran.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "Pelayan proksi menolak sambungan.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "Terowong proksi gagal.",
+        "ERR_SOCKS_CONNECTION_FAILED": "Proksi SOCKS menolak sambungan.",
+        "ERR_PROXY_AUTH_REQUESTED": "Pelayan proksi memerlukan pengesahan.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "Kaedah pengesahan proksi tidak disokong.",
+        "ERR_PAC_SCRIPT_FAILED": "Skrip konfigurasi automatik (PAC) proksi gagal.",
+        "ERR_NO_SUPPORTED_PROXIES": "Tiada proksi yang disokong ditemui untuk permintaan ini.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "Konfigurasi proksi yang diperlukan gagal.",
+        "ERR_PROXY_REQUIRED": "Proksi diperlukan untuk mengakses laman ini."
+      },
+      "tryTips": [
+        "Sahkan hos, port dan tetapan pengesahan proksi",
+        "Pastikan pelayan proksi boleh dicapai dari rangkaian semasa",
+        "Jika organisasi memerlukan proksi, pulihkan dan muat semula apabila tersedia semula"
+      ],
+      "suggestions": [
+        {
+          "title": "Semak peraturan proksi Noi",
+          "detail": "Gunakan tetapan Noi untuk mengesahkan peraturan proksi dan senarai pintasan sesuai dengan rangkaian ini.",
+          "actionLabel": "Buka tetapan Noi"
+        },
+        {
+          "title": "Cuba lagi dengan proksi nanti",
+          "detail": "Apabila proksi tersedia semula, muat semula untuk beralih daripada mod langsung."
+        }
+      ],
+      "action": "Muat semula dalam mod langsung"
+    },
+    "blocked": {
+      "headline": "Halaman ini telah disekat",
+      "message": "Permintaan disekat oleh sambungan atau dasar keselamatan.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "Permintaan disekat oleh klien atau sambungan.",
+        "ERR_BLOCKED_BY_RESPONSE": "Respons disekat oleh laman atau dasar.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "Laman memerlukan sambungan selamat (HTTPS).",
+        "ERR_NETWORK_ACCESS_DENIED": "Akses rangkaian disekat oleh dasar."
+      },
+      "tryTips": [
+        "Lumpuhkan sambungan atau penyekat kandungan dan muat semula",
+        "Semak konfigurasi firewall dan antivirus"
+      ],
+      "suggestions": [
+        {
+          "title": "Lumpuhkan sambungan atau penyekat kandungan",
+          "detail": "Sambungan seperti penyekat iklan atau penjejak boleh menghalang permintaan—lumpuhkan sementara dan cuba lagi."
+        },
+        {
+          "title": "Semak dasar laman",
+          "detail": "Respons mungkin disekat oleh X-Frame-Options atau Content Security Policy."
+        }
+      ],
+      "action": "Muat semula"
+    },
+    "client": {
+      "headline": "Halaman ini tidak berfungsi",
+      "message": "Laman memberikan respons tidak sah.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} menghantar respons tidak sah atau kosong.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "Laman menghantar respons tidak sah atau kosong.",
+        "ERR_FILE_NOT_FOUND": "Fail tidak ditemui.",
+        "ERR_FILE_ACCESS_DENIED": "Akses kepada fail ditolak.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "Pelayan memberikan respons ralat.",
+        "ERR_TOO_MANY_REDIRECTS": "Halaman tidak mengalihkan dengan betul.",
+        "ERR_INVALID_RESPONSE": "Laman menghantar respons tidak sah.",
+        "ERR_INVALID_CHUNKED_ENCODING": "Laman menghantar respons tidak sah.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "Laman menghantar respons tidak lengkap.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "Laman menghantar respons tidak sah.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "Laman menghantar terlalu banyak data dalam pengepala respons.",
+        "ERR_CACHE_MISS": "Permintaan perlu dihantar semula.",
+        "ERR_INVALID_URL": "Alamat web tidak sah.",
+        "ERR_DISALLOWED_URL_SCHEME": "Skema URL ini tidak dibenarkan.",
+        "ERR_UNKNOWN_URL_SCHEME": "Skema URL ini tidak disokong.",
+        "ERR_UNSAFE_PORT": "Port ini disekat atas sebab keselamatan.",
+        "ERR_INVALID_REDIRECT": "Laman mengembalikan pengalihan tidak sah.",
+        "ERR_UNSAFE_REDIRECT": "Laman cuba melakukan pengalihan tidak selamat.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "Laman mengembalikan terlalu banyak data dalam pengepala respons.",
+        "ERR_METHOD_NOT_SUPPORTED": "Kaedah permintaan tidak disokong."
+      },
+      "tryTips": [
+        "Muat semula halaman",
+        "Kosongkan cache pelayar atau data laman yang tersimpan"
+      ],
+      "suggestions": [
+        {
+          "title": "Padam data laman",
+          "detail": "Buang kuki dan fail cache untuk laman ini, kemudian muat semula."
+        },
+        {
+          "title": "Laporkan kepada pemilik laman",
+          "detail": "Jika masalah berterusan, hubungi pentadbir laman dengan kod ralat yang ditunjukkan di bawah."
+        }
+      ],
+      "action": "Muat semula"
+    },
+    "unknown": {
+      "headline": "Halaman ini tidak berfungsi",
+      "message": "Ralat tidak dijangka berlaku ({code}).",
+      "tryTips": [
+        "Muat semula halaman",
+        "Jika isu berterusan, catat kod ralat dan hubungi pentadbir laman atau pasukan sokongan"
+      ],
+      "action": "Muat semula"
+    }
+  }
+}

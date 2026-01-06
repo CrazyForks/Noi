@@ -1,0 +1,586 @@
+{
+  "language": "Tiếng Việt",
+  "engines": "Công cụ tìm kiếm",
+  "version": "Phiên bản",
+  "doc": "Tài liệu",
+  "sponsor": "Nhà tài trợ",
+  "website": "Trang web",
+  "menu": {
+    "name": "Trình đơn",
+    "about": "Về Noi",
+    "hide": "Ẩn Noi",
+    "hideOthers": "Ẩn các ứng dụng khác",
+    "quit": "Thoát Noi",
+    "unhide": "Hiện tất cả",
+    "noiHotkey": "Phím tắt Noi",
+    "noiAskHotkey": "Phím tắt NoiAsk",
+    "sidebar": "Thanh bên",
+    "checkUpdates": "Kiểm tra cập nhật…",
+    "settings": "Cài đặt",
+    "stayOnTop": "Luôn ở trên cùng",
+    "services": "Dịch vụ",
+    "newTabSidePanel": "Tab mới trong bảng bên",
+    "newTabMain": "Tab mới trong cửa sổ chính",
+    "bordless": "Cửa sổ không viền",
+    "theme": {
+      "name": "Chủ đề",
+      "system": "Theo hệ thống",
+      "light": "Sáng",
+      "dark": "Tối",
+      "style": "Kiểu chủ đề"
+    },
+    "find": {
+      "name": "Tìm",
+      "next": "Tìm tiếp",
+      "previous": "Tìm trước",
+      "jumpToSelection": "Đi tới vùng chọn"
+    },
+    "edit": {
+      "name": "Chỉnh sửa",
+      "undo": "Hoàn tác",
+      "redo": "Làm lại",
+      "cut": "Cắt",
+      "copy": "Sao chép",
+      "paste": "Dán",
+      "pasteAndMatchStyle": "Dán và khớp kiểu",
+      "delete": "Xóa",
+      "selectAll": "Chọn tất cả"
+    },
+    "tab": {
+      "openDefault": "Mở trong trình duyệt mặc định",
+      "addSidebarTemp": "Thêm vào thanh bên (TempLink)",
+      "copyUrl": "Sao chép URL",
+      "copyUrlMd": "Sao chép URL dạng Markdown"
+    },
+    "help": {
+      "name": "Trợ giúp",
+      "feedback": "Phản hồi"
+    }
+  },
+  "session": {
+    "clearCurrent": "Xóa dữ liệu phiên",
+    "clearAll": "Xóa tất cả dữ liệu phiên",
+    "clearRemovedSites": "Xóa dữ liệu của các trang web đã xóa",
+    "confirmCurrent": "Xóa dữ liệu trang web “{target}”? Thao tác này sẽ xóa cookie và lưu trữ của phiên này.",
+    "confirmAll": "Xóa dữ liệu trang web cho tất cả phiên? Thao tác này có thể khiến bạn đăng xuất khỏi một số trang web.",
+    "confirmRemovedSites": "Xóa dữ liệu trang web của {count, plural, one {# phiên} other {# phiên}} từ các trang web không còn trong chỉ mục của bạn?",
+    "resultNoRemovedSites": "Không tìm thấy dữ liệu cache cho các site đã xóa.",
+    "helpRemovedSites": "Phiên của các trang web đã xóa là cookie và lưu trữ cache còn lại sau khi các trang web đó bị xóa khỏi chỉ mục."
+  },
+  "view": {
+    "name": "Xem",
+    "tabs": "Tab Noi",
+    "spaces": "{count, plural, one {Không gian Noi} other {Không gian Noi}}",
+    "toolbar": "Thanh công cụ Noi",
+    "markdown": "Markdown",
+    "minibar": "Minibar",
+    "manageSpaces": "Quản lý không gian",
+    "reload": "Tải lại",
+    "goBack": "Quay lại",
+    "goForward": "Tiến",
+    "zoom": "Thu phóng",
+    "actualSize": "Kích thước thực",
+    "zoomIn": "Phóng to",
+    "zoomOut": "Thu nhỏ",
+    "devTools": "Công cụ dành cho nhà phát triển",
+    "newTab": "Tab mới",
+    "newTabPlaceholder": "{hasEngine, select, true {Tìm bằng {engine} hoặc nhập URL…} other {Tìm kiếm hoặc nhập URL…}}",
+    "closeTab": "Đóng tab",
+    "closeOtherTabs": "Đóng các tab khác",
+    "mute": "Tắt tiếng",
+    "unmute": "Bật tiếng",
+    "incognito": "Ẩn danh",
+    "sidePanel": "Bảng bên",
+    "newFolder": "Thư mục mới",
+    "addLink": "Thêm liên kết",
+    "mainWindow": "Cửa sổ chính",
+    "switchMainTab": "Chuyển sang tab chính",
+    "switchSideTab": "Chuyển sang tab bảng bên",
+    "newFile": "Tệp mới",
+    "bookmark": "Dấu trang",
+    "bookmarkTab": "Đánh dấu tab này",
+    "copyUrlMetadata": "Sao chép siêu dữ liệu URL",
+    "removeNoiView": "Xóa khỏi NoiView",
+    "addNoiView": "Thêm vào NoiView",
+    "openNewWindow": "Mở trong cửa sổ mới",
+    "openSidePanel": "Mở trong bảng bên",
+    "pin": "Ghim",
+    "unpin": "Bỏ ghim",
+    "lockLink": "Khóa liên kết",
+    "unlockLink": "Mở khóa liên kết",
+    "buttonHighlight": "Tô sáng nút trên thanh tiêu đề"
+  },
+  "window": {
+    "close": "Đóng",
+    "goMain": "Chuyển đến cửa sổ chính",
+    "dialog": "Cửa sổ hộp thoại",
+    "drag": "Kéo để di chuyển",
+    "minimize": "Thu nhỏ",
+    "maximize": "Phóng to",
+    "restore": "Khôi phục"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Prompt}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Đồng bộ",
+    "manageSemVer": "Quản lý SemVer",
+    "manageLog": "Quản lý LOG",
+    "addPrompt": "Thêm prompt",
+    "lockPrompt": "Khóa prompt",
+    "unlockPrompt": "Mở khóa prompt",
+    "copyPrompt": "Sao chép prompt",
+    "deletePrompt": "Xóa prompt",
+    "filterTags": "Lọc TAG",
+    "filterRule": "Quy tắc lọc",
+    "filterLockPrompts": "Lọc: prompt đã khóa"
+  },
+  "history": {
+    "name": "Lịch sử",
+    "clearAll": "Xóa toàn bộ lịch sử",
+    "refresh": "Làm mới lịch sử",
+    "remove": "Xóa khỏi lịch sử",
+    "search": "Tìm trong lịch sử",
+    "searchClear": "Xóa tìm kiếm",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {Không có kết quả tìm kiếm cho “{q}”} one {Tìm thấy # kết quả tìm kiếm cho “{q}”} other {Tìm thấy # kết quả tìm kiếm cho “{q}”}}} other {{count, plural, =0 {Không có kết quả} one {Tìm thấy # kết quả} other {Tìm thấy # kết quả}}}}",
+    "moreThisSite": "Xem thêm từ trang web này",
+    "dialogTitle": "Xóa toàn bộ lịch sử?",
+    "dialogMessage": "Thao tác này sẽ xóa vĩnh viễn tất cả bản ghi lịch sử đã lưu và không thể hoàn tác.",
+    "result1": "Không tải được lịch sử. {error}",
+    "result2": "Chưa có lịch sử.",
+    "result3": "Không có kết quả tìm kiếm",
+    "result4": "Không tìm thấy dữ liệu.",
+    "tips": "Khớp gần đúng trên tiêu đề và URL. Tinh chỉnh bằng bộ lọc trường:",
+    "tip1": "tiêu đề chứa “example”",
+    "tip2": "trang từ “example.com”",
+    "tip3": "vào ngày 2024/01/01",
+    "tip4": "trong khoảng 2024/01/01–2025/12/31",
+    "tip5": "trước 2024/01/01",
+    "tip6": "sau 2024/01/01",
+    "tip7": "đã truy cập đúng 3 lần",
+    "tip8": "đã truy cập dưới 3 lần",
+    "tip9": "đã truy cập hơn 3 lần"
+  },
+  "form": {
+    "editor": "Trình soạn thảo",
+    "partition": "Cô lập phiên",
+    "name": "Tên",
+    "url": "URL",
+    "small": "Nhỏ",
+    "medium": "Vừa",
+    "large": "Lớn",
+    "icon": "Biểu tượng",
+    "inputElement": "Phần tử nhập",
+    "sendElement": "Phần tử gửi",
+    "cssSelector": "Bộ chọn CSS",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "customIcon": "Biểu tượng tùy chỉnh",
+    "linkIcon": "Biểu tượng liên kết",
+    "dirIcon": "Biểu tượng thư mục",
+    "dirOpenIcon": "Biểu tượng thư mục mở",
+    "selectUA": "Chọn User Agent",
+    "customUA": "Hoặc nhập chuỗi User Agent tùy chỉnh…",
+    "rawJson": "Raw JSON",
+    "validation": {
+      "nameRequired": "Vui lòng nhập tên.",
+      "urlRequired": "Vui lòng nhập URL.",
+      "userAgentRequired": "Vui lòng nhập chuỗi User Agent.",
+      "invalidJson": "JSON không hợp lệ.",
+      "fixJsonErrors": "Vui lòng sửa lỗi xác thực JSON trước khi lưu.",
+      "required": "Trường này là bắt buộc."
+    },
+    "tip": {
+      "agentWarning": "Cảnh báo bảo mật: cho phép trang web truy cập Noi API có thể nguy hiểm."
+    }
+  },
+  "action": {
+    "name": "Hành động",
+    "archive": "Lưu trữ",
+    "back": "Quay lại",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "create": "Tạo",
+    "delete": "Xóa",
+    "details": "Chi tiết",
+    "edit": "Chỉnh sửa",
+    "restore": "Khôi phục",
+    "query": "Truy vấn",
+    "refresh": "Làm mới",
+    "rename": "Đổi tên",
+    "reset": "Đặt lại",
+    "save": "Lưu",
+    "send": "Gửi",
+    "use": "Sử dụng",
+    "clean": "Xóa khỏi đĩa",
+    "enable": "Bật",
+    "disable": "Tắt",
+    "importAsk": "Nhập vào NoiAsk",
+    "openLocales": "Mở thư mục Locales"
+  },
+  "table": {
+    "active": "Đang hoạt động",
+    "archived": "Đã lưu trữ",
+    "color": "Màu",
+    "createdAt": "Tạo lúc",
+    "delete": "Xóa",
+    "description": "Mô tả",
+    "details": "Chi tiết",
+    "disabled": "Đã tắt",
+    "enabled": "Đã bật",
+    "entries": "Mục",
+    "fileSize": "Kích thước tệp",
+    "mode": "Chế độ",
+    "status": "Trạng thái",
+    "trash": "Thùng rác",
+    "unknown": "Không xác định",
+    "updatedAt": "Cập nhật lúc",
+    "usageCount": "Số lần sử dụng",
+    "tagAdd": "Thêm TAG",
+    "tagRemove": "Xóa TAG",
+    "visible": "Hiển thị",
+    "total": "Tổng",
+    "locked": "Đã khóa",
+    "text": "Văn bản",
+    "sendCount": "Số lần gửi",
+    "addSource": "Thêm nguồn",
+    "lastSynced": "Lần đồng bộ cuối",
+    "message": {
+      "completed": "Thao tác hoàn tất.",
+      "failed": "Thao tác thất bại.",
+      "noData": "Không tìm thấy dữ liệu.",
+      "dataExist": "Dữ liệu đã tồn tại.",
+      "dataExistOrDuplicated": "Tất cả dữ liệu đã tồn tại hoặc bị trùng lặp.",
+      "failedLoad": "Không tải được dữ liệu.",
+      "importedCount": "Đã nhập: {count}.",
+      "skippedCount": "Đã bỏ qua: {count}.",
+      "deleteSelected": "Bạn có chắc chắn muốn xóa các hàng đã chọn không? Thao tác này không thể hoàn tác.",
+      "deleteItem": "Bạn có chắc chắn muốn xóa mục này không? Thao tác này không thể hoàn tác.",
+      "deleteFile": "Xóa tệp này khỏi đĩa? Thao tác này không thể hoàn tác.",
+      "removeItem": "Xóa mục này khỏi danh sách? Tệp vẫn sẽ nằm trên đĩa.",
+      "deleteBuiltin": "Không thể xóa nguồn tích hợp sẵn.",
+      "importedAsk": "Đã nhập vào NoiAsk.",
+      "deleteUseTag": "TAG này hiện đang được sử dụng và không thể xóa."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Yêu cầu xác nhận khi thoát",
+      "title": "Thoát Noi ngay bây giờ?",
+      "detail": "Tất cả cửa sổ và tác vụ sẽ đóng."
+    },
+    "nshQuit": {
+      "title": "Đóng terminal?",
+      "detail": "Các tác vụ đang chạy sẽ bị dừng ngay lập tức."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Chung",
+      "language": "Ngôn ngữ",
+      "sidebarIcon": "Kích thước biểu tượng thanh bên",
+      "homeLink": "Liên kết trang chủ",
+      "limit": "Giới hạn truy vấn",
+      "cometCursor": "Con trỏ sao chổi NoiAsk",
+      "cometTrail": "Vệt sao chổi NoiAsk",
+      "lockLocales": "Khóa thư mục Locales",
+      "lockLocalesTip": "Khóa thư mục Locales để ngăn cập nhật tự động sửa đổi các tệp ngôn ngữ. Hữu ích cho bản dịch tùy chỉnh.",
+      "urlMetadata": "Siêu dữ liệu URL",
+      "sidebarAnchor": {
+        "name": "Neo thanh bên",
+        "off": "Tắt",
+        "leftTop": "Trên trái",
+        "leftCenter": "Giữa trái",
+        "leftBottom": "Dưới trái",
+        "rightTop": "Trên phải",
+        "rightCenter": "Giữa phải",
+        "rightBottom": "Dưới phải",
+        "disableWarning": "Tắt mục này sẽ ẩn nút kích hoạt nổi. Chỉ phím tắt Noi mới có thể mở lại thanh bên, và xung đột phím tắt với trang web là phổ biến, nên không khuyến nghị tắt.",
+        "disableConfirmTitle": "Tắt neo thanh bên?"
+      },
+      "nsh": {
+        "name": "NSH (Terminal)",
+        "fontFamily": "Phông chữ",
+        "fontSize": "Cỡ chữ",
+        "lineHeight": "Chiều cao dòng",
+        "cursorBlink": "Nhấp nháy con trỏ",
+        "cursorStyle": "Kiểu con trỏ",
+        "cursorWidth": "Độ rộng con trỏ",
+        "cursorInactiveStyle": "Kiểu con trỏ khi không hoạt động",
+        "scrollback": "Cuộn lại",
+        "tip": {
+          "cursorWidth": "Chỉ áp dụng khi kiểu con trỏ là “Bar”.",
+          "scrollback": "Số dòng được lưu trong lịch sử khi terminal cuộn."
+        }
+      },
+      "proxy": {
+        "name": "Proxy",
+        "rules": "Quy tắc proxy",
+        "bypass": "Quy tắc bỏ qua proxy"
+      }
+    },
+    "shortcuts": {
+      "name": "Phím tắt",
+      "noiAskPrompt": "Prompt NoiAsk: {action}",
+      "noiAskPromptWithContext": "Prompt NoiAsk: {action} ({context})",
+      "placeholder": "Nhấn tổ hợp hoặc nhập",
+      "helpText": "Nhấn tổ hợp phím mong muốn hoặc nhập (ví dụ: Ctrl+Shift+X)",
+      "conflict": "Phím tắt đang được sử dụng"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "JSON từ xa",
+        "remoteCsv": "CSV từ xa",
+        "localJson": "JSON cục bộ",
+        "localCsv": "CSV cục bộ"
+      },
+      "filePathMissing": "Đường dẫn tệp không hợp lệ.",
+      "fileReadFailed": "Không đọc được nội dung tệp.",
+      "fileOpenFailed": "Không thể mở bộ chọn tệp.",
+      "fileRequired": "Vui lòng chọn tệp để đồng bộ.",
+      "notFound": "Không tìm thấy nguồn đồng bộ.",
+      "error": "Lỗi đồng bộ prompt",
+      "pickLocalFile": "Chọn tệp cục bộ",
+      "type": "Loại nguồn",
+      "alias": "Ánh xạ trường",
+      "upload": "Tải tệp lên",
+      "dragJson": "Kéo thả tệp JSON hoặc nhấp để duyệt",
+      "dragCsv": "Kéo thả tệp CSV hoặc nhấp để duyệt",
+      "browseLocal": "Chọn từ đĩa"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "Kiểm tra kết nối internet của bạn",
+        "Kiểm tra proxy và tường lửa"
+      ],
+      "platform": {
+        "windows": "Chạy chẩn đoán mạng Windows",
+        "mac": "Chạy chẩn đoán không dây (macOS)"
+      },
+      "unknownError": "Đã xảy ra lỗi không xác định",
+      "site": "trang web này"
+    },
+    "html": {
+      "tryLabel": "Thử:",
+      "showDetails": "Hiển thị chi tiết",
+      "hideDetails": "Ẩn chi tiết",
+      "openAction": "Mở",
+      "reload": "Tải lại"
+    },
+    "offline": {
+      "headline": "Không có kết nối Internet",
+      "message": "Bạn đang ngoại tuyến.",
+      "tryTips": [
+        "Kiểm tra cáp mạng, modem hoặc router",
+        "Kết nối lại Wi-Fi hoặc chuyển sang mạng khác"
+      ],
+      "action": "Tải lại"
+    },
+    "network": {
+      "headline": "Không thể truy cập trang web này",
+      "message": "Kết nối tới {hostname} đã hết thời gian chờ.",
+      "messageFallback": "Trang web phản hồi quá lâu.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} từ chối kết nối.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "Trang web từ chối kết nối.",
+        "ERR_CONNECTION_RESET": "Kết nối đã được đặt lại.",
+        "ERR_CONNECTION_TIMED_OUT": "Kết nối đã hết thời gian chờ.",
+        "ERR_TIMED_OUT": "Kết nối đã hết thời gian chờ.",
+        "ERR_ADDRESS_UNREACHABLE": "Địa chỉ không thể truy cập.",
+        "ERR_NETWORK_CHANGED": "Kết nối mạng của bạn đã thay đổi.",
+        "ERR_CONNECTION_ABORTED": "Kết nối đã bị hủy.",
+        "ERR_CONNECTION_FAILED": "Kết nối thất bại.",
+        "ERR_CONNECTION_CLOSED": "Kết nối đã bị đóng.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "Kết nối bị gián đoạn (lỗi giao thức HTTP/2).",
+        "ERR_QUIC_PROTOCOL_ERROR": "Kết nối bị gián đoạn (lỗi giao thức QUIC)."
+      },
+      "tryTips": [
+        "Kiểm tra xem các site khác có mở được không; nếu không, hãy kết nối lại mạng",
+        "Khởi động lại router hoặc bật/tắt chế độ máy bay"
+      ],
+      "suggestions": [
+        {
+          "title": "Kiểm tra trạng thái máy chủ",
+          "detail": "Nếu {site} là dịch vụ nội bộ, hãy xác nhận nó đang trực tuyến hoặc có thể truy cập từ mạng hiện tại."
+        },
+        {
+          "title": "Kiểm tra phần mềm bảo mật",
+          "detail": "Tường lửa, antivirus hoặc VPN có thể ngắt yêu cầu — hãy tạm dừng các công cụ này và thử lại."
+        }
+      ],
+      "action": "Tải lại"
+    },
+    "dns": {
+      "headline": "Không thể truy cập trang web này",
+      "message": "Không tìm thấy địa chỉ IP của {hostname}.",
+      "messageFallback": "Không tìm thấy địa chỉ IP của máy chủ.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "Không tìm thấy địa chỉ IP của {hostname}.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Không tìm thấy địa chỉ IP của máy chủ.",
+        "ERR_NAME_RESOLUTION_FAILED": "Tra cứu DNS cho {hostname} thất bại.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "Tra cứu DNS thất bại.",
+        "ERR_DNS_TIMED_OUT": "Máy chủ DNS đã hết thời gian chờ.",
+        "ERR_DNS_SERVER_FAILED": "Máy chủ DNS không phản hồi.",
+        "ERR_DNS_MALFORMED_RESPONSE": "Máy chủ DNS trả về phản hồi không hợp lệ."
+      },
+      "tryTips": [
+        "Kiểm tra xem địa chỉ web có được viết đúng không",
+        "Kiểm tra cấu hình proxy, tường lửa và DNS"
+      ],
+      "suggestions": [
+        {
+          "title": "Kiểm tra địa chỉ web",
+          "detail": "Đảm bảo {site} được viết đúng. Nếu đúng, máy chủ DNS có thể tạm thời không khả dụng."
+        },
+        {
+          "title": "Xóa cache DNS",
+          "detail": "Xóa cache DNS và tải lại (ví dụ, `ipconfig /flushdns` trên Windows hoặc `sudo killall -HUP mDNSResponder` trên macOS)."
+        }
+      ],
+      "action": "Tải lại"
+    },
+    "ssl": {
+      "headline": "Kết nối của bạn không riêng tư",
+      "headlineSecure": "Trang web này không thể cung cấp kết nối an toàn",
+      "message": "Kẻ tấn công có thể cố gắng lấy cắp thông tin từ {hostname} (ví dụ: mật khẩu, tin nhắn hoặc thẻ tín dụng).",
+      "messageSecure": "Noi không thể thiết lập kết nối an toàn với {hostname}.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "Site sử dụng giao thức SSL không hợp lệ hoặc không được hỗ trợ.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "Site sử dụng giao thức SSL hoặc cipher không được hỗ trợ.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "Chuỗi chứng chỉ không khớp với khóa được ghim.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Cần có chứng chỉ khách để truy cập site này.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "Chứng chỉ khách không hợp lệ hoặc đã bị từ chối.",
+        "ERR_CERT_COMMON_NAME_INVALID": "Chứng chỉ hợp lệ cho một địa chỉ khác.",
+        "ERR_CERT_DATE_INVALID": "Chứng chỉ đã hết hạn hoặc chưa hợp lệ.",
+        "ERR_CERT_AUTHORITY_INVALID": "Chứng chỉ không đáng tin cậy.",
+        "ERR_CERT_REVOKED": "Chứng chỉ đã bị thu hồi.",
+        "ERR_CERT_INVALID": "Chứng chỉ không hợp lệ.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "Chứng chỉ sử dụng thuật toán chữ ký yếu.",
+        "ERR_CERT_WEAK_KEY": "Chứng chỉ sử dụng khóa yếu.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "Chứng chỉ vi phạm ràng buộc tên.",
+        "ERR_CERT_NON_UNIQUE_NAME": "Chứng chỉ được dùng chung bởi nhiều site."
+      },
+      "suggestions": [
+        {
+          "title": "Kiểm tra ngày giờ trên máy",
+          "detail": "Đồng hồ không chính xác có thể gây lỗi chứng chỉ."
+        },
+        {
+          "title": "Tiếp tục một cách thận trọng",
+          "detail": "Chỉ tiếp tục nếu bạn hiểu rủi ro và tin tưởng site này."
+        }
+      ],
+      "action": "Tải lại"
+    },
+    "proxy": {
+      "headline": "Kết nối proxy thất bại",
+      "message": "Noi đã cố gắng truy cập trang web thông qua proxy đã cấu hình nhưng không thành công. Tab này hiện dùng kết nối trực tiếp làm dự phòng.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "Máy chủ proxy từ chối kết nối.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "Đường hầm proxy thất bại.",
+        "ERR_SOCKS_CONNECTION_FAILED": "Proxy SOCKS từ chối kết nối.",
+        "ERR_PROXY_AUTH_REQUESTED": "Máy chủ proxy yêu cầu xác thực.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "Phương thức xác thực proxy không được hỗ trợ.",
+        "ERR_PAC_SCRIPT_FAILED": "Script cấu hình tự động proxy (PAC) thất bại.",
+        "ERR_NO_SUPPORTED_PROXIES": "Không tìm thấy proxy được hỗ trợ cho yêu cầu này.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "Cấu hình proxy bắt buộc thất bại.",
+        "ERR_PROXY_REQUIRED": "Cần proxy để truy cập site này."
+      },
+      "tryTips": [
+        "Xác nhận host, cổng và xác thực proxy",
+        "Đảm bảo máy chủ proxy có thể truy cập từ mạng hiện tại",
+        "Nếu tổ chức yêu cầu proxy, hãy khôi phục và tải lại khi proxy hoạt động"
+      ],
+      "suggestions": [
+        {
+          "title": "Xem lại quy tắc proxy của Noi",
+          "detail": "Dùng cài đặt Noi để xác nhận quy tắc proxy và danh sách bỏ qua phù hợp với mạng này.",
+          "actionLabel": "Mở cài đặt Noi"
+        },
+        {
+          "title": "Thử lại với proxy sau",
+          "detail": "Khi proxy khả dụng trở lại, hãy tải lại để chuyển từ chế độ trực tiếp sang proxy."
+        }
+      ],
+      "action": "Tải lại ở chế độ trực tiếp"
+    },
+    "blocked": {
+      "headline": "Trang này đã bị chặn",
+      "message": "Yêu cầu bị chặn bởi tiện ích mở rộng hoặc chính sách bảo mật.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "Yêu cầu bị chặn bởi client hoặc tiện ích mở rộng.",
+        "ERR_BLOCKED_BY_RESPONSE": "Phản hồi bị chặn bởi trang web hoặc chính sách.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "Site yêu cầu kết nối an toàn (HTTPS).",
+        "ERR_NETWORK_ACCESS_DENIED": "Truy cập mạng bị chặn theo chính sách."
+      },
+      "tryTips": [
+        "Vô hiệu hóa tiện ích mở rộng hoặc trình chặn nội dung và tải lại",
+        "Kiểm tra cấu hình tường lửa và antivirus"
+      ],
+      "suggestions": [
+        {
+          "title": "Vô hiệu hóa tiện ích mở rộng hoặc trình chặn nội dung",
+          "detail": "Các tiện ích như chặn quảng cáo hoặc trình theo dõi có thể chặn yêu cầu — hãy tạm tắt và thử lại."
+        },
+        {
+          "title": "Kiểm tra chính sách của site",
+          "detail": "Phản hồi có thể bị chặn bởi X-Frame-Options hoặc Content Security Policy."
+        }
+      ],
+      "action": "Tải lại"
+    },
+    "client": {
+      "headline": "Trang này không hoạt động",
+      "message": "Trang web đã trả về phản hồi không hợp lệ.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} đã gửi phản hồi không hợp lệ hoặc trống.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "Trang web đã gửi phản hồi không hợp lệ hoặc trống.",
+        "ERR_FILE_NOT_FOUND": "Không tìm thấy tệp.",
+        "ERR_FILE_ACCESS_DENIED": "Quyền truy cập tệp bị từ chối.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "Máy chủ phản hồi lỗi.",
+        "ERR_TOO_MANY_REDIRECTS": "Trang không chuyển hướng đúng cách.",
+        "ERR_INVALID_RESPONSE": "Trang web đã gửi phản hồi không hợp lệ.",
+        "ERR_INVALID_CHUNKED_ENCODING": "Trang web đã gửi phản hồi không hợp lệ.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "Trang web đã gửi phản hồi không đầy đủ.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "Trang web đã gửi phản hồi không hợp lệ.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "Trang web đã gửi quá nhiều dữ liệu trong tiêu đề phản hồi.",
+        "ERR_CACHE_MISS": "Yêu cầu cần được gửi lại.",
+        "ERR_INVALID_URL": "Địa chỉ web không hợp lệ.",
+        "ERR_DISALLOWED_URL_SCHEME": "URL scheme này không được phép.",
+        "ERR_UNKNOWN_URL_SCHEME": "URL scheme này không được hỗ trợ.",
+        "ERR_UNSAFE_PORT": "Cổng này bị chặn vì lý do bảo mật.",
+        "ERR_INVALID_REDIRECT": "Trang web trả về chuyển hướng không hợp lệ.",
+        "ERR_UNSAFE_REDIRECT": "Trang web đã cố gắng chuyển hướng không an toàn.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "Trang web đã gửi quá nhiều dữ liệu trong tiêu đề phản hồi.",
+        "ERR_METHOD_NOT_SUPPORTED": "Phương thức yêu cầu không được hỗ trợ."
+      },
+      "tryTips": [
+        "Tải lại trang",
+        "Xóa cache trình duyệt hoặc dữ liệu site đã lưu"
+      ],
+      "suggestions": [
+        {
+          "title": "Xóa dữ liệu site",
+          "detail": "Xóa cookie và tệp cache của site này, rồi tải lại."
+        },
+        {
+          "title": "Báo cho chủ site",
+          "detail": "Nếu vấn đề vẫn tiếp diễn, hãy liên hệ quản trị viên site với mã lỗi hiển thị bên dưới."
+        }
+      ],
+      "action": "Tải lại"
+    },
+    "unknown": {
+      "headline": "Trang này không hoạt động",
+      "message": "Đã xảy ra lỗi không mong đợi ({code}).",
+      "tryTips": [
+        "Tải lại trang",
+        "Nếu sự cố tiếp diễn, hãy ghi lại mã lỗi và liên hệ quản trị viên site hoặc đội ngũ hỗ trợ"
+      ],
+      "action": "Tải lại"
+    }
+  }
+}

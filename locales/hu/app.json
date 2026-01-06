@@ -1,223 +1,586 @@
 {
-  "lang": "Magyar",
-  "sponsor": "Támogasd a Noi-t",
+  "language": "Magyar",
+  "engines": "Keresőmotorok",
+  "version": "Verzió",
+  "doc": "Dokumentáció",
+  "sponsor": "Támogató",
+  "website": "Webhely",
   "menu": {
     "name": "Menü",
-    "about": "A Noiról",
+    "about": "A Noi-ról",
     "hide": "Noi elrejtése",
-    "hideOthers": "Mások elrejtése",
-    "quit": "Noi bezárása",
-    "unhide": "Minden megjelenítése",
+    "hideOthers": "Többi elrejtése",
+    "quit": "Kilépés a Noi-ból",
+    "unhide": "Összes megjelenítése",
+    "noiHotkey": "Noi gyorsbillentyű",
+    "noiAskHotkey": "NoiAsk gyorsbillentyű",
+    "sidebar": "Oldalsáv",
     "checkUpdates": "Frissítések keresése…",
-
     "settings": "Beállítások",
-    "languages": "Nyelvek",
+    "stayOnTop": "Mindig felül",
+    "services": "Szolgáltatások",
+    "newTabSidePanel": "Új lap az oldalsávban",
+    "newTabMain": "Új lap a főablakban",
+    "bordless": "Keret nélküli ablak",
     "theme": {
       "name": "Téma",
+      "system": "Rendszer szerint",
       "light": "Világos",
       "dark": "Sötét",
-      "system": "Rendszer",
-      "monochromatic": "Monokróm",
-      "frostedTexture": "Fagyott textúra"
+      "style": "Témastílus"
     },
-    "stayOnTop": "Mindig felül",
-    "lockSidebar": "Oldalsáv zárolása",
-    "showSidebar": "Oldalsáv megjelenítése",
-    "hideSidebar": "Oldalsáv elrejtése",
-    "noiCacheMode": "Noi Gyorsítótár Mód",
-    "devTools": "Fejlesztői eszközök",
-    "xQuit": "Kilépéshez kattintson [X]-re",
-    "systemTray": "Rendszertálca",
-
-    "edit": "Szerkesztés",
-    "undo": "Visszavonás",
-    "redo": "Újra",
-    "pasteAndMatchStyle": "Beillesztés és stílus illesztése",
-    "delete": "Törlés",
-
-    "view": "Nézet",
-    "refresh": "Oldal frissítése",
-    "goBack": "Vissza",
-    "goForward": "Előre",
-    "resetZoom": "Tényleges méret",
-    "zoomIn": "Nagyítás",
-    "zoomOut": "Kicsinyítés",
-    "fullScreen": "Teljes Képernyő",
-
-    "help": "Súgó",
-    "log": "Noi napló",
-    "gettingStarted": "Első lépések",
-    "issues": "GitHub Hibalista",
-    "shareIdeas": "Ötletek és visszajelzések megosztása",
-
-    "defaultWebBrowser": "Alapértelmezett webböngésző",
-    "learnSpelling": "Helyesírás tanulása",
-    "lookUpSelection": "Keresés: “{selection}”",
-    "searchWithGoogle": "Keresés a Google-lal",
-    "searchWithBing": "Keresés a Bing-gel",
-    "cut": "Kivágás",
-    "copy": "Másolás",
-    "paste": "Beillesztés",
-    "selectAll": "Összes kijelölése",
-    "saveImage": "Kép mentése",
-    "saveImageAs": "Kép mentése mint…",
-    "saveVideo": "Videó mentése",
-    "saveVideoAs": "Videó mentése mint…",
-    "copyLink": "Hivatkozás másolása",
-    "saveLinkAs": "Hivatkozás mentése mint…",
-    "copyImage": "Kép másolása",
-    "copyImageAddress": "Kép címének másolása",
-    "copyVideoAddress": "Videó címének másolása",
-    "inspect": "Elem vizsgálata",
-    "services": "Szolgáltatások",
-    "reload": "Újratöltés",
-    "rename": "Átnevezés",
-    "user": "Felhasználó",
-    "setSystemTray": "Beállítás rendszertálcaként",
-    "clearCache": "Gyorsítótár adatok törlése",
     "find": {
       "name": "Keresés",
-      "findInPage": "Keresés az oldalon…",
-      "findNext": "Következő találat",
-      "findPrevious": "Előző találat",
-      "jumpToSelection": "Ugrás a kiválasztotthoz"
+      "next": "Következő találat",
+      "previous": "Előző találat",
+      "jumpToSelection": "Ugrás a kijelöléshez"
+    },
+    "edit": {
+      "name": "Szerkesztés",
+      "undo": "Visszavonás",
+      "redo": "Újra",
+      "cut": "Kivágás",
+      "copy": "Másolás",
+      "paste": "Beillesztés",
+      "pasteAndMatchStyle": "Beillesztés és stílus egyeztetése",
+      "delete": "Törlés",
+      "selectAll": "Összes kijelölése"
+    },
+    "tab": {
+      "openDefault": "Megnyitás alapértelmezett böngészőben",
+      "addSidebarTemp": "Hozzáadás az oldalsávhoz (TempLink)",
+      "copyUrl": "URL másolása",
+      "copyUrlMd": "URL másolása Markdownként"
+    },
+    "help": {
+      "name": "Súgó",
+      "feedback": "Visszajelzés…"
     }
+  },
+  "session": {
+    "clearCurrent": "Munkamenetadatok törlése",
+    "clearAll": "Összes munkamenetadat törlése",
+    "clearRemovedSites": "Eltávolított webhelyek adatainak törlése",
+    "confirmCurrent": "Törlöd a(z) „{target}” webhely adatait? Ez eltávolítja a cookie-kat és a tárolást ehhez a munkamenethez.",
+    "confirmAll": "Törlöd az összes munkamenet webhelyadatait? Ez kijelentkeztethet néhány webhelyről.",
+    "confirmRemovedSites": "Eltávolítod a webhelyadatokat {count, plural, one {# munkamenet} other {# munkamenet}} esetén azokról a webhelyekről, amelyek már nincsenek az indexben?",
+    "resultNoRemovedSites": "Nem található gyorsítótárazott adat az eltávolított webhelyekhez.",
+    "helpRemovedSites": "Az eltávolított webhelyek munkamenetei olyan cookie-k és gyorsítótárazott tárolóadatok, amelyek a webhelyek indexből való eltávolítása után is megmaradnak."
+  },
+  "view": {
+    "name": "Nézet",
+    "tabs": "Noi lapok",
+    "spaces": "{count, plural, one {Noi tér} other {Noi terek}}",
+    "toolbar": "Noi eszköztár",
+    "markdown": "Markdown",
+    "minibar": "Mini sáv",
+    "manageSpaces": "Terek kezelése",
+    "reload": "Újratöltés",
+    "goBack": "Vissza",
+    "goForward": "Előre",
+    "zoom": "Nagyítás",
+    "actualSize": "Tényleges méret",
+    "zoomIn": "Nagyítás",
+    "zoomOut": "Kicsinyítés",
+    "devTools": "Fejlesztői eszközök",
+    "newTab": "Új lap",
+    "newTabPlaceholder": "{hasEngine, select, true {Keresés a(z) {engine} használatával vagy URL megadása…} other {Keresés vagy URL megadása…}}",
+    "closeTab": "Lap bezárása",
+    "closeOtherTabs": "Többi lap bezárása",
+    "mute": "Némítás",
+    "unmute": "Némítás feloldása",
+    "incognito": "Inkognitó",
+    "sidePanel": "Oldalsó panel",
+    "newFolder": "Új mappa",
+    "addLink": "Hivatkozás hozzáadása",
+    "mainWindow": "Főablak",
+    "switchMainTab": "Váltás a fő lapra",
+    "switchSideTab": "Váltás az oldalsó panel lapjára",
+    "newFile": "Új fájl",
+    "bookmark": "Könyvjelző",
+    "bookmarkTab": "Lap könyvjelzőzése",
+    "copyUrlMetadata": "URL-metaadatok másolása",
+    "removeNoiView": "Eltávolítás a NoiView-ból",
+    "addNoiView": "Hozzáadás a NoiView-hoz",
+    "openNewWindow": "Megnyitás új ablakban",
+    "openSidePanel": "Megnyitás az oldalsó panelen",
+    "pin": "Rögzítés",
+    "unpin": "Rögzítés feloldása",
+    "lockLink": "Link zárolása",
+    "unlockLink": "Link feloldása",
+    "buttonHighlight": "Címsáv gombjainak kiemelése"
+  },
+  "window": {
+    "close": "Bezárás",
+    "goMain": "Ugrás a főablakhoz",
+    "dialog": "Párbeszédablak",
+    "drag": "Húzás az áthelyezéshez",
+    "minimize": "Minimalizálás",
+    "maximize": "Maximalizálás",
+    "restore": "Visszaállítás"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Promptok}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Szinkronizálás",
+    "manageSemVer": "SemVer kezelése",
+    "manageLog": "LOG kezelése",
+    "addPrompt": "Prompt hozzáadása",
+    "lockPrompt": "Prompt zárolása",
+    "unlockPrompt": "Prompt feloldása",
+    "copyPrompt": "Prompt másolása",
+    "deletePrompt": "Prompt törlése",
+    "filterTags": "TAG szűrése",
+    "filterRule": "Szűrési szabály",
+    "filterLockPrompts": "Szűrő: zárolt promptok"
+  },
+  "history": {
+    "name": "Előzmények",
+    "clearAll": "Összes előzmény törlése",
+    "refresh": "Előzmények frissítése",
+    "remove": "Eltávolítás az előzményekből",
+    "search": "Keresés az előzményekben",
+    "searchClear": "Keresés törlése",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {Nincs találat erre: “{q}”} one {# találat erre: “{q}”} other {# találat erre: “{q}”}}} other {{count, plural, =0 {Nincs találat} one {# találat} other {# találat}}}}",
+    "moreThisSite": "Továbbiak erről a webhelyről",
+    "dialogTitle": "Törlöd az összes előzményt?",
+    "dialogMessage": "Ez a művelet véglegesen törli az összes mentett előzménybejegyzést, és nem vonható vissza.",
+    "result1": "Nem sikerült betölteni az előzményeket: {error}",
+    "result2": "Még nincs előzmény.",
+    "result3": "Nincs keresési találat",
+    "result4": "Nincs adat.",
+    "tips": "Közelítő egyezés a címekben és URL-ekben. Pontosíts mezőszűrőkkel:",
+    "tip1": "a cím tartalmazza: „example”",
+    "tip2": "oldalak innen: „example.com”",
+    "tip3": "2024/01/01-án",
+    "tip4": "2024/01/01–2025/12/31 között",
+    "tip5": "2024/01/01 előtt",
+    "tip6": "2024/01/01 után",
+    "tip7": "pontosan 3 látogatás",
+    "tip8": "kevesebb mint 3 látogatás",
+    "tip9": "több mint 3 látogatás"
   },
   "form": {
+    "editor": "Szerkesztő",
+    "partition": "Munkamenet-izolálás",
     "name": "Név",
     "url": "URL",
-    "isolatedCookieStorage": "Izolált Cookie Tárolás",
-    "invalidURL": "Kérjük, adjon meg egy érvényes URL-t.",
-    "nameNotEmpty": "A név nem lehet üres."
-  },
-  "sidebar": {
-    "warn": {
-      "urlDelete": "Az aktuális URL használatban van.",
-      "dirDelete": "Az aktuális könyvtár használatban van.",
-      "trayDelete": "A rendszertálca az aktuális URL-t használja, nem törölhető."
+    "small": "Kicsi",
+    "medium": "Közepes",
+    "large": "Nagy",
+    "icon": "Ikon",
+    "inputElement": "Bemeneti elem",
+    "sendElement": "Küldés elem",
+    "cssSelector": "CSS szelektor",
+    "lightMode": "Világos mód",
+    "darkMode": "Sötét mód",
+    "customIcon": "Egyéni ikon",
+    "linkIcon": "Link ikon",
+    "dirIcon": "Mappa ikon",
+    "dirOpenIcon": "Nyitott mappa ikon",
+    "selectUA": "User Agent kiválasztása",
+    "customUA": "Vagy adj meg egy egyéni User Agent karakterláncot…",
+    "rawJson": "Nyers JSON",
+    "validation": {
+      "nameRequired": "Adj meg egy nevet.",
+      "urlRequired": "Adj meg egy URL-t.",
+      "userAgentRequired": "Adj meg egy User Agent karakterláncot.",
+      "invalidJson": "A JSON érvénytelen.",
+      "fixJsonErrors": "Javítsd a JSON-ellenőrzési hibákat mentés előtt.",
+      "required": "Ez a mező kötelező."
     },
     "tip": {
-      "delete": "Törlés után nem állítható vissza, biztosan törölni szeretné?",
-      "syncOverwrite": "A szinkronizáció felülír minden adatot a saját adatok kivételével. Folytatja?",
-      "syncReset": "Jelenleg a legfrissebb verziót használja. A szinkronizáció alaphelyzetbe állít minden adatot a saját adatok kivételével. Folytatja?",
-      "syncOk": "Szinkronizáció sikeres",
-      "syncResetOk": "Alaphelyzetbe állítás sikeres"
-    }
-  },
-  "network": {
-    "error": {
-      "try": "Próbálja meg:",
-      "title": "Ez az oldal nem érhető el",
-      "longRespond": "túl hosszú ideig tartott a válaszadás.",
-      "checkConnection": "Kapcsolat ellenőrzése",
-      "checkProxy": "Proxy és tűzfal ellenőrzése"
-    }
-  },
-  "settings": {
-    "menu": {
-      "general": {
-        "name": "Általános",
-        "syncBookmarks": "Könyvjelzők szinkronizálása",
-        "proxy": "Proxy",
-        "proxyRules": "Szabályok",
-        "proxyBypassRules": "Kivételek szabályai",
-        "promptLogLimit": "Naplózás limitje",
-        "promptLogArchiveLimit": "Napló archiválási limitje",
-        "promptFavoritesLimit": "Kedvencek limitje",
-        "promptFavoritesArchiveLimit": "Kedvencek archiválási limitje"
-      },
-      "keyboardShortcuts": {
-        "name": "Billentyűparancsok",
-        "recording": "Rögzítés…",
-        "globalShortcut": "Globális gyorsbillentyű",
-        "trayShortcut": "Rendszertálca gyorsbillentyű"
-      },
-      "extensions": "Bővítmények",
-      "prompts": {
-        "name": "Figyelmeztetések",
-        "userPrompts": "Felhasználói figyelmeztetések",
-        "promptTags": "Figyelmeztetés címkék",
-        "customSync": "Egyéni szinkronizáció"
-      }
-    },
-    "confirm": {
-      "delete": "Biztosan törölni szeretné ezt a bejegyzést?",
-      "batchEnable": "Biztosan engedélyezni szeretné ezeket a figyelmeztetéseket?",
-      "batchDelete": "Biztosan törölni szeretné ezeket a figyelmeztetéseket?",
-      "batchDisable": "Biztosan letiltani szeretné ezeket a figyelmeztetéseket?",
-      "batchUse": "Biztosan használni szeretné ezeket a figyelmeztetéseket?",
-      "batchTagsAdd": "Biztosan hozzá szeretné adni ezeket a címkéket?",
-      "batchTagsDelete": "Biztosan törölni szeretné ezeket a címkéket?"
-    },
-    "message": {
-      "added": "Hozzáadva",
-      "synced": "Szinkronizálva",
-      "invalidData": "Érvénytelen adat",
-      "missingActAndPrompt": "Hiányzó mezők: 'act', 'prompt'. Használja az 'Alias' funkciót az átnevezéshez.",
-      "missingManifest": "A manifest.json fájl hiányzik vagy érvénytelen.",
-      "checkExtension": "Kérjük, ellenőrizze újra a bővítmény könyvtárát:",
-      "existExtension": "A bővítmény már létezik."
-    },
-    "tip": {
-      "proxyRules": "Szabályok, amelyek megadják, melyik proxykat kell használni.",
-      "proxyBypassRules": "Szabályok, amelyek megadják, mely URL-eknek kell megkerülniük a proxy beállításokat.",
-      "shortcutRule": "Gyorsbillentyű szabály",
-      "modifierKeys": "Módosító gombok",
-      "regularKeys": "Rendszeres gombok",
-      "noiExtension": "Vegye figyelembe, hogy a Noi nem támogatja a Chrome bővítmények API-jainak teljes körét. A támogatott bővítmény API-kért lásd a Támogatott bővítmények API-jait részletesen.",
-      "noiCacheMode": "A weboldalak állapotainak gyorsítótárba helyezése a gyors újrahíváshoz, hasonló a böngésző fülekhez. Az állapotok folyamatos rögzítése növeli a memória használatát, különösen, amikor gyakran váltogat különböző oldalsáv linkeket. A memória hatásának csökkentése érdekében, különösen rendszerbeli lassulás esetén, fontolja meg a gyorsítótár kikapcsolását vagy újraindítását többszöri váltások után.",
-      "promptLogLimit": "A naplóban megtartandó parancsok maximális száma (10-1000), alapértelmezetten 300-ra van állítva.",
-      "promptLogArchiveLimit_1": "Egyetlen archív fájlban tárolható parancsok maximális száma (1000-10000), alapértelmezetten 1000-re van állítva.",
-      "promptLogArchiveLimit_2": "1. Jelenleg archiválás alatt álló fájl: {{file}}.archiving.json",
-      "promptLogArchiveLimit_3": "2. Az elkészült archív fájlok elnevezési konvenciója: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, ahol a YYYY.MM.DD.HH.mm.ss az indítási és befejezési időket jelöli. Például: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
-    },
-    "table": {
-      "name": "Név",
-      "extension": "Bővítmény",
-      "description": "Leírás",
-      "version": "Verzió",
-      "tag": "Címke",
-      "color": "Szín",
-      "lastUpdate": "Utolsó frissítés",
-      "usageCount": "Használati szám"
+      "agentWarning": "Biztonsági figyelmeztetés: veszélyes lehet, ha a weboldalak hozzáférnek a Noi API-hoz."
     }
   },
   "action": {
     "name": "Művelet",
-    "add": "Hozzáadás",
+    "archive": "Archiválás",
+    "back": "Vissza",
     "cancel": "Mégse",
-    "create": "Létrehozás",
     "confirm": "Megerősítés",
-    "detail": "Részletek",
+    "create": "Létrehozás",
     "delete": "Törlés",
-    "disable": "Letiltás",
+    "details": "Részletek",
     "edit": "Szerkesztés",
-    "enable": "Engedélyezés",
-    "export": "Exportálás",
+    "restore": "Visszaállítás",
+    "query": "Lekérdezés",
     "refresh": "Frissítés",
-    "reset": "Alaphelyzetbe állítás",
-    "sync": "Szinkronizáció",
+    "rename": "Átnevezés",
+    "reset": "Alaphelyzet",
     "save": "Mentés",
-    "search": "Keresés",
-    "select": "Kiválasztás",
+    "send": "Küldés",
     "use": "Használat",
-    "copied": "Másolva",
-    "batchAdd": "Tömeges hozzáadás",
-    "batchDisable": "Tömeges letiltás",
-    "batchEnable": "Tömeges engedélyezés",
-    "batchDelete": "Tömeges törlés",
-    "batchUse": "Tömeges használat"
+    "clean": "Törlés a lemezről",
+    "enable": "Engedélyezés",
+    "disable": "Letiltás",
+    "importAsk": "Importálás a NoiAsk-be",
+    "openLocales": "Locales mappa megnyitása"
   },
-  "prompt": {
-    "promptFavorite": "Prompt kedvencek",
-    "promptLog": "Prompt napló",
-    "promptSend": "Prompt küldése",
-    "newChat": "Új csevegés",
-    "sendMessage": "Üzenet küldése",
-    "resetPanel": "Panel visszaállítása",
-    "promptCmd": "Prompt parancs",
-    "sizeSmall": "Kicsi",
-    "sizeMedium": "Közepes",
-    "sizeLarge": "Nagy"
+  "table": {
+    "active": "Aktív",
+    "archived": "Archivált",
+    "color": "Szín",
+    "createdAt": "Létrehozva",
+    "delete": "Törlés",
+    "description": "Leírás",
+    "details": "Részletek",
+    "disabled": "Letiltva",
+    "enabled": "Engedélyezve",
+    "entries": "Bejegyzések",
+    "fileSize": "Fájlméret",
+    "mode": "Mód",
+    "status": "Állapot",
+    "trash": "Kuka",
+    "unknown": "Ismeretlen",
+    "updatedAt": "Frissítve",
+    "usageCount": "Használatok száma",
+    "tagAdd": "TAG hozzáadása",
+    "tagRemove": "TAG eltávolítása",
+    "visible": "Látható",
+    "total": "Összesen",
+    "locked": "Zárolt",
+    "text": "Szöveg",
+    "sendCount": "Küldések száma",
+    "addSource": "Forrás hozzáadása",
+    "lastSynced": "Utoljára szinkronizálva",
+    "message": {
+      "completed": "Művelet befejezve.",
+      "failed": "A művelet nem sikerült.",
+      "noData": "Nincs adat.",
+      "dataExist": "Az adatok már léteznek.",
+      "dataExistOrDuplicated": "Minden adat már létezik vagy duplikált.",
+      "failedLoad": "Nem sikerült betölteni az adatokat.",
+      "importedCount": "Importálva: {count}.",
+      "skippedCount": "Kihagyva: {count}.",
+      "deleteSelected": "Biztosan törlöd a kijelölt sorokat? Ez a művelet nem vonható vissza.",
+      "deleteItem": "Biztosan törlöd ezt az elemet? Ez a művelet nem vonható vissza.",
+      "deleteFile": "Törlöd ezt a fájlt a lemezről? Ez a művelet nem vonható vissza.",
+      "removeItem": "Eltávolítod ezt az elemet a listából? A fájl a lemezen marad.",
+      "deleteBuiltin": "A beépített forrás nem törölhető.",
+      "importedAsk": "Importálva a NoiAsk-be.",
+      "deleteUseTag": "Ez a TAG jelenleg használatban van, és nem törölhető."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Kilépés megerősítése szükséges",
+      "title": "Kilépsz most a Noi-ból?",
+      "detail": "Minden ablak és feladat bezárul."
+    },
+    "nshQuit": {
+      "title": "Bezárod a terminált?",
+      "detail": "A futó feladatok azonnal leállnak."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Általános",
+      "language": "Nyelv",
+      "sidebarIcon": "Oldalsáv ikonmérete",
+      "homeLink": "Kezdőlap hivatkozás",
+      "limit": "Lekérdezési limit",
+      "cometCursor": "NoiAsk üstökös kurzor",
+      "cometTrail": "NoiAsk üstökös csóva",
+      "lockLocales": "Locales mappa zárolása",
+      "lockLocalesTip": "Zárold a Locales mappát, hogy az automatikus frissítések ne módosítsák a nyelvi fájlokat. Hasznos egyéni fordításokhoz.",
+      "urlMetadata": "URL-metaadatok",
+      "sidebarAnchor": {
+        "name": "Oldalsáv rögzítési pontja",
+        "off": "Ki",
+        "leftTop": "Bal felső",
+        "leftCenter": "Bal közép",
+        "leftBottom": "Bal alsó",
+        "rightTop": "Jobb felső",
+        "rightCenter": "Jobb közép",
+        "rightBottom": "Jobb alsó",
+        "disableWarning": "Ha ezt kikapcsolod, eltűnik a lebegő indító. Az oldalsávot csak a Noi gyorsbillentyű tudja újra megnyitni, és a gyorsbillentyűk gyakran ütköznek webhelyekkel, ezért nem ajánlott kikapcsolni.",
+        "disableConfirmTitle": "Kikapcsolod az oldalsáv rögzítési pontját?"
+      },
+      "nsh": {
+        "name": "NSH (Terminál)",
+        "fontFamily": "Betűcsalád",
+        "fontSize": "Betűméret",
+        "lineHeight": "Sormagasság",
+        "cursorBlink": "Kurzor villogása",
+        "cursorStyle": "Kurzor stílusa",
+        "cursorWidth": "Kurzor szélessége",
+        "cursorInactiveStyle": "Inaktív kurzor stílusa",
+        "scrollback": "Görgetési előzmény",
+        "tip": {
+          "cursorWidth": "Csak akkor érvényes, ha a kurzor stílusa „Bar”.",
+          "scrollback": "A terminál görgetésekor a történelemben megtartott sorok száma."
+        }
+      },
+      "proxy": {
+        "name": "Proxy",
+        "rules": "Proxy szabályok",
+        "bypass": "Proxy kihagyási szabályok"
+      }
+    },
+    "shortcuts": {
+      "name": "Gyorsbillentyűk",
+      "noiAskPrompt": "NoiAsk prompt: {action}",
+      "noiAskPromptWithContext": "NoiAsk prompt: {action} ({context})",
+      "placeholder": "Nyomj meg kombinációt vagy írd be",
+      "helpText": "Nyomd le a kívánt billentyűkombinációt, vagy írd be (pl. Ctrl+Shift+X)",
+      "conflict": "A gyorsbillentyű már használatban van"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "Távoli JSON",
+        "remoteCsv": "Távoli CSV",
+        "localJson": "Helyi JSON",
+        "localCsv": "Helyi CSV"
+      },
+      "filePathMissing": "Érvénytelen fájlútvonal.",
+      "fileReadFailed": "Nem sikerült beolvasni a fájl tartalmát.",
+      "fileOpenFailed": "Nem sikerült megnyitni a fájlválasztót.",
+      "fileRequired": "Válassz fájlt a szinkronizáláshoz.",
+      "notFound": "Szinkronizálási forrás nem található.",
+      "error": "Prompt szinkronizálási hiba",
+      "pickLocalFile": "Helyi fájl kiválasztása",
+      "type": "Forrástípus",
+      "alias": "Mezőleképezés",
+      "upload": "Fájl feltöltése",
+      "dragJson": "Húzz ide egy JSON fájlt, vagy kattints a tallózáshoz",
+      "dragCsv": "Húzz ide egy CSV fájlt, vagy kattints a tallózáshoz",
+      "browseLocal": "Válassz a lemezről"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "Ellenőrizd az internetkapcsolatot",
+        "Ellenőrizd a proxy-t és a tűzfalat"
+      ],
+      "platform": {
+        "windows": "Windows hálózati diagnosztika futtatása",
+        "mac": "Vezeték nélküli diagnosztika futtatása (macOS)"
+      },
+      "unknownError": "Ismeretlen hiba történt",
+      "site": "ez a webhely"
+    },
+    "html": {
+      "tryLabel": "Próbáld meg:",
+      "showDetails": "Részletek megjelenítése",
+      "hideDetails": "Részletek elrejtése",
+      "openAction": "Megnyitás",
+      "reload": "Újratöltés"
+    },
+    "offline": {
+      "headline": "Nincs internet",
+      "message": "Offline vagy.",
+      "tryTips": [
+        "Ellenőrizd a hálózati kábeleket, modemet vagy routert",
+        "Csatlakozz újra Wi‑Fi-hez vagy válts másik hálózatra"
+      ],
+      "action": "Újratöltés"
+    },
+    "network": {
+      "headline": "Ez a webhely nem érhető el",
+      "message": "A(z) {hostname} kapcsolata időtúllépés miatt megszakadt.",
+      "messageFallback": "A webhely túl sokáig nem válaszolt.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} visszautasította a kapcsolatot.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "A webhely visszautasította a kapcsolatot.",
+        "ERR_CONNECTION_RESET": "A kapcsolat alaphelyzetbe állt.",
+        "ERR_CONNECTION_TIMED_OUT": "A kapcsolat időtúllépés miatt megszakadt.",
+        "ERR_TIMED_OUT": "A kapcsolat időtúllépés miatt megszakadt.",
+        "ERR_ADDRESS_UNREACHABLE": "A cím nem érhető el.",
+        "ERR_NETWORK_CHANGED": "A hálózati kapcsolat megváltozott.",
+        "ERR_CONNECTION_ABORTED": "A kapcsolat megszakadt.",
+        "ERR_CONNECTION_FAILED": "Nem sikerült csatlakozni.",
+        "ERR_CONNECTION_CLOSED": "A kapcsolat lezárult.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "A kapcsolat megszakadt (HTTP/2 protokollhiba).",
+        "ERR_QUIC_PROTOCOL_ERROR": "A kapcsolat megszakadt (QUIC protokollhiba)."
+      },
+      "tryTips": [
+        "Ellenőrizd, hogy más webhelyek megnyílnak-e; ha nem, csatlakozz újra a hálózathoz",
+        "Indítsd újra a routert vagy kapcsold ki/be a repülő módot"
+      ],
+      "suggestions": [
+        {
+          "title": "Ellenőrizd a szerver elérhetőségét",
+          "detail": "Ha a(z) {site} belső szolgáltatás, erősítsd meg, hogy online van vagy elérhető az aktuális hálózatról."
+        },
+        {
+          "title": "Ellenőrizd a biztonsági szoftvert",
+          "detail": "A tűzfal, antivírus vagy VPN kliens megszakíthatja a kéréseket — ideiglenesen állítsd le őket, majd próbáld újra."
+        }
+      ],
+      "action": "Újratöltés"
+    },
+    "dns": {
+      "headline": "Ez a webhely nem érhető el",
+      "message": "Nem található a(z) {hostname} IP-címe.",
+      "messageFallback": "Nem található a szerver IP-címe.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "Nem található a(z) {hostname} IP-címe.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Nem található a szerver IP-címe.",
+        "ERR_NAME_RESOLUTION_FAILED": "A DNS-keresés sikertelen a(z) {hostname} számára.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "A DNS-keresés sikertelen.",
+        "ERR_DNS_TIMED_OUT": "A DNS-kiszolgáló időtúllépést szenvedett.",
+        "ERR_DNS_SERVER_FAILED": "A DNS-kiszolgáló nem válaszolt.",
+        "ERR_DNS_MALFORMED_RESPONSE": "A DNS-kiszolgáló érvénytelen választ adott."
+      },
+      "tryTips": [
+        "Ellenőrizd a webcím helyesírását",
+        "Ellenőrizd a proxy, a tűzfal és a DNS beállításait"
+      ],
+      "suggestions": [
+        {
+          "title": "Ellenőrizd a webcímet",
+          "detail": "Győződj meg róla, hogy {site} helyesen van írva. Ha igen, a DNS-kiszolgáló átmenetileg nem elérhető."
+        },
+        {
+          "title": "DNS gyorsítótár ürítése",
+          "detail": "Ürítsd ki a DNS gyorsítótárat és frissíts (pl. `ipconfig /flushdns` Windows alatt vagy `sudo killall -HUP mDNSResponder` macOS-en)."
+        }
+      ],
+      "action": "Újratöltés"
+    },
+    "ssl": {
+      "headline": "A kapcsolat nem privát",
+      "headlineSecure": "Ez a webhely nem tud biztonságos kapcsolatot biztosítani",
+      "message": "A támadók megpróbálhatnak információt ellopni a(z) {hostname} webhelyről (például jelszavakat, üzeneteket vagy bankkártyákat).",
+      "messageSecure": "A Noi nem tud biztonságos kapcsolatot létesíteni a(z) {hostname} webhellyel.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "A webhely érvénytelen vagy nem támogatott SSL protokollt használ.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "A webhely nem támogatott SSL protokollt vagy titkosítót használ.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "A tanúsítványlánc nem egyezik a rögzített kulccsal.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Ügyféltanúsítvány szükséges a webhely eléréséhez.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "Az ügyféltanúsítvány érvénytelen vagy elutasított.",
+        "ERR_CERT_COMMON_NAME_INVALID": "A tanúsítvány másik címre érvényes.",
+        "ERR_CERT_DATE_INVALID": "A tanúsítvány lejárt vagy még nem érvényes.",
+        "ERR_CERT_AUTHORITY_INVALID": "A tanúsítvány nem megbízható.",
+        "ERR_CERT_REVOKED": "A tanúsítvány visszavonva.",
+        "ERR_CERT_INVALID": "A tanúsítvány érvénytelen.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "A tanúsítvány gyenge aláírási algoritmust használ.",
+        "ERR_CERT_WEAK_KEY": "A tanúsítvány gyenge kulcsot használ.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "A tanúsítvány megsérti a névkorlátozásokat.",
+        "ERR_CERT_NON_UNIQUE_NAME": "A tanúsítványt több webhely osztja meg."
+      },
+      "suggestions": [
+        {
+          "title": "Ellenőrizd a számítógép dátumát és idejét",
+          "detail": "A helytelen óra tanúsítványhibákat okozhat."
+        },
+        {
+          "title": "Járj el óvatosan",
+          "detail": "Csak akkor folytasd, ha érted a kockázatokat és megbízol a webhelyben."
+        }
+      ],
+      "action": "Újratöltés"
+    },
+    "proxy": {
+      "headline": "A proxykapcsolat sikertelen",
+      "message": "A Noi megpróbálta elérni a webhelyet a beállított proxyval, de a kapcsolat nem sikerült. Ez a lap most közvetlen kapcsolatot használ tartalékként.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "A proxykiszolgáló elutasította a kapcsolatot.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "A proxy-alagút meghiúsult.",
+        "ERR_SOCKS_CONNECTION_FAILED": "A SOCKS proxy elutasította a kapcsolatot.",
+        "ERR_PROXY_AUTH_REQUESTED": "A proxykiszolgáló hitelesítést kér.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "A proxy hitelesítési módszer nem támogatott.",
+        "ERR_PAC_SCRIPT_FAILED": "A proxy automatikus konfigurációs (PAC) szkriptje meghiúsult.",
+        "ERR_NO_SUPPORTED_PROXIES": "Ehhez a kéréshez nem található támogatott proxy.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "A szükséges proxybeállítás meghiúsult.",
+        "ERR_PROXY_REQUIRED": "A webhely eléréséhez proxy szükséges."
+      },
+      "tryTips": [
+        "Ellenőrizd a proxy gazdagépét, portját és hitelesítési beállításait",
+        "Győződj meg róla, hogy a proxykiszolgáló elérhető az aktuális hálózatról",
+        "Ha a szervezet proxy-t igényel, állítsd vissza, és frissíts, amikor újra elérhető"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi proxy szabályok ellenőrzése",
+          "detail": "A Noi beállításaiban ellenőrizd, hogy a proxy szabályok és a kihagyási lista illeszkedik-e ehhez a hálózathoz.",
+          "actionLabel": "Noi beállítások megnyitása"
+        },
+        {
+          "title": "Próbáld meg később proxyval",
+          "detail": "Amikor a proxy újra elérhető, frissíts, hogy közvetlen módról váltson."
+        }
+      ],
+      "action": "Újratöltés közvetlen módban"
+    },
+    "blocked": {
+      "headline": "Ezt az oldalt letiltották",
+      "message": "A kérést egy bővítmény vagy biztonsági szabályzat blokkolta.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "A kérést egy kliens vagy bővítmény blokkolta.",
+        "ERR_BLOCKED_BY_RESPONSE": "A választ a webhely vagy egy szabályzat blokkolta.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "A webhely biztonságos (HTTPS) kapcsolatot igényel.",
+        "ERR_NETWORK_ACCESS_DENIED": "A hálózati hozzáférést a szabályzat tiltja."
+      },
+      "tryTips": [
+        "Kapcsold ki a bővítményeket vagy tartalomblokkolókat, majd frissíts",
+        "Ellenőrizd a tűzfal és antivírus beállításait"
+      ],
+      "suggestions": [
+        {
+          "title": "Kapcsold ki a bővítményeket vagy tartalomblokkolókat",
+          "detail": "Az olyan bővítmények, mint a reklám- vagy nyomkövető blokkolók, megakadályozhatják a kéréseket — kapcsold ki őket ideiglenesen és próbáld újra."
+        },
+        {
+          "title": "Ellenőrizd a webhely szabályzatát",
+          "detail": "A választ blokkolhatta az X-Frame-Options vagy a Content Security Policy."
+        }
+      ],
+      "action": "Újratöltés"
+    },
+    "client": {
+      "headline": "Ez az oldal nem működik",
+      "message": "A webhely érvénytelen választ adott.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} érvénytelen vagy üres választ küldött.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "A webhely érvénytelen vagy üres választ küldött.",
+        "ERR_FILE_NOT_FOUND": "A fájl nem található.",
+        "ERR_FILE_ACCESS_DENIED": "A fájlhoz való hozzáférés megtagadva.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "A szerver hibával válaszolt.",
+        "ERR_TOO_MANY_REDIRECTS": "Az oldal nem irányít át megfelelően.",
+        "ERR_INVALID_RESPONSE": "A webhely érvénytelen választ küldött.",
+        "ERR_INVALID_CHUNKED_ENCODING": "A webhely érvénytelen választ küldött.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "A webhely hiányos választ küldött.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "A webhely érvénytelen választ küldött.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "A webhely túl sok adatot küldött a válasz fejlécében.",
+        "ERR_CACHE_MISS": "A kérést újra kell küldeni.",
+        "ERR_INVALID_URL": "A webcím érvénytelen.",
+        "ERR_DISALLOWED_URL_SCHEME": "Ez az URL-séma nem engedélyezett.",
+        "ERR_UNKNOWN_URL_SCHEME": "Ez az URL-séma nem támogatott.",
+        "ERR_UNSAFE_PORT": "Ez a port biztonsági okokból le van tiltva.",
+        "ERR_INVALID_REDIRECT": "A webhely érvénytelen átirányítást adott.",
+        "ERR_UNSAFE_REDIRECT": "A webhely nem biztonságos átirányítást próbált.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "A webhely túl sok adatot küldött a válasz fejlécében.",
+        "ERR_METHOD_NOT_SUPPORTED": "A kérési módszer nem támogatott."
+      },
+      "tryTips": [
+        "Frissítsd az oldalt",
+        "Töröld a böngésző gyorsítótárát vagy a webhelyhez mentett adatokat"
+      ],
+      "suggestions": [
+        {
+          "title": "Webhelyadatok törlése",
+          "detail": "Töröld a cookie-kat és a gyorsítótár-fájlokat ennél a webhelynél, majd frissíts."
+        },
+        {
+          "title": "Jelentsd a webhely tulajdonosának",
+          "detail": "Ha a probléma továbbra is fennáll, vedd fel a kapcsolatot a webhely rendszergazdájával a lent látható hibakóddal."
+        }
+      ],
+      "action": "Újratöltés"
+    },
+    "unknown": {
+      "headline": "Ez az oldal nem működik",
+      "message": "Váratlan hiba történt ({code}).",
+      "tryTips": [
+        "Frissítsd az oldalt",
+        "Ha a probléma továbbra is fennáll, jegyezd fel a hibakódot, és vedd fel a kapcsolatot a webhely rendszergazdájával vagy a támogatási csapattal"
+      ],
+      "action": "Újratöltés"
+    }
   }
 }

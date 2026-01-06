@@ -1,223 +1,586 @@
 {
-  "lang": "한국어",
-  "sponsor": "Noi 후원하기",
+  "language": "한국어",
+  "engines": "검색 엔진",
+  "version": "버전",
+  "doc": "문서",
+  "sponsor": "스폰서",
+  "website": "웹사이트",
   "menu": {
     "name": "메뉴",
     "about": "Noi 정보",
     "hide": "Noi 숨기기",
-    "hideOthers": "기타 숨기기",
+    "hideOthers": "다른 항목 숨기기",
     "quit": "Noi 종료",
     "unhide": "모두 표시",
+    "noiHotkey": "Noi 핫키",
+    "noiAskHotkey": "NoiAsk 핫키",
+    "sidebar": "사이드바",
     "checkUpdates": "업데이트 확인…",
-
     "settings": "설정",
-    "languages": "언어",
+    "stayOnTop": "항상 위에 표시",
+    "services": "서비스",
+    "newTabSidePanel": "사이드 패널에 새 탭",
+    "newTabMain": "메인 창에 새 탭",
+    "bordless": "테두리 없는 창",
     "theme": {
       "name": "테마",
+      "system": "시스템 설정 따름",
       "light": "라이트",
       "dark": "다크",
-      "system": "시스템",
-      "monochromatic": "단색",
-      "frostedTexture": "서리 텍스처"
+      "style": "테마 스타일"
     },
-    "stayOnTop": "항상 위에 표시",
-    "lockSidebar": "사이드바 잠금",
-    "showSidebar": "사이드바 표시",
-    "hideSidebar": "사이드바 숨기기",
-    "noiCacheMode": "Noi 캐시 모드",
-    "devTools": "개발자 도구",
-    "xQuit": "[X] 클릭으로 종료",
-    "systemTray": "시스템 트레이",
-
-    "edit": "편집",
-    "undo": "실행 취소",
-    "redo": "다시 실행",
-    "pasteAndMatchStyle": "스타일 맞추어 붙여넣기",
-    "delete": "삭제",
-
-    "view": "보기",
-    "refresh": "페이지 새로고침",
-    "goBack": "뒤로 가기",
-    "goForward": "앞으로 가기",
-    "resetZoom": "실제 크기",
-    "zoomIn": "확대",
-    "zoomOut": "축소",
-    "fullScreen": "전체 화면으로 전환",
-
-    "help": "도움말",
-    "log": "Noi 로그",
-    "gettingStarted": "시작하기",
-    "issues": "GitHub 이슈",
-    "shareIdeas": "아이디어 및 피드백 공유",
-
-    "defaultWebBrowser": "기본 웹 브라우저",
-    "learnSpelling": "철자 학습",
-    "lookUpSelection": "“{selection}” 검색",
-    "searchWithGoogle": "Google로 검색",
-    "searchWithBing": "Bing으로 검색",
-    "cut": "잘라내기",
-    "copy": "복사",
-    "paste": "붙여넣기",
-    "selectAll": "모두 선택",
-    "saveImage": "이미지 저장",
-    "saveImageAs": "다른 이름으로 이미지 저장…",
-    "saveVideo": "비디오 저장",
-    "saveVideoAs": "다른 이름으로 비디오 저장…",
-    "copyLink": "링크 복사",
-    "saveLinkAs": "다른 이름으로 링크 저장…",
-    "copyImage": "이미지 복사",
-    "copyImageAddress": "이미지 주소 복사",
-    "copyVideoAddress": "비디오 주소 복사",
-    "inspect": "요소 검사",
-    "services": "서비스",
-    "reload": "다시 불러오기",
-    "rename": "이름 바꾸기",
-    "user": "사용자",
-    "setSystemTray": "시스템 트레이로 설정",
-    "clearCache": "캐시 데이터 지우기",
     "find": {
       "name": "찾기",
-      "findInPage": "페이지에서 찾기...",
-      "findNext": "다음 찾기",
-      "findPrevious": "이전 찾기",
-      "jumpToSelection": "선택 항목으로 이동"
+      "next": "다음 찾기",
+      "previous": "이전 찾기",
+      "jumpToSelection": "선택으로 이동"
+    },
+    "edit": {
+      "name": "편집",
+      "undo": "실행 취소",
+      "redo": "다시 실행",
+      "cut": "잘라내기",
+      "copy": "복사",
+      "paste": "붙여넣기",
+      "pasteAndMatchStyle": "스타일에 맞춰 붙여넣기",
+      "delete": "삭제",
+      "selectAll": "모두 선택"
+    },
+    "tab": {
+      "openDefault": "기본 브라우저에서 열기",
+      "addSidebarTemp": "사이드바에 추가(TempLink)",
+      "copyUrl": "URL 복사",
+      "copyUrlMd": "URL을 Markdown 형식으로 복사"
+    },
+    "help": {
+      "name": "도움말",
+      "feedback": "피드백"
     }
+  },
+  "session": {
+    "clearCurrent": "세션 데이터 지우기",
+    "clearAll": "모든 세션 데이터 지우기",
+    "clearRemovedSites": "제거된 사이트 데이터 지우기",
+    "confirmCurrent": "“{target}”의 사이트 데이터를 삭제하시겠습니까? 이 세션의 쿠키와 저장소가 제거됩니다.",
+    "confirmAll": "모든 세션의 사이트 데이터를 삭제하시겠습니까? 일부 사이트에서 로그아웃될 수 있습니다.",
+    "confirmRemovedSites": "인덱스에 더 이상 없는 사이트의 {count, plural, one {# 세션} other {# 세션}} 사이트 데이터를 삭제하시겠습니까?",
+    "resultNoRemovedSites": "삭제된 사이트에 대한 캐시 데이터를 찾을 수 없습니다.",
+    "helpRemovedSites": "삭제된 사이트의 세션은 인덱스에서 제거된 뒤 남아 있는 쿠키와 저장소입니다."
+  },
+  "view": {
+    "name": "보기",
+    "tabs": "Noi 탭",
+    "spaces": "{count, plural, one {Noi 공간} other {Noi 공간}}",
+    "toolbar": "Noi 도구 모음",
+    "markdown": "Markdown",
+    "minibar": "미니바",
+    "manageSpaces": "공간 관리",
+    "reload": "새로고침",
+    "goBack": "뒤로",
+    "goForward": "앞으로",
+    "zoom": "확대/축소",
+    "actualSize": "실제 크기",
+    "zoomIn": "확대",
+    "zoomOut": "축소",
+    "devTools": "개발자 도구",
+    "newTab": "새 탭",
+    "newTabPlaceholder": "{hasEngine, select, true {{engine}로 검색하거나 URL 입력…} other {검색하거나 URL 입력…}}",
+    "closeTab": "탭 닫기",
+    "closeOtherTabs": "다른 탭 닫기",
+    "mute": "음소거",
+    "unmute": "음소거 해제",
+    "incognito": "시크릿",
+    "sidePanel": "사이드 패널",
+    "newFolder": "새 폴더",
+    "addLink": "링크 추가",
+    "mainWindow": "메인 창",
+    "switchMainTab": "메인 탭으로 전환",
+    "switchSideTab": "사이드 패널 탭으로 전환",
+    "newFile": "새 파일",
+    "bookmark": "북마크",
+    "bookmarkTab": "이 탭을 북마크에 추가",
+    "copyUrlMetadata": "URL 메타데이터 복사",
+    "removeNoiView": "NoiView에서 제거",
+    "addNoiView": "NoiView에 추가",
+    "openNewWindow": "새 창에서 열기",
+    "openSidePanel": "사이드 패널에서 열기",
+    "pin": "고정",
+    "unpin": "고정 해제",
+    "lockLink": "링크 잠금",
+    "unlockLink": "링크 잠금 해제",
+    "buttonHighlight": "제목 표시줄 버튼 강조"
+  },
+  "window": {
+    "close": "닫기",
+    "goMain": "메인 창으로 이동",
+    "dialog": "대화상자 창",
+    "drag": "드래그하여 이동",
+    "minimize": "최소화",
+    "maximize": "최대화",
+    "restore": "복원"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {프롬프트} other {프롬프트}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "동기화",
+    "manageSemVer": "SemVer 관리",
+    "manageLog": "LOG 관리",
+    "addPrompt": "프롬프트 추가",
+    "lockPrompt": "프롬프트 잠금",
+    "unlockPrompt": "프롬프트 잠금 해제",
+    "copyPrompt": "프롬프트 복사",
+    "deletePrompt": "프롬프트 삭제",
+    "filterTags": "TAG 필터",
+    "filterRule": "필터 규칙",
+    "filterLockPrompts": "필터: 잠긴 프롬프트"
+  },
+  "history": {
+    "name": "기록",
+    "clearAll": "모든 기록 지우기",
+    "refresh": "기록 새로고침",
+    "remove": "기록에서 제거",
+    "search": "기록 검색",
+    "searchClear": "검색 지우기",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {“{q}”에 대한 검색 결과가 없습니다} one {“{q}”에 대한 검색 결과 #건을 찾았습니다} other {“{q}”에 대한 검색 결과 #건을 찾았습니다}}} other {{count, plural, =0 {결과가 없습니다} one {#건을 찾았습니다} other {#건을 찾았습니다}}}}",
+    "moreThisSite": "이 사이트에서 더 보기",
+    "dialogTitle": "모든 기록을 지울까요?",
+    "dialogMessage": "이 작업은 저장된 모든 기록을 영구적으로 삭제하며 되돌릴 수 없습니다.",
+    "result1": "기록 로드 실패. {error}",
+    "result2": "기록이 없습니다.",
+    "result3": "검색 결과 없음",
+    "result4": "데이터를 찾을 수 없습니다.",
+    "tips": "제목과 URL에서 퍼지 매칭을 수행합니다. 필드 필터로 구체화하세요:",
+    "tip1": "제목에 “example” 포함",
+    "tip2": "“example.com”의 페이지",
+    "tip3": "2024/01/01에",
+    "tip4": "2024/01/01–2025/12/31 사이",
+    "tip5": "2024/01/01 이전",
+    "tip6": "2024/01/01 이후",
+    "tip7": "정확히 3회 방문",
+    "tip8": "3회 미만 방문",
+    "tip9": "3회 초과 방문"
   },
   "form": {
+    "editor": "편집기",
+    "partition": "세션 격리",
     "name": "이름",
     "url": "URL",
-    "isolatedCookieStorage": "독립된 쿠키 저장소",
-    "invalidURL": "올바른 URL을 입력해 주세요.",
-    "nameNotEmpty": "이름은 비워 둘 수 없습니다."
-  },
-  "sidebar": {
-    "warn": {
-      "urlDelete": "현재 URL은 사용 중입니다.",
-      "dirDelete": "현재 디렉토리는 사용 중입니다.",
-      "trayDelete": "시스템 트레이가 현재 URL을 사용 중이어서 삭제할 수 없습니다."
+    "small": "작게",
+    "medium": "중간",
+    "large": "크게",
+    "icon": "아이콘",
+    "inputElement": "입력 요소",
+    "sendElement": "전송 요소",
+    "cssSelector": "CSS 선택자",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "customIcon": "사용자 지정 아이콘",
+    "linkIcon": "링크 아이콘",
+    "dirIcon": "폴더 아이콘",
+    "dirOpenIcon": "폴더 열기 아이콘",
+    "selectUA": "User Agent 선택",
+    "customUA": "또는 사용자 지정 User Agent 문자열 입력…",
+    "rawJson": "Raw JSON",
+    "validation": {
+      "nameRequired": "이름을 입력하세요.",
+      "urlRequired": "URL을 입력하세요.",
+      "userAgentRequired": "User Agent 문자열을 입력하세요.",
+      "invalidJson": "JSON이 유효하지 않습니다.",
+      "fixJsonErrors": "저장하기 전에 JSON 유효성 오류를 수정하세요.",
+      "required": "이 필드는 필수입니다."
     },
     "tip": {
-      "delete": "삭제 후 복구할 수 없습니다, 정말 삭제하시겠습니까?",
-      "syncOverwrite": "동기화는 사용자 지정 데이터를 제외한 모든 데이터를 덮어씁니다. 계속하시겠습니까?",
-      "syncReset": "현재 최신 버전입니다. 동기화는 사용자 지정 데이터를 제외한 모든 데이터를 초기화합니다. 계속하시겠습니까?",
-      "syncOk": "동기화 성공",
-      "syncResetOk": "초기화 성공"
-    }
-  },
-  "network": {
-    "error": {
-      "try": "시도:",
-      "title": "이 사이트에 연결할 수 없습니다",
-      "longRespond": "응답 시간이 너무 깁니다.",
-      "checkConnection": "연결 상태 확인",
-      "checkProxy": "프록시 및 방화벽 확인"
-    }
-  },
-  "settings": {
-    "menu": {
-      "general": {
-        "name": "일반",
-        "syncBookmarks": "북마크 동기화",
-        "proxy": "프록시",
-        "proxyRules": "규칙",
-        "proxyBypassRules": "우회 규칙",
-        "promptLogLimit": "로그 제한",
-        "promptLogArchiveLimit": "로그 아카이브 제한",
-        "promptFavoritesLimit": "즐겨찾기 제한",
-        "promptFavoritesArchiveLimit": "즐겨찾기 아카이브 제한"
-      },
-      "keyboardShortcuts": {
-        "name": "키보드 단축키",
-        "recording": "녹음 중…",
-        "globalShortcut": "전역 단축키",
-        "trayShortcut": "시스템 트레이 단축키"
-      },
-      "extensions": "확장 프로그램",
-      "prompts": {
-        "name": "프롬프트",
-        "userPrompts": "사용자 프롬프트",
-        "promptTags": "프롬프트 태그",
-        "customSync": "사용자 정의 동기화"
-      }
-    },
-    "confirm": {
-      "delete": "이 기록을 삭제하시겠습니까?",
-      "batchEnable": "이 프롬프트를 활성화하시겠습니까?",
-      "batchDelete": "이 프롬프트를 삭제하시겠습니까?",
-      "batchDisable": "이 프롬프트를 비활성화하시겠습니까?",
-      "batchUse": "이 프롬프트를 사용하시겠습니까?",
-      "batchTagsAdd": "이 태그를 추가하시겠습니까?",
-      "batchTagsDelete": "이 태그를 삭제하시겠습니까?"
-    },
-    "message": {
-      "added": "추가됨",
-      "synced": "동기화됨",
-      "invalidData": "잘못된 데이터",
-      "missingActAndPrompt": "'act', 'prompt' 필드가 누락되었습니다. 'Alias'를 사용하여 이름을 변경해보세요.",
-      "missingManifest": "manifest.json 파일이 없거나 잘못되었습니다.",
-      "checkExtension": "확장 프로그램 디렉토리를 다시 확인해주세요:",
-      "existExtension": "확장 프로그램이 이미 존재합니다."
-    },
-    "tip": {
-      "proxyRules": "어떤 프록시를 사용할지 나타내는 규칙입니다.",
-      "proxyBypassRules": "프록시 설정을 우회해야 하는 URL을 나타내는 규칙입니다.",
-      "shortcutRule": "단축키 규칙",
-      "modifierKeys": "수정 키",
-      "regularKeys": "일반 키",
-      "noiExtension": "Noi는 Chrome 확장 프로그램 API의 전체 범위를 지원하지 않습니다. 지원되는 확장 프로그램 API에 대한 자세한 내용은 지원되는 확장 프로그램 API 문서를 참조하세요.",
-      "noiCacheMode": "웹페이지 상태를 캐시하여 빠른 재접속을 가능하게 합니다. 상태 기록을 계속하면, 특히 다른 사이드바 링크에 자주 접근할 때 메모리 사용량이 증가합니다. 시스템 렉이 발생하는 동안 메모리 영향을 줄이기 위해 캐시를 비활성화하거나 여러 번 전환 후에 캐시를 재시작하는 것을 고려해 보세요.",
-      "promptLogLimit": "로그에 유지할 프롬프트의 최대 수 (10-1000), 기본값은 300입니다.",
-      "promptLogArchiveLimit_1": "하나의 아카이브 파일에 저장할 수 있는 프롬프트의 최대 수 (1000-10000), 기본값은 1000입니다.",
-      "promptLogArchiveLimit_2": "현재 아카이빙 중인 파일: {{file}}.archiving.json",
-      "promptLogArchiveLimit_3": "완료된 아카이브 파일의 명명 규칙: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, 여기서 YYYY.MM.DD.HH.mm.ss는 각각 시작 및 종료 시간을 나타냅니다. 예: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
-    },
-    "table": {
-      "name": "이름",
-      "extension": "확장 프로그램",
-      "description": "설명",
-      "version": "버전",
-      "tag": "태그",
-      "color": "색상",
-      "lastUpdate": "마지막 업데이트",
-      "usageCount": "사용 횟수"
+      "agentWarning": "보안 경고: 웹 페이지가 Noi API에 접근하도록 허용하는 것은 위험할 수 있습니다."
     }
   },
   "action": {
-    "name": "액션",
-    "add": "추가",
+    "name": "작업",
+    "archive": "보관",
+    "back": "뒤로",
     "cancel": "취소",
-    "create": "생성",
     "confirm": "확인",
-    "detail": "세부 정보",
+    "create": "생성",
     "delete": "삭제",
-    "disable": "비활성화",
+    "details": "세부 정보",
     "edit": "편집",
-    "enable": "활성화",
-    "export": "내보내기",
+    "restore": "복원",
+    "query": "조회",
     "refresh": "새로고침",
-    "reset": "초기화",
-    "sync": "동기화",
+    "rename": "이름 변경",
+    "reset": "재설정",
     "save": "저장",
-    "search": "검색",
-    "select": "선택",
+    "send": "보내기",
     "use": "사용",
-    "copied": "복사됨",
-    "batchAdd": "일괄 추가",
-    "batchDisable": "일괄 비활성화",
-    "batchEnable": "일괄 활성화",
-    "batchDelete": "일괄 삭제",
-    "batchUse": "일괄 사용"
+    "clean": "디스크에서 삭제",
+    "enable": "활성화",
+    "disable": "비활성화",
+    "importAsk": "NoiAsk로 가져오기",
+    "openLocales": "Locales 폴더 열기"
   },
-  "prompt": {
-    "promptFavorite": "프롬프트 즐겨찾기",
-    "promptLog": "프롬프트 로그",
-    "promptSend": "프롬프트 보내기",
-    "newChat": "새 채팅",
-    "sendMessage": "메시지 보내기",
-    "resetPanel": "패널 재설정",
-    "promptCmd": "프롬프트 명령",
-    "sizeSmall": "소형",
-    "sizeMedium": "중형",
-    "sizeLarge": "대형"
+  "table": {
+    "active": "활성",
+    "archived": "보관됨",
+    "color": "색상",
+    "createdAt": "생성 일시",
+    "delete": "삭제",
+    "description": "설명",
+    "details": "세부 정보",
+    "disabled": "사용 안 함",
+    "enabled": "사용",
+    "entries": "항목",
+    "fileSize": "파일 크기",
+    "mode": "모드",
+    "status": "상태",
+    "trash": "휴지통",
+    "unknown": "알 수 없음",
+    "updatedAt": "업데이트 일시",
+    "usageCount": "사용 횟수",
+    "tagAdd": "TAG 추가",
+    "tagRemove": "TAG 제거",
+    "visible": "표시",
+    "total": "합계",
+    "locked": "잠김",
+    "text": "텍스트",
+    "sendCount": "전송 횟수",
+    "addSource": "소스 추가",
+    "lastSynced": "마지막 동기화",
+    "message": {
+      "completed": "작업이 완료되었습니다.",
+      "failed": "작업이 실패했습니다.",
+      "noData": "데이터를 찾을 수 없습니다.",
+      "dataExist": "데이터가 이미 존재합니다.",
+      "dataExistOrDuplicated": "모든 데이터가 이미 존재하거나 중복되었습니다.",
+      "failedLoad": "데이터 로드 실패.",
+      "importedCount": "가져옴: {count}.",
+      "skippedCount": "건너뜀: {count}.",
+      "deleteSelected": "선택한 행을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "deleteItem": "이 항목을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "deleteFile": "이 파일을 디스크에서 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "removeItem": "이 항목을 목록에서 제거하시겠습니까? 파일은 디스크에 남아 있습니다.",
+      "deleteBuiltin": "기본 소스는 삭제할 수 없습니다.",
+      "importedAsk": "NoiAsk로 가져왔습니다.",
+      "deleteUseTag": "이 TAG는 현재 사용 중이므로 삭제할 수 없습니다."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "종료 확인 필요",
+      "title": "지금 Noi를 종료하시겠습니까?",
+      "detail": "모든 창과 작업이 닫힙니다."
+    },
+    "nshQuit": {
+      "title": "터미널을 닫으시겠습니까?",
+      "detail": "실행 중인 작업이 즉시 종료됩니다."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "일반",
+      "language": "언어",
+      "sidebarIcon": "사이드바 아이콘 크기",
+      "homeLink": "홈 링크",
+      "limit": "쿼리 제한",
+      "cometCursor": "NoiAsk 코멧 커서",
+      "cometTrail": "NoiAsk 코멧 트레일",
+      "lockLocales": "Locales 폴더 잠금",
+      "lockLocalesTip": "Locales 폴더를 잠가 자동 업데이트가 언어 파일을 수정하지 않도록 합니다. 사용자 지정 번역에 유용합니다.",
+      "urlMetadata": "URL 메타데이터",
+      "sidebarAnchor": {
+        "name": "사이드바 앵커",
+        "off": "끄기",
+        "leftTop": "왼쪽 위",
+        "leftCenter": "왼쪽 가운데",
+        "leftBottom": "왼쪽 아래",
+        "rightTop": "오른쪽 위",
+        "rightCenter": "오른쪽 가운데",
+        "rightBottom": "오른쪽 아래",
+        "disableWarning": "이 기능을 끄면 떠 있는 트리거가 숨겨집니다. Noi 핫키로만 사이드바를 다시 열 수 있으며, 웹사이트와의 핫키 충돌이 흔하므로 비활성화는 권장되지 않습니다.",
+        "disableConfirmTitle": "사이드바 앵커를 비활성화할까요?"
+      },
+      "nsh": {
+        "name": "NSH(터미널)",
+        "fontFamily": "글꼴",
+        "fontSize": "글꼴 크기",
+        "lineHeight": "줄 높이",
+        "cursorBlink": "커서 깜박임",
+        "cursorStyle": "커서 스타일",
+        "cursorWidth": "커서 너비",
+        "cursorInactiveStyle": "비활성 커서 스타일",
+        "scrollback": "스크롤백",
+        "tip": {
+          "cursorWidth": "커서 스타일이 “Bar”일 때만 적용됩니다.",
+          "scrollback": "터미널이 스크롤될 때 기록에 유지할 줄 수입니다."
+        }
+      },
+      "proxy": {
+        "name": "프록시",
+        "rules": "프록시 규칙",
+        "bypass": "프록시 바이패스 규칙"
+      }
+    },
+    "shortcuts": {
+      "name": "단축키",
+      "noiAskPrompt": "NoiAsk 프롬프트: {action}",
+      "noiAskPromptWithContext": "NoiAsk 프롬프트: {action} ({context})",
+      "placeholder": "키 조합을 누르거나 입력",
+      "helpText": "원하는 키 조합을 누르거나 입력하세요 (예: Ctrl+Shift+X)",
+      "conflict": "단축키가 이미 사용 중입니다"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "원격 JSON",
+        "remoteCsv": "원격 CSV",
+        "localJson": "로컬 JSON",
+        "localCsv": "로컬 CSV"
+      },
+      "filePathMissing": "잘못된 파일 경로입니다.",
+      "fileReadFailed": "파일 내용을 읽지 못했습니다.",
+      "fileOpenFailed": "파일 선택기를 열 수 없습니다.",
+      "fileRequired": "동기화할 파일을 선택하세요.",
+      "notFound": "동기화 소스를 찾을 수 없습니다.",
+      "error": "프롬프트 동기화 오류",
+      "pickLocalFile": "로컬 파일 선택",
+      "type": "소스 유형",
+      "alias": "필드 매핑",
+      "upload": "파일 업로드",
+      "dragJson": "JSON 파일을 드래그하거나 클릭하여 찾아보기",
+      "dragCsv": "CSV 파일을 드래그하거나 클릭하여 찾아보기",
+      "browseLocal": "디스크에서 선택"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "인터넷 연결을 확인하세요",
+        "프록시와 방화벽을 확인하세요"
+      ],
+      "platform": {
+        "windows": "Windows 네트워크 진단 실행",
+        "mac": "무선 진단 실행 (macOS)"
+      },
+      "unknownError": "알 수 없는 오류가 발생했습니다",
+      "site": "이 사이트"
+    },
+    "html": {
+      "tryLabel": "시도해 보세요:",
+      "showDetails": "세부 정보 표시",
+      "hideDetails": "세부 정보 숨기기",
+      "openAction": "열기",
+      "reload": "새로고침"
+    },
+    "offline": {
+      "headline": "인터넷 없음",
+      "message": "오프라인 상태입니다.",
+      "tryTips": [
+        "네트워크 케이블, 모뎀 또는 라우터를 확인하세요",
+        "Wi-Fi에 다시 연결하거나 다른 네트워크로 전환하세요"
+      ],
+      "action": "새로고침"
+    },
+    "network": {
+      "headline": "이 사이트에 연결할 수 없습니다",
+      "message": "{hostname}에 대한 연결 시간이 초과되었습니다.",
+      "messageFallback": "사이트 응답 시간이 너무 길었습니다.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname}가 연결을 거부했습니다.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "사이트가 연결을 거부했습니다.",
+        "ERR_CONNECTION_RESET": "연결이 재설정되었습니다.",
+        "ERR_CONNECTION_TIMED_OUT": "연결 시간이 초과되었습니다.",
+        "ERR_TIMED_OUT": "연결 시간이 초과되었습니다.",
+        "ERR_ADDRESS_UNREACHABLE": "주소에 도달할 수 없습니다.",
+        "ERR_NETWORK_CHANGED": "네트워크 연결이 변경되었습니다.",
+        "ERR_CONNECTION_ABORTED": "연결이 중단되었습니다.",
+        "ERR_CONNECTION_FAILED": "연결에 실패했습니다.",
+        "ERR_CONNECTION_CLOSED": "연결이 종료되었습니다.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "연결이 중단되었습니다 (HTTP/2 프로토콜 오류).",
+        "ERR_QUIC_PROTOCOL_ERROR": "연결이 중단되었습니다 (QUIC 프로토콜 오류)."
+      },
+      "tryTips": [
+        "다른 사이트가 열리는지 확인하고, 열리지 않으면 네트워크에 다시 연결하세요",
+        "라우터를 재시작하거나 비행기 모드를 껐다 켜세요"
+      ],
+      "suggestions": [
+        {
+          "title": "서버 가용성 확인",
+          "detail": "{site}가 내부 서비스라면 온라인 상태이거나 현재 네트워크에서 접근 가능한지 확인하세요."
+        },
+        {
+          "title": "보안 소프트웨어 확인",
+          "detail": "방화벽, 백신, VPN 클라이언트가 요청을 중단시킬 수 있습니다 — 일시적으로 중지하고 다시 시도하세요."
+        }
+      ],
+      "action": "새로고침"
+    },
+    "dns": {
+      "headline": "이 사이트에 연결할 수 없습니다",
+      "message": "{hostname}의 IP 주소를 찾을 수 없습니다.",
+      "messageFallback": "서버 IP 주소를 찾을 수 없습니다.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "{hostname}의 IP 주소를 찾을 수 없습니다.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "서버 IP 주소를 찾을 수 없습니다.",
+        "ERR_NAME_RESOLUTION_FAILED": "{hostname}에 대한 DNS 조회가 실패했습니다.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "DNS 조회가 실패했습니다.",
+        "ERR_DNS_TIMED_OUT": "DNS 서버 시간이 초과되었습니다.",
+        "ERR_DNS_SERVER_FAILED": "DNS 서버가 응답하지 않았습니다.",
+        "ERR_DNS_MALFORMED_RESPONSE": "DNS 서버가 잘못된 응답을 반환했습니다."
+      },
+      "tryTips": [
+        "웹 주소 철자가 올바른지 확인하세요",
+        "프록시, 방화벽 및 DNS 구성을 확인하세요"
+      ],
+      "suggestions": [
+        {
+          "title": "웹 주소 확인",
+          "detail": "{site}의 철자가 올바른지 확인하세요. 맞다면 DNS 서버가 일시적으로 사용할 수 없을 수 있습니다."
+        },
+        {
+          "title": "DNS 캐시 플러시",
+          "detail": "DNS 캐시를 비우고 새로고침하세요 (예: Windows `ipconfig /flushdns`, macOS `sudo killall -HUP mDNSResponder`)."
+        }
+      ],
+      "action": "새로고침"
+    },
+    "ssl": {
+      "headline": "연결이 비공개가 아닙니다",
+      "headlineSecure": "이 사이트는 보안 연결을 제공할 수 없습니다",
+      "message": "공격자가 {hostname}에서 정보(비밀번호, 메시지 또는 신용카드 등)를 훔치려 할 수 있습니다.",
+      "messageSecure": "Noi는 {hostname}에 대한 보안 연결을 설정할 수 없습니다.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "사이트가 잘못되었거나 지원되지 않는 SSL 프로토콜을 사용합니다.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "사이트가 지원되지 않는 SSL 프로토콜 또는 암호를 사용합니다.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "인증서 체인이 고정된 키와 일치하지 않습니다.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "이 사이트에 접근하려면 클라이언트 인증서가 필요합니다.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "클라이언트 인증서가 유효하지 않거나 거부되었습니다.",
+        "ERR_CERT_COMMON_NAME_INVALID": "인증서가 다른 주소에 대해 유효합니다.",
+        "ERR_CERT_DATE_INVALID": "인증서가 만료되었거나 아직 유효하지 않습니다.",
+        "ERR_CERT_AUTHORITY_INVALID": "인증서를 신뢰할 수 없습니다.",
+        "ERR_CERT_REVOKED": "인증서가 폐기되었습니다.",
+        "ERR_CERT_INVALID": "인증서가 유효하지 않습니다.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "인증서가 약한 서명 알고리즘을 사용합니다.",
+        "ERR_CERT_WEAK_KEY": "인증서가 약한 키를 사용합니다.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "인증서가 이름 제약 조건을 위반했습니다.",
+        "ERR_CERT_NON_UNIQUE_NAME": "인증서가 여러 사이트에서 공유되고 있습니다."
+      },
+      "suggestions": [
+        {
+          "title": "컴퓨터 날짜와 시간 확인",
+          "detail": "잘못된 시간은 인증서 오류를 유발할 수 있습니다."
+        },
+        {
+          "title": "주의하여 계속",
+          "detail": "위험을 이해하고 사이트를 신뢰하는 경우에만 계속하세요."
+        }
+      ],
+      "action": "새로고침"
+    },
+    "proxy": {
+      "headline": "프록시 연결 실패",
+      "message": "Noi가 구성된 프록시를 통해 사이트에 접근하려 했지만 연결에 실패했습니다. 이 탭은 대체로 직접 연결을 사용하고 있습니다.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "프록시 서버가 연결을 거부했습니다.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "프록시 터널이 실패했습니다.",
+        "ERR_SOCKS_CONNECTION_FAILED": "SOCKS 프록시가 연결을 거부했습니다.",
+        "ERR_PROXY_AUTH_REQUESTED": "프록시 서버가 인증을 요구합니다.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "프록시 인증 방식이 지원되지 않습니다.",
+        "ERR_PAC_SCRIPT_FAILED": "프록시 자동 구성(PAC) 스크립트가 실패했습니다.",
+        "ERR_NO_SUPPORTED_PROXIES": "이 요청에 대해 지원되는 프록시가 없습니다.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "필수 프록시 구성이 실패했습니다.",
+        "ERR_PROXY_REQUIRED": "이 사이트에 접근하려면 프록시가 필요합니다."
+      },
+      "tryTips": [
+        "프록시 호스트, 포트, 인증 설정을 확인하세요",
+        "현재 네트워크에서 프록시 서버에 접근 가능한지 확인하세요",
+        "조직에서 프록시가 필요하다면 복구 후 다시 새로고침하세요"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi 프록시 규칙 검토",
+          "detail": "Noi 설정에서 프록시 규칙과 바이패스 목록이 이 네트워크와 일치하는지 확인하세요.",
+          "actionLabel": "Noi 설정 열기"
+        },
+        {
+          "title": "나중에 프록시로 재시도",
+          "detail": "프록시가 다시 사용 가능해지면 직접 모드에서 프록시 모드로 전환하기 위해 새로고침하세요."
+        }
+      ],
+      "action": "직접 모드로 새로고침"
+    },
+    "blocked": {
+      "headline": "이 페이지가 차단되었습니다",
+      "message": "요청이 확장 프로그램 또는 보안 정책에 의해 차단되었습니다.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "요청이 클라이언트 또는 확장 프로그램에 의해 차단되었습니다.",
+        "ERR_BLOCKED_BY_RESPONSE": "응답이 사이트 또는 정책에 의해 차단되었습니다.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "사이트에 보안(HTTPS) 연결이 필요합니다.",
+        "ERR_NETWORK_ACCESS_DENIED": "정책에 의해 네트워크 액세스가 차단되었습니다."
+      },
+      "tryTips": [
+        "확장 프로그램 또는 콘텐츠 차단기를 비활성화하고 새로고침하세요",
+        "방화벽 및 백신 설정을 확인하세요"
+      ],
+      "suggestions": [
+        {
+          "title": "확장 프로그램 또는 콘텐츠 차단기 비활성화",
+          "detail": "광고 또는 추적 차단기 같은 확장 프로그램이 요청을 막을 수 있습니다 — 일시적으로 비활성화하고 다시 시도하세요."
+        },
+        {
+          "title": "사이트 정책 확인",
+          "detail": "응답이 X-Frame-Options 또는 Content Security Policy에 의해 차단되었을 수 있습니다."
+        }
+      ],
+      "action": "새로고침"
+    },
+    "client": {
+      "headline": "이 페이지가 작동하지 않습니다",
+      "message": "사이트에서 유효하지 않은 응답을 반환했습니다.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname}가 유효하지 않거나 비어 있는 응답을 보냈습니다.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "사이트가 유효하지 않거나 비어 있는 응답을 보냈습니다.",
+        "ERR_FILE_NOT_FOUND": "파일을 찾을 수 없습니다.",
+        "ERR_FILE_ACCESS_DENIED": "파일 접근이 거부되었습니다.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "서버가 오류로 응답했습니다.",
+        "ERR_TOO_MANY_REDIRECTS": "페이지가 올바르게 리디렉션되지 않습니다.",
+        "ERR_INVALID_RESPONSE": "사이트가 유효하지 않은 응답을 보냈습니다.",
+        "ERR_INVALID_CHUNKED_ENCODING": "사이트가 유효하지 않은 응답을 보냈습니다.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "사이트가 불완전한 응답을 보냈습니다.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "사이트가 유효하지 않은 응답을 보냈습니다.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "사이트가 응답 헤더에 과도한 데이터를 보냈습니다.",
+        "ERR_CACHE_MISS": "요청을 다시 제출해야 합니다.",
+        "ERR_INVALID_URL": "웹 주소가 유효하지 않습니다.",
+        "ERR_DISALLOWED_URL_SCHEME": "이 URL 스킴은 허용되지 않습니다.",
+        "ERR_UNKNOWN_URL_SCHEME": "이 URL 스킴은 지원되지 않습니다.",
+        "ERR_UNSAFE_PORT": "보안상의 이유로 이 포트는 차단됩니다.",
+        "ERR_INVALID_REDIRECT": "사이트가 유효하지 않은 리디렉션을 반환했습니다.",
+        "ERR_UNSAFE_REDIRECT": "사이트가 안전하지 않은 리디렉션을 시도했습니다.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "사이트가 응답 헤더에 과도한 데이터를 보냈습니다.",
+        "ERR_METHOD_NOT_SUPPORTED": "요청 메서드가 지원되지 않습니다."
+      },
+      "tryTips": [
+        "페이지를 새로고침하세요",
+        "브라우저 캐시 또는 저장된 사이트 데이터를 지우세요"
+      ],
+      "suggestions": [
+        {
+          "title": "사이트 데이터 지우기",
+          "detail": "이 사이트의 쿠키와 캐시 파일을 삭제한 다음 새로고침하세요."
+        },
+        {
+          "title": "사이트 소유자에게 보고",
+          "detail": "문제가 지속되면 아래 표시된 오류 코드를 포함해 사이트 관리자에게 문의하세요."
+        }
+      ],
+      "action": "새로고침"
+    },
+    "unknown": {
+      "headline": "이 페이지가 작동하지 않습니다",
+      "message": "예기치 않은 오류가 발생했습니다 ({code}).",
+      "tryTips": [
+        "페이지를 새로고침하세요",
+        "문제가 계속되면 오류 코드를 기록하고 사이트 관리자 또는 지원팀에 문의하세요"
+      ],
+      "action": "새로고침"
+    }
   }
 }

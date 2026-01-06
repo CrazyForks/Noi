@@ -1,0 +1,586 @@
+{
+  "language": "ਪੰਜਾਬੀ",
+  "engines": "ਖੋਜ ਇੰਜਣ",
+  "version": "ਵਰਜਨ",
+  "doc": "ਦਸਤਾਵੇਜ਼",
+  "sponsor": "ਸਪਾਂਸਰ",
+  "website": "ਵੈੱਬਸਾਈਟ",
+  "menu": {
+    "name": "ਮੈਨੂ",
+    "about": "Noi ਬਾਰੇ",
+    "hide": "Noi ਲੁਕਾਓ",
+    "hideOthers": "ਹੋਰ ਲੁਕਾਓ",
+    "quit": "Noi ਤੋਂ ਬਾਹਰ ਨਿਕਲੋ",
+    "unhide": "ਸਭ ਦਿਖਾਓ",
+    "noiHotkey": "Noi ਹਾਟਕੀ",
+    "noiAskHotkey": "NoiAsk ਹਾਟਕੀ",
+    "sidebar": "ਸਾਈਡਬਾਰ",
+    "checkUpdates": "ਅੱਪਡੇਟ ਚੈੱਕ ਕਰੋ…",
+    "settings": "ਸੈਟਿੰਗਾਂ",
+    "stayOnTop": "ਹਮੇਸ਼ਾ ਉੱਪਰ",
+    "services": "ਸੇਵਾਵਾਂ",
+    "newTabSidePanel": "ਸਾਈਡ ਪੈਨਲ ਵਿੱਚ ਨਵੀਂ ਟੈਬ",
+    "newTabMain": "ਮੁੱਖ ਵਿੰਡੋ ਵਿੱਚ ਨਵੀਂ ਟੈਬ",
+    "bordless": "ਬਾਰਡਰ ਰਹਿਤ ਵਿੰਡੋ",
+    "theme": {
+      "name": "ਥੀਮ",
+      "system": "ਸਿਸਟਮ",
+      "light": "ਲਾਈਟ",
+      "dark": "ਡਾਰਕ",
+      "style": "ਥੀਮ ਸ਼ੈਲੀ"
+    },
+    "find": {
+      "name": "ਖੋਜ",
+      "next": "ਅਗਲਾ ਲੱਭੋ",
+      "previous": "ਪਿਛਲਾ ਲੱਭੋ",
+      "jumpToSelection": "ਚੋਣ ‘ਤੇ ਜਾਓ"
+    },
+    "edit": {
+      "name": "ਸੰਪਾਦਨ",
+      "undo": "ਵਾਪਸ ਲਵੋ",
+      "redo": "ਦੁਹਰਾਓ",
+      "cut": "ਕੱਟੋ",
+      "copy": "ਕਾਪੀ ਕਰੋ",
+      "paste": "ਚਿਪਕਾਓ",
+      "pasteAndMatchStyle": "ਚਿਪਕਾਓ ਅਤੇ ਸ਼ੈਲੀ ਮਿਲਾਓ",
+      "delete": "ਮਿਟਾਓ",
+      "selectAll": "ਸਭ ਚੁਣੋ"
+    },
+    "tab": {
+      "openDefault": "ਡਿਫਾਲਟ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖੋਲ੍ਹੋ",
+      "addSidebarTemp": "ਸਾਈਡਬਾਰ ਵਿੱਚ ਜੋੜੋ (TempLink)",
+      "copyUrl": "URL ਕਾਪੀ ਕਰੋ",
+      "copyUrlMd": "Markdown ਵਜੋਂ URL ਕਾਪੀ ਕਰੋ"
+    },
+    "help": {
+      "name": "ਮਦਦ",
+      "feedback": "ਫੀਡਬੈਕ…"
+    }
+  },
+  "session": {
+    "clearCurrent": "ਸੈਸ਼ਨ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ",
+    "clearAll": "ਸਾਰੇ ਸੈਸ਼ਨ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ",
+    "clearRemovedSites": "ਹਟਾਈਆਂ ਸਾਈਟਾਂ ਲਈ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ",
+    "confirmCurrent": "“{target}” ਲਈ ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ? ਇਸ ਨਾਲ ਇਸ ਸੈਸ਼ਨ ਲਈ ਕੂਕੀਜ਼ ਅਤੇ ਸਟੋਰੇਜ ਹਟ ਜਾਵੇਗੀ।",
+    "confirmAll": "ਸਾਰੇ ਸੈਸ਼ਨਾਂ ਲਈ ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ? ਇਹ ਤੁਹਾਨੂੰ ਕੁਝ ਸਾਈਟਾਂ ਤੋਂ ਸਾਈਨ ਆਉਟ ਕਰ ਸਕਦਾ ਹੈ।",
+    "confirmRemovedSites": "ਜਿਹੜੀਆਂ ਸਾਈਟਾਂ ਹੁਣ ਤੁਹਾਡੇ ਇੰਡੈਕਸ ਵਿੱਚ ਨਹੀਂ ਹਨ, ਉਨ੍ਹਾਂ ਲਈ {count, plural, one {# ਸੈਸ਼ਨ} other {# ਸੈਸ਼ਨ}} ਦਾ ਸਾਈਟ ਡਾਟਾ ਹਟਾਇਆ ਜਾਵੇ?",
+    "resultNoRemovedSites": "ਹਟਾਈਆਂ ਸਾਈਟਾਂ ਲਈ ਕੋਈ ਕੈਸ਼ਡ ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ।",
+    "helpRemovedSites": "ਹਟਾਈਆਂ ਸਾਈਟਾਂ ਦੇ ਸੈਸ਼ਨ ਉਹ ਕੂਕੀਜ਼ ਅਤੇ ਸਟੋਰੇਜ ਹਨ ਜੋ ਸਾਈਟਾਂ ਨੂੰ ਇੰਡੈਕਸ ਤੋਂ ਹਟਾਉਣ ਤੋਂ ਬਾਅਦ ਵੀ ਰਹਿ ਜਾਂਦੇ ਹਨ।"
+  },
+  "view": {
+    "name": "ਦ੍ਰਿਸ਼",
+    "tabs": "Noi ਟੈਬਾਂ",
+    "spaces": "{count, plural, one {Noi ਸਪੇਸ} other {Noi ਸਪੇਸ}}",
+    "toolbar": "Noi ਟੂਲਬਾਰ",
+    "markdown": "Markdown",
+    "minibar": "ਮਿਨੀਬਾਰ",
+    "manageSpaces": "ਸਪੇਸ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    "reload": "ਰੀਲੋਡ ਕਰੋ",
+    "goBack": "ਪਿੱਛੇ",
+    "goForward": "ਅੱਗੇ",
+    "zoom": "ਜ਼ੂਮ",
+    "actualSize": "ਅਸਲ ਆਕਾਰ",
+    "zoomIn": "ਜ਼ੂਮ ਇਨ",
+    "zoomOut": "ਜ਼ੂਮ ਆਉਟ",
+    "devTools": "ਡਿਵੈਲਪਰ ਟੂਲ",
+    "newTab": "ਨਵੀਂ ਟੈਬ",
+    "newTabPlaceholder": "{hasEngine, select, true {{engine} ਨਾਲ ਖੋਜ ਕਰੋ ਜਾਂ URL ਦਰਜ ਕਰੋ…} other {ਖੋਜ ਕਰੋ ਜਾਂ URL ਦਰਜ ਕਰੋ…}}",
+    "closeTab": "ਟੈਬ ਬੰਦ ਕਰੋ",
+    "closeOtherTabs": "ਹੋਰ ਟੈਬਾਂ ਬੰਦ ਕਰੋ",
+    "mute": "ਆਵਾਜ਼ ਬੰਦ ਕਰੋ",
+    "unmute": "ਆਵਾਜ਼ ਚਾਲੂ ਕਰੋ",
+    "incognito": "ਇਨਕਾਗਨੀਟੋ",
+    "sidePanel": "ਸਾਈਡ ਪੈਨਲ",
+    "newFolder": "ਨਵਾਂ ਫੋਲਡਰ",
+    "addLink": "ਲਿੰਕ ਜੋੜੋ",
+    "mainWindow": "ਮੁੱਖ ਵਿੰਡੋ",
+    "switchMainTab": "ਮੁੱਖ ਟੈਬ ‘ਤੇ ਜਾਓ",
+    "switchSideTab": "ਸਾਈਡ ਪੈਨਲ ਟੈਬ ‘ਤੇ ਜਾਓ",
+    "newFile": "ਨਵੀਂ ਫ਼ਾਈਲ",
+    "bookmark": "ਬੁੱਕਮਾਰਕ",
+    "bookmarkTab": "ਇਸ ਟੈਬ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ",
+    "copyUrlMetadata": "URL ਮੈਟਾਡੇਟਾ ਕਾਪੀ ਕਰੋ",
+    "removeNoiView": "NoiView ਤੋਂ ਹਟਾਓ",
+    "addNoiView": "NoiView ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+    "openNewWindow": "ਨਵੀਂ ਵਿੰਡੋ ਵਿੱਚ ਖੋਲ੍ਹੋ",
+    "openSidePanel": "ਸਾਈਡ ਪੈਨਲ ਵਿੱਚ ਖੋਲ੍ਹੋ",
+    "pin": "ਪਿੰਨ ਕਰੋ",
+    "unpin": "ਅਨਪਿੰਨ ਕਰੋ",
+    "lockLink": "ਲਿੰਕ ਲਾਕ ਕਰੋ",
+    "unlockLink": "ਲਿੰਕ ਅਨਲਾਕ ਕਰੋ",
+    "buttonHighlight": "ਟਾਈਟਲ ਬਾਰ ਦੇ ਬਟਨ ਹਾਈਲਾਈਟ"
+  },
+  "window": {
+    "close": "ਬੰਦ ਕਰੋ",
+    "goMain": "ਮੁੱਖ ਵਿੰਡੋ ‘ਤੇ ਜਾਓ",
+    "dialog": "ਡਾਇਲਾਗ ਵਿੰਡੋ",
+    "drag": "ਹਿਲਾਉਣ ਲਈ ਖਿੱਚੋ",
+    "minimize": "ਘਟਾਓ",
+    "maximize": "ਵਧਾਓ",
+    "restore": "ਮੁੜ ਬਹਾਲ ਕਰੋ"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Prompt}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "ਸਿੰਕ",
+    "manageSemVer": "SemVer ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    "manageLog": "LOG ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    "addPrompt": "Prompt ਸ਼ਾਮਲ ਕਰੋ",
+    "lockPrompt": "Prompt ਲਾਕ ਕਰੋ",
+    "unlockPrompt": "Prompt ਅਨਲਾਕ ਕਰੋ",
+    "copyPrompt": "Prompt ਕਾਪੀ ਕਰੋ",
+    "deletePrompt": "Prompt ਮਿਟਾਓ",
+    "filterTags": "TAG ਫਿਲਟਰ ਕਰੋ",
+    "filterRule": "ਫਿਲਟਰ ਨਿਯਮ",
+    "filterLockPrompts": "ਫਿਲਟਰ: ਲਾਕ ਕੀਤੇ Prompt"
+  },
+  "history": {
+    "name": "ਇਤਿਹਾਸ",
+    "clearAll": "ਸਾਰਾ ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ",
+    "refresh": "ਇਤਿਹਾਸ ਰੀਫ੍ਰੈਸ਼ ਕਰੋ",
+    "remove": "ਇਤਿਹਾਸ ਤੋਂ ਹਟਾਓ",
+    "search": "ਇਤਿਹਾਸ ਵਿੱਚ ਖੋਜੋ",
+    "searchClear": "ਖੋਜ ਸਾਫ਼ ਕਰੋ",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {“{q}” ਲਈ ਕੋਈ ਖੋਜ ਨਤੀਜੇ ਨਹੀਂ} one {“{q}” ਲਈ # ਖੋਜ ਨਤੀਜਾ ਮਿਲਿਆ} other {“{q}” ਲਈ # ਖੋਜ ਨਤੀਜੇ ਮਿਲੇ}}} other {{count, plural, =0 {ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ} one {# ਨਤੀਜਾ ਮਿਲਿਆ} other {# ਨਤੀਜੇ ਮਿਲੇ}}}}",
+    "moreThisSite": "ਇਸ ਸਾਈਟ ਤੋਂ ਹੋਰ",
+    "dialogTitle": "ਸਾਰਾ ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ?",
+    "dialogMessage": "ਇਹ ਕਾਰਵਾਈ ਸਾਰੇ ਸੇਵ ਕੀਤੇ ਇਤਿਹਾਸ ਰਿਕਾਰਡ ਸਥਾਈ ਤੌਰ ‘ਤੇ ਮਿਟਾ ਦਿੰਦੀ ਹੈ ਅਤੇ ਇਸ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।",
+    "result1": "ਇਤਿਹਾਸ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ। {error}",
+    "result2": "ਹੁਣ ਤੱਕ ਕੋਈ ਇਤਿਹਾਸ ਨਹੀਂ।",
+    "result3": "ਕੋਈ ਖੋਜ ਨਤੀਜੇ ਨਹੀਂ",
+    "result4": "ਕੋਈ ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ।",
+    "tips": "ਸਿਰਲੇਖਾਂ ਅਤੇ URL ਵਿੱਚ ਫਜ਼ੀ ਮੇਚਿੰਗ। ਫੀਲਡ ਫਿਲਟਰ ਨਾਲ ਸੀਮਿਤ ਕਰੋ:",
+    "tip1": "ਸਿਰਲੇਖ ਵਿੱਚ “example” ਹੈ",
+    "tip2": "“example.com” ਤੋਂ ਪੰਨੇ",
+    "tip3": "2024/01/01 ਨੂੰ",
+    "tip4": "2024/01/01–2025/12/31 ਦੇ ਦਰਮਿਆਨ",
+    "tip5": "2024/01/01 ਤੋਂ ਪਹਿਲਾਂ",
+    "tip6": "2024/01/01 ਤੋਂ ਬਾਅਦ",
+    "tip7": "ਠੀਕ 3 ਵਾਰ ਵਿਜ਼ਿਟ ਕੀਤਾ",
+    "tip8": "3 ਵਾਰ ਤੋਂ ਘੱਟ ਵਿਜ਼ਿਟ ਕੀਤਾ",
+    "tip9": "3 ਵਾਰ ਤੋਂ ਵੱਧ ਵਿਜ਼ਿਟ ਕੀਤਾ"
+  },
+  "form": {
+    "editor": "ਸੰਪਾਦਕ",
+    "partition": "ਸੈਸ਼ਨ ਆਈਸੋਲੇਸ਼ਨ",
+    "name": "ਨਾਂ",
+    "url": "URL",
+    "small": "ਛੋਟਾ",
+    "medium": "ਦਰਮਿਆਨਾ",
+    "large": "ਵੱਡਾ",
+    "icon": "ਆਈਕਨ",
+    "inputElement": "ਇਨਪੁੱਟ ਤੱਤ",
+    "sendElement": "ਭੇਜਣ ਵਾਲਾ ਤੱਤ",
+    "cssSelector": "CSS ਸਲੇਕਟਰ",
+    "lightMode": "ਲਾਈਟ ਮੋਡ",
+    "darkMode": "ਡਾਰਕ ਮੋਡ",
+    "customIcon": "ਕਸਟਮ ਆਈਕਨ",
+    "linkIcon": "ਲਿੰਕ ਆਈਕਨ",
+    "dirIcon": "ਫੋਲਡਰ ਆਈਕਨ",
+    "dirOpenIcon": "ਖੁੱਲ੍ਹੇ ਫੋਲਡਰ ਦਾ ਆਈਕਨ",
+    "selectUA": "User Agent ਚੁਣੋ",
+    "customUA": "ਜਾਂ ਕਸਟਮ User Agent ਸਤਰ ਦਰਜ ਕਰੋ…",
+    "rawJson": "ਕੱਚਾ JSON",
+    "validation": {
+      "nameRequired": "ਕਿਰਪਾ ਕਰਕੇ ਨਾਂ ਦਰਜ ਕਰੋ।",
+      "urlRequired": "ਕਿਰਪਾ ਕਰਕੇ URL ਦਰਜ ਕਰੋ।",
+      "userAgentRequired": "ਕਿਰਪਾ ਕਰਕੇ User Agent ਸਤਰ ਦਰਜ ਕਰੋ।",
+      "invalidJson": "JSON ਅਵੈਧ ਹੈ।",
+      "fixJsonErrors": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ JSON ਵੈਲੀਡੇਸ਼ਨ ਗਲਤੀਆਂ ਠੀਕ ਕਰੋ।",
+      "required": "ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ।"
+    },
+    "tip": {
+      "agentWarning": "ਸੁਰੱਖਿਆ ਚੇਤਾਵਨੀ: ਵੈੱਬ ਪੇਜਾਂ ਨੂੰ Noi API ਤੱਕ ਪਹੁੰਚ ਦੇਣਾ ਖਤਰਨਾਕ ਹੋ ਸਕਦਾ ਹੈ।"
+    }
+  },
+  "action": {
+    "name": "ਕਿਰਿਆ",
+    "archive": "ਸੰਗ੍ਰਹਿਤ ਕਰੋ",
+    "back": "ਪਿੱਛੇ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+    "create": "ਬਣਾਓ",
+    "delete": "ਮਿਟਾਓ",
+    "details": "ਵੇਰਵੇ",
+    "edit": "ਸੰਪਾਦਨ",
+    "restore": "ਬਹਾਲ ਕਰੋ",
+    "query": "ਕੁਇਰੀ",
+    "refresh": "ਰੀਫ੍ਰੈਸ਼",
+    "rename": "ਨਾਮ ਬਦਲੋ",
+    "reset": "ਰੀਸੈੱਟ",
+    "save": "ਸੇਵ ਕਰੋ",
+    "send": "ਭੇਜੋ",
+    "use": "ਵਰਤੋਂ ਕਰੋ",
+    "clean": "ਡਿਸਕ ਤੋਂ ਮਿਟਾਓ",
+    "enable": "ਸਕ੍ਰਿਆ ਕਰੋ",
+    "disable": "ਅਸਕ੍ਰਿਆ ਕਰੋ",
+    "importAsk": "NoiAsk ਵਿੱਚ ਇੰਪੋਰਟ ਕਰੋ",
+    "openLocales": "Locales ਫੋਲਡਰ ਖੋਲ੍ਹੋ"
+  },
+  "table": {
+    "active": "ਸਕ੍ਰਿਆ",
+    "archived": "ਸੰਗ੍ਰਹਿਤ",
+    "color": "ਰੰਗ",
+    "createdAt": "ਤਿਆਰ ਕੀਤਾ",
+    "delete": "ਮਿਟਾਓ",
+    "description": "ਵਰਣਨ",
+    "details": "ਵੇਰਵੇ",
+    "disabled": "ਅਸਕ੍ਰਿਆ",
+    "enabled": "ਸਕ੍ਰਿਆ",
+    "entries": "ਐਂਟਰੀਆਂ",
+    "fileSize": "ਫ਼ਾਈਲ ਆਕਾਰ",
+    "mode": "ਮੋਡ",
+    "status": "ਹਾਲਤ",
+    "trash": "ਰੱਦੀ",
+    "unknown": "ਅਣਜਾਣ",
+    "updatedAt": "ਅੱਪਡੇਟ ਕੀਤਾ",
+    "usageCount": "ਵਰਤੋਂ ਗਿਣਤੀ",
+    "tagAdd": "TAG ਸ਼ਾਮਲ ਕਰੋ",
+    "tagRemove": "TAG ਹਟਾਓ",
+    "visible": "ਦਿੱਖਯੋਗ",
+    "total": "ਕੁੱਲ",
+    "locked": "ਲਾਕ ਕੀਤਾ",
+    "text": "ਪਾਠ",
+    "sendCount": "ਭੇਜਣ ਦੀ ਗਿਣਤੀ",
+    "addSource": "ਸਰੋਤ ਸ਼ਾਮਲ ਕਰੋ",
+    "lastSynced": "ਆਖਰੀ ਵਾਰ ਸਿੰਕ ਕੀਤਾ",
+    "message": {
+      "completed": "ਕਾਰਵਾਈ ਪੂਰੀ ਹੋਈ।",
+      "failed": "ਕਾਰਵਾਈ ਅਸਫਲ।",
+      "noData": "ਕੋਈ ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ।",
+      "dataExist": "ਡਾਟਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।",
+      "dataExistOrDuplicated": "ਸਾਰਾ ਡਾਟਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ ਜਾਂ ਡੁਪਲੀਕੇਟ ਹੈ।",
+      "failedLoad": "ਡਾਟਾ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
+      "importedCount": "ਇੰਪੋਰਟ ਕੀਤਾ: {count}.",
+      "skippedCount": "ਛੱਡਿਆ: {count}.",
+      "deleteSelected": "ਕੀ ਤੁਸੀਂ ਚੁਣੀਆਂ ਕਤਾਰਾਂ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।",
+      "deleteItem": "ਕੀ ਤੁਸੀਂ ਇਹ ਆਈਟਮ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।",
+      "deleteFile": "ਇਸ ਫ਼ਾਈਲ ਨੂੰ ਡਿਸਕ ਤੋਂ ਮਿਟਾਉਣਾ ਹੈ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।",
+      "removeItem": "ਇਸ ਆਈਟਮ ਨੂੰ ਸੂਚੀ ਤੋਂ ਹਟਾਉਣਾ ਹੈ? ਫ਼ਾਈਲ ਡਿਸਕ ‘ਤੇ ਰਹੇਗੀ।",
+      "deleteBuiltin": "ਬਿਲਟ-ਇਨ ਸਰੋਤ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।",
+      "importedAsk": "NoiAsk ਵਿੱਚ ਇੰਪੋਰਟ ਕੀਤਾ।",
+      "deleteUseTag": "ਇਹ TAG ਇਸ ਵੇਲੇ ਵਰਤੋਂ ਵਿੱਚ ਹੈ ਅਤੇ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "ਬਾਹਰ ਨਿਕਲਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਲਾਜ਼ਮੀ",
+      "title": "ਹੁਣੇ Noi ਬੰਦ ਕਰੀਏ?",
+      "detail": "ਸਾਰੇ ਵਿੰਡੋ ਅਤੇ ਟਾਸਕ ਬੰਦ ਹੋ ਜਾਣਗੇ।"
+    },
+    "nshQuit": {
+      "title": "ਟਰਮੀਨਲ ਬੰਦ ਕਰੀਏ?",
+      "detail": "ਚੱਲ ਰਹੇ ਟਾਸਕ ਤੁਰੰਤ ਖਤਮ ਕਰ ਦਿੱਤੇ ਜਾਣਗੇ।"
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "ਆਮ",
+      "language": "ਭਾਸ਼ਾ",
+      "sidebarIcon": "ਸਾਈਡਬਾਰ ਆਈਕਨ ਆਕਾਰ",
+      "homeLink": "ਹੋਮ ਲਿੰਕ",
+      "limit": "ਕੁਇਰੀ ਸੀਮਾ",
+      "cometCursor": "NoiAsk ਕੋਮੈਟ ਕਰਸਰ",
+      "cometTrail": "NoiAsk ਕੋਮੈਟ ਟ੍ਰੇਲ",
+      "lockLocales": "Locales ਫੋਲਡਰ ਲਾਕ ਕਰੋ",
+      "lockLocalesTip": "Locales ਫੋਲਡਰ ਨੂੰ ਲਾਕ ਕਰੋ ਤਾਂ ਕਿ ਆਟੋਮੈਟਿਕ ਅੱਪਡੇਟ ਭਾਸ਼ਾ ਫ਼ਾਈਲਾਂ ਨੂੰ ਨਾ ਬਦਲਣ। ਕਸਟਮ ਅਨੁਵਾਦ ਲਈ ਲਾਭਦਾਇਕ।",
+      "urlMetadata": "URL ਮੈਟਾਡੇਟਾ",
+      "sidebarAnchor": {
+        "name": "ਸਾਈਡਬਾਰ ਐਂਕਰ",
+        "off": "ਬੰਦ",
+        "leftTop": "ਖੱਬਾ ਉੱਪਰ",
+        "leftCenter": "ਖੱਬਾ ਮੱਧ",
+        "leftBottom": "ਖੱਬਾ ਹੇਠਾਂ",
+        "rightTop": "ਸੱਜਾ ਉੱਪਰ",
+        "rightCenter": "ਸੱਜਾ ਮੱਧ",
+        "rightBottom": "ਸੱਜਾ ਹੇਠਾਂ",
+        "disableWarning": "ਇਸਨੂੰ ਬੰਦ ਕਰਨ ਨਾਲ ਫਲੋਟਿੰਗ ਟ੍ਰਿਗਰ ਲੁਕ ਜਾਵੇਗਾ। ਸਾਈਡਬਾਰ ਨੂੰ ਮੁੜ ਖੋਲ੍ਹਣ ਲਈ ਸਿਰਫ਼ Noi ਸ਼ਾਰਟਕਟ ਹੀ ਵਰਤ ਸਕਦੇ ਹੋ, ਅਤੇ ਵੈੱਬਸਾਈਟਾਂ ਨਾਲ ਸ਼ਾਰਟਕਟ ਟਕਰਾਅ ਆਮ ਹੈ, ਇਸ ਲਈ ਬੰਦ ਕਰਨਾ ਸਿਫ਼ਾਰਸ਼ੀ ਨਹੀਂ।",
+        "disableConfirmTitle": "ਸਾਈਡਬਾਰ ਐਂਕਰ ਬੰਦ ਕਰਨਾ ਹੈ?"
+      },
+      "nsh": {
+        "name": "NSH (ਟਰਮੀਨਲ)",
+        "fontFamily": "ਫੌਂਟ ਪਰਿਵਾਰ",
+        "fontSize": "ਫੌਂਟ ਆਕਾਰ",
+        "lineHeight": "ਲਾਈਨ ਉਚਾਈ",
+        "cursorBlink": "ਕਰਸਰ ਝਪਕਣਾ",
+        "cursorStyle": "ਕਰਸਰ ਸ਼ੈਲੀ",
+        "cursorWidth": "ਕਰਸਰ ਚੌੜਾਈ",
+        "cursorInactiveStyle": "ਗੈਰ-ਸਕ੍ਰਿਆ ਕਰਸਰ ਸ਼ੈਲੀ",
+        "scrollback": "ਸਕਰੋਲਬੈਕ",
+        "tip": {
+          "cursorWidth": "ਇਹ ਸਿਰਫ਼ ਤਦ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਜਦੋਂ ਕਰਸਰ ਸ਼ੈਲੀ “Bar” ਹੋਵੇ।",
+          "scrollback": "ਟਰਮੀਨਲ ਸਕ੍ਰੋਲ ਕਰਨ ਵੇਲੇ ਇਤਿਹਾਸ ਵਿੱਚ ਰੱਖੀਆਂ ਜਾਣ ਵਾਲੀਆਂ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ।"
+        }
+      },
+      "proxy": {
+        "name": "ਪ੍ਰਾਕਸੀ",
+        "rules": "ਪ੍ਰਾਕਸੀ ਨਿਯਮ",
+        "bypass": "ਪ੍ਰਾਕਸੀ ਬਾਈਪਾਸ ਨਿਯਮ"
+      }
+    },
+    "shortcuts": {
+      "name": "ਸ਼ਾਰਟਕਟ",
+      "noiAskPrompt": "NoiAsk Prompt: {action}",
+      "noiAskPromptWithContext": "NoiAsk Prompt: {action} ({context})",
+      "placeholder": "ਕੰਬੋ ਦਬਾਓ ਜਾਂ ਟਾਈਪ ਕਰੋ",
+      "helpText": "ਚਾਹੀਦਾ ਕੁੰਜੀ ਸੰਯੋਜਨ ਦਬਾਓ, ਜਾਂ ਟਾਈਪ ਕਰੋ (ਉਦਾਹਰਨ: Ctrl+Shift+X)",
+      "conflict": "ਸ਼ਾਰਟਕਟ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "ਰਿਮੋਟ JSON",
+        "remoteCsv": "ਰਿਮੋਟ CSV",
+        "localJson": "ਲੋਕਲ JSON",
+        "localCsv": "ਲੋਕਲ CSV"
+      },
+      "filePathMissing": "ਗਲਤ ਫ਼ਾਈਲ ਪਾਥ।",
+      "fileReadFailed": "ਫ਼ਾਈਲ ਸਮੱਗਰੀ ਪੜ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ।",
+      "fileOpenFailed": "ਫ਼ਾਈਲ ਪਿਕਰ ਨਹੀਂ ਖੁਲ ਸਕਿਆ।",
+      "fileRequired": "ਸਿੰਕ ਕਰਨ ਲਈ ਫ਼ਾਈਲ ਚੁਣੋ।",
+      "notFound": "ਸਿੰਕ ਸਰੋਤ ਨਹੀਂ ਮਿਲਿਆ।",
+      "error": "Prompt ਸਿੰਕ ਗਲਤੀ",
+      "pickLocalFile": "ਲੋਕਲ ਫ਼ਾਈਲ ਚੁਣੋ",
+      "type": "ਸਰੋਤ ਕਿਸਮ",
+      "alias": "ਫੀਲਡ ਮੈਪਿੰਗ",
+      "upload": "ਫ਼ਾਈਲ ਅੱਪਲੋਡ ਕਰੋ",
+      "dragJson": "JSON ਫ਼ਾਈਲ ਖਿੱਚੋ ਜਾਂ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+      "dragCsv": "CSV ਫ਼ਾਈਲ ਖਿੱਚੋ ਜਾਂ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+      "browseLocal": "ਡਿਸਕ ਤੋਂ ਚੁਣੋ"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "ਆਪਣਾ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਚੈੱਕ ਕਰੋ",
+        "ਪ੍ਰਾਕਸੀ ਅਤੇ ਫਾਇਰਵਾਲ ਚੈੱਕ ਕਰੋ"
+      ],
+      "platform": {
+        "windows": "Windows ਨੈਟਵਰਕ ਡਾਇਗਨੋਸਟਿਕਸ ਚਲਾਓ",
+        "mac": "ਵਾਇਰਲੈੱਸ ਡਾਇਗਨੋਸਟਿਕਸ (macOS) ਚਲਾਓ"
+      },
+      "unknownError": "ਅਣਜਾਣ ਗਲਤੀ ਹੋਈ",
+      "site": "ਇਹ ਸਾਈਟ"
+    },
+    "html": {
+      "tryLabel": "ਕੋਸ਼ਿਸ਼ ਕਰੋ:",
+      "showDetails": "ਵੇਰਵੇ ਦਿਖਾਓ",
+      "hideDetails": "ਵੇਰਵੇ ਲੁਕਾਓ",
+      "openAction": "ਖੋਲ੍ਹੋ",
+      "reload": "ਰੀਲੋਡ"
+    },
+    "offline": {
+      "headline": "ਇੰਟਰਨੈਟ ਨਹੀਂ",
+      "message": "ਤੁਸੀਂ ਆਫਲਾਈਨ ਹੋ।",
+      "tryTips": [
+        "ਨੈਟਵਰਕ ਕੇਬਲਾਂ, ਮੋਡਮ ਜਾਂ ਰਾਊਟਰ ਚੈੱਕ ਕਰੋ",
+        "Wi‑Fi ਨਾਲ ਮੁੜ ਕਨੈਕਟ ਕਰੋ ਜਾਂ ਹੋਰ ਨੈਟਵਰਕ ‘ਤੇ ਜਾਓ"
+      ],
+      "action": "ਰੀਲੋਡ"
+    },
+    "network": {
+      "headline": "ਇਹ ਸਾਈਟ ਨਹੀਂ ਖੁਲ ਸਕਦੀ",
+      "message": "{hostname} ਨਾਲ ਕਨੈਕਸ਼ਨ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ।",
+      "messageFallback": "ਸਾਈਟ ਨੇ ਜਵਾਬ ਦੇਣ ਵਿੱਚ ਬਹੁਤ ਸਮਾਂ ਲਿਆ।",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} ਨੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਇਨਕਾਰ ਕੀਤਾ।",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "ਸਾਈਟ ਨੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਇਨਕਾਰ ਕੀਤਾ।",
+        "ERR_CONNECTION_RESET": "ਕਨੈਕਸ਼ਨ ਰੀਸੈੱਟ ਹੋ ਗਿਆ।",
+        "ERR_CONNECTION_TIMED_OUT": "ਕਨੈਕਸ਼ਨ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ।",
+        "ERR_TIMED_OUT": "ਕਨੈਕਸ਼ਨ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ।",
+        "ERR_ADDRESS_UNREACHABLE": "ਐਡਰੈੱਸ ਪਹੁੰਚਯੋਗ ਨਹੀਂ ਹੈ।",
+        "ERR_NETWORK_CHANGED": "ਤੁਹਾਡਾ ਨੈਟਵਰਕ ਕਨੈਕਸ਼ਨ ਬਦਲ ਗਿਆ।",
+        "ERR_CONNECTION_ABORTED": "ਕਨੈਕਸ਼ਨ ਰੱਦ ਹੋ ਗਿਆ।",
+        "ERR_CONNECTION_FAILED": "ਕਨੈਕਟ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
+        "ERR_CONNECTION_CLOSED": "ਕਨੈਕਸ਼ਨ ਬੰਦ ਹੋ ਗਿਆ।",
+        "ERR_HTTP2_PROTOCOL_ERROR": "ਕਨੈਕਸ਼ਨ ਰੁਕ ਗਿਆ (HTTP/2 ਪ੍ਰੋਟੋਕੋਲ ਗਲਤੀ)।",
+        "ERR_QUIC_PROTOCOL_ERROR": "ਕਨੈਕਸ਼ਨ ਰੁਕ ਗਿਆ (QUIC ਪ੍ਰੋਟੋਕੋਲ ਗਲਤੀ)।"
+      },
+      "tryTips": [
+        "ਦੇਖੋ ਕਿ ਹੋਰ ਸਾਈਟਾਂ ਖੁਲਦੀਆਂ ਹਨ ਕਿ ਨਹੀਂ; ਜੇ ਨਹੀਂ, ਨੈਟਵਰਕ ਨਾਲ ਮੁੜ ਕਨੈਕਟ ਕਰੋ",
+        "ਰਾਊਟਰ ਮੁੜ ਚਾਲੂ ਕਰੋ ਜਾਂ ਏਅਰਪਲੇਨ ਮੋਡ ਬੰਦ/ਚਾਲੂ ਕਰੋ"
+      ],
+      "suggestions": [
+        {
+          "title": "ਸਰਵਰ ਉਪਲਬਧਤਾ ਚੈੱਕ ਕਰੋ",
+          "detail": "ਜੇ {site} ਅੰਦਰੂਨੀ ਸੇਵਾ ਹੈ, ਤਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ ਆਨਲਾਈਨ ਹੈ ਜਾਂ ਮੌਜੂਦਾ ਨੈਟਵਰਕ ਤੋਂ ਪਹੁੰਚਯੋਗ ਹੈ।"
+        },
+        {
+          "title": "ਸੁਰੱਖਿਆ ਸਾਫਟਵੇਅਰ ਦੀ ਜਾਂਚ ਕਰੋ",
+          "detail": "ਫਾਇਰਵਾਲ, ਐਂਟੀਵਾਇਰਸ ਜਾਂ VPN ਕਲਾਇੰਟ ਬੇਨਤੀਆਂ ਨੂੰ ਰੋਕ ਸਕਦੇ ਹਨ—ਅਸਥਾਈ ਤੌਰ ‘ਤੇ ਇਨ੍ਹਾਂ ਨੂੰ ਰੋਕੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+        }
+      ],
+      "action": "ਰੀਲੋਡ"
+    },
+    "dns": {
+      "headline": "ਇਹ ਸਾਈਟ ਨਹੀਂ ਖੁਲ ਸਕਦੀ",
+      "message": "{hostname} ਦਾ IP ਐਡਰੈੱਸ ਨਹੀਂ ਮਿਲਿਆ।",
+      "messageFallback": "ਸਰਵਰ ਦਾ IP ਐਡਰੈੱਸ ਨਹੀਂ ਮਿਲਿਆ।",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "{hostname} ਦਾ IP ਐਡਰੈੱਸ ਨਹੀਂ ਮਿਲਿਆ।",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "ਸਰਵਰ ਦਾ IP ਐਡਰੈੱਸ ਨਹੀਂ ਮਿਲਿਆ।",
+        "ERR_NAME_RESOLUTION_FAILED": "{hostname} ਲਈ DNS ਲੁੱਕਅਪ ਅਸਫਲ।",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "DNS ਲੁੱਕਅਪ ਅਸਫਲ।",
+        "ERR_DNS_TIMED_OUT": "DNS ਸਰਵਰ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ।",
+        "ERR_DNS_SERVER_FAILED": "DNS ਸਰਵਰ ਨੇ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ।",
+        "ERR_DNS_MALFORMED_RESPONSE": "DNS ਸਰਵਰ ਨੇ ਅਵੈਧ ਜਵਾਬ ਦਿੱਤਾ।"
+      },
+      "tryTips": [
+        "ਵੈੱਬ ਐਡਰੈੱਸ ਦੀ ਵਰਣੀ ਚੈੱਕ ਕਰੋ",
+        "ਪ੍ਰਾਕਸੀ, ਫਾਇਰਵਾਲ ਅਤੇ DNS ਸੰਰਚਨਾ ਚੈੱਕ ਕਰੋ"
+      ],
+      "suggestions": [
+        {
+          "title": "ਵੈੱਬ ਐਡਰੈੱਸ ਚੈੱਕ ਕਰੋ",
+          "detail": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ {site} ਦੀ ਵਰਣੀ ਠੀਕ ਹੈ। ਜੇ ਠੀਕ ਹੈ, ਤਾਂ DNS ਸਰਵਰ ਅਸਥਾਈ ਤੌਰ ‘ਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹੋ ਸਕਦਾ।"
+        },
+        {
+          "title": "DNS ਕੈਸ਼ ਸਾਫ਼ ਕਰੋ",
+          "detail": "DNS ਕੈਸ਼ ਸਾਫ਼ ਕਰੋ ਅਤੇ ਰੀਲੋਡ ਕਰੋ (ਉਦਾਹਰਨ ਲਈ, Windows ‘ਤੇ `ipconfig /flushdns` ਜਾਂ macOS ‘ਤੇ `sudo killall -HUP mDNSResponder`)."
+        }
+      ],
+      "action": "ਰੀਲੋਡ"
+    },
+    "ssl": {
+      "headline": "ਤੁਹਾਡਾ ਕਨੈਕਸ਼ਨ ਨਿੱਜੀ ਨਹੀਂ ਹੈ",
+      "headlineSecure": "ਇਹ ਸਾਈਟ ਸੁਰੱਖਿਅਤ ਕਨੈਕਸ਼ਨ ਪ੍ਰਦਾਨ ਨਹੀਂ ਕਰ ਸਕਦੀ",
+      "message": "ਹਮਲਾਵਰ {hostname} ਤੋਂ ਜਾਣਕਾਰੀ ਚੁਰਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹਨ (ਉਦਾਹਰਨ ਲਈ, ਪਾਸਵਰਡ, ਸੁਨੇਹੇ ਜਾਂ ਕਰੈਡਿਟ ਕਾਰਡ)।",
+      "messageSecure": "Noi {hostname} ਲਈ ਸੁਰੱਖਿਅਤ ਕਨੈਕਸ਼ਨ ਸਥਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦਾ।",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "ਸਾਈਟ ਅਵੈਧ ਜਾਂ ਗੈਰ-ਸਹਾਇਕ SSL ਪ੍ਰੋਟੋਕੋਲ ਵਰਤਦੀ ਹੈ।",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "ਸਾਈਟ ਗੈਰ-ਸਹਾਇਕ SSL ਪ੍ਰੋਟੋਕੋਲ ਜਾਂ ਸਾਇਫਰ ਵਰਤਦੀ ਹੈ।",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "ਸਰਟੀਫਿਕੇਟ ਚੇਨ ਪਿੰਨ ਕੀਤੇ ਕੀ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "ਇਸ ਸਾਈਟ ਤੱਕ ਪਹੁੰਚ ਲਈ ਕਲਾਇੰਟ ਸਰਟੀਫਿਕੇਟ ਦੀ ਲੋੜ ਹੈ।",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "ਕਲਾਇੰਟ ਸਰਟੀਫਿਕੇਟ ਅਵੈਧ ਹੈ ਜਾਂ ਰੱਦ ਕੀਤਾ ਗਿਆ ਹੈ।",
+        "ERR_CERT_COMMON_NAME_INVALID": "ਸਰਟੀਫਿਕੇਟ ਕਿਸੇ ਹੋਰ ਐਡਰੈੱਸ ਲਈ ਵੈਧ ਹੈ।",
+        "ERR_CERT_DATE_INVALID": "ਸਰਟੀਫਿਕੇਟ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਚੁੱਕੀ ਹੈ ਜਾਂ ਹਾਲੇ ਵੈਧ ਨਹੀਂ ਹੈ।",
+        "ERR_CERT_AUTHORITY_INVALID": "ਸਰਟੀਫਿਕੇਟ ਭਰੋਸੇਯੋਗ ਨਹੀਂ ਹੈ।",
+        "ERR_CERT_REVOKED": "ਸਰਟੀਫਿਕੇਟ ਰੱਦ ਕੀਤਾ ਗਿਆ ਹੈ।",
+        "ERR_CERT_INVALID": "ਸਰਟੀਫਿਕੇਟ ਅਵੈਧ ਹੈ।",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "ਸਰਟੀਫਿਕੇਟ ਕਮਜ਼ੋਰ ਸਾਈਨਚਰ ਅਲਗੋਰਿਥਮ ਵਰਤਦਾ ਹੈ।",
+        "ERR_CERT_WEAK_KEY": "ਸਰਟੀਫਿਕੇਟ ਕਮਜ਼ੋਰ ਕੀ ਵਰਤਦਾ ਹੈ।",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "ਸਰਟੀਫਿਕੇਟ ਨਾਮ ਸੀਮਾਵਾਂ ਦਾ ਉਲੰਘਨ ਕਰਦਾ ਹੈ।",
+        "ERR_CERT_NON_UNIQUE_NAME": "ਸਰਟੀਫਿਕੇਟ ਕਈ ਸਾਈਟਾਂ ਦੁਆਰਾ ਸਾਂਝਾ ਕੀਤਾ ਗਿਆ ਹੈ।"
+      },
+      "suggestions": [
+        {
+          "title": "ਕੰਪਿਊਟਰ ਦੀ ਤਾਰੀਖ ਅਤੇ ਸਮਾਂ ਚੈੱਕ ਕਰੋ",
+          "detail": "ਗਲਤ ਘੜੀ ਸਰਟੀਫਿਕੇਟ ਗਲਤੀਆਂ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੀ ਹੈ।"
+        },
+        {
+          "title": "ਸਾਵਧਾਨੀ ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
+          "detail": "ਸਿਰਫ਼ ਤਦ ਹੀ ਜਾਰੀ ਰੱਖੋ ਜਦੋਂ ਤੁਸੀਂ ਖਤਰੇ ਨੂੰ ਸਮਝਦੇ ਹੋ ਅਤੇ ਸਾਈਟ ‘ਤੇ ਭਰੋਸਾ ਕਰਦੇ ਹੋ।"
+        }
+      ],
+      "action": "ਰੀਲੋਡ"
+    },
+    "proxy": {
+      "headline": "ਪ੍ਰਾਕਸੀ ਕਨੈਕਸ਼ਨ ਅਸਫਲ",
+      "message": "Noi ਨੇ ਸੰਰਚਿਤ ਪ੍ਰਾਕਸੀ ਰਾਹੀਂ ਸਾਈਟ ਤੱਕ ਪਹੁੰਚਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ, ਪਰ ਕਨੈਕਸ਼ਨ ਸਫਲ ਨਹੀਂ ਹੋਇਆ। ਇਹ ਟੈਬ ਹੁਣ ਬੈਕਅੱਪ ਵਜੋਂ ਸਿੱਧਾ ਕਨੈਕਸ਼ਨ ਵਰਤ ਰਹੀ ਹੈ।",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "ਪ੍ਰਾਕਸੀ ਸਰਵਰ ਨੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਇਨਕਾਰ ਕੀਤਾ।",
+        "ERR_TUNNEL_CONNECTION_FAILED": "ਪ੍ਰਾਕਸੀ ਟਨਲ ਅਸਫਲ ਰਹੀ।",
+        "ERR_SOCKS_CONNECTION_FAILED": "SOCKS ਪ੍ਰਾਕਸੀ ਨੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਇਨਕਾਰ ਕੀਤਾ।",
+        "ERR_PROXY_AUTH_REQUESTED": "ਪ੍ਰਾਕਸੀ ਸਰਵਰ ਨੂੰ ਪ੍ਰਮਾਣਿਕਤਾ ਦੀ ਲੋੜ ਹੈ।",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "ਪ੍ਰਾਕਸੀ ਪ੍ਰਮਾਣਿਕਤਾ ਤਰੀਕਾ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।",
+        "ERR_PAC_SCRIPT_FAILED": "ਪ੍ਰਾਕਸੀ ਆਟੋ-ਕੰਫਿਗ (PAC) ਸਕ੍ਰਿਪਟ ਅਸਫਲ ਰਹੀ।",
+        "ERR_NO_SUPPORTED_PROXIES": "ਇਸ ਬੇਨਤੀ ਲਈ ਕੋਈ ਸਮਰਥਿਤ ਪ੍ਰਾਕਸੀ ਨਹੀਂ ਮਿਲੀ।",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "ਲਾਜ਼ਮੀ ਪ੍ਰਾਕਸੀ ਸੰਰਚਨਾ ਅਸਫਲ ਰਹੀ।",
+        "ERR_PROXY_REQUIRED": "ਇਸ ਸਾਈਟ ਤੱਕ ਪਹੁੰਚ ਲਈ ਪ੍ਰਾਕਸੀ ਲਾਜ਼ਮੀ ਹੈ।"
+      },
+      "tryTips": [
+        "ਪ੍ਰਾਕਸੀ ਹੋਸਟ, ਪੋਰਟ ਅਤੇ ਪ੍ਰਮਾਣਿਕਤਾ ਸੈਟਿੰਗਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+        "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਪ੍ਰਾਕਸੀ ਸਰਵਰ ਮੌਜੂਦਾ ਨੈਟਵਰਕ ਤੋਂ ਪਹੁੰਚਯੋਗ ਹੈ",
+        "ਜੇ ਸੰਸਥਾ ਨੂੰ ਪ੍ਰਾਕਸੀ ਦੀ ਲੋੜ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਮੁੜ ਬਹਾਲ ਕਰੋ ਅਤੇ ਉਪਲਬਧ ਹੋਣ ‘ਤੇ ਰੀਲੋਡ ਕਰੋ"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi ਪ੍ਰਾਕਸੀ ਨਿਯਮ ਵੇਖੋ",
+          "detail": "Noi ਸੈਟਿੰਗਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪ੍ਰਾਕਸੀ ਨਿਯਮਾਂ ਅਤੇ ਬਾਈਪਾਸ ਸੂਚੀ ਨੂੰ ਇਸ ਨੈਟਵਰਕ ਨਾਲ ਮੇਲ ਖਾਣ ਲਈ ਯਕੀਨੀ ਬਣਾਓ।",
+          "actionLabel": "Noi ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ"
+        },
+        {
+          "title": "ਬਾਅਦ ਵਿੱਚ ਪ੍ਰਾਕਸੀ ਨਾਲ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+          "detail": "ਜਦੋਂ ਪ੍ਰਾਕਸੀ ਮੁੜ ਉਪਲਬਧ ਹੋਵੇ, ਤਦ ਰੀਲੋਡ ਕਰਕੇ ਸਿੱਧੇ ਮੋਡ ਤੋਂ ਸਵਿੱਚ ਕਰੋ।"
+        }
+      ],
+      "action": "ਸਿੱਧੇ ਮੋਡ ਵਿੱਚ ਰੀਲੋਡ ਕਰੋ"
+    },
+    "blocked": {
+      "headline": "ਇਹ ਪੰਨਾ ਰੋਕਿਆ ਗਿਆ ਹੈ",
+      "message": "ਬੇਨਤੀ ਇੱਕ ਐਕਸਟੈਂਸ਼ਨ ਜਾਂ ਸੁਰੱਖਿਆ ਨੀਤੀ ਵੱਲੋਂ ਰੋਕੀ ਗਈ ਸੀ।",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "ਬੇਨਤੀ ਕਲਾਇੰਟ ਜਾਂ ਐਕਸਟੈਂਸ਼ਨ ਵੱਲੋਂ ਰੋਕੀ ਗਈ ਸੀ।",
+        "ERR_BLOCKED_BY_RESPONSE": "ਜਵਾਬ ਸਾਈਟ ਜਾਂ ਨੀਤੀ ਵੱਲੋਂ ਰੋਕਿਆ ਗਿਆ ਸੀ।",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "ਸਾਈਟ ਲਈ ਸੁਰੱਖਿਅਤ (HTTPS) ਕਨੈਕਸ਼ਨ ਲੋੜੀਂਦਾ ਹੈ।",
+        "ERR_NETWORK_ACCESS_DENIED": "ਨੈਟਵਰਕ ਪਹੁੰਚ ਨੀਤੀ ਵੱਲੋਂ ਰੋਕੀ ਗਈ ਹੈ।"
+      },
+      "tryTips": [
+        "ਐਕਸਟੈਂਸ਼ਨ ਜਾਂ ਕੰਟੈਂਟ ਬਲਾਕਰ ਬੰਦ ਕਰੋ ਅਤੇ ਰੀਲੋਡ ਕਰੋ",
+        "ਫਾਇਰਵਾਲ ਅਤੇ ਐਂਟੀਵਾਇਰਸ ਸੰਰਚਨਾ ਚੈੱਕ ਕਰੋ"
+      ],
+      "suggestions": [
+        {
+          "title": "ਐਕਸਟੈਂਸ਼ਨ ਜਾਂ ਕੰਟੈਂਟ ਬਲਾਕਰ ਬੰਦ ਕਰੋ",
+          "detail": "ਐਡ ਜਾਂ ਟ੍ਰੈਕਰ ਬਲਾਕਰ ਵਰਗੀਆਂ ਐਕਸਟੈਂਸ਼ਨਾਂ ਬੇਨਤੀਆਂ ਨੂੰ ਰੋਕ ਸਕਦੀਆਂ ਹਨ—ਇਨ੍ਹਾਂ ਨੂੰ ਅਸਥਾਈ ਤੌਰ ‘ਤੇ ਬੰਦ ਕਰੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+        },
+        {
+          "title": "ਸਾਈਟ ਨੀਤੀ ਚੈੱਕ ਕਰੋ",
+          "detail": "ਜਵਾਬ ਨੂੰ X-Frame-Options ਜਾਂ Content Security Policy ਵੱਲੋਂ ਰੋਕਿਆ ਹੋ ਸਕਦਾ ਹੈ।"
+        }
+      ],
+      "action": "ਰੀਲੋਡ"
+    },
+    "client": {
+      "headline": "ਇਹ ਪੰਨਾ ਕੰਮ ਨਹੀਂ ਕਰ ਰਿਹਾ",
+      "message": "ਸਾਈਟ ਨੇ ਅਵੈਧ ਜਵਾਬ ਦਿੱਤਾ।",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} ਨੇ ਅਵੈਧ ਜਾਂ ਖਾਲੀ ਜਵਾਬ ਭੇਜਿਆ।",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "ਸਾਈਟ ਨੇ ਅਵੈਧ ਜਾਂ ਖਾਲੀ ਜਵਾਬ ਭੇਜਿਆ।",
+        "ERR_FILE_NOT_FOUND": "ਫ਼ਾਈਲ ਨਹੀਂ ਮਿਲੀ।",
+        "ERR_FILE_ACCESS_DENIED": "ਫ਼ਾਈਲ ਤੱਕ ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਗਿਆ।",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "ਸਰਵਰ ਨੇ ਗਲਤੀ ਨਾਲ ਜਵਾਬ ਦਿੱਤਾ।",
+        "ERR_TOO_MANY_REDIRECTS": "ਪੰਨਾ ਠੀਕ ਤਰੀਕੇ ਨਾਲ ਰੀਡਾਇਰੈਕਟ ਨਹੀਂ ਹੋ ਰਿਹਾ।",
+        "ERR_INVALID_RESPONSE": "ਸਾਈਟ ਨੇ ਅਵੈਧ ਜਵਾਬ ਭੇਜਿਆ।",
+        "ERR_INVALID_CHUNKED_ENCODING": "ਸਾਈਟ ਨੇ ਅਵੈਧ ਜਵਾਬ ਭੇਜਿਆ।",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "ਸਾਈਟ ਨੇ ਅਧੂਰਾ ਜਵਾਬ ਭੇਜਿਆ।",
+        "ERR_CONTENT_LENGTH_MISMATCH": "ਸਾਈਟ ਨੇ ਅਵੈਧ ਜਵਾਬ ਭੇਜਿਆ।",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "ਸਾਈਟ ਨੇ ਜਵਾਬ ਹੈਡਰਾਂ ਵਿੱਚ ਬਹੁਤ ਜ਼ਿਆਦਾ ਡਾਟਾ ਭੇਜਿਆ।",
+        "ERR_CACHE_MISS": "ਬੇਨਤੀ ਨੂੰ ਮੁੜ ਭੇਜਣ ਦੀ ਲੋੜ ਹੈ।",
+        "ERR_INVALID_URL": "ਵੈੱਬ ਐਡਰੈੱਸ ਅਵੈਧ ਹੈ।",
+        "ERR_DISALLOWED_URL_SCHEME": "ਇਹ URL ਸਕੀਮ ਮਨਜ਼ੂਰ ਨਹੀਂ ਹੈ।",
+        "ERR_UNKNOWN_URL_SCHEME": "ਇਹ URL ਸਕੀਮ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।",
+        "ERR_UNSAFE_PORT": "ਇਹ ਪੋਰਟ ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਰੋਕੀ ਗਈ ਹੈ।",
+        "ERR_INVALID_REDIRECT": "ਸਾਈਟ ਨੇ ਅਵੈਧ ਰੀਡਾਇਰੈਕਟ ਦਿੱਤਾ।",
+        "ERR_UNSAFE_REDIRECT": "ਸਾਈਟ ਨੇ ਅਸੁਰੱਖਿਅਤ ਰੀਡਾਇਰੈਕਟ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ।",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "ਸਾਈਟ ਨੇ ਜਵਾਬ ਹੈਡਰਾਂ ਵਿੱਚ ਬਹੁਤ ਜ਼ਿਆਦਾ ਡਾਟਾ ਦਿੱਤਾ।",
+        "ERR_METHOD_NOT_SUPPORTED": "ਬੇਨਤੀ ਵਿਧੀ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।"
+      },
+      "tryTips": [
+        "ਪੰਨਾ ਰੀਲੋਡ ਕਰੋ",
+        "ਬ੍ਰਾਊਜ਼ਰ ਕੈਸ਼ ਜਾਂ ਸਟੋਰਡ ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ"
+      ],
+      "suggestions": [
+        {
+          "title": "ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ",
+          "detail": "ਇਸ ਸਾਈਟ ਲਈ ਕੂਕੀਜ਼ ਅਤੇ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਹਟਾਓ, ਫਿਰ ਰੀਲੋਡ ਕਰੋ।"
+        },
+        {
+          "title": "ਸਾਈਟ ਮਾਲਕ ਨੂੰ ਰਿਪੋਰਟ ਕਰੋ",
+          "detail": "ਜੇ ਸਮੱਸਿਆ ਜਾਰੀ ਰਹੇ, ਤਾਂ ਹੇਠਾਂ ਦਿੱਤੇ ਗਲਤੀ ਕੋਡ ਨਾਲ ਸਾਈਟ ਪਰਸ਼ਾਸਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+        }
+      ],
+      "action": "ਰੀਲੋਡ"
+    },
+    "unknown": {
+      "headline": "ਇਹ ਪੰਨਾ ਕੰਮ ਨਹੀਂ ਕਰ ਰਿਹਾ",
+      "message": "ਅਣਉਮੀਦ ਗਲਤੀ ਹੋਈ ({code}).",
+      "tryTips": [
+        "ਪੰਨਾ ਰੀਲੋਡ ਕਰੋ",
+        "ਜੇ ਸਮੱਸਿਆ ਜਾਰੀ ਰਹੇ, ਤਾਂ ਗਲਤੀ ਕੋਡ ਨੋਟ ਕਰੋ ਅਤੇ ਸਾਈਟ ਪਰਸ਼ਾਸਕ ਜਾਂ ਸਹਾਇਤਾ ਟੀਮ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
+      ],
+      "action": "ਰੀਲੋਡ"
+    }
+  }
+}

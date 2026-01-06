@@ -1,6 +1,10 @@
 {
-  "lang": "Türkçe",
-  "sponsor": "Noi'yi Destekle",
+  "language": "Türkçe",
+  "engines": "Arama motorları",
+  "version": "Sürüm",
+  "doc": "Dokümantasyon",
+  "sponsor": "Sponsor",
+  "website": "Web sitesi",
   "menu": {
     "name": "Menü",
     "about": "Noi Hakkında",
@@ -8,216 +12,575 @@
     "hideOthers": "Diğerlerini Gizle",
     "quit": "Noi'den Çık",
     "unhide": "Tümünü Göster",
-    "checkUpdates": "Güncellemeleri Kontrol Et…",
-
+    "noiHotkey": "Noi Kısayolu",
+    "noiAskHotkey": "NoiAsk Kısayolu",
+    "sidebar": "Kenar çubuğu",
+    "checkUpdates": "Güncellemeleri Denetle…",
     "settings": "Ayarlar",
-    "languages": "Diller",
+    "stayOnTop": "Her Zaman Üstte",
+    "services": "Hizmetler",
+    "newTabSidePanel": "Yan panelde yeni sekme",
+    "newTabMain": "Ana pencerede yeni sekme",
+    "bordless": "Çerçevesiz pencere",
     "theme": {
       "name": "Tema",
+      "system": "Sisteme göre",
       "light": "Açık",
       "dark": "Koyu",
-      "system": "Sistem",
-      "monochromatic": "Monokrom",
-      "frostedTexture": "Buzlu Doku"
+      "style": "Tema stili"
     },
-    "stayOnTop": "Üstte Kal",
-    "lockSidebar": "Kenar Çubuğunu Kilitle",
-    "showSidebar": "Kenar Çubuğunu Göster",
-    "hideSidebar": "Kenar Çubuğunu Gizle",
-    "noiCacheMode": "Noi Önbellek Modu",
-    "devTools": "Geliştirici Araçları",
-    "xQuit": "[X]'e Tıklayarak Çık",
-    "systemTray": "Sistem Tepsisi",
-
-    "edit": "Düzenle",
-    "undo": "Geri Al",
-    "redo": "Yinele",
-    "pasteAndMatchStyle": "Yapıştır ve Stili Eşle",
-    "delete": "Sil",
-
-    "view": "Görünüm",
-    "refresh": "Sayfayı Yenile",
-    "goBack": "Geri Git",
-    "goForward": "İleri Git",
-    "resetZoom": "Gerçek Boyut",
-    "zoomIn": "Yakınlaştır",
-    "zoomOut": "Uzaklaştır",
-    "fullScreen": "Tam Ekran Gir",
-
-    "help": "Yardım",
-    "log": "Noi Günlüğü",
-    "gettingStarted": "Başlarken",
-    "issues": "GitHub Sorunları",
-    "shareIdeas": "Fikir ve Geribildirim Paylaş",
-
-    "defaultWebBrowser": "Varsayılan Web Tarayıcısı",
-    "learnSpelling": "Yazımı Öğren",
-    "lookUpSelection": "“{selection}” Araştır",
-    "searchWithGoogle": "Google ile Ara",
-    "searchWithBing": "Bing ile Ara",
-    "cut": "Kes",
-    "copy": "Kopyala",
-    "paste": "Yapıştır",
-    "selectAll": "Tümünü Seç",
-    "saveImage": "Resmi Kaydet",
-    "saveImageAs": "Resmi Farklı Kaydet…",
-    "saveVideo": "Videoyu Kaydet",
-    "saveVideoAs": "Videoyu Farklı Kaydet…",
-    "copyLink": "Bağlantıyı Kopyala",
-    "saveLinkAs": "Bağlantıyı Farklı Kaydet…",
-    "copyImage": "Resmi Kopyala",
-    "copyImageAddress": "Resim Adresini Kopyala",
-    "copyVideoAddress": "Video Adresini Kopyala",
-    "inspect": "Öğeyi Denetle",
-    "services": "Hizmetler",
-    "reload": "Yeniden Yükle",
-    "rename": "Yeniden Adlandır",
-    "user": "Kullanıcı",
-    "setSystemTray": "Sistem Tepsisi Olarak Ayarla",
-    "clearCache": "Önbellek Verilerini Temizle",
     "find": {
       "name": "Bul",
-      "findInPage": "Sayfada bul…",
-      "findNext": "Sonrakini Bul",
-      "findPrevious": "Öncekini Bul",
-      "jumpToSelection": "Seçime Git"
+      "next": "Sonrakini bul",
+      "previous": "Öncekini bul",
+      "jumpToSelection": "Seçime git"
+    },
+    "edit": {
+      "name": "Düzenle",
+      "undo": "Geri al",
+      "redo": "Yinele",
+      "cut": "Kes",
+      "copy": "Kopyala",
+      "paste": "Yapıştır",
+      "pasteAndMatchStyle": "Stili eşleştirerek yapıştır",
+      "delete": "Sil",
+      "selectAll": "Tümünü seç"
+    },
+    "tab": {
+      "openDefault": "Varsayılan tarayıcıda aç",
+      "addSidebarTemp": "Kenar çubuğuna ekle (TempLink)",
+      "copyUrl": "URL'yi kopyala",
+      "copyUrlMd": "URL'yi Markdown olarak kopyala"
+    },
+    "help": {
+      "name": "Yardım",
+      "feedback": "Geri bildirim"
     }
+  },
+  "session": {
+    "clearCurrent": "Oturum verilerini temizle",
+    "clearAll": "Tüm oturum verilerini temizle",
+    "clearRemovedSites": "Kaldırılan sitelerin verilerini temizle",
+    "confirmCurrent": "“{target}” için site verileri temizlensin mi? Bu işlem, bu oturumun çerezlerini ve depolamasını kaldırır.",
+    "confirmAll": "Tüm oturumlar için site verileri temizlensin mi? Bu işlem bazı sitelerden çıkış yapmanıza neden olabilir.",
+    "confirmRemovedSites": "Artık dizininizde olmayan sitelerden {count, plural, one {# oturum} other {# oturum}} için site verileri kaldırılsın mı?",
+    "resultNoRemovedSites": "Kaldırılan siteler için önbellek verisi bulunamadı.",
+    "helpRemovedSites": "Kaldırılan sitelerin oturumları, bu siteler dizinden kaldırıldıktan sonra kalan çerez ve depolamadır."
+  },
+  "view": {
+    "name": "Görünüm",
+    "tabs": "Noi sekmeleri",
+    "spaces": "{count, plural, one {Noi Alanı} other {Noi Alanları}}",
+    "toolbar": "Noi araç çubuğu",
+    "markdown": "Markdown",
+    "minibar": "Mini çubuk",
+    "manageSpaces": "Alanları yönet",
+    "reload": "Yenile",
+    "goBack": "Geri",
+    "goForward": "İleri",
+    "zoom": "Yakınlaştırma",
+    "actualSize": "Gerçek boyut",
+    "zoomIn": "Yakınlaştır",
+    "zoomOut": "Uzaklaştır",
+    "devTools": "Geliştirici araçları",
+    "newTab": "Yeni sekme",
+    "newTabPlaceholder": "{hasEngine, select, true {{engine} ile ara veya URL gir…} other {Ara veya URL gir…}}",
+    "closeTab": "Sekmeyi kapat",
+    "closeOtherTabs": "Diğer sekmeleri kapat",
+    "mute": "Sessize al",
+    "unmute": "Sesi aç",
+    "incognito": "Gizli mod",
+    "sidePanel": "Yan panel",
+    "newFolder": "Yeni klasör",
+    "addLink": "Bağlantı ekle",
+    "mainWindow": "Ana pencere",
+    "switchMainTab": "Ana sekmeye geç",
+    "switchSideTab": "Yan panel sekmesine geç",
+    "newFile": "Yeni dosya",
+    "bookmark": "Yer imi",
+    "bookmarkTab": "Bu sekmeyi yer imlerine ekle",
+    "copyUrlMetadata": "URL meta verilerini kopyala",
+    "removeNoiView": "NoiView'den kaldır",
+    "addNoiView": "NoiView'e ekle",
+    "openNewWindow": "Yeni pencerede aç",
+    "openSidePanel": "Yan panelde aç",
+    "pin": "Sabitle",
+    "unpin": "Sabitlemeyi kaldır",
+    "lockLink": "Bağlantıyı kilitle",
+    "unlockLink": "Bağlantı kilidini aç",
+    "buttonHighlight": "Başlık çubuğu düğmesi vurgusu"
+  },
+  "window": {
+    "close": "Kapat",
+    "goMain": "Ana pencereye git",
+    "dialog": "İletişim kutusu",
+    "drag": "Taşımak için sürükle",
+    "minimize": "Simge durumuna küçült",
+    "maximize": "Büyüt",
+    "restore": "Geri yükle"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {İstem} other {İstemler}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Eşitle",
+    "manageSemVer": "SemVer yönet",
+    "manageLog": "LOG yönet",
+    "addPrompt": "İstem ekle",
+    "lockPrompt": "İstemi kilitle",
+    "unlockPrompt": "İstemin kilidini aç",
+    "copyPrompt": "İstemi kopyala",
+    "deletePrompt": "İstemi sil",
+    "filterTags": "TAG filtrele",
+    "filterRule": "Filtre kuralı",
+    "filterLockPrompts": "Filtre: kilitli istemler"
+  },
+  "history": {
+    "name": "Geçmiş",
+    "clearAll": "Tüm geçmişi temizle",
+    "refresh": "Geçmişi yenile",
+    "remove": "Geçmişten kaldır",
+    "search": "Geçmişte ara",
+    "searchClear": "Aramayı temizle",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {“{q}” için arama sonucu yok} one {“{q}” için # arama sonucu bulundu} other {“{q}” için # arama sonucu bulundu}}} other {{count, plural, =0 {Sonuç yok} one {# sonuç bulundu} other {# sonuç bulundu}}}}",
+    "moreThisSite": "Bu siteden daha fazlası",
+    "dialogTitle": "Tüm geçmiş temizlensin mi?",
+    "dialogMessage": "Bu işlem, kaydedilmiş tüm geçmiş kayıtlarını kalıcı olarak siler ve geri alınamaz.",
+    "result1": "Geçmiş yüklenemedi. {error}",
+    "result2": "Henüz geçmiş yok.",
+    "result3": "Arama sonucu yok",
+    "result4": "Veri bulunamadı.",
+    "tips": "Başlıklar ve URL'lerde bulanık eşleştirme. Alan filtreleriyle daraltın:",
+    "tip1": "başlık “example” içerir",
+    "tip2": "“example.com” sitesinden sayfalar",
+    "tip3": "2024/01/01 tarihinde",
+    "tip4": "2024/01/01–2025/12/31 arasında",
+    "tip5": "2024/01/01 öncesi",
+    "tip6": "2024/01/01 sonrası",
+    "tip7": "tam olarak 3 kez ziyaret edildi",
+    "tip8": "3 kereden az ziyaret edildi",
+    "tip9": "3 kereden fazla ziyaret edildi"
   },
   "form": {
+    "editor": "Düzenleyici",
+    "partition": "Oturum izolasyonu",
     "name": "Ad",
     "url": "URL",
-    "isolatedCookieStorage": "Bağımsız Çerez Depolama",
-    "invalidURL": "Lütfen geçerli bir URL girin.",
-    "nameNotEmpty": "Ad boş olamaz."
-  },
-  "sidebar": {
-    "warn": {
-      "urlDelete": "Mevcut URL kullanımda.",
-      "dirDelete": "Mevcut dizin kullanımda.",
-      "trayDelete": "Sistem tepsisi mevcut URL'yi kullanıyor, silinemez."
+    "small": "Küçük",
+    "medium": "Orta",
+    "large": "Büyük",
+    "icon": "Simge",
+    "inputElement": "Girdi öğesi",
+    "sendElement": "Gönderme öğesi",
+    "cssSelector": "CSS seçici",
+    "lightMode": "Açık mod",
+    "darkMode": "Koyu mod",
+    "customIcon": "Özel simge",
+    "linkIcon": "Bağlantı simgesi",
+    "dirIcon": "Klasör simgesi",
+    "dirOpenIcon": "Açık klasör simgesi",
+    "selectUA": "User Agent seçin",
+    "customUA": "Veya özel bir User Agent dizesi girin…",
+    "rawJson": "Ham JSON",
+    "validation": {
+      "nameRequired": "Lütfen bir ad girin.",
+      "urlRequired": "Lütfen bir URL girin.",
+      "userAgentRequired": "Lütfen bir User Agent dizesi girin.",
+      "invalidJson": "JSON geçersiz.",
+      "fixJsonErrors": "Kaydetmeden önce JSON doğrulama hatalarını düzeltin.",
+      "required": "Bu alan zorunludur."
     },
     "tip": {
-      "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?",
-      "syncOverwrite": "Senkronizasyon, özel veriler dışındaki tüm verilerin üzerine yazacaktır. Devam etmek istiyor musunuz?",
-      "syncReset": "Şu anda en güncel sürüm üzerindesiniz. Senkronizasyon, özel veriler dışındaki tüm verileri sıfırlayacaktır. Devam etmek istiyor musunuz?",
-      "syncOk": "Senkronizasyon başarılı",
-      "syncResetOk": "Sıfırlama başarılı"
-    }
-  },
-  "network": {
-    "error": {
-      "try": "Deneyin:",
-      "title": "Bu siteye ulaşılamıyor",
-      "longRespond": "yanıt vermesi çok uzun sürdü.",
-      "checkConnection": "Bağlantıyı kontrol et",
-      "checkProxy": "Proxy'yi ve güvenlik duvarını kontrol et"
-    }
-  },
-  "settings": {
-    "menu": {
-      "general": {
-        "name": "Genel",
-        "syncBookmarks": "Yer İşaretlerini Senkronize Et",
-        "proxy": "Proxy",
-        "proxyRules": "Kurallar",
-        "proxyBypassRules": "Yönlendirme Kurallarını Atlama",
-        "promptLogLimit": "Günlük Limiti",
-        "promptLogArchiveLimit": "Günlük Arşiv Limiti",
-        "promptFavoritesLimit": "Favoriler Limiti",
-        "promptFavoritesArchiveLimit": "Favoriler Arşiv Limiti"
-      },
-      "keyboardShortcuts": {
-        "name": "Klavye Kısayolları",
-        "recording": "Kaydediliyor…",
-        "globalShortcut": "Global Kısayol",
-        "trayShortcut": "Sistem Tepsisi Kısayolu"
-      },
-      "extensions": "Eklentiler",
-      "prompts": {
-        "name": "İstemler",
-        "userPrompts": "Kullanıcı İstemleri",
-        "promptTags": "İstem Etiketleri",
-        "customSync": "Özel Senkronizasyon"
-      }
-    },
-    "confirm": {
-      "delete": "Bu kaydı silmek istediğinizden emin misiniz?",
-      "batchEnable": "Bu istemleri etkinleştirmek istediğinizden emin misiniz?",
-      "batchDelete": "Bu istemleri silmek istediğinizden emin misiniz?",
-      "batchDisable": "Bu istemleri devre dışı bırakmak istediğinizden emin misiniz?",
-      "batchUse": "Bu istemleri kullanmak istediğinizden emin misiniz?",
-      "batchTagsAdd": "Bu etiketleri eklemek istediğinizden emin misiniz?",
-      "batchTagsDelete": "Bu etiketleri silmek istediğinizden emin misiniz?"
-    },
-    "message": {
-      "added": "Eklendi",
-      "synced": "Senkronize Edildi",
-      "invalidData": "Geçersiz Veri",
-      "missingActAndPrompt": "Eksik alanlar: 'act', 'prompt'. Yeniden adlandırmak için 'Alias' kullanmayı deneyin.",
-      "missingManifest": "manifest.json dosyası eksik veya geçersiz.",
-      "checkExtension": "Lütfen eklenti dizinini yeniden kontrol edin:",
-      "existExtension": "Eklenti zaten var."
-    },
-    "tip": {
-      "proxyRules": "Hangi proxylerin kullanılacağını belirten kurallar.",
-      "proxyBypassRules": "Proxy ayarlarını atlayacak URL'leri belirten kurallar.",
-      "shortcutRule": "Kısayol Kuralı",
-      "modifierKeys": "Değiştirici tuşlar",
-      "regularKeys": "Normal tuşlar",
-      "noiExtension": "Noi'nin Chrome eklentileri API'lerinin tam bir yelpazesini desteklemediğini unutmayın. Desteklenen Eklenti API'leri için daha fazla detay görmek için desteklenen uzantılar API'lerine bakın.",
-      "noiCacheMode": "Hızlı yeniden erişim için web sayfası durumlarını önbelleğe alır, tarayıcı sekmelerine benzer. Sürekli durum kaydı, özellikle farklı kenar çubuğu bağlantılarına sık sık erişirken, bellek kullanımını artırır. Özellikle sistem yavaşladığında bellek etkisini azaltmak için, önbelleği devre dışı bırakmayı veya birden fazla geçişten sonra yeniden başlatmayı düşünün.",
-      "promptLogLimit": "Günlükte tutulacak maksimum istem sayısı (10-1000), varsayılan olarak 300 olarak ayarlanmıştır.",
-      "promptLogArchiveLimit_1": "Tek bir arşiv dosyasında saklanabilecek maksimum istem sayısı (1000-10000), varsayılan olarak 1000 olarak ayarlanmıştır.",
-      "promptLogArchiveLimit_2": "1. Şu anda arşivlenmekte olan dosya: {{file}}.archiving.json",
-      "promptLogArchiveLimit_3": "2. Tamamlanmış arşiv dosyaları için adlandırma kuralı: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, burada YYYY.MM.DD.HH.mm.ss sırasıyla başlangıç ve bitiş zamanlarını temsil eder. Örneğin: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
-    },
-    "table": {
-      "name": "Ad",
-      "extension": "Eklenti",
-      "description": "Açıklama",
-      "version": "Sürüm",
-      "tag": "Etiket",
-      "color": "Renk",
-      "lastUpdate": "Son Güncelleme",
-      "usageCount": "Kullanım Sayısı"
+      "agentWarning": "Güvenlik uyarısı: Web sayfalarının Noi API'ye erişmesine izin vermek tehlikeli olabilir."
     }
   },
   "action": {
-    "name": "Aksiyon",
-    "add": "Ekle",
+    "name": "Eylem",
+    "archive": "Arşivle",
+    "back": "Geri",
     "cancel": "İptal",
-    "create": "Oluştur",
     "confirm": "Onayla",
-    "detail": "Detay",
+    "create": "Oluştur",
     "delete": "Sil",
-    "disable": "Devre Dışı Bırak",
+    "details": "Ayrıntılar",
     "edit": "Düzenle",
-    "enable": "Etkinleştir",
-    "export": "Dışa Aktar",
+    "restore": "Geri yükle",
+    "query": "Sorgu",
     "refresh": "Yenile",
+    "rename": "Yeniden adlandır",
     "reset": "Sıfırla",
-    "sync": "Senkronize Et",
     "save": "Kaydet",
-    "search": "Ara",
-    "select": "Seç",
+    "send": "Gönder",
     "use": "Kullan",
-    "copied": "Kopyalandı",
-    "batchAdd": "Toplu Ekle",
-    "batchDisable": "Toplu Devre Dışı Bırak",
-    "batchEnable": "Toplu Etkinleştir",
-    "batchDelete": "Toplu Sil",
-    "batchUse": "Toplu Kullan"
+    "clean": "Diskten sil",
+    "enable": "Etkinleştir",
+    "disable": "Devre dışı bırak",
+    "importAsk": "NoiAsk'e içe aktar",
+    "openLocales": "Locales klasörünü aç"
   },
-  "prompt": {
-    "promptFavorite": "Komut Favorileri",
-    "promptLog": "Komut Günlüğü",
-    "promptSend": "Komut Gönder",
-    "newChat": "Yeni Sohbet",
-    "sendMessage": "Mesaj Gönder",
-    "resetPanel": "Paneli Sıfırla",
-    "promptCmd": "Komut Komutu",
-    "sizeSmall": "Küçük",
-    "sizeMedium": "Orta",
-    "sizeLarge": "Büyük"
+  "table": {
+    "active": "Etkin",
+    "archived": "Arşivlendi",
+    "color": "Renk",
+    "createdAt": "Oluşturulma tarihi",
+    "delete": "Sil",
+    "description": "Açıklama",
+    "details": "Ayrıntılar",
+    "disabled": "Devre dışı",
+    "enabled": "Etkin",
+    "entries": "Kayıtlar",
+    "fileSize": "Dosya boyutu",
+    "mode": "Mod",
+    "status": "Durum",
+    "trash": "Çöp",
+    "unknown": "Bilinmeyen",
+    "updatedAt": "Güncelleme tarihi",
+    "usageCount": "Kullanım sayısı",
+    "tagAdd": "TAG ekle",
+    "tagRemove": "TAG kaldır",
+    "visible": "Görünür",
+    "total": "Toplam",
+    "locked": "Kilitli",
+    "text": "Metin",
+    "sendCount": "Gönderim sayısı",
+    "addSource": "Kaynak ekle",
+    "lastSynced": "Son senkronizasyon",
+    "message": {
+      "completed": "Eylem tamamlandı.",
+      "failed": "Eylem başarısız oldu.",
+      "noData": "Veri bulunamadı.",
+      "dataExist": "Veri zaten mevcut.",
+      "dataExistOrDuplicated": "Tüm veriler zaten mevcut veya kopya.",
+      "failedLoad": "Veri yüklenemedi.",
+      "importedCount": "İçe aktarıldı: {count}.",
+      "skippedCount": "Atlandı: {count}.",
+      "deleteSelected": "Seçili satırları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "deleteItem": "Bu öğeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "deleteFile": "Bu dosyayı diskten silmek istiyor musunuz? Bu işlem geri alınamaz.",
+      "removeItem": "Bu öğeyi listeden kaldırmak istiyor musunuz? Dosya diskte kalacaktır.",
+      "deleteBuiltin": "Yerleşik kaynak silinemez.",
+      "importedAsk": "NoiAsk'e içe aktarıldı.",
+      "deleteUseTag": "Bu TAG şu anda kullanılıyor ve silinemez."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Çıkış onayı iste",
+      "title": "Noi şimdi kapatılsın mı?",
+      "detail": "Tüm pencereler ve görevler kapanacak."
+    },
+    "nshQuit": {
+      "title": "Terminal kapatılsın mı?",
+      "detail": "Çalışan görevler hemen sonlandırılacak."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Genel",
+      "language": "Dil",
+      "sidebarIcon": "Kenar çubuğu simge boyutu",
+      "homeLink": "Ana sayfa bağlantısı",
+      "limit": "Sorgu limiti",
+      "cometCursor": "NoiAsk kuyruklu yıldız imleci",
+      "cometTrail": "NoiAsk kuyruklu yıldız izi",
+      "lockLocales": "Locales klasörünü kilitle",
+      "lockLocalesTip": "Locales klasörünü kilitleyerek otomatik güncellemelerin dil dosyalarını değiştirmesini engelleyin. Özel çeviriler için faydalıdır.",
+      "urlMetadata": "URL metadatası",
+      "sidebarAnchor": {
+        "name": "Kenar çubuğu sabiti",
+        "off": "Kapalı",
+        "leftTop": "Sol üst",
+        "leftCenter": "Sol orta",
+        "leftBottom": "Sol alt",
+        "rightTop": "Sağ üst",
+        "rightCenter": "Sağ orta",
+        "rightBottom": "Sağ alt",
+        "disableWarning": "Bunu kapatmak yüzen tetikleyiciyi gizler. Yalnızca Noi kısayolu kenar çubuğunu yeniden açabilir ve web siteleriyle kısayol çakışmaları yaygındır, bu nedenle kapatılması önerilmez.",
+        "disableConfirmTitle": "Kenar çubuğu sabitini devre dışı bırak?"
+      },
+      "nsh": {
+        "name": "NSH (Terminal)",
+        "fontFamily": "Yazı tipi ailesi",
+        "fontSize": "Yazı tipi boyutu",
+        "lineHeight": "Satır yüksekliği",
+        "cursorBlink": "İmleç yanıp sönmesi",
+        "cursorStyle": "İmleç stili",
+        "cursorWidth": "İmleç genişliği",
+        "cursorInactiveStyle": "Etkin olmayan imleç stili",
+        "scrollback": "Kaydırma geçmişi",
+        "tip": {
+          "cursorWidth": "Yalnızca imleç stili “Bar” olduğunda uygulanır.",
+          "scrollback": "Terminal kaydırıldığında geçmişte tutulacak satır sayısı."
+        }
+      },
+      "proxy": {
+        "name": "Proxy",
+        "rules": "Proxy kuralları",
+        "bypass": "Proxy hariç tutma kuralları"
+      }
+    },
+    "shortcuts": {
+      "name": "Kısayollar",
+      "noiAskPrompt": "NoiAsk İstemi: {action}",
+      "noiAskPromptWithContext": "NoiAsk İstemi: {action} ({context})",
+      "placeholder": "Kombinasyonu basın veya yazın",
+      "helpText": "İstenen tuş kombinasyonuna basın veya yazın (örn. Ctrl+Shift+X)",
+      "conflict": "Kısayol zaten kullanılıyor"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "Uzak JSON",
+        "remoteCsv": "Uzak CSV",
+        "localJson": "Yerel JSON",
+        "localCsv": "Yerel CSV"
+      },
+      "filePathMissing": "Geçersiz dosya yolu.",
+      "fileReadFailed": "Dosya içeriği okunamadı.",
+      "fileOpenFailed": "Dosya seçici açılamadı.",
+      "fileRequired": "Lütfen eşitlemek için bir dosya seçin.",
+      "notFound": "Eşitleme kaynağı bulunamadı.",
+      "error": "İstem eşitleme hatası",
+      "pickLocalFile": "Yerel dosya seç",
+      "type": "Kaynak türü",
+      "alias": "Alan eşleme",
+      "upload": "Dosya yükle",
+      "dragJson": "JSON dosyasını sürükleyin veya tıklayıp göz atın",
+      "dragCsv": "CSV dosyasını sürükleyin veya tıklayıp göz atın",
+      "browseLocal": "Diskten seç"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "İnternet bağlantınızı kontrol edin",
+        "Proxy ve güvenlik duvarını kontrol edin"
+      ],
+      "platform": {
+        "windows": "Windows ağ tanılamayı çalıştır",
+        "mac": "Kablosuz tanılamayı çalıştır (macOS)"
+      },
+      "unknownError": "Bilinmeyen bir hata oluştu",
+      "site": "bu site"
+    },
+    "html": {
+      "tryLabel": "Deneyin:",
+      "showDetails": "Ayrıntıları göster",
+      "hideDetails": "Ayrıntıları gizle",
+      "openAction": "Aç",
+      "reload": "Yenile"
+    },
+    "offline": {
+      "headline": "İnternet yok",
+      "message": "Çevrimdışısınız.",
+      "tryTips": [
+        "Ağ kablolarını, modemi veya yönlendiriciyi kontrol edin",
+        "Wi-Fi'ye yeniden bağlanın veya başka bir ağa geçin"
+      ],
+      "action": "Yenile"
+    },
+    "network": {
+      "headline": "Bu siteye ulaşılamıyor",
+      "message": "{hostname} bağlantısı zaman aşımına uğradı.",
+      "messageFallback": "Site yanıt vermek için çok uzun süre aldı.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} bağlantıyı reddetti.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "Site bağlantıyı reddetti.",
+        "ERR_CONNECTION_RESET": "Bağlantı sıfırlandı.",
+        "ERR_CONNECTION_TIMED_OUT": "Bağlantı zaman aşımına uğradı.",
+        "ERR_TIMED_OUT": "Bağlantı zaman aşımına uğradı.",
+        "ERR_ADDRESS_UNREACHABLE": "Adrese ulaşılamıyor.",
+        "ERR_NETWORK_CHANGED": "Ağ bağlantınız değişti.",
+        "ERR_CONNECTION_ABORTED": "Bağlantı iptal edildi.",
+        "ERR_CONNECTION_FAILED": "Bağlantı kurulamadı.",
+        "ERR_CONNECTION_CLOSED": "Bağlantı kapatıldı.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "Bağlantı kesintiye uğradı (HTTP/2 protokol hatası).",
+        "ERR_QUIC_PROTOCOL_ERROR": "Bağlantı kesintiye uğradı (QUIC protokol hatası)."
+      },
+      "tryTips": [
+        "Diğer sitelerin açılıp açılmadığını kontrol edin; açılmıyorsa ağa yeniden bağlanın",
+        "Yönlendiriciyi yeniden başlatın veya uçak modunu açıp kapatın"
+      ],
+      "suggestions": [
+        {
+          "title": "Sunucu kullanılabilirliğini kontrol edin",
+          "detail": "{site} dahili bir hizmetse, çevrimiçi olduğundan veya mevcut ağdan erişilebilir olduğundan emin olun."
+        },
+        {
+          "title": "Güvenlik yazılımlarını inceleyin",
+          "detail": "Güvenlik duvarı, antivirüs veya VPN istemcileri istekleri kesebilir — bu araçları geçici olarak duraklatın ve tekrar deneyin."
+        }
+      ],
+      "action": "Yenile"
+    },
+    "dns": {
+      "headline": "Bu siteye ulaşılamıyor",
+      "message": "{hostname} IP adresi bulunamadı.",
+      "messageFallback": "Sunucu IP adresi bulunamadı.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "{hostname} IP adresi bulunamadı.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Sunucu IP adresi bulunamadı.",
+        "ERR_NAME_RESOLUTION_FAILED": "{hostname} için DNS araması başarısız oldu.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "DNS araması başarısız oldu.",
+        "ERR_DNS_TIMED_OUT": "DNS sunucusu zaman aşımına uğradı.",
+        "ERR_DNS_SERVER_FAILED": "DNS sunucusu yanıt vermedi.",
+        "ERR_DNS_MALFORMED_RESPONSE": "DNS sunucusu geçersiz yanıt döndürdü."
+      },
+      "tryTips": [
+        "Web adresinin doğru yazıldığını doğrulayın",
+        "Proxy, güvenlik duvarı ve DNS yapılandırmasını kontrol edin"
+      ],
+      "suggestions": [
+        {
+          "title": "Web adresini kontrol edin",
+          "detail": "{site} adresinin doğru yazıldığından emin olun. Doğruysa DNS sunucusu geçici olarak kullanılamıyor olabilir."
+        },
+        {
+          "title": "DNS önbelleğini temizleyin",
+          "detail": "DNS önbelleğini temizleyin ve yenileyin (ör. Windows'ta `ipconfig /flushdns` veya macOS'ta `sudo killall -HUP mDNSResponder`)."
+        }
+      ],
+      "action": "Yenile"
+    },
+    "ssl": {
+      "headline": "Bağlantınız gizli değil",
+      "headlineSecure": "Bu site güvenli bağlantı sağlayamıyor",
+      "message": "Saldırganlar {hostname} üzerinden bilgi çalmaya çalışabilir (ör. şifreler, mesajlar veya kredi kartları).",
+      "messageSecure": "Noi, {hostname} ile güvenli bir bağlantı kuramıyor.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "Site geçersiz veya desteklenmeyen SSL protokolü kullanıyor.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "Site desteklenmeyen bir SSL protokolü veya şifreleme kullanıyor.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "Sertifika zinciri sabitlenmiş anahtarla eşleşmiyor.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Bu siteye erişmek için istemci sertifikası gerekir.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "İstemci sertifikası geçersiz veya reddedildi.",
+        "ERR_CERT_COMMON_NAME_INVALID": "Sertifika farklı bir adres için geçerli.",
+        "ERR_CERT_DATE_INVALID": "Sertifikanın süresi dolmuş veya henüz geçerli değil.",
+        "ERR_CERT_AUTHORITY_INVALID": "Sertifikaya güvenilmiyor.",
+        "ERR_CERT_REVOKED": "Sertifika iptal edildi.",
+        "ERR_CERT_INVALID": "Sertifika geçersiz.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "Sertifika zayıf imza algoritması kullanıyor.",
+        "ERR_CERT_WEAK_KEY": "Sertifika zayıf anahtar kullanıyor.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "Sertifika ad kısıtlamalarını ihlal ediyor.",
+        "ERR_CERT_NON_UNIQUE_NAME": "Sertifika birden fazla site tarafından paylaşılıyor."
+      },
+      "suggestions": [
+        {
+          "title": "Bilgisayarın tarih ve saatini kontrol edin",
+          "detail": "Yanlış saat, sertifika hatalarına neden olabilir."
+        },
+        {
+          "title": "Dikkatli ilerleyin",
+          "detail": "Yalnızca riskleri anlıyorsanız ve siteye güveniyorsanız devam edin."
+        }
+      ],
+      "action": "Yenile"
+    },
+    "proxy": {
+      "headline": "Proxy bağlantısı başarısız",
+      "message": "Noi, yapılandırılmış proxy üzerinden siteye erişmeye çalıştı ancak bağlantı başarısız oldu. Bu sekme artık yedek olarak doğrudan bağlantı kullanıyor.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "Proxy sunucusu bağlantıyı reddetti.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "Proxy tüneli başarısız oldu.",
+        "ERR_SOCKS_CONNECTION_FAILED": "SOCKS proxy bağlantıyı reddetti.",
+        "ERR_PROXY_AUTH_REQUESTED": "Proxy sunucusu kimlik doğrulama istiyor.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "Proxy kimlik doğrulama yöntemi desteklenmiyor.",
+        "ERR_PAC_SCRIPT_FAILED": "Proxy otomatik yapılandırma (PAC) betiği başarısız oldu.",
+        "ERR_NO_SUPPORTED_PROXIES": "Bu istek için desteklenen proxy bulunamadı.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "Gerekli proxy yapılandırması başarısız oldu.",
+        "ERR_PROXY_REQUIRED": "Bu siteye erişmek için proxy gerekir."
+      },
+      "tryTips": [
+        "Proxy ana bilgisayarını, bağlantı noktasını ve kimlik doğrulamasını doğrulayın",
+        "Proxy sunucusunun mevcut ağdan erişilebilir olduğundan emin olun",
+        "Kuruluş proxy gerektiriyorsa, proxy geri geldiğinde yeniden yükleyin"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi proxy kurallarını gözden geçirin",
+          "detail": "Noi ayarlarını kullanarak proxy kuralları ve baypas listesinin bu ağla eşleştiğini doğrulayın.",
+          "actionLabel": "Noi ayarlarını aç"
+        },
+        {
+          "title": "Daha sonra proxy ile yeniden deneyin",
+          "detail": "Proxy yeniden kullanılabilir olduğunda, doğrudan moddan proxy moduna geçmek için yeniden yükleyin."
+        }
+      ],
+      "action": "Doğrudan modda yenile"
+    },
+    "blocked": {
+      "headline": "Bu sayfa engellendi",
+      "message": "İstek bir eklenti veya güvenlik politikası tarafından engellendi.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "İstek bir istemci veya eklenti tarafından engellendi.",
+        "ERR_BLOCKED_BY_RESPONSE": "Yanıt site veya politika tarafından engellendi.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "Site güvenli (HTTPS) bağlantı gerektiriyor.",
+        "ERR_NETWORK_ACCESS_DENIED": "Ağ erişimi politika tarafından engellendi."
+      },
+      "tryTips": [
+        "Eklentileri veya içerik engelleyicileri devre dışı bırakıp yeniden yükleyin",
+        "Güvenlik duvarı ve antivirüs yapılandırmasını kontrol edin"
+      ],
+      "suggestions": [
+        {
+          "title": "Eklentileri veya içerik engelleyicileri devre dışı bırakın",
+          "detail": "Reklam veya izleyici engelleyiciler gibi eklentiler isteği engelleyebilir — geçici olarak devre dışı bırakıp yeniden deneyin."
+        },
+        {
+          "title": "Site politikasını kontrol edin",
+          "detail": "Yanıt X-Frame-Options veya Content Security Policy tarafından engellenmiş olabilir."
+        }
+      ],
+      "action": "Yenile"
+    },
+    "client": {
+      "headline": "Bu sayfa çalışmıyor",
+      "message": "Site geçersiz bir yanıt döndürdü.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} geçersiz veya boş bir yanıt gönderdi.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "Site geçersiz veya boş bir yanıt gönderdi.",
+        "ERR_FILE_NOT_FOUND": "Dosya bulunamadı.",
+        "ERR_FILE_ACCESS_DENIED": "Dosyaya erişim reddedildi.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "Sunucu hata ile yanıt verdi.",
+        "ERR_TOO_MANY_REDIRECTS": "Sayfa doğru şekilde yönlendirilmiyor.",
+        "ERR_INVALID_RESPONSE": "Site geçersiz bir yanıt gönderdi.",
+        "ERR_INVALID_CHUNKED_ENCODING": "Site geçersiz bir yanıt gönderdi.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "Site eksik bir yanıt gönderdi.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "Site geçersiz bir yanıt gönderdi.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "Site yanıt başlıklarında çok fazla veri gönderdi.",
+        "ERR_CACHE_MISS": "İstek yeniden gönderilmeli.",
+        "ERR_INVALID_URL": "Web adresi geçersiz.",
+        "ERR_DISALLOWED_URL_SCHEME": "Bu URL şeması izinli değil.",
+        "ERR_UNKNOWN_URL_SCHEME": "Bu URL şeması desteklenmiyor.",
+        "ERR_UNSAFE_PORT": "Bu bağlantı noktası güvenlik nedeniyle engellenmiştir.",
+        "ERR_INVALID_REDIRECT": "Site geçersiz bir yönlendirme döndürdü.",
+        "ERR_UNSAFE_REDIRECT": "Site güvenli olmayan bir yönlendirme denedi.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "Site yanıt başlıklarında çok fazla veri gönderdi.",
+        "ERR_METHOD_NOT_SUPPORTED": "İstek yöntemi desteklenmiyor."
+      },
+      "tryTips": [
+        "Sayfayı yeniden yükleyin",
+        "Tarayıcı önbelleğini veya saklanan site verilerini temizleyin"
+      ],
+      "suggestions": [
+        {
+          "title": "Site verilerini temizleyin",
+          "detail": "Bu sitenin çerezlerini ve önbellek dosyalarını kaldırın, ardından yeniden yükleyin."
+        },
+        {
+          "title": "Site sahibine bildirin",
+          "detail": "Sorun devam ederse, aşağıda gösterilen hata koduyla site yöneticisine başvurun."
+        }
+      ],
+      "action": "Yenile"
+    },
+    "unknown": {
+      "headline": "Bu sayfa çalışmıyor",
+      "message": "Beklenmeyen bir hata oluştu ({code}).",
+      "tryTips": [
+        "Sayfayı yeniden yükleyin",
+        "Sorun devam ederse hata kodunu kaydedin ve site yöneticisine veya destek ekibine başvurun"
+      ],
+      "action": "Yenile"
+    }
   }
 }

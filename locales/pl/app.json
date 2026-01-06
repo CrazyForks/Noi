@@ -1,0 +1,586 @@
+{
+  "language": "Polski",
+"engines": "Wyszukiwarki",
+  "version": "Wersja",
+  "doc": "Dokumentacja",
+  "sponsor": "Sponsor",
+  "website": "Strona internetowa",
+  "menu": {
+    "name": "Menu",
+    "about": "O Noi",
+    "hide": "Ukryj Noi",
+    "hideOthers": "Ukryj pozostałe",
+    "quit": "Zakończ Noi",
+    "unhide": "Pokaż wszystko",
+    "noiHotkey": "Skrót Noi",
+    "noiAskHotkey": "Skrót NoiAsk",
+    "sidebar": "Pasek boczny",
+    "checkUpdates": "Sprawdź aktualizacje…",
+    "settings": "Ustawienia",
+    "stayOnTop": "Zawsze na wierzchu",
+    "services": "Usługi",
+    "newTabSidePanel": "Nowa karta w panelu bocznym",
+    "newTabMain": "Nowa karta w oknie głównym",
+    "bordless": "Okno bez obramowania",
+    "theme": {
+      "name": "Motyw",
+      "system": "System",
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "style": "Styl motywu"
+    },
+    "find": {
+      "name": "Znajdź",
+      "next": "Znajdź następne",
+      "previous": "Znajdź poprzednie",
+      "jumpToSelection": "Przejdź do zaznaczenia"
+    },
+    "edit": {
+      "name": "Edycja",
+      "undo": "Cofnij",
+      "redo": "Ponów",
+      "cut": "Wytnij",
+      "copy": "Kopiuj",
+      "paste": "Wklej",
+      "pasteAndMatchStyle": "Wklej i dopasuj styl",
+      "delete": "Usuń",
+      "selectAll": "Zaznacz wszystko"
+    },
+    "tab": {
+      "openDefault": "Otwórz w domyślnej przeglądarce",
+      "addSidebarTemp": "Dodaj do paska bocznego (TempLink)",
+      "copyUrl": "Kopiuj URL",
+      "copyUrlMd": "Kopiuj URL jako Markdown"
+    },
+    "help": {
+      "name": "Pomoc",
+      "feedback": "Prześlij opinię…"
+    }
+  },
+  "session": {
+    "clearCurrent": "Wyczyść dane sesji",
+    "clearAll": "Wyczyść wszystkie dane sesji",
+    "clearRemovedSites": "Wyczyść dane dla usuniętych stron",
+    "confirmCurrent": "Wyczyścić dane witryny „{target}”? Spowoduje to usunięcie plików cookie i pamięci tej sesji.",
+    "confirmAll": "Wyczyścić dane witryn dla wszystkich sesji? Może to spowodować wylogowanie z niektórych witryn.",
+    "confirmRemovedSites": "Usunąć dane witryn dla {count, plural, one {# sesję} few {# sesje} many {# sesji} other {# sesji}} z witryn, których nie ma już w indeksie?",
+    "resultNoRemovedSites": "Nie znaleziono danych w pamięci podręcznej dla usuniętych witryn.",
+    "helpRemovedSites": "Sesje dla usuniętych witryn to pliki cookie i pamięć pozostawione po usunięciu tych witryn z indeksu."
+  },
+  "view": {
+    "name": "Widok",
+    "tabs": "Karty Noi",
+    "spaces": "{count, plural, one {Przestrzeń Noi} few {Przestrzenie Noi} many {Przestrzeni Noi} other {Przestrzeni Noi}}",
+    "toolbar": "Pasek narzędzi Noi",
+    "markdown": "Markdown",
+    "minibar": "Minibar",
+    "manageSpaces": "Zarządzaj przestrzeniami",
+    "reload": "Odśwież",
+    "goBack": "Wstecz",
+    "goForward": "Dalej",
+    "zoom": "Powiększenie",
+    "actualSize": "Rozmiar rzeczywisty",
+    "zoomIn": "Powiększ",
+    "zoomOut": "Pomniejsz",
+    "devTools": "Narzędzia deweloperskie",
+    "newTab": "Nowa karta",
+    "newTabPlaceholder": "{hasEngine, select, true {Szukaj w {engine} lub wpisz adres URL…} other {Szukaj lub wpisz adres URL…}}",
+    "closeTab": "Zamknij kartę",
+    "closeOtherTabs": "Zamknij pozostałe karty",
+    "mute": "Wycisz",
+    "unmute": "Włącz dźwięk",
+    "incognito": "Tryb incognito",
+    "sidePanel": "Panel boczny",
+    "newFolder": "Nowy folder",
+    "addLink": "Dodaj link",
+    "mainWindow": "Okno główne",
+    "switchMainTab": "Przełącz na kartę główną",
+    "switchSideTab": "Przełącz na kartę panelu bocznego",
+    "newFile": "Nowy plik",
+    "bookmark": "Zakładka",
+    "bookmarkTab": "Dodaj zakładkę do tej karty",
+    "copyUrlMetadata": "Kopiuj metadane URL",
+    "removeNoiView": "Usuń z NoiView",
+    "addNoiView": "Dodaj do NoiView",
+    "openNewWindow": "Otwórz w nowym oknie",
+    "openSidePanel": "Otwórz w panelu bocznym",
+    "pin": "Przypnij",
+    "unpin": "Odepnij",
+    "lockLink": "Zablokuj link",
+    "unlockLink": "Odblokuj link",
+    "buttonHighlight": "Podświetlenie przycisków paska tytułu"
+  },
+  "window": {
+    "close": "Zamknij",
+    "goMain": "Przejdź do okna głównego",
+    "dialog": "Okno dialogowe",
+    "drag": "Przeciągnij, aby przenieść",
+    "minimize": "Minimalizuj",
+    "maximize": "Maksymalizuj",
+    "restore": "Przywróć"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} few {Prompty} many {Promptów} other {Promptów}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Synchronizuj",
+    "manageSemVer": "Zarządzaj SemVer",
+    "manageLog": "Zarządzaj LOG",
+    "addPrompt": "Dodaj prompt",
+    "lockPrompt": "Zablokuj prompt",
+    "unlockPrompt": "Odblokuj prompt",
+    "copyPrompt": "Kopiuj prompt",
+    "deletePrompt": "Usuń prompt",
+    "filterTags": "Filtruj TAG",
+    "filterRule": "Reguła filtra",
+    "filterLockPrompts": "Filtr: zablokowane prompty"
+  },
+  "history": {
+    "name": "Historia",
+    "clearAll": "Wyczyść całą historię",
+    "refresh": "Odśwież historię",
+    "remove": "Usuń z historii",
+    "search": "Szukaj w historii",
+    "searchClear": "Wyczyść wyszukiwanie",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {Brak wyników wyszukiwania dla “{q}”} one {Znaleziono # wynik wyszukiwania dla “{q}”} few {Znaleziono # wyniki wyszukiwania dla “{q}”} many {Znaleziono # wyników wyszukiwania dla “{q}”} other {Znaleziono # wyników wyszukiwania dla “{q}”}}} other {{count, plural, =0 {Brak wyników} one {Znaleziono # wynik} few {Znaleziono # wyniki} many {Znaleziono # wyników} other {Znaleziono # wyników}}}}",
+    "moreThisSite": "Więcej z tej witryny",
+    "dialogTitle": "Wyczyścić całą historię?",
+    "dialogMessage": "To działanie trwale usuwa wszystkie zapisane wpisy historii i nie można go cofnąć.",
+    "result1": "Nie udało się wczytać historii. {error}",
+    "result2": "Brak historii.",
+    "result3": "Brak wyników wyszukiwania",
+    "result4": "Nie znaleziono danych.",
+    "tips": "Dopasowanie rozmyte w tytułach i URL-ach. Zawęź według pól:",
+    "tip1": "tytuł zawiera “example”",
+    "tip2": "strony z “example.com”",
+    "tip3": "w dniu 2024/01/01",
+    "tip4": "w zakresie 2024/01/01–2025/12/31",
+    "tip5": "przed 2024/01/01",
+    "tip6": "po 2024/01/01",
+    "tip7": "odwiedzono dokładnie 3 razy",
+    "tip8": "odwiedzono mniej niż 3 razy",
+    "tip9": "odwiedzono więcej niż 3 razy"
+  },
+  "form": {
+    "editor": "Edytor",
+    "partition": "Izolacja sesji",
+    "name": "Nazwa",
+    "url": "URL",
+    "small": "Mały",
+    "medium": "Średni",
+    "large": "Duży",
+    "icon": "Ikona",
+    "inputElement": "Element wejściowy",
+    "sendElement": "Element wysyłania",
+    "cssSelector": "Selektor CSS",
+    "lightMode": "Tryb jasny",
+    "darkMode": "Tryb ciemny",
+    "customIcon": "Niestandardowa ikona",
+    "linkIcon": "Ikona linku",
+    "dirIcon": "Ikona folderu",
+    "dirOpenIcon": "Ikona otwartego folderu",
+    "selectUA": "Wybierz User Agent",
+    "customUA": "Lub wpisz niestandardowy ciąg User Agent…",
+    "rawJson": "Surowy JSON",
+    "validation": {
+      "nameRequired": "Wprowadź nazwę.",
+      "urlRequired": "Wprowadź URL.",
+      "userAgentRequired": "Wprowadź ciąg User Agent.",
+      "invalidJson": "JSON jest nieprawidłowy.",
+      "fixJsonErrors": "Napraw błędy walidacji JSON przed zapisaniem.",
+      "required": "To pole jest wymagane."
+    },
+    "tip": {
+      "agentWarning": "Ostrzeżenie bezpieczeństwa: zezwolenie stronom internetowym na dostęp do API Noi może być niebezpieczne."
+    }
+  },
+  "action": {
+    "name": "Działanie",
+    "archive": "Archiwizuj",
+    "back": "Wstecz",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "create": "Utwórz",
+    "delete": "Usuń",
+    "details": "Szczegóły",
+    "edit": "Edytuj",
+    "restore": "Przywróć",
+    "query": "Zapytanie",
+    "refresh": "Odśwież",
+    "rename": "Zmień nazwę",
+    "reset": "Resetuj",
+    "save": "Zapisz",
+    "send": "Wyślij",
+    "use": "Użyj",
+    "clean": "Usuń z dysku",
+    "enable": "Włącz",
+    "disable": "Wyłącz",
+    "importAsk": "Importuj do NoiAsk",
+    "openLocales": "Otwórz folder Locales"
+  },
+  "table": {
+    "active": "Aktywne",
+    "archived": "Zarchiwizowane",
+    "color": "Kolor",
+    "createdAt": "Utworzono",
+    "delete": "Usuń",
+    "description": "Opis",
+    "details": "Szczegóły",
+    "disabled": "Wyłączone",
+    "enabled": "Włączone",
+    "entries": "Wpisy",
+    "fileSize": "Rozmiar pliku",
+    "mode": "Tryb",
+    "status": "Status",
+    "trash": "Kosz",
+    "unknown": "Nieznane",
+    "updatedAt": "Zaktualizowano",
+    "usageCount": "Liczba użyć",
+    "tagAdd": "Dodaj TAG",
+    "tagRemove": "Usuń TAG",
+    "visible": "Widoczne",
+    "total": "Łącznie",
+    "locked": "Zablokowane",
+    "text": "Tekst",
+    "sendCount": "Liczba wysłań",
+    "addSource": "Dodaj źródło",
+    "lastSynced": "Ostatnia synchronizacja",
+    "message": {
+      "completed": "Działanie zakończone.",
+      "failed": "Działanie nie powiodło się.",
+      "noData": "Nie znaleziono danych.",
+      "dataExist": "Dane już istnieją.",
+      "dataExistOrDuplicated": "Wszystkie dane już istnieją lub są zduplikowane.",
+      "failedLoad": "Nie udało się wczytać danych.",
+      "importedCount": "Zaimportowano: {count}.",
+      "skippedCount": "Pominięto: {count}.",
+      "deleteSelected": "Czy na pewno chcesz usunąć zaznaczone wiersze? Tego działania nie można cofnąć.",
+      "deleteItem": "Czy na pewno chcesz usunąć ten element? Tego działania nie można cofnąć.",
+      "deleteFile": "Usunąć ten plik z dysku? Tego działania nie można cofnąć.",
+      "removeItem": "Usunąć ten element z listy? Plik pozostanie na dysku.",
+      "deleteBuiltin": "Nie można usunąć wbudowanego źródła.",
+      "importedAsk": "Zaimportowano do NoiAsk.",
+      "deleteUseTag": "Ten TAG jest obecnie używany i nie można go usunąć."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Wymagaj potwierdzenia zakończenia",
+      "title": "Zakończyć Noi teraz?",
+      "detail": "Wszystkie okna i zadania zostaną zamknięte."
+    },
+    "nshQuit": {
+      "title": "Zamknąć terminal?",
+      "detail": "Uruchomione zadania zostaną natychmiast przerwane."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Ogólne",
+      "language": "Język",
+      "sidebarIcon": "Rozmiar ikon paska bocznego",
+      "homeLink": "Link strony głównej",
+      "limit": "Limit zapytań",
+      "cometCursor": "Kursor komety NoiAsk",
+      "cometTrail": "Ślad komety NoiAsk",
+      "lockLocales": "Zablokuj folder Locales",
+      "lockLocalesTip": "Zablokuj folder Locales, aby zapobiec automatycznym aktualizacjom plików językowych. Przydatne do niestandardowych tłumaczeń.",
+      "urlMetadata": "Metadane URL",
+      "sidebarAnchor": {
+        "name": "Kotwica paska bocznego",
+        "off": "Wyłączone",
+        "leftTop": "Lewy górny",
+        "leftCenter": "Lewy środek",
+        "leftBottom": "Lewy dolny",
+        "rightTop": "Prawy górny",
+        "rightCenter": "Prawy środek",
+        "rightBottom": "Prawy dolny",
+        "disableWarning": "Wyłączenie tego ukrywa pływający wyzwalacz. Tylko skrót Noi może ponownie otworzyć pasek boczny, a konflikty skrótów ze stronami są częste, więc wyłączanie nie jest zalecane.",
+        "disableConfirmTitle": "Wyłączyć kotwicę paska bocznego?"
+      },
+      "nsh": {
+        "name": "NSH (Terminal)",
+        "fontFamily": "Rodzina czcionek",
+        "fontSize": "Rozmiar czcionki",
+        "lineHeight": "Wysokość linii",
+        "cursorBlink": "Miganie kursora",
+        "cursorStyle": "Styl kursora",
+        "cursorWidth": "Szerokość kursora",
+        "cursorInactiveStyle": "Styl kursora nieaktywnego",
+        "scrollback": "Historia przewijania",
+        "tip": {
+          "cursorWidth": "Obowiązuje tylko, gdy styl kursora to “Bar”.",
+          "scrollback": "Liczba wierszy zachowywana w historii podczas przewijania terminala."
+        }
+      },
+      "proxy": {
+        "name": "Proxy",
+        "rules": "Reguły proxy",
+        "bypass": "Reguły pomijania proxy"
+      }
+    },
+    "shortcuts": {
+      "name": "Skróty",
+      "noiAskPrompt": "Prompt NoiAsk: {action}",
+      "noiAskPromptWithContext": "Prompt NoiAsk: {action} ({context})",
+      "placeholder": "Naciśnij kombinację lub wpisz",
+      "helpText": "Naciśnij żądaną kombinację klawiszy albo wpisz ją (np. Ctrl+Shift+X)",
+      "conflict": "Skrót jest już używany"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "Zdalny JSON",
+        "remoteCsv": "Zdalny CSV",
+        "localJson": "Lokalny JSON",
+        "localCsv": "Lokalny CSV"
+      },
+      "filePathMissing": "Nieprawidłowa ścieżka pliku.",
+      "fileReadFailed": "Nie udało się odczytać zawartości pliku.",
+      "fileOpenFailed": "Nie można otworzyć wyboru pliku.",
+      "fileRequired": "Wybierz plik do synchronizacji.",
+      "notFound": "Nie znaleziono źródła synchronizacji.",
+      "error": "Błąd synchronizacji promptów",
+      "pickLocalFile": "Wybierz plik lokalny",
+      "type": "Typ źródła",
+      "alias": "Mapowanie pól",
+      "upload": "Prześlij plik",
+      "dragJson": "Przeciągnij plik JSON lub kliknij, aby przeglądać",
+      "dragCsv": "Przeciągnij plik CSV lub kliknij, aby przeglądać",
+      "browseLocal": "Wybierz z dysku"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "Sprawdź połączenie z internetem",
+        "Sprawdź proxy i zaporę"
+      ],
+      "platform": {
+        "windows": "Uruchom diagnostykę sieci systemu Windows",
+        "mac": "Uruchom diagnostykę sieci bezprzewodowej (macOS)"
+      },
+      "unknownError": "Wystąpił nieznany błąd",
+      "site": "ta witryna"
+    },
+    "html": {
+      "tryLabel": "Spróbuj:",
+      "showDetails": "Pokaż szczegóły",
+      "hideDetails": "Ukryj szczegóły",
+      "openAction": "Otwórz",
+      "reload": "Odśwież"
+    },
+    "offline": {
+      "headline": "Brak internetu",
+      "message": "Jesteś offline.",
+      "tryTips": [
+        "Sprawdź kable sieciowe, modem lub router",
+        "Połącz ponownie z Wi-Fi lub przełącz sieć"
+      ],
+      "action": "Odśwież"
+    },
+    "network": {
+      "headline": "Nie można uzyskać dostępu do tej witryny",
+      "message": "Połączenie z {hostname} przekroczyło limit czasu.",
+      "messageFallback": "Witryna zbyt długo odpowiada.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} odrzucił połączenie.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "Witryna odrzuciła połączenie.",
+        "ERR_CONNECTION_RESET": "Połączenie zostało zresetowane.",
+        "ERR_CONNECTION_TIMED_OUT": "Połączenie przekroczyło limit czasu.",
+        "ERR_TIMED_OUT": "Połączenie przekroczyło limit czasu.",
+        "ERR_ADDRESS_UNREACHABLE": "Adres jest nieosiągalny.",
+        "ERR_NETWORK_CHANGED": "Twoje połączenie sieciowe uległo zmianie.",
+        "ERR_CONNECTION_ABORTED": "Połączenie zostało przerwane.",
+        "ERR_CONNECTION_FAILED": "Nie udało się połączyć.",
+        "ERR_CONNECTION_CLOSED": "Połączenie zostało zamknięte.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "Połączenie zostało przerwane (błąd protokołu HTTP/2).",
+        "ERR_QUIC_PROTOCOL_ERROR": "Połączenie zostało przerwane (błąd protokołu QUIC)."
+      },
+      "tryTips": [
+        "Sprawdź, czy inne witryny się otwierają; jeśli nie, połącz się ponownie z siecią",
+        "Uruchom ponownie router lub włącz/wyłącz tryb samolotowy"
+      ],
+      "suggestions": [
+        {
+          "title": "Sprawdź dostępność serwera",
+          "detail": "Jeśli {site} jest usługą wewnętrzną, potwierdź, że jest online lub dostępna z bieżącej sieci."
+        },
+        {
+          "title": "Sprawdź oprogramowanie zabezpieczające",
+          "detail": "Zapory, antywirusy lub klienci VPN mogą przerywać żądania — wstrzymaj je tymczasowo i spróbuj ponownie."
+        }
+      ],
+      "action": "Odśwież"
+    },
+    "dns": {
+      "headline": "Nie można uzyskać dostępu do tej witryny",
+      "message": "Nie można znaleźć adresu IP {hostname}.",
+      "messageFallback": "Nie można znaleźć adresu IP serwera.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "Nie można znaleźć adresu IP {hostname}.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Nie można znaleźć adresu IP serwera.",
+        "ERR_NAME_RESOLUTION_FAILED": "Wyszukiwanie DNS nie powiodło się dla {hostname}.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "Wyszukiwanie DNS nie powiodło się.",
+        "ERR_DNS_TIMED_OUT": "Serwer DNS przekroczył limit czasu.",
+        "ERR_DNS_SERVER_FAILED": "Serwer DNS nie odpowiedział.",
+        "ERR_DNS_MALFORMED_RESPONSE": "Serwer DNS zwrócił nieprawidłową odpowiedź."
+      },
+      "tryTips": [
+        "Sprawdź poprawność adresu internetowego",
+        "Sprawdź konfigurację proxy, zapory i DNS"
+      ],
+      "suggestions": [
+        {
+          "title": "Sprawdź adres internetowy",
+          "detail": "Upewnij się, że {site} jest poprawnie zapisane. Jeśli tak, serwer DNS może być tymczasowo niedostępny."
+        },
+        {
+          "title": "Wyczyść pamięć podręczną DNS",
+          "detail": "Wyczyść pamięć podręczną DNS i odśwież (np. `ipconfig /flushdns` w Windows lub `sudo killall -HUP mDNSResponder` w macOS)."
+        }
+      ],
+      "action": "Odśwież"
+    },
+    "ssl": {
+      "headline": "Twoje połączenie nie jest prywatne",
+      "headlineSecure": "Ta witryna nie może zapewnić bezpiecznego połączenia",
+      "message": "Atakujący mogą próbować wykraść informacje z {hostname} (np. hasła, wiadomości lub karty kredytowe).",
+      "messageSecure": "Noi nie może nawiązać bezpiecznego połączenia z {hostname}.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "Witryna używa nieprawidłowego lub nieobsługiwanego protokołu SSL.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "Witryna używa nieobsługiwanego protokołu SSL lub szyfru.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "Łańcuch certyfikatów nie pasuje do przypiętego klucza.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Do uzyskania dostępu do tej witryny wymagany jest certyfikat klienta.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "Certyfikat klienta jest nieprawidłowy lub odrzucony.",
+        "ERR_CERT_COMMON_NAME_INVALID": "Certyfikat jest wystawiony dla innego adresu.",
+        "ERR_CERT_DATE_INVALID": "Certyfikat wygasł lub nie jest jeszcze ważny.",
+        "ERR_CERT_AUTHORITY_INVALID": "Certyfikat nie jest zaufany.",
+        "ERR_CERT_REVOKED": "Certyfikat został unieważniony.",
+        "ERR_CERT_INVALID": "Certyfikat jest nieprawidłowy.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "Certyfikat używa słabego algorytmu podpisu.",
+        "ERR_CERT_WEAK_KEY": "Certyfikat używa słabego klucza.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "Certyfikat narusza ograniczenia nazwy.",
+        "ERR_CERT_NON_UNIQUE_NAME": "Certyfikat jest współdzielony przez wiele witryn."
+      },
+      "suggestions": [
+        {
+          "title": "Sprawdź datę i godzinę na komputerze",
+          "detail": "Nieprawidłowy zegar może powodować błędy certyfikatu."
+        },
+        {
+          "title": "Zachowaj ostrożność",
+          "detail": "Kontynuuj tylko, jeśli rozumiesz ryzyko i ufasz tej witrynie."
+        }
+      ],
+      "action": "Odśwież"
+    },
+    "proxy": {
+      "headline": "Nie udało się połączyć z proxy",
+      "message": "Noi próbował uzyskać dostęp do witryny przez skonfigurowane proxy, ale połączenie się nie powiodło. Ta karta używa teraz połączenia bezpośredniego w trybie awaryjnym.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "Serwer proxy odrzucił połączenie.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "Tunel proxy nie powiódł się.",
+        "ERR_SOCKS_CONNECTION_FAILED": "Proxy SOCKS odrzuciło połączenie.",
+        "ERR_PROXY_AUTH_REQUESTED": "Serwer proxy wymaga uwierzytelnienia.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "Metoda uwierzytelniania proxy nie jest obsługiwana.",
+        "ERR_PAC_SCRIPT_FAILED": "Skrypt autokonfiguracji (PAC) proxy nie powiódł się.",
+        "ERR_NO_SUPPORTED_PROXIES": "Nie znaleziono obsługiwanych proxy dla tego żądania.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "Wymagana konfiguracja proxy nie powiodła się.",
+        "ERR_PROXY_REQUIRED": "Do uzyskania dostępu do tej witryny wymagane jest proxy."
+      },
+      "tryTips": [
+        "Potwierdź host, port i ustawienia uwierzytelniania proxy",
+        "Upewnij się, że serwer proxy jest dostępny z bieżącej sieci",
+        "Jeśli organizacja wymaga proxy, przywróć je i odśwież, gdy będzie dostępne"
+      ],
+      "suggestions": [
+        {
+          "title": "Przejrzyj reguły proxy Noi",
+          "detail": "Użyj ustawień Noi, aby potwierdzić, że reguły proxy i lista pomijania pasują do tej sieci.",
+          "actionLabel": "Otwórz ustawienia Noi"
+        },
+        {
+          "title": "Spróbuj ponownie z proxy później",
+          "detail": "Gdy proxy znów będzie dostępne, odśwież, aby przełączyć się z trybu bezpośredniego."
+        }
+      ],
+      "action": "Odśwież w trybie bezpośrednim"
+    },
+    "blocked": {
+      "headline": "Ta strona została zablokowana",
+      "message": "Żądanie zostało zablokowane przez rozszerzenie lub zasady bezpieczeństwa.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "Żądanie zostało zablokowane przez klienta lub rozszerzenie.",
+        "ERR_BLOCKED_BY_RESPONSE": "Odpowiedź została zablokowana przez witrynę lub zasady.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "Witryna wymaga bezpiecznego połączenia (HTTPS).",
+        "ERR_NETWORK_ACCESS_DENIED": "Dostęp do sieci został zablokowany przez zasady."
+      },
+      "tryTips": [
+        "Wyłącz rozszerzenia lub blokery treści i odśwież",
+        "Sprawdź konfigurację zapory i antywirusa"
+      ],
+      "suggestions": [
+        {
+          "title": "Wyłącz rozszerzenia lub blokery treści",
+          "detail": "Rozszerzenia takie jak blokery reklam lub trackerów mogą blokować żądania — wyłącz je tymczasowo i spróbuj ponownie."
+        },
+        {
+          "title": "Sprawdź zasady witryny",
+          "detail": "Odpowiedź może być blokowana przez X-Frame-Options lub Content Security Policy."
+        }
+      ],
+      "action": "Odśwież"
+    },
+    "client": {
+      "headline": "Ta strona nie działa",
+      "message": "Witryna zwróciła nieprawidłową odpowiedź.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} wysłał nieprawidłową lub pustą odpowiedź.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "Witryna wysłała nieprawidłową lub pustą odpowiedź.",
+        "ERR_FILE_NOT_FOUND": "Plik nie został znaleziony.",
+        "ERR_FILE_ACCESS_DENIED": "Odmówiono dostępu do pliku.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "Serwer odpowiedział błędem.",
+        "ERR_TOO_MANY_REDIRECTS": "Strona nie przekierowuje poprawnie.",
+        "ERR_INVALID_RESPONSE": "Witryna wysłała nieprawidłową odpowiedź.",
+        "ERR_INVALID_CHUNKED_ENCODING": "Witryna wysłała nieprawidłową odpowiedź.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "Witryna wysłała niekompletną odpowiedź.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "Witryna wysłała nieprawidłową odpowiedź.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "Witryna wysłała zbyt dużo danych w nagłówkach odpowiedzi.",
+        "ERR_CACHE_MISS": "Żądanie musi zostać wysłane ponownie.",
+        "ERR_INVALID_URL": "Adres internetowy jest nieprawidłowy.",
+        "ERR_DISALLOWED_URL_SCHEME": "Ten schemat URL jest niedozwolony.",
+        "ERR_UNKNOWN_URL_SCHEME": "Ten schemat URL nie jest obsługiwany.",
+        "ERR_UNSAFE_PORT": "Ten port jest zablokowany ze względów bezpieczeństwa.",
+        "ERR_INVALID_REDIRECT": "Witryna zwróciła nieprawidłowe przekierowanie.",
+        "ERR_UNSAFE_REDIRECT": "Witryna próbowała niebezpiecznego przekierowania.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "Witryna zwróciła zbyt dużo danych w nagłówkach odpowiedzi.",
+        "ERR_METHOD_NOT_SUPPORTED": "Metoda żądania nie jest obsługiwana."
+      },
+      "tryTips": [
+        "Odśwież stronę",
+        "Wyczyść pamięć podręczną przeglądarki lub zapisane dane witryny"
+      ],
+      "suggestions": [
+        {
+          "title": "Wyczyść dane witryny",
+          "detail": "Usuń pliki cookie i pliki cache dla tej witryny, a następnie odśwież."
+        },
+        {
+          "title": "Zgłoś właścicielowi witryny",
+          "detail": "Jeśli problem się powtarza, skontaktuj się z administratorem witryny, podając kod błędu poniżej."
+        }
+      ],
+      "action": "Odśwież"
+    },
+    "unknown": {
+      "headline": "Ta strona nie działa",
+      "message": "Wystąpił nieoczekiwany błąd ({code}).",
+      "tryTips": [
+        "Odśwież stronę",
+        "Jeśli problem się utrzymuje, zanotuj kod błędu i skontaktuj się z administratorem witryny lub zespołem wsparcia"
+      ],
+      "action": "Odśwież"
+    }
+  }
+}

@@ -1,223 +1,586 @@
 {
-  "lang": "العربية",
-  "sponsor": "الراعي Noi",
+  "language": "العربية",
+  "engines": "محركات البحث",
+  "version": "الإصدار",
+  "doc": "التوثيق",
+  "sponsor": "الراعي",
+  "website": "الموقع الإلكتروني",
   "menu": {
     "name": "القائمة",
-    "about": "عن Noi",
+    "about": "حول Noi",
     "hide": "إخفاء Noi",
     "hideOthers": "إخفاء الآخرين",
     "quit": "إنهاء Noi",
     "unhide": "إظهار الكل",
+    "noiHotkey": "اختصار Noi",
+    "noiAskHotkey": "اختصار NoiAsk",
+    "sidebar": "الشريط الجانبي",
     "checkUpdates": "التحقق من التحديثات…",
-
     "settings": "الإعدادات",
-    "languages": "اللغات",
+    "stayOnTop": "دائمًا في المقدمة",
+    "services": "الخدمات",
+    "newTabSidePanel": "علامة تبويب جديدة في اللوحة الجانبية",
+    "newTabMain": "علامة تبويب جديدة في النافذة الرئيسية",
+    "bordless": "نافذة بلا حدود",
     "theme": {
       "name": "السمة",
+      "system": "حسب النظام",
       "light": "فاتح",
       "dark": "داكن",
-      "system": "النظام",
-      "monochromatic": "أحادي اللون",
-      "frostedTexture": "نمط ضبابي"
+      "style": "نمط السمة"
     },
-    "stayOnTop": "البقاء في المقدمة",
-    "lockSidebar": "قفل الشريط الجانبي",
-    "showSidebar": "إظهار الشريط الجانبي",
-    "hideSidebar": "إخفاء الشريط الجانبي",
-    "noiCacheMode": "وضع التخزين المؤقت لـ Noi",
-    "devTools": "أدوات المطور",
-    "xQuit": "انقر [X] للخروج",
-    "systemTray": "علبة النظام",
-
-    "edit": "تحرير",
-    "undo": "تراجع",
-    "redo": "إعادة",
-    "pasteAndMatchStyle": "لصق ومطابقة النمط",
-    "delete": "حذف",
-
-    "view": "عرض",
-    "refresh": "تحديث الصفحة",
-    "goBack": "الرجوع",
-    "goForward": "التقدم للأمام",
-    "resetZoom": "الحجم الفعلي",
-    "zoomIn": "تكبير",
-    "zoomOut": "تصغير",
-    "fullScreen": "دخول ملء الشاشة",
-
-    "help": "مساعدة",
-    "log": "سجل Noi",
-    "gettingStarted": "البدء",
-    "issues": "مشاكل GitHub",
-    "shareIdeas": "مشاركة الأفكار والملاحظات",
-
-    "defaultWebBrowser": "المتصفح الافتراضي",
-    "learnSpelling": "تعلم الإملاء",
-    "lookUpSelection": "البحث عن “{selection}”",
-    "searchWithGoogle": "البحث باستخدام Google",
-    "searchWithBing": "البحث باستخدام Bing",
-    "cut": "قص",
-    "copy": "نسخ",
-    "paste": "لصق",
-    "selectAll": "تحديد الكل",
-    "saveImage": "حفظ الصورة",
-    "saveImageAs": "حفظ الصورة باسم…",
-    "saveVideo": "حفظ الفيديو",
-    "saveVideoAs": "حفظ الفيديو باسم…",
-    "copyLink": "نسخ الرابط",
-    "saveLinkAs": "حفظ الرابط باسم…",
-    "copyImage": "نسخ الصورة",
-    "copyImageAddress": "نسخ عنوان الصورة",
-    "copyVideoAddress": "نسخ عنوان الفيديو",
-    "inspect": "فحص العنصر",
-    "services": "الخدمات",
-    "reload": "إعادة تحميل",
-    "rename": "إعادة تسمية",
-    "user": "المستخدم",
-    "setSystemTray": "تعيين كعلبة النظام",
-    "clearCache": "مسح بيانات التخزين المؤقت",
     "find": {
       "name": "بحث",
-      "findInPage": "البحث في الصفحة…",
-      "findNext": "بحث عن التالي",
-      "findPrevious": "بحث عن السابق",
+      "next": "البحث التالي",
+      "previous": "البحث السابق",
       "jumpToSelection": "الانتقال إلى التحديد"
+    },
+    "edit": {
+      "name": "تحرير",
+      "undo": "تراجع",
+      "redo": "إعادة",
+      "cut": "قص",
+      "copy": "نسخ",
+      "paste": "لصق",
+      "pasteAndMatchStyle": "لصق ومطابقة النمط",
+      "delete": "حذف",
+      "selectAll": "تحديد الكل"
+    },
+    "tab": {
+      "openDefault": "فتح في المتصفح الافتراضي",
+      "addSidebarTemp": "إضافة إلى الشريط الجانبي (TempLink)",
+      "copyUrl": "نسخ URL",
+      "copyUrlMd": "نسخ URL بتنسيق Markdown"
+    },
+    "help": {
+      "name": "مساعدة",
+      "feedback": "ملاحظات"
     }
+  },
+  "session": {
+    "clearCurrent": "مسح بيانات الجلسة",
+    "clearAll": "مسح كل بيانات الجلسة",
+    "clearRemovedSites": "مسح بيانات المواقع التي تمت إزالتها",
+    "confirmCurrent": "هل تريد مسح بيانات الموقع «{target}»؟ سيؤدي ذلك إلى إزالة ملفات تعريف الارتباط والتخزين لهذه الجلسة.",
+    "confirmAll": "هل تريد مسح بيانات الموقع لجميع الجلسات؟ قد يؤدي ذلك إلى تسجيل خروجك من بعض المواقع.",
+    "confirmRemovedSites": "هل تريد إزالة بيانات الموقع لـ {count, plural, one {# جلسة} other {# جلسات}} من المواقع التي لم تعد في فهرسك؟",
+    "resultNoRemovedSites": "لم يتم العثور على بيانات مخزنة للمواقع التي تمت إزالتها.",
+    "helpRemovedSites": "جلسات المواقع التي تمت إزالتها هي ملفات تعريف الارتباط والتخزين المتبقي بعد إزالة تلك المواقع من الفهرس."
+  },
+  "view": {
+    "name": "عرض",
+    "tabs": "علامات تبويب Noi",
+    "spaces": "{count, plural, one {مساحة Noi} other {مساحات Noi}}",
+    "toolbar": "شريط أدوات Noi",
+    "markdown": "Markdown",
+    "minibar": "شريط مصغر",
+    "manageSpaces": "إدارة المساحات",
+    "reload": "إعادة تحميل",
+    "goBack": "رجوع",
+    "goForward": "إلى الأمام",
+    "zoom": "تكبير/تصغير",
+    "actualSize": "الحجم الفعلي",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "devTools": "أدوات المطور",
+    "newTab": "علامة تبويب جديدة",
+    "newTabPlaceholder": "{hasEngine, select, true {ابحث باستخدام {engine} أو أدخل URL…} other {ابحث أو أدخل URL…}}",
+    "closeTab": "إغلاق علامة التبويب",
+    "closeOtherTabs": "إغلاق علامات التبويب الأخرى",
+    "mute": "كتم",
+    "unmute": "إلغاء الكتم",
+    "incognito": "تصفح خفي",
+    "sidePanel": "لوحة جانبية",
+    "newFolder": "مجلد جديد",
+    "addLink": "إضافة رابط",
+    "mainWindow": "النافذة الرئيسية",
+    "switchMainTab": "التبديل إلى علامة التبويب الرئيسية",
+    "switchSideTab": "التبديل إلى علامة تبويب اللوحة الجانبية",
+    "newFile": "ملف جديد",
+    "bookmark": "إشارة مرجعية",
+    "bookmarkTab": "وضع إشارة مرجعية لعلامة التبويب هذه",
+    "copyUrlMetadata": "نسخ بيانات URL الوصفية",
+    "removeNoiView": "إزالة من NoiView",
+    "addNoiView": "إضافة إلى NoiView",
+    "openNewWindow": "فتح في نافذة جديدة",
+    "openSidePanel": "فتح في اللوحة الجانبية",
+    "pin": "تثبيت",
+    "unpin": "إزالة التثبيت",
+    "lockLink": "قفل الرابط",
+    "unlockLink": "إلغاء قفل الرابط",
+    "buttonHighlight": "إبراز أزرار شريط العنوان"
+  },
+  "window": {
+    "close": "إغلاق",
+    "goMain": "الانتقال إلى النافذة الرئيسية",
+    "dialog": "نافذة حوار",
+    "drag": "اسحب للتحريك",
+    "minimize": "تصغير",
+    "maximize": "تكبير",
+    "restore": "استعادة"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {موجّه} other {موجّهات}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "مزامنة",
+    "manageSemVer": "إدارة SemVer",
+    "manageLog": "إدارة LOG",
+    "addPrompt": "إضافة موجّه",
+    "lockPrompt": "قفل الموجّه",
+    "unlockPrompt": "إلغاء قفل الموجّه",
+    "copyPrompt": "نسخ الموجّه",
+    "deletePrompt": "حذف الموجّه",
+    "filterTags": "تصفية TAG",
+    "filterRule": "قاعدة التصفية",
+    "filterLockPrompts": "تصفية: الموجّهات المقفلة"
+  },
+  "history": {
+    "name": "السجل",
+    "clearAll": "مسح السجل بالكامل",
+    "refresh": "تحديث السجل",
+    "remove": "إزالة من السجل",
+    "search": "البحث في السجل",
+    "searchClear": "مسح البحث",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {لا توجد نتائج بحث لـ «{q}»} one {تم العثور على نتيجة بحث واحدة لـ «{q}»} other {تم العثور على # نتائج بحث لـ «{q}»}}} other {{count, plural, =0 {لا توجد نتائج} one {تم العثور على نتيجة واحدة} other {تم العثور على # نتائج}}}}",
+    "moreThisSite": "المزيد من هذا الموقع",
+    "dialogTitle": "مسح كل السجل؟",
+    "dialogMessage": "يؤدي هذا الإجراء إلى حذف جميع سجلات السجل المحفوظة نهائيًا ولا يمكن التراجع عنه.",
+    "result1": "فشل تحميل السجل. {error}",
+    "result2": "لا يوجد سجل بعد.",
+    "result3": "لا توجد نتائج بحث",
+    "result4": "لم يتم العثور على بيانات.",
+    "tips": "مطابقة تقريبية عبر العناوين وعناوين URL. حسّنها بمرشحات الحقول:",
+    "tip1": "العنوان يحتوي على «example»",
+    "tip2": "صفحات من «example.com»",
+    "tip3": "في 2024/01/01",
+    "tip4": "بين 2024/01/01–2025/12/31",
+    "tip5": "قبل 2024/01/01",
+    "tip6": "بعد 2024/01/01",
+    "tip7": "تمت الزيارة 3 مرات بالضبط",
+    "tip8": "تمت الزيارة أقل من 3 مرات",
+    "tip9": "تمت الزيارة أكثر من 3 مرات"
   },
   "form": {
+    "editor": "المحرر",
+    "partition": "عزل الجلسة",
     "name": "الاسم",
-    "url": "الرابط",
-    "isolatedCookieStorage": "تخزين الكوكيز المعزول",
-    "invalidURL": "يرجى إدخال رابط صالح.",
-    "nameNotEmpty": "لا يمكن أن يكون الاسم فارغًا."
-  },
-  "sidebar": {
-    "warn": {
-      "urlDelete": "الرابط الحالي قيد الاستخدام.",
-      "dirDelete": "الدليل الحالي قيد الاستخدام.",
-      "trayDelete": "علبة النظام تستخدم الرابط الحالي، لا يمكن حذفه."
+    "url": "URL",
+    "small": "صغير",
+    "medium": "متوسط",
+    "large": "كبير",
+    "icon": "أيقونة",
+    "inputElement": "عنصر الإدخال",
+    "sendElement": "عنصر الإرسال",
+    "cssSelector": "محدد CSS",
+    "lightMode": "الوضع الفاتح",
+    "darkMode": "الوضع الداكن",
+    "customIcon": "أيقونة مخصصة",
+    "linkIcon": "أيقونة الرابط",
+    "dirIcon": "أيقونة المجلد",
+    "dirOpenIcon": "أيقونة المجلد المفتوح",
+    "selectUA": "اختر User Agent",
+    "customUA": "أو أدخل سلسلة User Agent مخصصة…",
+    "rawJson": "JSON خام",
+    "validation": {
+      "nameRequired": "يرجى إدخال اسم.",
+      "urlRequired": "يرجى إدخال URL.",
+      "userAgentRequired": "يرجى إدخال سلسلة User Agent.",
+      "invalidJson": "JSON غير صالح.",
+      "fixJsonErrors": "يرجى إصلاح أخطاء التحقق من JSON قبل الحفظ.",
+      "required": "هذا الحقل مطلوب."
     },
     "tip": {
-      "delete": "لا يمكن استعادته بعد الحذف، هل أنت متأكد أنك تريد الحذف؟",
-      "syncOverwrite": "ستؤدي المزامنة إلى الكتابة فوق جميع البيانات باستثناء البيانات المخصصة. هل تريد المتابعة؟",
-      "syncReset": "أنت حاليًا على أحدث إصدار. ستؤدي المزامنة إلى إعادة تعيين جميع البيانات باستثناء البيانات المخصصة. هل تريد المتابعة؟",
-      "syncOk": "تمت المزامنة بنجاح",
-      "syncResetOk": "تمت إعادة التعيين بنجاح"
-    }
-  },
-  "network": {
-    "error": {
-      "try": "جرب:",
-      "title": "لا يمكن الوصول إلى هذا الموقع",
-      "longRespond": "استغرق وقتًا طويلًا للرد.",
-      "checkConnection": "تحقق من الاتصال",
-      "checkProxy": "تحقق من الوكيل والجدار الناري"
-    }
-  },
-  "settings": {
-    "menu": {
-      "general": {
-        "name": "عام",
-        "syncBookmarks": "مزامنة الإشارات المرجعية",
-        "proxy": "الوكيل",
-        "proxyRules": "القواعد",
-        "proxyBypassRules": "قواعد الاستثناء",
-        "promptLogLimit": "حد السجل",
-        "promptLogArchiveLimit": "حد أرشيف السجل",
-        "promptFavoritesLimit": "حد المفضلة",
-        "promptFavoritesArchiveLimit": "حد أرشيف المفضلة"
-      },
-      "keyboardShortcuts": {
-        "name": "اختصارات لوحة المفاتيح",
-        "recording": "تسجيل…",
-        "globalShortcut": "اختصار عالمي",
-        "trayShortcut": "اختصار علبة النظام"
-      },
-      "extensions": "الإضافات",
-      "prompts": {
-        "name": "المطالبات",
-        "userPrompts": "مطالبات المستخدم",
-        "promptTags": "علامات المطالبات",
-        "customSync": "مزامنة مخصصة"
-      }
-    },
-    "confirm": {
-      "delete": "هل أنت متأكد أنك تريد حذف هذا السجل؟",
-      "batchEnable": "هل تريد تمكين هذه المطالبات؟",
-      "batchDelete": "هل تريد حذف هذه المطالبات؟",
-      "batchDisable": "هل تريد تعطيل هذه المطالبات؟",
-      "batchUse": "هل تريد استخدام هذه المطالبات؟",
-      "batchTagsAdd": "هل تريد إضافة هذه العلامات؟",
-      "batchTagsDelete": "هل تريد حذف هذه العلامات؟"
-    },
-    "message": {
-      "added": "تمت الإضافة",
-      "synced": "تمت المزامنة",
-      "invalidData": "بيانات غير صالحة",
-      "missingActAndPrompt": "الحقول مفقودة: 'act'، 'prompt'. جرب استخدام 'Alias' لإعادة التسمية.",
-      "missingManifest": "ملف manifest.json مفقود أو غير صالح.",
-      "checkExtension": "يرجى إعادة فحص دليل الامتداد:",
-      "existExtension": "الامتداد موجود بالفعل."
-    },
-    "tip": {
-      "proxyRules": "قواعد تحدد أي الوكلاء سيتم استخدامهم.",
-      "proxyBypassRules": "قواعد تحدد أي الروابط يجب أن تتجاوز إعدادات الوكيل.",
-      "shortcutRule": "قاعدة الاختصار",
-      "modifierKeys": "مفاتيح التعديل",
-      "regularKeys": "المفاتيح العادية",
-      "noiExtension": "لاحظ أن Noi لا يدعم المجموعة الكاملة من واجهات برمجة تطبيقات امتدادات Chrome. انظر واجهات برمجة التطبيقات المدعومة للمزيد من التفاصيل.",
-      "noiCacheMode": "يخزن حالات صفحات الويب لإعادة الوصول السريع، مشابهًا للتبويبات في المتصفح. زيادة التسجيل المستمر للحالات يزيد من استخدام الذاكرة، خاصة عند الوصول المتكرر إلى روابط الشريط الجانبي المختلفة. لتخفيف تأثير الذاكرة، خاصة خلال بطء النظام، ضع في اعتبارك تعطيل أو إعادة تشغيل التخزين المؤقت بعد التبديلات المتعددة.",
-      "promptLogLimit": "الحد الأقصى لعدد المطالبات التي سيتم الاحتفاظ بها في السجل (10-1,000)، والافتراضي هو 300.",
-      "promptLogArchiveLimit_1": "الحد الأقصى لعدد المطالبات التي يمكن تخزينها في ملف أرشيف واحد (1,000-10,000)، والافتراضي هو 1,000.",
-      "promptLogArchiveLimit_2": "1. الملف الذي يتم أرشفته حاليًا: {{file}}.archiving.json",
-      "promptLogArchiveLimit_3": "2. اتفاقية التسمية لملفات الأرشيف المكتملة: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json، حيث يمثل YYYY.MM.DD.HH.mm.ss أوقات البدء والانتهاء على التوالي. على سبيل المثال: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
-    },
-    "table": {
-      "name": "اسم",
-      "extension": "امتداد",
-      "description": "تعريف",
-      "version": "إصدار",
-      "tag": "Tag",
-      "color": "لون",
-      "lastUpdate": "آخر تحديث",
-      "usageCount": "عدد الاستخدام"
+      "agentWarning": "تحذير أمني: قد يكون السماح لصفحات الويب بالوصول إلى Noi API خطيراً."
     }
   },
   "action": {
-    "name": "عملية",
-    "add": "أضف",
-    "cancel": "الغ",
-    "create": "أنشئ",
-    "confirm": "أكّد",
-    "detail": "تفاصيل",
-    "delete": "احذف",
-    "disable": "عطّل",
-    "edit": "حرّر",
-    "enable": "فعّل",
-    "export": "صدّر",
-    "refresh": "أنعش",
+    "name": "إجراء",
+    "archive": "أرشفة",
+    "back": "رجوع",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "create": "إنشاء",
+    "delete": "حذف",
+    "details": "التفاصيل",
+    "edit": "تحرير",
+    "restore": "استعادة",
+    "query": "استعلام",
+    "refresh": "تحديث",
+    "rename": "إعادة تسمية",
     "reset": "إعادة ضبط",
-    "sync": "زامن",
-    "save": "احفظ",
-    "search": "ابحث",
-    "select": "حدّد",
-    "use": "استعمل",
-    "copied": "منسوخ",
-    "batchAdd": "إضافة دفعة",
-    "batchDisable": "تعطيل دفعة",
-    "batchEnable": "تفعيل دفعة",
-    "batchDelete": "حذف دفعة",
-    "batchUse": "استعمال دفعة"
+    "save": "حفظ",
+    "send": "إرسال",
+    "use": "استخدم",
+    "clean": "حذف من القرص",
+    "enable": "تمكين",
+    "disable": "تعطيل",
+    "importAsk": "استيراد إلى NoiAsk",
+    "openLocales": "فتح مجلد Locales"
   },
-  "prompt": {
-    "promptFavorite": "المطالبات المفضلة",
-    "promptLog": "سجل المطالبات",
-    "promptSend": "إرسال سريع",
-    "newChat": "دردشة جديدة",
-    "sendMessage": "أرسل رسالة",
-    "resetPanel": "إعادة تعيين اللوحة",
-    "promptCmd": "أمر موجه",
-    "sizeSmall": "صغير",
-    "sizeMedium": "متوسط",
-    "sizeLarge": "كبير"
+  "table": {
+    "active": "نشط",
+    "archived": "مؤرشف",
+    "color": "لون",
+    "createdAt": "تاريخ الإنشاء",
+    "delete": "حذف",
+    "description": "الوصف",
+    "details": "التفاصيل",
+    "disabled": "معطل",
+    "enabled": "ممكّن",
+    "entries": "إدخالات",
+    "fileSize": "حجم الملف",
+    "mode": "الوضع",
+    "status": "الحالة",
+    "trash": "المحذوفات",
+    "unknown": "غير معروف",
+    "updatedAt": "تاريخ التحديث",
+    "usageCount": "عدد مرات الاستخدام",
+    "tagAdd": "إضافة TAG",
+    "tagRemove": "إزالة TAG",
+    "visible": "مرئي",
+    "total": "الإجمالي",
+    "locked": "مقفل",
+    "text": "نص",
+    "sendCount": "عدد مرات الإرسال",
+    "addSource": "إضافة مصدر",
+    "lastSynced": "آخر مزامنة",
+    "message": {
+      "completed": "اكتمل الإجراء.",
+      "failed": "فشل الإجراء.",
+      "noData": "لم يتم العثور على بيانات.",
+      "dataExist": "البيانات موجودة بالفعل.",
+      "dataExistOrDuplicated": "كل البيانات موجودة بالفعل أو مكررة.",
+      "failedLoad": "فشل تحميل البيانات.",
+      "importedCount": "تم الاستيراد: {count}.",
+      "skippedCount": "تم التخطي: {count}.",
+      "deleteSelected": "هل أنت متأكد من حذف الصفوف المحددة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "deleteItem": "هل أنت متأكد من حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.",
+      "deleteFile": "حذف هذا الملف من القرص؟ لا يمكن التراجع عن هذا الإجراء.",
+      "removeItem": "إزالة هذا العنصر من القائمة؟ سيبقى الملف على القرص.",
+      "deleteBuiltin": "لا يمكن حذف المصدر المدمج.",
+      "importedAsk": "تم الاستيراد إلى NoiAsk.",
+      "deleteUseTag": "هذا TAG قيد الاستخدام حاليًا ولا يمكن حذفه."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "طلب تأكيد عند الخروج",
+      "title": "هل تريد إنهاء Noi الآن؟",
+      "detail": "سيتم إغلاق جميع النوافذ والمهام."
+    },
+    "nshQuit": {
+      "title": "هل تريد إغلاق الطرفية؟",
+      "detail": "سيتم إنهاء المهام الجارية فوراً."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "عام",
+      "language": "اللغة",
+      "sidebarIcon": "حجم أيقونة الشريط الجانبي",
+      "homeLink": "رابط الصفحة الرئيسية",
+      "limit": "حد الاستعلام",
+      "cometCursor": "مؤشر مذنب NoiAsk",
+      "cometTrail": "أثر مذنب NoiAsk",
+      "lockLocales": "قفل مجلد Locales",
+      "lockLocalesTip": "قم بقفل مجلد Locales لمنع التحديثات التلقائية من تعديل ملفات اللغة. مفيد للترجمات المخصصة.",
+      "urlMetadata": "بيانات URL الوصفية",
+      "sidebarAnchor": {
+        "name": "مرساة الشريط الجانبي",
+        "off": "إيقاف",
+        "leftTop": "أعلى اليسار",
+        "leftCenter": "اليسار الأوسط",
+        "leftBottom": "أسفل اليسار",
+        "rightTop": "أعلى اليمين",
+        "rightCenter": "اليمين الأوسط",
+        "rightBottom": "أسفل اليمين",
+        "disableWarning": "إيقاف هذا يخفي زر التشغيل العائم. لا يمكن إعادة فتح الشريط الجانبي إلا بواسطة اختصار Noi، وتعارض الاختصارات مع المواقع شائع، لذا لا يُنصح بإيقافه.",
+        "disableConfirmTitle": "تعطيل مرساة الشريط الجانبي؟"
+      },
+      "nsh": {
+        "name": "NSH (الطرفية)",
+        "fontFamily": "نوع الخط",
+        "fontSize": "حجم الخط",
+        "lineHeight": "ارتفاع السطر",
+        "cursorBlink": "وميض المؤشر",
+        "cursorStyle": "نمط المؤشر",
+        "cursorWidth": "عرض المؤشر",
+        "cursorInactiveStyle": "نمط المؤشر غير النشط",
+        "scrollback": "التمرير للخلف",
+        "tip": {
+          "cursorWidth": "ينطبق فقط عندما يكون نمط المؤشر «Bar».",
+          "scrollback": "عدد الصفوف التي يتم الاحتفاظ بها في السجل عند تمرير الطرفية."
+        }
+      },
+      "proxy": {
+        "name": "الوكيل",
+        "rules": "قواعد الوكيل",
+        "bypass": "قواعد تجاوز الوكيل"
+      }
+    },
+    "shortcuts": {
+      "name": "الاختصارات",
+      "noiAskPrompt": "مطالبة NoiAsk: {action}",
+      "noiAskPromptWithContext": "مطالبة NoiAsk: {action} ({context})",
+      "placeholder": "اضغط الاختصار أو اكتب",
+      "helpText": "اضغط مجموعة المفاتيح المطلوبة أو اكتبها (مثل Ctrl+Shift+X)",
+      "conflict": "الاختصار مستخدم بالفعل"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "JSON عن بُعد",
+        "remoteCsv": "CSV عن بُعد",
+        "localJson": "JSON محلي",
+        "localCsv": "CSV محلي"
+      },
+      "filePathMissing": "مسار الملف غير صالح.",
+      "fileReadFailed": "فشل قراءة محتوى الملف.",
+      "fileOpenFailed": "تعذر فتح منتقي الملفات.",
+      "fileRequired": "يرجى اختيار ملف للمزامنة.",
+      "notFound": "لم يتم العثور على مصدر المزامنة.",
+      "error": "خطأ في مزامنة المطالبات",
+      "pickLocalFile": "اختر ملفًا محليًا",
+      "type": "نوع المصدر",
+      "alias": "تعيين الحقول",
+      "upload": "رفع ملف",
+      "dragJson": "اسحب ملف JSON أو انقر للتصفح",
+      "dragCsv": "اسحب ملف CSV أو انقر للتصفح",
+      "browseLocal": "اختر من القرص"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "تحقق من اتصال الإنترنت",
+        "تحقق من الوكيل وجدار الحماية"
+      ],
+      "platform": {
+        "windows": "تشغيل تشخيص شبكة Windows",
+        "mac": "تشغيل تشخيص اللاسلكي (macOS)"
+      },
+      "unknownError": "حدث خطأ غير معروف",
+      "site": "هذا الموقع"
+    },
+    "html": {
+      "tryLabel": "جرّب:",
+      "showDetails": "إظهار التفاصيل",
+      "hideDetails": "إخفاء التفاصيل",
+      "openAction": "فتح",
+      "reload": "إعادة تحميل"
+    },
+    "offline": {
+      "headline": "لا يوجد اتصال بالإنترنت",
+      "message": "أنت غير متصل.",
+      "tryTips": [
+        "تحقق من كابل الشبكة أو المودم أو الراوتر",
+        "أعد الاتصال بشبكة Wi-Fi أو بدّل إلى شبكة أخرى"
+      ],
+      "action": "إعادة تحميل"
+    },
+    "network": {
+      "headline": "يتعذر الوصول إلى هذا الموقع",
+      "message": "انتهت مهلة الاتصال بـ {hostname}.",
+      "messageFallback": "استغرق الموقع وقتًا طويلاً في الاستجابة.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "رفض {hostname} الاتصال.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "رفض الموقع الاتصال.",
+        "ERR_CONNECTION_RESET": "تمت إعادة تعيين الاتصال.",
+        "ERR_CONNECTION_TIMED_OUT": "انتهت مهلة الاتصال.",
+        "ERR_TIMED_OUT": "انتهت مهلة الاتصال.",
+        "ERR_ADDRESS_UNREACHABLE": "العنوان غير قابل للوصول.",
+        "ERR_NETWORK_CHANGED": "تغير اتصال الشبكة لديك.",
+        "ERR_CONNECTION_ABORTED": "تم إيقاف الاتصال.",
+        "ERR_CONNECTION_FAILED": "فشل الاتصال.",
+        "ERR_CONNECTION_CLOSED": "تم إغلاق الاتصال.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "تمت مقاطعة الاتصال (خطأ بروتوكول HTTP/2).",
+        "ERR_QUIC_PROTOCOL_ERROR": "تمت مقاطعة الاتصال (خطأ بروتوكول QUIC)."
+      },
+      "tryTips": [
+        "تحقق مما إذا كانت المواقع الأخرى تفتح؛ إن لم تفتح فأعد الاتصال بالشبكة",
+        "أعد تشغيل الراوتر أو فعّل/أوقف وضع الطيران"
+      ],
+      "suggestions": [
+        {
+          "title": "تحقق من توفر الخادم",
+          "detail": "إذا كان {site} خدمة داخلية، فتأكد من أنه متصل أو يمكن الوصول إليه من الشبكة الحالية."
+        },
+        {
+          "title": "افحص برامج الأمان",
+          "detail": "قد تعطل جدران الحماية أو برامج مكافحة الفيروسات أو عملاء VPN الطلبات—أوقف هذه الأدوات مؤقتًا وأعد المحاولة."
+        }
+      ],
+      "action": "إعادة تحميل"
+    },
+    "dns": {
+      "headline": "يتعذر الوصول إلى هذا الموقع",
+      "message": "تعذر العثور على عنوان IP لـ {hostname}.",
+      "messageFallback": "تعذر العثور على عنوان IP للخادم.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "تعذر العثور على عنوان IP لـ {hostname}.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "تعذر العثور على عنوان IP للخادم.",
+        "ERR_NAME_RESOLUTION_FAILED": "فشل بحث DNS لـ {hostname}.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "فشل بحث DNS.",
+        "ERR_DNS_TIMED_OUT": "انتهت مهلة خادم DNS.",
+        "ERR_DNS_SERVER_FAILED": "لم يستجب خادم DNS.",
+        "ERR_DNS_MALFORMED_RESPONSE": "أعاد خادم DNS استجابة غير صالحة."
+      },
+      "tryTips": [
+        "تحقق من صحة تهجئة عنوان الويب",
+        "تحقق من إعدادات الوكيل وجدار الحماية وDNS"
+      ],
+      "suggestions": [
+        {
+          "title": "تحقق من عنوان الويب",
+          "detail": "تأكد من صحة كتابة {site}. إذا كان صحيحًا فقد يكون خادم DNS غير متاح مؤقتًا."
+        },
+        {
+          "title": "مسح ذاكرة التخزين المؤقت لـ DNS",
+          "detail": "امسح ذاكرة التخزين المؤقت لـ DNS وأعد التحميل (مثلاً `ipconfig /flushdns` على Windows أو `sudo killall -HUP mDNSResponder` على macOS)."
+        }
+      ],
+      "action": "إعادة تحميل"
+    },
+    "ssl": {
+      "headline": "اتصالك غير خاص",
+      "headlineSecure": "لا يمكن لهذا الموقع توفير اتصال آمن",
+      "message": "قد يحاول المهاجمون سرقة معلومات من {hostname} (مثل كلمات المرور أو الرسائل أو بطاقات الائتمان).",
+      "messageSecure": "لا يستطيع Noi إنشاء اتصال آمن بـ {hostname}.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "يستخدم الموقع بروتوكول SSL غير صالح أو غير مدعوم.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "يستخدم الموقع بروتوكول SSL غير مدعوم أو شيفرة غير مدعومة.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "سلسلة الشهادات لا تطابق المفتاح المثبت.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "مطلوب شهادة عميل للوصول إلى هذا الموقع.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "شهادة العميل غير صالحة أو تم رفضها.",
+        "ERR_CERT_COMMON_NAME_INVALID": "الشهادة صالحة لعنوان مختلف.",
+        "ERR_CERT_DATE_INVALID": "انتهت صلاحية الشهادة أو لم تصبح صالحة بعد.",
+        "ERR_CERT_AUTHORITY_INVALID": "الشهادة غير موثوقة.",
+        "ERR_CERT_REVOKED": "تم إلغاء الشهادة.",
+        "ERR_CERT_INVALID": "الشهادة غير صالحة.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "تستخدم الشهادة خوارزمية توقيع ضعيفة.",
+        "ERR_CERT_WEAK_KEY": "تستخدم الشهادة مفتاحًا ضعيفًا.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "تنتهك الشهادة قيود الاسم.",
+        "ERR_CERT_NON_UNIQUE_NAME": "الشهادة مشتركة بين مواقع متعددة."
+      },
+      "suggestions": [
+        {
+          "title": "تحقق من تاريخ ووقت الكمبيوتر",
+          "detail": "قد يتسبب ضبط الوقت بشكل غير صحيح في أخطاء الشهادات."
+        },
+        {
+          "title": "توخ الحذر",
+          "detail": "تابع فقط إذا كنت تفهم المخاطر وتثق بالموقع."
+        }
+      ],
+      "action": "إعادة تحميل"
+    },
+    "proxy": {
+      "headline": "فشل اتصال الوكيل",
+      "message": "حاول Noi الوصول إلى الموقع عبر الوكيل المكوَّن، لكن الاتصال لم ينجح. يستخدم هذا التبويب الآن اتصالًا مباشرًا كخيار احتياطي.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "رفض خادم الوكيل الاتصال.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "فشل نفق الوكيل.",
+        "ERR_SOCKS_CONNECTION_FAILED": "رفض وكيل SOCKS الاتصال.",
+        "ERR_PROXY_AUTH_REQUESTED": "يتطلب خادم الوكيل المصادقة.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "طريقة مصادقة الوكيل غير مدعومة.",
+        "ERR_PAC_SCRIPT_FAILED": "فشل نص التكوين التلقائي (PAC) للوكيل.",
+        "ERR_NO_SUPPORTED_PROXIES": "لم يتم العثور على وكلاء مدعومين لهذا الطلب.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "فشل تكوين الوكيل المطلوب.",
+        "ERR_PROXY_REQUIRED": "يلزم وكيل للوصول إلى هذا الموقع."
+      },
+      "tryTips": [
+        "تأكد من مضيف الوكيل والمنفذ وإعدادات المصادقة",
+        "تأكد من أن خادم الوكيل يمكن الوصول إليه من الشبكة الحالية",
+        "إذا كانت المؤسسة تتطلب الوكيل، فأعده وحمّل الصفحة عندما يعود للعمل"
+      ],
+      "suggestions": [
+        {
+          "title": "راجع قواعد وكيل Noi",
+          "detail": "استخدم إعدادات Noi للتأكد من أن قواعد الوكيل وقائمة التجاوز مطابقة لهذه الشبكة.",
+          "actionLabel": "فتح إعدادات Noi"
+        },
+        {
+          "title": "أعد المحاولة باستخدام الوكيل لاحقًا",
+          "detail": "عندما يصبح الوكيل متاحًا مرة أخرى، أعد التحميل للتبديل من الاتصال المباشر إلى الوكيل."
+        }
+      ],
+      "action": "إعادة التحميل في الوضع المباشر"
+    },
+    "blocked": {
+      "headline": "تم حظر هذه الصفحة",
+      "message": "تم حظر الطلب بواسطة إضافة أو سياسة أمان.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "تم حظر الطلب بواسطة عميل أو إضافة.",
+        "ERR_BLOCKED_BY_RESPONSE": "تم حظر الاستجابة بواسطة الموقع أو سياسة.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "يتطلب الموقع اتصالًا آمنًا (HTTPS).",
+        "ERR_NETWORK_ACCESS_DENIED": "تم حظر الوصول إلى الشبكة بواسطة السياسة."
+      },
+      "tryTips": [
+        "عطّل الإضافات أو أدوات حظر المحتوى وأعد التحميل",
+        "تحقق من إعدادات جدار الحماية ومكافحة الفيروسات"
+      ],
+      "suggestions": [
+        {
+          "title": "تعطيل الإضافات أو أدوات حظر المحتوى",
+          "detail": "قد تمنع الإضافات مثل مانعات الإعلانات أو المتعقبين الطلب—أوقفها مؤقتًا وأعد المحاولة."
+        },
+        {
+          "title": "تحقق من سياسة الموقع",
+          "detail": "قد تكون الاستجابة محجوبة بواسطة X-Frame-Options أو Content Security Policy."
+        }
+      ],
+      "action": "إعادة تحميل"
+    },
+    "client": {
+      "headline": "هذه الصفحة لا تعمل",
+      "message": "أعاد الموقع استجابة غير صالحة.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "أرسل {hostname} استجابة غير صالحة أو فارغة.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "أرسل الموقع استجابة غير صالحة أو فارغة.",
+        "ERR_FILE_NOT_FOUND": "لم يتم العثور على الملف.",
+        "ERR_FILE_ACCESS_DENIED": "تم رفض الوصول إلى الملف.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "استجاب الخادم بخطأ.",
+        "ERR_TOO_MANY_REDIRECTS": "الصفحة لا تعيد التوجيه بشكل صحيح.",
+        "ERR_INVALID_RESPONSE": "أرسل الموقع استجابة غير صالحة.",
+        "ERR_INVALID_CHUNKED_ENCODING": "أرسل الموقع استجابة غير صالحة.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "أرسل الموقع استجابة غير مكتملة.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "أرسل الموقع استجابة غير صالحة.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "أرسل الموقع الكثير من البيانات في رؤوس الاستجابة.",
+        "ERR_CACHE_MISS": "يجب إعادة إرسال الطلب.",
+        "ERR_INVALID_URL": "عنوان الويب غير صالح.",
+        "ERR_DISALLOWED_URL_SCHEME": "مخطط URL هذا غير مسموح.",
+        "ERR_UNKNOWN_URL_SCHEME": "مخطط URL هذا غير مدعوم.",
+        "ERR_UNSAFE_PORT": "تم حظر هذا المنفذ لأسباب أمنية.",
+        "ERR_INVALID_REDIRECT": "أعاد الموقع إعادة توجيه غير صالحة.",
+        "ERR_UNSAFE_REDIRECT": "حاول الموقع إعادة توجيه غير آمنة.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "أعاد الموقع الكثير من البيانات في رؤوس الاستجابة.",
+        "ERR_METHOD_NOT_SUPPORTED": "طريقة الطلب غير مدعومة."
+      },
+      "tryTips": [
+        "أعد تحميل الصفحة",
+        "امسح ذاكرة التخزين المؤقت للمتصفح أو بيانات الموقع المخزنة"
+      ],
+      "suggestions": [
+        {
+          "title": "مسح بيانات الموقع",
+          "detail": "قم بإزالة ملفات تعريف الارتباط والملفات المخزنة لهذا الموقع، ثم أعد التحميل."
+        },
+        {
+          "title": "الإبلاغ إلى مالك الموقع",
+          "detail": "إذا استمرت المشكلة، فاتصل بمسؤول الموقع مع رمز الخطأ المعروض أدناه."
+        }
+      ],
+      "action": "إعادة تحميل"
+    },
+    "unknown": {
+      "headline": "هذه الصفحة لا تعمل",
+      "message": "حدث خطأ غير متوقع ({code}).",
+      "tryTips": [
+        "أعد تحميل الصفحة",
+        "إذا استمرت المشكلة، التقط رمز الخطأ واتصل بمسؤول الموقع أو فريق الدعم"
+      ],
+      "action": "إعادة تحميل"
+    }
   }
 }

@@ -1,0 +1,586 @@
+{
+  "language": "繁體中文",
+  "engines": "搜尋引擎",
+  "version": "版本",
+"doc": "說明文件",
+  "sponsor": "贊助",
+  "website": "官網",
+  "menu": {
+    "name": "選單",
+    "about": "關於 Noi",
+    "hide": "隱藏 Noi",
+    "hideOthers": "隱藏其他",
+    "quit": "結束 Noi",
+    "unhide": "顯示全部",
+    "noiHotkey": "Noi 快捷鍵",
+    "noiAskHotkey": "NoiAsk 快捷鍵",
+    "sidebar": "側邊欄",
+    "checkUpdates": "檢查更新…",
+    "settings": "設定",
+    "stayOnTop": "永遠置頂",
+    "services": "服務",
+    "newTabSidePanel": "在側邊欄新建分頁",
+    "newTabMain": "在主視窗新建分頁",
+    "bordless": "無邊框視窗",
+    "theme": {
+      "name": "主題",
+      "system": "跟隨系統",
+      "light": "淺色",
+      "dark": "深色",
+      "style": "主題樣式"
+    },
+    "find": {
+      "name": "尋找",
+      "next": "尋找下一個",
+      "previous": "尋找上一個",
+      "jumpToSelection": "跳到所選內容"
+    },
+    "edit": {
+      "name": "編輯",
+      "undo": "復原",
+      "redo": "重做",
+      "cut": "剪下",
+      "copy": "複製",
+      "paste": "貼上",
+      "pasteAndMatchStyle": "貼上並符合樣式",
+      "delete": "刪除",
+      "selectAll": "全選"
+    },
+    "tab": {
+      "openDefault": "在預設瀏覽器中開啟",
+      "addSidebarTemp": "加入側邊欄（TempLink）",
+      "copyUrl": "複製 URL",
+      "copyUrlMd": "複製 URL 為 Markdown"
+    },
+    "help": {
+      "name": "說明",
+      "feedback": "回饋"
+    }
+  },
+  "session": {
+    "clearCurrent": "清除工作階段資料",
+    "clearAll": "清除所有工作階段資料",
+    "clearRemovedSites": "清除已移除網站的資料",
+    "confirmCurrent": "清除「{target}」的網站資料？這將移除本工作階段的 Cookie 與儲存資料。",
+    "confirmAll": "清除所有工作階段的網站資料？這可能會讓你登出部分網站。",
+    "confirmRemovedSites": "從已不在索引中的網站中移除 {count, plural, one {# 個工作階段} other {# 個工作階段}} 的網站資料？",
+    "resultNoRemovedSites": "未找到已移除網站的快取資料。",
+    "helpRemovedSites": "已移除網站的工作階段，是該網站自索引移除後遺留的 Cookie 與儲存快取。"
+  },
+  "view": {
+    "name": "檢視",
+    "tabs": "Noi 分頁",
+    "spaces": "{count, plural, one {Noi 空間} other {Noi 空間}}",
+    "toolbar": "Noi 工具列",
+    "markdown": "Markdown",
+    "minibar": "迷你列",
+    "manageSpaces": "管理空間",
+    "reload": "重新載入",
+    "goBack": "後退",
+    "goForward": "前進",
+    "zoom": "縮放",
+    "actualSize": "實際大小",
+    "zoomIn": "放大",
+    "zoomOut": "縮小",
+    "devTools": "開發者工具",
+    "newTab": "新分頁",
+    "newTabPlaceholder": "{hasEngine, select, true {使用 {engine} 搜尋或輸入 URL…} other {搜尋或輸入 URL…}}",
+    "closeTab": "關閉分頁",
+    "closeOtherTabs": "關閉其他分頁",
+    "mute": "靜音",
+    "unmute": "取消靜音",
+    "incognito": "無痕模式",
+    "sidePanel": "側邊欄",
+    "newFolder": "新資料夾",
+    "addLink": "新增連結",
+    "mainWindow": "主視窗",
+    "switchMainTab": "切換到主視窗分頁",
+    "switchSideTab": "切換到側邊欄分頁",
+    "newFile": "新檔案",
+    "bookmark": "書籤",
+    "bookmarkTab": "為此分頁加入書籤",
+    "copyUrlMetadata": "複製 URL 中繼資料",
+    "removeNoiView": "從 NoiView 移除",
+    "addNoiView": "加入 NoiView",
+    "openNewWindow": "在新視窗中開啟",
+    "openSidePanel": "在側邊欄中開啟",
+    "pin": "釘選",
+    "unpin": "取消釘選",
+    "lockLink": "鎖定連結",
+    "unlockLink": "解除鎖定連結",
+    "buttonHighlight": "標題列按鈕亮顯"
+  },
+  "window": {
+    "close": "關閉",
+    "goMain": "前往主視窗",
+    "dialog": "對話框視窗",
+    "drag": "拖曳以移動",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "還原"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {提示詞} other {提示詞}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "同步",
+    "manageSemVer": "管理 SemVer",
+    "manageLog": "管理 LOG",
+    "addPrompt": "新增提示詞",
+    "lockPrompt": "鎖定提示詞",
+    "unlockPrompt": "解除鎖定提示詞",
+    "copyPrompt": "複製提示詞",
+    "deletePrompt": "刪除提示詞",
+    "filterTags": "篩選 TAG",
+    "filterRule": "篩選規則",
+    "filterLockPrompts": "篩選：已鎖定提示詞"
+  },
+  "history": {
+    "name": "歷史紀錄",
+    "clearAll": "清除所有歷史紀錄",
+    "refresh": "重新整理歷史紀錄",
+    "remove": "從歷史紀錄移除",
+    "search": "搜尋歷史紀錄",
+    "searchClear": "清除搜尋",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {沒有關於「{q}」的搜尋結果} one {找到 # 筆關於「{q}」的搜尋結果} other {找到 # 筆關於「{q}」的搜尋結果}}} other {{count, plural, =0 {沒有結果} one {找到 # 筆結果} other {找到 # 筆結果}}}}",
+    "moreThisSite": "此網站的更多內容",
+    "dialogTitle": "清除所有歷史紀錄？",
+    "dialogMessage": "此操作會永久刪除所有已儲存的歷史紀錄，且無法復原。",
+    "result1": "載入歷史紀錄失敗。{error}",
+    "result2": "尚無歷史紀錄。",
+    "result3": "沒有搜尋結果",
+    "result4": "未找到資料。",
+    "tips": "在標題與 URL 進行模糊比對。使用欄位篩選精細化：",
+    "tip1": "標題包含「example」",
+    "tip2": "來自「example.com」的頁面",
+    "tip3": "在 2024/01/01",
+    "tip4": "在 2024/01/01–2025/12/31 之間",
+    "tip5": "在 2024/01/01 之前",
+    "tip6": "在 2024/01/01 之後",
+    "tip7": "造訪次數正好為 3 次",
+    "tip8": "造訪次數少於 3 次",
+    "tip9": "造訪次數多於 3 次"
+  },
+  "form": {
+    "editor": "編輯器",
+    "partition": "工作階段隔離",
+    "name": "名稱",
+    "url": "URL",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "icon": "圖示",
+    "inputElement": "輸入元素",
+    "sendElement": "送出元素",
+    "cssSelector": "CSS 選擇器",
+    "lightMode": "淺色模式",
+    "darkMode": "深色模式",
+    "customIcon": "自訂圖示",
+    "linkIcon": "連結圖示",
+    "dirIcon": "資料夾圖示",
+    "dirOpenIcon": "資料夾開啟圖示",
+    "selectUA": "選擇 User Agent",
+    "customUA": "或輸入自訂的 User Agent 字串…",
+    "rawJson": "原始 JSON",
+    "validation": {
+      "nameRequired": "請輸入名稱。",
+      "urlRequired": "請輸入 URL。",
+      "userAgentRequired": "請輸入 User Agent 字串。",
+      "invalidJson": "JSON 無效。",
+      "fixJsonErrors": "請先修正 JSON 驗證錯誤再儲存。",
+      "required": "此欄位為必填。"
+    },
+    "tip": {
+      "agentWarning": "安全警告：允許網頁存取 Noi API 可能存在風險。"
+    }
+  },
+  "action": {
+    "name": "動作",
+    "archive": "封存",
+    "back": "返回",
+    "cancel": "取消",
+    "confirm": "確認",
+    "create": "建立",
+    "delete": "刪除",
+    "details": "詳細資料",
+    "edit": "編輯",
+    "restore": "還原",
+    "query": "查詢",
+    "refresh": "重新整理",
+    "rename": "重新命名",
+    "reset": "重設",
+    "save": "儲存",
+    "send": "送出",
+    "use": "使用",
+    "clean": "從磁碟刪除",
+    "enable": "啟用",
+    "disable": "停用",
+    "importAsk": "匯入到 NoiAsk",
+    "openLocales": "開啟 Locales 資料夾"
+  },
+  "table": {
+    "active": "使用中",
+    "archived": "已封存",
+    "color": "顏色",
+    "createdAt": "建立時間",
+    "delete": "刪除",
+    "description": "描述",
+    "details": "詳細資料",
+    "disabled": "已停用",
+    "enabled": "已啟用",
+    "entries": "項目",
+    "fileSize": "檔案大小",
+    "mode": "模式",
+    "status": "狀態",
+    "trash": "垃圾桶",
+    "unknown": "未知",
+    "updatedAt": "更新時間",
+    "usageCount": "使用次數",
+    "tagAdd": "新增 TAG",
+    "tagRemove": "移除 TAG",
+    "visible": "可見",
+    "total": "總計",
+    "locked": "已鎖定",
+    "text": "文字",
+    "sendCount": "送出次數",
+    "addSource": "新增來源",
+    "lastSynced": "上次同步",
+    "message": {
+      "completed": "操作完成。",
+      "failed": "操作失敗。",
+      "noData": "未找到資料。",
+      "dataExist": "資料已存在。",
+      "dataExistOrDuplicated": "所有資料已存在或重複。",
+      "failedLoad": "載入資料失敗。",
+      "importedCount": "已匯入：{count}。",
+      "skippedCount": "已跳過：{count}。",
+      "deleteSelected": "確定要刪除選取的列嗎？此操作無法復原。",
+      "deleteItem": "確定要刪除此項目嗎？此操作無法復原。",
+      "deleteFile": "要從磁碟刪除此檔案嗎？此操作無法復原。",
+      "removeItem": "要從清單中移除此項目嗎？檔案將保留在磁碟上。",
+      "deleteBuiltin": "內建來源無法刪除。",
+      "importedAsk": "已匯入到 NoiAsk。",
+      "deleteUseTag": "此 TAG 目前正在使用，無法刪除。"
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "退出前確認",
+      "title": "現在退出 Noi？",
+      "detail": "將關閉所有視窗並終止任務。"
+    },
+    "nshQuit": {
+      "title": "關閉終端？",
+      "detail": "執行中的任務將立即終止。"
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "一般",
+      "language": "語言",
+      "sidebarIcon": "側邊欄圖示大小",
+      "homeLink": "首頁連結",
+      "limit": "查詢限制",
+      "cometCursor": "NoiAsk 彗星游標",
+      "cometTrail": "NoiAsk 彗星拖尾",
+      "lockLocales": "鎖定 Locales 資料夾",
+      "lockLocalesTip": "鎖定 locales 資料夾，防止自動更新修改語言檔案。適合自訂翻譯。",
+      "urlMetadata": "URL 中繼資料",
+      "sidebarAnchor": {
+        "name": "側邊欄錨點",
+        "off": "關閉",
+        "leftTop": "左上",
+        "leftCenter": "左中",
+        "leftBottom": "左下",
+        "rightTop": "右上",
+        "rightCenter": "右中",
+        "rightBottom": "右下",
+        "disableWarning": "關閉後會隱藏浮動觸發器。只能透過 Noi 快捷鍵重新開啟側邊欄，而快捷鍵與網站衝突很常見，因此不建議關閉。",
+        "disableConfirmTitle": "停用側邊欄錨點？"
+      },
+      "nsh": {
+        "name": "NSH（終端）",
+        "fontFamily": "字型",
+        "fontSize": "字體大小",
+        "lineHeight": "行高",
+        "cursorBlink": "游標閃爍",
+        "cursorStyle": "游標樣式",
+        "cursorWidth": "游標寬度",
+        "cursorInactiveStyle": "非作用中游標樣式",
+        "scrollback": "回捲緩衝區",
+        "tip": {
+          "cursorWidth": "僅在游標樣式為「條形」時生效。",
+          "scrollback": "終端捲動時保留的回捲行數。"
+        }
+      },
+      "proxy": {
+        "name": "代理",
+        "rules": "代理規則",
+        "bypass": "代理繞過規則"
+      }
+    },
+    "shortcuts": {
+      "name": "快捷鍵",
+      "noiAskPrompt": "NoiAsk 提示詞：{action}",
+      "noiAskPromptWithContext": "NoiAsk 提示詞：{action}（{context}）",
+      "placeholder": "按下組合鍵或輸入",
+      "helpText": "按下所需的按鍵組合，或直接輸入（例如 Ctrl+Shift+X）",
+      "conflict": "快捷鍵已被占用"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "遠端 JSON",
+        "remoteCsv": "遠端 CSV",
+        "localJson": "本機 JSON",
+        "localCsv": "本機 CSV"
+      },
+      "filePathMissing": "檔案路徑無效。",
+      "fileReadFailed": "讀取檔案內容失敗。",
+      "fileOpenFailed": "無法開啟檔案選擇器。",
+      "fileRequired": "請選擇要同步的檔案。",
+      "notFound": "未找到同步來源。",
+      "error": "提示詞同步錯誤",
+      "pickLocalFile": "選擇本機檔案",
+      "type": "來源類型",
+      "alias": "欄位對應",
+      "upload": "上傳檔案",
+      "dragJson": "拖曳 JSON 檔案到此處或點擊瀏覽",
+      "dragCsv": "拖曳 CSV 檔案到此處或點擊瀏覽",
+      "browseLocal": "從磁碟選擇"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "檢查你的網路連線",
+        "檢查代理與防火牆"
+      ],
+      "platform": {
+        "windows": "執行 Windows 網路診斷",
+        "mac": "執行無線診斷（macOS）"
+      },
+      "unknownError": "發生未知錯誤",
+      "site": "此網站"
+    },
+    "html": {
+      "tryLabel": "嘗試：",
+      "showDetails": "顯示詳細資料",
+      "hideDetails": "隱藏詳細資料",
+      "openAction": "開啟",
+      "reload": "重新載入"
+    },
+    "offline": {
+      "headline": "沒有網路",
+      "message": "你已離線。",
+      "tryTips": [
+        "檢查網路線、數據機或路由器",
+        "重新連線 Wi-Fi 或切換到其他網路"
+      ],
+      "action": "重新載入"
+    },
+    "network": {
+      "headline": "無法連線至此網站",
+      "message": "與 {hostname} 的連線逾時。",
+      "messageFallback": "網站回應時間過長。",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} 拒絕連線。",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "網站拒絕連線。",
+        "ERR_CONNECTION_RESET": "連線已重設。",
+        "ERR_CONNECTION_TIMED_OUT": "連線逾時。",
+        "ERR_TIMED_OUT": "連線逾時。",
+        "ERR_ADDRESS_UNREACHABLE": "位址無法存取。",
+        "ERR_NETWORK_CHANGED": "你的網路連線已變更。",
+        "ERR_CONNECTION_ABORTED": "連線已中止。",
+        "ERR_CONNECTION_FAILED": "連線失敗。",
+        "ERR_CONNECTION_CLOSED": "連線已關閉。",
+        "ERR_HTTP2_PROTOCOL_ERROR": "連線中斷（HTTP/2 協定錯誤）。",
+        "ERR_QUIC_PROTOCOL_ERROR": "連線中斷（QUIC 協定錯誤）。"
+      },
+      "tryTips": [
+        "檢查其他網站是否可開啟；若無法，重新連線網路",
+        "重新啟動路由器或關閉再開啟飛航模式"
+      ],
+      "suggestions": [
+        {
+          "title": "檢查伺服器可用性",
+          "detail": "若 {site} 為內部服務，請確認其在線或可從目前網路存取。"
+        },
+        {
+          "title": "檢查安全軟體",
+          "detail": "防火牆、防毒或 VPN 用戶端可能會中斷請求——暫時停用後重試。"
+        }
+      ],
+      "action": "重新載入"
+    },
+    "dns": {
+      "headline": "無法連線至此網站",
+      "message": "找不到 {hostname} 的 IP 位址。",
+      "messageFallback": "找不到伺服器的 IP 位址。",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "找不到 {hostname} 的 IP 位址。",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "找不到伺服器的 IP 位址。",
+        "ERR_NAME_RESOLUTION_FAILED": "DNS 解析 {hostname} 失敗。",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "DNS 解析失敗。",
+        "ERR_DNS_TIMED_OUT": "DNS 伺服器逾時。",
+        "ERR_DNS_SERVER_FAILED": "DNS 伺服器無回應。",
+        "ERR_DNS_MALFORMED_RESPONSE": "DNS 伺服器回傳無效回應。"
+      },
+      "tryTips": [
+        "確認網址拼寫正確",
+        "檢查代理、防火牆與 DNS 設定"
+      ],
+      "suggestions": [
+        {
+          "title": "檢查網址",
+          "detail": "請確認 {site} 拼寫正確。若無誤，DNS 伺服器可能暫時不可用。"
+        },
+        {
+          "title": "清除 DNS 快取",
+          "detail": "清除 DNS 快取並重新載入（例如 Windows 執行 `ipconfig /flushdns`，macOS 執行 `sudo killall -HUP mDNSResponder`）。"
+        }
+      ],
+      "action": "重新載入"
+    },
+    "ssl": {
+      "headline": "你的連線不是私人連線",
+      "headlineSecure": "此網站無法提供安全連線",
+      "message": "攻擊者可能會嘗試從 {hostname} 竊取資訊（例如密碼、訊息或信用卡）。",
+      "messageSecure": "Noi 無法與 {hostname} 建立安全連線。",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "該網站使用無效或不受支援的 SSL 協定。",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "該網站使用不受支援的 SSL 協定或加密套件。",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "憑證鏈與釘選的金鑰不符。",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "存取此網站需要用戶端憑證。",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "用戶端憑證無效或遭拒。",
+        "ERR_CERT_COMMON_NAME_INVALID": "憑證適用於不同的位址。",
+        "ERR_CERT_DATE_INVALID": "憑證已過期或尚未生效。",
+        "ERR_CERT_AUTHORITY_INVALID": "憑證不受信任。",
+        "ERR_CERT_REVOKED": "憑證已被吊銷。",
+        "ERR_CERT_INVALID": "憑證無效。",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "憑證使用弱簽章演算法。",
+        "ERR_CERT_WEAK_KEY": "憑證使用弱金鑰。",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "憑證違反名稱限制。",
+        "ERR_CERT_NON_UNIQUE_NAME": "憑證被多個網站共用。"
+      },
+      "suggestions": [
+        {
+          "title": "檢查電腦的日期與時間",
+          "detail": "時間不正確會造成憑證錯誤。"
+        },
+        {
+          "title": "謹慎繼續",
+          "detail": "僅在你了解風險且信任該網站時繼續。"
+        }
+      ],
+      "action": "重新載入"
+    },
+    "proxy": {
+      "headline": "代理連線失敗",
+      "message": "Noi 嘗試透過已設定的代理連線到網站，但連線未成功。此分頁目前改用直連作為備援。",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "代理伺服器拒絕連線。",
+        "ERR_TUNNEL_CONNECTION_FAILED": "代理通道失敗。",
+        "ERR_SOCKS_CONNECTION_FAILED": "SOCKS 代理拒絕連線。",
+        "ERR_PROXY_AUTH_REQUESTED": "代理伺服器需要驗證。",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "不支援的代理驗證方式。",
+        "ERR_PAC_SCRIPT_FAILED": "代理自動設定（PAC）腳本失敗。",
+        "ERR_NO_SUPPORTED_PROXIES": "此請求找不到支援的代理。",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "必要的代理設定失敗。",
+        "ERR_PROXY_REQUIRED": "存取此網站需要代理。"
+      },
+      "tryTips": [
+        "確認代理主機、連接埠與驗證設定",
+        "確保代理伺服器可從目前網路存取",
+        "若組織要求代理，請在代理恢復後重新載入"
+      ],
+      "suggestions": [
+        {
+          "title": "檢視 Noi 代理規則",
+          "detail": "使用 Noi 設定確認代理規則與略過清單是否符合目前網路。",
+          "actionLabel": "開啟 Noi 設定"
+        },
+        {
+          "title": "稍後重試代理",
+          "detail": "當代理再次可用時，重新載入以從直連切回代理。"
+        }
+      ],
+      "action": "以直連模式重新載入"
+    },
+    "blocked": {
+      "headline": "此頁面已被封鎖",
+      "message": "請求被擴充功能或安全性政策封鎖。",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "請求被用戶端或擴充功能封鎖。",
+        "ERR_BLOCKED_BY_RESPONSE": "回應被網站或政策封鎖。",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "該網站需要安全（HTTPS）連線。",
+        "ERR_NETWORK_ACCESS_DENIED": "網路存取被政策阻擋。"
+      },
+      "tryTips": [
+        "停用擴充功能或內容封鎖器後重新載入",
+        "檢查防火牆與防毒軟體設定"
+      ],
+      "suggestions": [
+        {
+          "title": "停用擴充功能或內容封鎖器",
+          "detail": "廣告或追蹤封鎖等擴充功能可能會阻擋請求——暫時關閉後重試。"
+        },
+        {
+          "title": "檢查網站政策",
+          "detail": "回應可能被 X-Frame-Options 或 Content Security Policy 封鎖。"
+        }
+      ],
+      "action": "重新載入"
+    },
+    "client": {
+      "headline": "此頁面無法正常運作",
+      "message": "網站回傳無效回應。",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} 傳回無效或空回應。",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "網站傳回無效或空回應。",
+        "ERR_FILE_NOT_FOUND": "找不到檔案。",
+        "ERR_FILE_ACCESS_DENIED": "檔案存取被拒。",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "伺服器回應錯誤。",
+        "ERR_TOO_MANY_REDIRECTS": "頁面重新導向次數過多。",
+        "ERR_INVALID_RESPONSE": "網站傳回無效回應。",
+        "ERR_INVALID_CHUNKED_ENCODING": "網站傳回無效回應。",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "網站傳回不完整回應。",
+        "ERR_CONTENT_LENGTH_MISMATCH": "網站傳回無效回應。",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "網站在回應標頭中傳回過多資料。",
+        "ERR_CACHE_MISS": "請求需要重新提交。",
+        "ERR_INVALID_URL": "網址無效。",
+        "ERR_DISALLOWED_URL_SCHEME": "此 URL 協定不被允許。",
+        "ERR_UNKNOWN_URL_SCHEME": "此 URL 協定不受支援。",
+        "ERR_UNSAFE_PORT": "基於安全考量，此連接埠已被封鎖。",
+        "ERR_INVALID_REDIRECT": "網站傳回無效的重新導向。",
+        "ERR_UNSAFE_REDIRECT": "網站嘗試了不安全的重新導向。",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "網站在回應標頭中傳回過多資料。",
+        "ERR_METHOD_NOT_SUPPORTED": "不支援此請求方法。"
+      },
+      "tryTips": [
+        "重新載入頁面",
+        "清除瀏覽器快取或已儲存的網站資料"
+      ],
+      "suggestions": [
+        {
+          "title": "清除網站資料",
+          "detail": "移除本網站的 Cookie 與快取檔案後重新載入。"
+        },
+        {
+          "title": "回報給網站管理員",
+          "detail": "若問題持續，請將下方錯誤代碼提供給網站管理員。"
+        }
+      ],
+      "action": "重新載入"
+    },
+    "unknown": {
+      "headline": "此頁面無法正常運作",
+      "message": "發生未預期的錯誤（{code}）。",
+      "tryTips": [
+        "重新載入頁面",
+        "若問題持續，請記錄錯誤代碼並聯絡網站管理員或支援團隊"
+      ],
+      "action": "重新載入"
+    }
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "language": "ไทย",
+  "engines": "เครื่องมือค้นหา",
+  "version": "เวอร์ชัน",
+  "doc": "เอกสาร",
+  "sponsor": "ผู้สนับสนุน",
+  "website": "เว็บไซต์",
+  "menu": {
+    "name": "เมนู",
+    "about": "เกี่ยวกับ Noi",
+    "hide": "ซ่อน Noi",
+    "hideOthers": "ซ่อนแอปอื่นๆ",
+    "quit": "ออกจาก Noi",
+    "unhide": "แสดงทั้งหมด",
+    "noiHotkey": "คีย์ลัด Noi",
+    "noiAskHotkey": "คีย์ลัด NoiAsk",
+    "sidebar": "แถบด้านข้าง",
+    "checkUpdates": "ตรวจสอบการอัปเดต…",
+    "settings": "การตั้งค่า",
+    "stayOnTop": "อยู่ด้านบนเสมอ",
+    "services": "บริการ",
+    "newTabSidePanel": "แท็บใหม่ในแผงด้านข้าง",
+    "newTabMain": "แท็บใหม่ในหน้าต่างหลัก",
+    "bordless": "หน้าต่างไร้ขอบ",
+    "theme": {
+      "name": "ธีม",
+      "system": "ตามระบบ",
+      "light": "สว่าง",
+      "dark": "มืด",
+      "style": "สไตล์ธีม"
+    },
+    "find": {
+      "name": "ค้นหา",
+      "next": "ค้นหาถัดไป",
+      "previous": "ค้นหาก่อนหน้า",
+      "jumpToSelection": "ไปยังรายการที่เลือก"
+    },
+    "edit": {
+      "name": "แก้ไข",
+      "undo": "เลิกทำ",
+      "redo": "ทำซ้ำ",
+      "cut": "ตัด",
+      "copy": "คัดลอก",
+      "paste": "วาง",
+      "pasteAndMatchStyle": "วางและให้ตรงกับรูปแบบ",
+      "delete": "ลบ",
+      "selectAll": "เลือกทั้งหมด"
+    },
+    "tab": {
+      "openDefault": "เปิดในเบราว์เซอร์เริ่มต้น",
+      "addSidebarTemp": "เพิ่มไปยังแถบด้านข้าง (TempLink)",
+      "copyUrl": "คัดลอก URL",
+      "copyUrlMd": "คัดลอก URL เป็น Markdown"
+    },
+    "help": {
+      "name": "ช่วยเหลือ",
+      "feedback": "ข้อเสนอแนะ"
+    }
+  },
+  "session": {
+    "clearCurrent": "ล้างข้อมูลเซสชัน",
+    "clearAll": "ล้างข้อมูลเซสชันทั้งหมด",
+    "clearRemovedSites": "ล้างข้อมูลของไซต์ที่ถูกลบ",
+    "confirmCurrent": "ล้างข้อมูลไซต์สำหรับ “{target}”? การดำเนินการนี้จะลบคุกกี้และที่เก็บข้อมูลของเซสชันนี้",
+    "confirmAll": "ล้างข้อมูลไซต์สำหรับทุกเซสชัน? การดำเนินการนี้อาจทำให้คุณออกจากระบบบางไซต์",
+    "confirmRemovedSites": "ลบข้อมูลไซต์ของ {count, plural, one {# เซสชัน} other {# เซสชัน}} จากไซต์ที่ไม่อยู่ในดัชนีของคุณแล้วหรือไม่?",
+    "resultNoRemovedSites": "ไม่พบข้อมูลแคชของไซต์ที่ถูกลบ",
+    "helpRemovedSites": "เซสชันของไซต์ที่ถูกลบคือคุกกี้และที่เก็บข้อมูลที่ยังคงอยู่หลังจากลบไซต์เหล่านั้นออกจากดัชนี"
+  },
+  "view": {
+    "name": "มุมมอง",
+    "tabs": "แท็บ Noi",
+    "spaces": "{count, plural, one {พื้นที่ Noi} other {พื้นที่ Noi}}",
+    "toolbar": "แถบเครื่องมือ Noi",
+    "markdown": "Markdown",
+    "minibar": "มินิบาร์",
+    "manageSpaces": "จัดการพื้นที่",
+    "reload": "โหลดใหม่",
+    "goBack": "ย้อนกลับ",
+    "goForward": "ไปข้างหน้า",
+    "zoom": "ซูม",
+    "actualSize": "ขนาดจริง",
+    "zoomIn": "ซูมเข้า +",
+    "zoomOut": "ซูมออก −",
+    "devTools": "เครื่องมือสำหรับนักพัฒนา",
+    "newTab": "แท็บใหม่",
+    "newTabPlaceholder": "{hasEngine, select, true {ค้นหาด้วย {engine} หรือป้อน URL…} other {ค้นหาหรือป้อน URL…}}",
+    "closeTab": "ปิดแท็บ",
+    "closeOtherTabs": "ปิดแท็บอื่น",
+    "mute": "ปิดเสียง",
+    "unmute": "เลิกปิดเสียง",
+    "incognito": "โหมดไม่ระบุตัวตน",
+    "sidePanel": "แผงด้านข้าง",
+    "newFolder": "โฟลเดอร์ใหม่",
+    "addLink": "เพิ่มลิงก์",
+    "mainWindow": "หน้าต่างหลัก",
+    "switchMainTab": "สลับไปยังแท็บหลัก",
+    "switchSideTab": "สลับไปยังแท็บแผงด้านข้าง",
+    "newFile": "ไฟล์ใหม่",
+    "bookmark": "บุ๊กมาร์ก",
+    "bookmarkTab": "บุ๊กมาร์กแท็บนี้",
+    "copyUrlMetadata": "คัดลอกเมทาดาตา URL",
+    "removeNoiView": "ลบออกจาก NoiView",
+    "addNoiView": "เพิ่มไปยัง NoiView",
+    "openNewWindow": "เปิดในหน้าต่างใหม่",
+    "openSidePanel": "เปิดในแผงด้านข้าง",
+    "pin": "ปักหมุด",
+    "unpin": "ยกเลิกปักหมุด",
+    "lockLink": "ล็อกลิงก์",
+    "unlockLink": "ปลดล็อกลิงก์",
+    "buttonHighlight": "เน้นปุ่มบนแถบชื่อ"
+  },
+  "window": {
+    "close": "ปิด",
+    "goMain": "ไปยังหน้าต่างหลัก",
+    "dialog": "หน้าต่างกล่องโต้ตอบ",
+    "drag": "ลากเพื่อย้าย",
+    "minimize": "ย่อ",
+    "maximize": "ขยาย",
+    "restore": "คืนค่า"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Prompts}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "ซิงค์",
+    "manageSemVer": "จัดการ SemVer",
+    "manageLog": "จัดการ LOG",
+    "addPrompt": "เพิ่ม prompt",
+    "lockPrompt": "ล็อก prompt",
+    "unlockPrompt": "ปลดล็อก prompt",
+    "copyPrompt": "คัดลอก prompt",
+    "deletePrompt": "ลบ prompt",
+    "filterTags": "กรอง TAG",
+    "filterRule": "กฎการกรอง",
+    "filterLockPrompts": "ตัวกรอง: prompt ที่ถูกล็อก"
+  },
+  "history": {
+    "name": "ประวัติ",
+    "clearAll": "ล้างประวัติทั้งหมด",
+    "refresh": "รีเฟรชประวัติ",
+    "remove": "ลบออกจากประวัติ",
+    "search": "ค้นหาในประวัติ",
+    "searchClear": "ล้างการค้นหา",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {ไม่มีผลการค้นหาสำหรับ “{q}”} one {พบผลการค้นหา # รายการสำหรับ “{q}”} other {พบผลการค้นหา # รายการสำหรับ “{q}”}}} other {{count, plural, =0 {ไม่มีผลลัพธ์} one {พบผลลัพธ์ # รายการ} other {พบผลลัพธ์ # รายการ}}}}",
+    "moreThisSite": "เพิ่มเติมจากไซต์นี้",
+    "dialogTitle": "ล้างประวัติทั้งหมด?",
+    "dialogMessage": "การดำเนินการนี้จะลบประวัติที่บันทึกไว้ทั้งหมดอย่างถาวรและไม่สามารถย้อนกลับได้",
+    "result1": "โหลดประวัติไม่สำเร็จ: {error}",
+    "result2": "ยังไม่มีประวัติ",
+    "result3": "ไม่มีผลการค้นหา",
+    "result4": "ไม่พบข้อมูล",
+    "tips": "จับคู่แบบฟัซซีในชื่อและ URL ปรับแต่งด้วยตัวกรองฟิลด์:",
+    "tip1": "ชื่อมี “example”",
+    "tip2": "หน้าจาก “example.com”",
+    "tip3": "ในวันที่ 2024/01/01",
+    "tip4": "ในช่วง 2024/01/01–2025/12/31",
+    "tip5": "ก่อน 2024/01/01",
+    "tip6": "หลัง 2024/01/01",
+    "tip7": "เข้าชมครบ 3 ครั้ง",
+    "tip8": "เข้าชมน้อยกว่า 3 ครั้ง",
+    "tip9": "เข้าชมมากกว่า 3 ครั้ง"
+  },
+  "form": {
+    "editor": "ตัวแก้ไข",
+    "partition": "การแยกเซสชัน",
+    "name": "ชื่อ",
+    "url": "URL",
+    "small": "เล็ก",
+    "medium": "กลาง",
+    "large": "ใหญ่",
+    "icon": "ไอคอน",
+    "inputElement": "องค์ประกอบอินพุต",
+    "sendElement": "องค์ประกอบส่ง",
+    "cssSelector": "ตัวเลือก CSS",
+    "lightMode": "โหมดสว่าง",
+    "darkMode": "โหมดมืด",
+    "customIcon": "ไอคอนกำหนดเอง",
+    "linkIcon": "ไอคอนลิงก์",
+    "dirIcon": "ไอคอนโฟลเดอร์",
+    "dirOpenIcon": "ไอคอนโฟลเดอร์เปิด",
+    "selectUA": "เลือก User Agent",
+    "customUA": "หรือป้อนสตริง User Agent แบบกำหนดเอง…",
+    "rawJson": "Raw JSON",
+    "validation": {
+      "nameRequired": "โปรดป้อนชื่อ",
+      "urlRequired": "โปรดป้อน URL",
+      "userAgentRequired": "โปรดป้อนสตริง user agent",
+      "invalidJson": "JSON ไม่ถูกต้อง",
+      "fixJsonErrors": "โปรดแก้ไขข้อผิดพลาดการตรวจสอบ JSON ก่อนบันทึก",
+      "required": "ฟิลด์นี้จำเป็น"
+    },
+    "tip": {
+      "agentWarning": "คำเตือนด้านความปลอดภัย: การอนุญาตให้หน้าเว็บเข้าถึง Noi API อาจเป็นอันตรายได้"
+    }
+  },
+  "action": {
+    "name": "การดำเนินการ",
+    "archive": "เก็บถาวร",
+    "back": "ย้อนกลับ",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "create": "สร้าง",
+    "delete": "ลบ",
+    "details": "รายละเอียด",
+    "edit": "แก้ไข",
+    "restore": "กู้คืน",
+    "query": "คิวรี",
+    "refresh": "รีเฟรช",
+    "rename": "เปลี่ยนชื่อ",
+    "reset": "รีเซ็ต",
+    "save": "บันทึก",
+    "send": "ส่ง",
+    "use": "ใช้",
+    "clean": "ลบออกจากดิสก์",
+    "enable": "เปิดใช้งาน",
+    "disable": "ปิดใช้งาน",
+    "importAsk": "นำเข้าไปยัง NoiAsk",
+    "openLocales": "เปิดโฟลเดอร์ Locales"
+  },
+  "table": {
+    "active": "ใช้งานอยู่",
+    "archived": "เก็บถาวรแล้ว",
+    "color": "สี",
+    "createdAt": "สร้างเมื่อ",
+    "delete": "ลบ",
+    "description": "คำอธิบาย",
+    "details": "รายละเอียด",
+    "disabled": "ปิดใช้งาน",
+    "enabled": "เปิดใช้งาน",
+    "entries": "รายการ",
+    "fileSize": "ขนาดไฟล์",
+    "mode": "โหมด",
+    "status": "สถานะ",
+    "trash": "ถังขยะ",
+    "unknown": "ไม่ทราบ",
+    "updatedAt": "อัปเดตเมื่อ",
+    "usageCount": "จำนวนการใช้งาน",
+    "tagAdd": "เพิ่ม TAG",
+    "tagRemove": "ลบ TAG",
+    "visible": "แสดง",
+    "total": "รวม",
+    "locked": "ถูกล็อก",
+    "text": "ข้อความ",
+    "sendCount": "จำนวนการส่ง",
+    "addSource": "เพิ่มแหล่งที่มา",
+    "lastSynced": "ซิงค์ล่าสุด",
+    "message": {
+      "completed": "การทำงานเสร็จสิ้น",
+      "failed": "การทำงานล้มเหลว",
+      "noData": "ไม่พบข้อมูล",
+      "dataExist": "มีข้อมูลอยู่แล้ว",
+      "dataExistOrDuplicated": "ข้อมูลทั้งหมดมีอยู่แล้วหรือซ้ำกัน",
+      "failedLoad": "โหลดข้อมูลไม่สำเร็จ",
+      "importedCount": "นำเข้าแล้ว: {count}.",
+      "skippedCount": "ข้ามแล้ว: {count}.",
+      "deleteSelected": "คุณแน่ใจหรือไม่ว่าต้องการลบแถวที่เลือก? การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+      "deleteItem": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้? การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+      "deleteFile": "ลบไฟล์นี้ออกจากดิสก์หรือไม่? การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+      "removeItem": "ลบรายการนี้ออกจากรายการหรือไม่? ไฟล์จะยังอยู่ในดิสก์",
+      "deleteBuiltin": "ไม่สามารถลบแหล่งที่มาที่ติดตั้งมาได้",
+      "importedAsk": "นำเข้าไปยัง NoiAsk แล้ว",
+      "deleteUseTag": "TAG นี้กำลังใช้งานอยู่และไม่สามารถลบได้"
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "ต้องยืนยันก่อนออก",
+      "title": "ออกจาก Noi ตอนนี้หรือไม่?",
+      "detail": "หน้าต่างและงานทั้งหมดจะถูกปิด"
+    },
+    "nshQuit": {
+      "title": "ปิดเทอร์มินัล?",
+      "detail": "งานที่กำลังทำอยู่จะถูกยุติทันที"
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "ทั่วไป",
+      "language": "ภาษา",
+      "sidebarIcon": "ขนาดไอคอนแถบด้านข้าง",
+      "homeLink": "ลิงก์หน้าแรก",
+      "limit": "ขีดจำกัดคิวรี",
+      "cometCursor": "เคอร์เซอร์ดาวหาง NoiAsk",
+      "cometTrail": "รอยดาวหาง NoiAsk",
+      "lockLocales": "ล็อกโฟลเดอร์ Locales",
+      "lockLocalesTip": "ล็อกโฟลเดอร์ Locales เพื่อป้องกันไม่ให้การอัปเดตอัตโนมัติแก้ไขไฟล์ภาษา เหมาะสำหรับการแปลแบบกำหนดเอง",
+      "urlMetadata": "เมทาดาทา URL",
+      "sidebarAnchor": {
+        "name": "จุดยึดแถบด้านข้าง",
+        "off": "ปิด",
+        "leftTop": "ซ้ายบน",
+        "leftCenter": "ซ้ายกลาง",
+        "leftBottom": "ซ้ายล่าง",
+        "rightTop": "ขวาบน",
+        "rightCenter": "ขวากลาง",
+        "rightBottom": "ขวาล่าง",
+        "disableWarning": "การปิดจะซ่อนทริกเกอร์ลอย เฉพาะคีย์ลัด Noi เท่านั้นที่เปิดแถบด้านข้างได้อีก และการชนกับคีย์ลัดของเว็บไซต์พบได้บ่อย จึงไม่แนะนำให้ปิด",
+        "disableConfirmTitle": "ปิดใช้งานจุดยึดแถบด้านข้างหรือไม่?"
+      },
+      "nsh": {
+        "name": "NSH (เทอร์มินัล)",
+        "fontFamily": "ตระกูลฟอนต์",
+        "fontSize": "ขนาดฟอนต์",
+        "lineHeight": "ความสูงบรรทัด",
+        "cursorBlink": "กระพริบเคอร์เซอร์",
+        "cursorStyle": "สไตล์เคอร์เซอร์",
+        "cursorWidth": "ความกว้างเคอร์เซอร์",
+        "cursorInactiveStyle": "สไตล์เคอร์เซอร์เมื่อไม่ใช้งาน",
+        "scrollback": "สกรอลล์แบ็ก",
+        "tip": {
+          "cursorWidth": "ใช้ได้เมื่อสไตล์เคอร์เซอร์เป็น “Bar” เท่านั้น",
+          "scrollback": "จำนวนบรรทัดที่เก็บไว้ในประวัติเมื่อเทอร์มินัลเลื่อน"
+        }
+      },
+      "proxy": {
+        "name": "พร็อกซี",
+        "rules": "กฎพร็อกซี",
+        "bypass": "กฎยกเว้นพร็อกซี"
+      }
+    },
+    "shortcuts": {
+      "name": "คีย์ลัด",
+      "noiAskPrompt": "พรอมต์ NoiAsk: {action}",
+      "noiAskPromptWithContext": "พรอมต์ NoiAsk: {action} ({context})",
+      "placeholder": "กดคีย์ผสมหรือพิมพ์",
+      "helpText": "กดคีย์ผสมที่ต้องการหรือพิมพ์ (เช่น Ctrl+Shift+X)",
+      "conflict": "คีย์ลัดถูกใช้งานแล้ว"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "JSON ระยะไกล",
+        "remoteCsv": "CSV ระยะไกล",
+        "localJson": "JSON ภายในเครื่อง",
+        "localCsv": "CSV ภายในเครื่อง"
+      },
+      "filePathMissing": "พาธไฟล์ไม่ถูกต้อง",
+      "fileReadFailed": "อ่านเนื้อหาไฟล์ไม่สำเร็จ",
+      "fileOpenFailed": "ไม่สามารถเปิดตัวเลือกไฟล์ได้",
+      "fileRequired": "โปรดเลือกไฟล์เพื่อซิงค์",
+      "notFound": "ไม่พบแหล่งที่มาสำหรับการซิงค์",
+      "error": "ข้อผิดพลาดการซิงค์พรอมต์",
+      "pickLocalFile": "เลือกไฟล์ในเครื่อง",
+      "type": "ประเภทแหล่งที่มา",
+      "alias": "การแมปฟิลด์",
+      "upload": "อัปโหลดไฟล์",
+      "dragJson": "ลากไฟล์ JSON หรือคลิกเพื่อเรียกดู",
+      "dragCsv": "ลากไฟล์ CSV หรือคลิกเพื่อเรียกดู",
+      "browseLocal": "เลือกจากดิสก์"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ",
+        "ตรวจสอบพร็อกซีและไฟร์วอลล์"
+      ],
+      "platform": {
+        "windows": "เรียกใช้การวินิจฉัยเครือข่ายของ Windows",
+        "mac": "เรียกใช้การวินิจฉัยเครือข่ายไร้สาย (macOS)"
+      },
+      "unknownError": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+      "site": "ไซต์นี้"
+    },
+    "html": {
+      "tryLabel": "ลอง:",
+      "showDetails": "แสดงรายละเอียด",
+      "hideDetails": "ซ่อนรายละเอียด",
+      "openAction": "เปิด",
+      "reload": "โหลดใหม่"
+    },
+    "offline": {
+      "headline": "ไม่มีอินเทอร์เน็ต",
+      "message": "คุณออฟไลน์อยู่",
+      "tryTips": [
+        "ตรวจสอบสายเครือข่าย โมเด็ม หรือเราเตอร์",
+        "เชื่อมต่อ Wi-Fi ใหม่หรือสลับไปยังเครือข่ายอื่น"
+      ],
+      "action": "โหลดใหม่"
+    },
+    "network": {
+      "headline": "ไม่สามารถเข้าถึงไซต์นี้ได้",
+      "message": "การเชื่อมต่อกับ {hostname} หมดเวลา",
+      "messageFallback": "ไซต์ใช้เวลานานเกินไปในการตอบสนอง",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} ปฏิเสธการเชื่อมต่อ",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "ไซต์ปฏิเสธการเชื่อมต่อ",
+        "ERR_CONNECTION_RESET": "การเชื่อมต่อถูกรีเซ็ต",
+        "ERR_CONNECTION_TIMED_OUT": "การเชื่อมต่อหมดเวลา",
+        "ERR_TIMED_OUT": "การเชื่อมต่อหมดเวลา",
+        "ERR_ADDRESS_UNREACHABLE": "ไม่สามารถเข้าถึงที่อยู่ได้",
+        "ERR_NETWORK_CHANGED": "การเชื่อมต่อเครือข่ายของคุณเปลี่ยนแปลง",
+        "ERR_CONNECTION_ABORTED": "การเชื่อมต่อถูกยกเลิก",
+        "ERR_CONNECTION_FAILED": "เชื่อมต่อไม่สำเร็จ",
+        "ERR_CONNECTION_CLOSED": "การเชื่อมต่อถูกปิด",
+        "ERR_HTTP2_PROTOCOL_ERROR": "การเชื่อมต่อถูกขัดจังหวะ (ข้อผิดพลาดโปรโตคอล HTTP/2)",
+        "ERR_QUIC_PROTOCOL_ERROR": "การเชื่อมต่อถูกขัดจังหวะ (ข้อผิดพลาดโปรโตคอล QUIC)"
+      },
+      "tryTips": [
+        "ตรวจสอบว่าเว็บไซต์อื่นเปิดได้หรือไม่ หากไม่ ให้เชื่อมต่อเครือข่ายใหม่",
+        "รีสตาร์ทเราเตอร์หรือสลับโหมดเครื่องบินปิด/เปิด"
+      ],
+      "suggestions": [
+        {
+          "title": "ตรวจสอบความพร้อมใช้งานของเซิร์ฟเวอร์",
+          "detail": "หาก {site} เป็นบริการภายใน ให้ยืนยันว่าออนไลน์หรือเข้าถึงได้จากเครือข่ายปัจจุบัน"
+        },
+        {
+          "title": "ตรวจสอบซอฟต์แวร์ความปลอดภัย",
+          "detail": "ไฟร์วอลล์ แอนติไวรัส หรือไคลเอนต์ VPN อาจขัดจังหวะคำขอ — หยุดใช้งานชั่วคราวแล้วลองใหม่"
+        }
+      ],
+      "action": "โหลดใหม่"
+    },
+    "dns": {
+      "headline": "ไม่สามารถเข้าถึงไซต์นี้ได้",
+      "message": "ไม่พบที่อยู่ IP ของ {hostname}",
+      "messageFallback": "ไม่พบที่อยู่ IP ของเซิร์ฟเวอร์",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "ไม่พบที่อยู่ IP ของ {hostname}",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "ไม่พบที่อยู่ IP ของเซิร์ฟเวอร์",
+        "ERR_NAME_RESOLUTION_FAILED": "การค้นหา DNS สำหรับ {hostname} ล้มเหลว",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "การค้นหา DNS ล้มเหลว",
+        "ERR_DNS_TIMED_OUT": "เซิร์ฟเวอร์ DNS หมดเวลา",
+        "ERR_DNS_SERVER_FAILED": "เซิร์ฟเวอร์ DNS ไม่ตอบสนอง",
+        "ERR_DNS_MALFORMED_RESPONSE": "เซิร์ฟเวอร์ DNS ส่งการตอบกลับที่ไม่ถูกต้อง"
+      },
+      "tryTips": [
+        "ตรวจสอบการสะกดที่อยู่เว็บให้ถูกต้อง",
+        "ตรวจสอบการตั้งค่า พร็อกซี ไฟร์วอลล์ และ DNS"
+      ],
+      "suggestions": [
+        {
+          "title": "ตรวจสอบที่อยู่เว็บ",
+          "detail": "ตรวจสอบว่า {site} สะกดถูกต้อง หากถูกต้องแล้ว เซิร์ฟเวอร์ DNS อาจไม่พร้อมใช้งานชั่วคราว"
+        },
+        {
+          "title": "ล้างแคช DNS",
+          "detail": "ล้างแคช DNS และโหลดใหม่ (เช่น `ipconfig /flushdns` บน Windows หรือ `sudo killall -HUP mDNSResponder` บน macOS)"
+        }
+      ],
+      "action": "โหลดใหม่"
+    },
+    "ssl": {
+      "headline": "การเชื่อมต่อของคุณไม่เป็นส่วนตัว",
+      "headlineSecure": "ไซต์นี้ไม่สามารถให้การเชื่อมต่อที่ปลอดภัยได้",
+      "message": "ผู้โจมตีอาจพยายามขโมยข้อมูลจาก {hostname} (เช่น รหัสผ่าน ข้อความ หรือบัตรเครดิต)",
+      "messageSecure": "Noi ไม่สามารถสร้างการเชื่อมต่อที่ปลอดภัยกับ {hostname} ได้",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "ไซต์ใช้โปรโตคอล SSL ที่ไม่ถูกต้องหรือไม่รองรับ",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "ไซต์ใช้โปรโตคอล SSL หรือรหัสลับที่ไม่รองรับ",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "สายโซ่ใบรับรองไม่ตรงกับคีย์ที่ปักหมุดไว้",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "ต้องใช้ใบรับรองไคลเอนต์เพื่อเข้าถึงไซต์นี้",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "ใบรับรองไคลเอนต์ไม่ถูกต้องหรือถูกปฏิเสธ",
+        "ERR_CERT_COMMON_NAME_INVALID": "ใบรับรองใช้ได้กับที่อยู่อื่น",
+        "ERR_CERT_DATE_INVALID": "ใบรับรองหมดอายุหรือยังไม่ถูกต้อง",
+        "ERR_CERT_AUTHORITY_INVALID": "ใบรับรองไม่น่าเชื่อถือ",
+        "ERR_CERT_REVOKED": "ใบรับรองถูกเพิกถอน",
+        "ERR_CERT_INVALID": "ใบรับรองไม่ถูกต้อง",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "ใบรับรองใช้อัลกอริทึมลายเซ็นที่อ่อนแอ",
+        "ERR_CERT_WEAK_KEY": "ใบรับรองใช้คีย์ที่อ่อนแอ",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "ใบรับรองละเมิดข้อจำกัดชื่อ",
+        "ERR_CERT_NON_UNIQUE_NAME": "ใบรับรองถูกใช้ร่วมกันโดยหลายไซต์"
+      },
+      "suggestions": [
+        {
+          "title": "ตรวจสอบวันที่และเวลาของคอมพิวเตอร์",
+          "detail": "นาฬิกาที่ไม่ถูกต้องอาจทำให้เกิดข้อผิดพลาดของใบรับรอง"
+        },
+        {
+          "title": "ดำเนินการด้วยความระมัดระวัง",
+          "detail": "ดำเนินการต่อเฉพาะเมื่อคุณเข้าใจความเสี่ยงและเชื่อถือไซต์นี้"
+        }
+      ],
+      "action": "โหลดใหม่"
+    },
+    "proxy": {
+      "headline": "การเชื่อมต่อพร็อกซีล้มเหลว",
+      "message": "Noi พยายามเข้าถึงไซต์ผ่านพร็อกซีที่กำหนดไว้ แต่การเชื่อมต่อไม่สำเร็จ ตอนนี้แท็บนี้ใช้การเชื่อมต่อโดยตรงเป็นตัวสำรอง",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "พร็อกซีเซิร์ฟเวอร์ปฏิเสธการเชื่อมต่อ",
+        "ERR_TUNNEL_CONNECTION_FAILED": "อุโมงค์พร็อกซีล้มเหลว",
+        "ERR_SOCKS_CONNECTION_FAILED": "พร็อกซี SOCKS ปฏิเสธการเชื่อมต่อ",
+        "ERR_PROXY_AUTH_REQUESTED": "พร็อกซีเซิร์ฟเวอร์ต้องการการยืนยันตัวตน",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "ไม่รองรับวิธีการยืนยันตัวตนของพร็อกซี",
+        "ERR_PAC_SCRIPT_FAILED": "สคริปต์การกำหนดค่าพร็อกซีอัตโนมัติ (PAC) ล้มเหลว",
+        "ERR_NO_SUPPORTED_PROXIES": "ไม่พบพร็อกซีที่รองรับสำหรับคำขอนี้",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "การกำหนดค่าพร็อกซีที่จำเป็นล้มเหลว",
+        "ERR_PROXY_REQUIRED": "ต้องใช้พร็อกซีเพื่อเข้าถึงไซต์นี้"
+      },
+      "tryTips": [
+        "ยืนยันโฮสต์ พอร์ต และการยืนยันตัวตนของพร็อกซี",
+        "ตรวจสอบให้แน่ใจว่าเข้าถึงพร็อกซีเซิร์ฟเวอร์ได้จากเครือข่ายปัจจุบัน",
+        "หากองค์กรต้องใช้พร็อกซี ให้กู้คืนแล้วโหลดใหม่เมื่อพร็อกซีพร้อมใช้งานอีกครั้ง"
+      ],
+      "suggestions": [
+        {
+          "title": "ตรวจสอบกฎพร็อกซีของ Noi",
+          "detail": "ใช้การตั้งค่า Noi เพื่อยืนยันว่ากฎพร็อกซีและรายการบายพาสตรงกับเครือข่ายนี้",
+          "actionLabel": "เปิดการตั้งค่า Noi"
+        },
+        {
+          "title": "ลองใหม่ด้วยพร็อกซีภายหลัง",
+          "detail": "เมื่อพร็อกซีพร้อมใช้งานอีกครั้ง ให้โหลดใหม่เพื่อสลับจากโหมดตรงไปยังโหมดพร็อกซี"
+        }
+      ],
+      "action": "โหลดใหม่ในโหมดเชื่อมต่อโดยตรง"
+    },
+    "blocked": {
+      "headline": "หน้านี้ถูกบล็อก",
+      "message": "คำขอถูกบล็อกโดยส่วนขยายหรือนโยบายความปลอดภัย",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "คำขอถูกบล็อกโดยไคลเอนต์หรือส่วนขยาย",
+        "ERR_BLOCKED_BY_RESPONSE": "การตอบกลับถูกบล็อกโดยไซต์หรือนโยบาย",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "ไซต์ต้องการการเชื่อมต่อที่ปลอดภัย (HTTPS)",
+        "ERR_NETWORK_ACCESS_DENIED": "การเข้าถึงเครือข่ายถูกบล็อกโดยนโยบาย"
+      },
+      "tryTips": [
+        "ปิดการทำงานส่วนขยายหรือบล็อกเนื้อหาแล้วโหลดใหม่",
+        "ตรวจสอบการตั้งค่าไฟร์วอลล์และแอนติไวรัส"
+      ],
+      "suggestions": [
+        {
+          "title": "ปิดการทำงานส่วนขยายหรือบล็อกเนื้อหา",
+          "detail": "ส่วนขยายอย่างบล็อกโฆษณาหรือตัวติดตามอาจขัดขวางคำขอ — ปิดชั่วคราวแล้วลองใหม่"
+        },
+        {
+          "title": "ตรวจสอบนโยบายของไซต์",
+          "detail": "การตอบกลับอาจถูกบล็อกโดย X-Frame-Options หรือ Content Security Policy"
+        }
+      ],
+      "action": "โหลดใหม่"
+    },
+    "client": {
+      "headline": "หน้านี้ใช้งานไม่ได้",
+      "message": "ไซต์ส่งการตอบกลับที่ไม่ถูกต้อง",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} ส่งการตอบกลับที่ไม่ถูกต้องหรือว่างเปล่า",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "ไซต์ส่งการตอบกลับที่ไม่ถูกต้องหรือว่างเปล่า",
+        "ERR_FILE_NOT_FOUND": "ไม่พบไฟล์",
+        "ERR_FILE_ACCESS_DENIED": "การเข้าถึงไฟล์ถูกปฏิเสธ",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "เซิร์ฟเวอร์ตอบกลับด้วยข้อผิดพลาด",
+        "ERR_TOO_MANY_REDIRECTS": "หน้านี้ไม่เปลี่ยนเส้นทางอย่างถูกต้อง",
+        "ERR_INVALID_RESPONSE": "ไซต์ส่งการตอบกลับที่ไม่ถูกต้อง",
+        "ERR_INVALID_CHUNKED_ENCODING": "ไซต์ส่งการตอบกลับที่ไม่ถูกต้อง",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "ไซต์ส่งการตอบกลับที่ไม่สมบูรณ์",
+        "ERR_CONTENT_LENGTH_MISMATCH": "ไซต์ส่งการตอบกลับที่ไม่ถูกต้อง",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "ไซต์ส่งข้อมูลมากเกินไปในส่วนหัวการตอบกลับ",
+        "ERR_CACHE_MISS": "ต้องส่งคำขออีกครั้ง",
+        "ERR_INVALID_URL": "ที่อยู่เว็บไม่ถูกต้อง",
+        "ERR_DISALLOWED_URL_SCHEME": "สคีม URL นี้ไม่ได้รับอนุญาต",
+        "ERR_UNKNOWN_URL_SCHEME": "สคีม URL นี้ไม่รองรับ",
+        "ERR_UNSAFE_PORT": "พอร์ตนี้ถูกบล็อกด้วยเหตุผลด้านความปลอดภัย",
+        "ERR_INVALID_REDIRECT": "ไซต์ส่งการเปลี่ยนเส้นทางที่ไม่ถูกต้อง",
+        "ERR_UNSAFE_REDIRECT": "ไซต์พยายามเปลี่ยนเส้นทางที่ไม่ปลอดภัย",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "ไซต์ส่งข้อมูลมากเกินไปในส่วนหัวการตอบกลับ",
+        "ERR_METHOD_NOT_SUPPORTED": "ไม่รองรับวิธีการร้องขอ"
+      },
+      "tryTips": [
+        "โหลดหน้าใหม่",
+        "ล้างแคชเบราว์เซอร์หรือข้อมูลไซต์ที่เก็บไว้"
+      ],
+      "suggestions": [
+        {
+          "title": "ล้างข้อมูลไซต์",
+          "detail": "ลบคุกกี้และไฟล์แคชของไซต์นี้ จากนั้นโหลดใหม่"
+        },
+        {
+          "title": "รายงานไปยังเจ้าของไซต์",
+          "detail": "หากปัญหายังอยู่ ให้ติดต่อผู้ดูแลไซต์พร้อมรหัสข้อผิดพลาดด้านล่าง"
+        }
+      ],
+      "action": "โหลดใหม่"
+    },
+    "unknown": {
+      "headline": "หน้านี้ใช้งานไม่ได้",
+      "message": "เกิดข้อผิดพลาดที่ไม่คาดคิด ({code})",
+      "tryTips": [
+        "โหลดหน้าใหม่",
+        "หากปัญหายังอยู่ ให้บันทึกรหัสข้อผิดพลาดและติดต่อผู้ดูแลไซต์หรือทีมสนับสนุน"
+      ],
+      "action": "โหลดใหม่"
+    }
+  }
+}

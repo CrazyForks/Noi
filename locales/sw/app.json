@@ -1,0 +1,586 @@
+{
+  "language": "Kiswahili",
+  "engines": "Injini za utafutaji",
+  "version": "Toleo",
+  "doc": "Nyaraka",
+  "sponsor": "Mfadhili",
+  "website": "Tovuti",
+  "menu": {
+    "name": "Menyu",
+    "about": "Kuhusu Noi",
+    "hide": "Ficha Noi",
+    "hideOthers": "Ficha nyingine",
+    "quit": "Toka Noi",
+    "unhide": "Onyesha zote",
+    "noiHotkey": "Njia ya mkato ya Noi",
+    "noiAskHotkey": "Njia ya mkato ya NoiAsk",
+    "sidebar": "Upau wa pembeni",
+    "checkUpdates": "Angalia masasisho…",
+    "settings": "Mipangilio",
+    "stayOnTop": "Daima juu",
+    "services": "Huduma",
+    "newTabSidePanel": "Kichupo kipya kwenye paneli ya pembeni",
+    "newTabMain": "Kichupo kipya kwenye dirisha kuu",
+    "bordless": "Dirisha lisilo na mpaka",
+    "theme": {
+      "name": "Mandhari",
+      "system": "Fuata mfumo",
+      "light": "Nyepesi",
+      "dark": "Giza",
+      "style": "Mtindo wa mandhari"
+    },
+    "find": {
+      "name": "Tafuta",
+      "next": "Tafuta inayofuata",
+      "previous": "Tafuta iliyotangulia",
+      "jumpToSelection": "Nenda kwenye uteuzi"
+    },
+    "edit": {
+      "name": "Hariri",
+      "undo": "Tendua",
+      "redo": "Fanya upya",
+      "cut": "Kata",
+      "copy": "Nakili",
+      "paste": "Bandika",
+      "pasteAndMatchStyle": "Bandika na linganisha mtindo",
+      "delete": "Futa",
+      "selectAll": "Chagua zote"
+    },
+    "tab": {
+      "openDefault": "Fungua kwenye kivinjari chaguo-msingi",
+      "addSidebarTemp": "Ongeza kwenye upau wa pembeni (TempLink)",
+      "copyUrl": "Nakili URL",
+      "copyUrlMd": "Nakili URL kama Markdown"
+    },
+    "help": {
+      "name": "Msaada",
+      "feedback": "Maoni"
+    }
+  },
+  "session": {
+    "clearCurrent": "Futa data ya kikao",
+    "clearAll": "Futa data zote za kikao",
+    "clearRemovedSites": "Futa data za tovuti zilizoondolewa",
+    "confirmCurrent": "Futa data za tovuti ya “{target}”? Hii itaondoa vidakuzi na hifadhi ya kikao hiki.",
+    "confirmAll": "Futa data za tovuti kwa vikao vyote? Hii inaweza kukutoa kwenye baadhi ya tovuti.",
+    "confirmRemovedSites": "Ondoa data za tovuti kwa {count, plural, one {kikao #} other {vikao #}} kutoka kwenye tovuti ambazo hazipo tena kwenye faharasa yako?",
+    "resultNoRemovedSites": "Hakuna data ya akiba iliyopatikana kwa tovuti zilizoondolewa.",
+    "helpRemovedSites": "Vikao vya tovuti zilizoondolewa ni vidakuzi na hifadhi ya akiba iliyobaki baada ya tovuti hizo kuondolewa kwenye faharasa yako."
+  },
+  "view": {
+    "name": "Mwonekano",
+    "tabs": "Vichupo vya Noi",
+    "spaces": "{count, plural, one {Nafasi ya Noi} other {Nafasi za Noi}}",
+    "toolbar": "Upau wa zana wa Noi",
+    "markdown": "Markdown",
+    "minibar": "Upau mdogo",
+    "manageSpaces": "Dhibiti nafasi",
+    "reload": "Pakia upya",
+    "goBack": "Rudi nyuma",
+    "goForward": "Nenda mbele",
+    "zoom": "Kuza",
+    "actualSize": "Ukubwa halisi",
+    "zoomIn": "Kuza ndani",
+    "zoomOut": "Kuza nje",
+    "devTools": "Zana za msanidi",
+    "newTab": "Kichupo kipya",
+    "newTabPlaceholder": "{hasEngine, select, true {Tafuta kwa {engine} au ingiza URL…} other {Tafuta au ingiza URL…}}",
+    "closeTab": "Funga kichupo",
+    "closeOtherTabs": "Funga vichupo vingine",
+    "mute": "Nyamazisha",
+    "unmute": "Ondoa ukimya",
+    "incognito": "Fiche",
+    "sidePanel": "Paneli ya pembeni",
+    "newFolder": "Folda mpya",
+    "addLink": "Ongeza kiungo",
+    "mainWindow": "Dirisha kuu",
+    "switchMainTab": "Badilisha hadi kichupo kikuu",
+    "switchSideTab": "Badilisha hadi kichupo cha paneli ya pembeni",
+    "newFile": "Faili mpya",
+    "bookmark": "Alamisho",
+    "bookmarkTab": "Alamisha kichupo hiki",
+    "copyUrlMetadata": "Nakili metadata ya URL",
+    "removeNoiView": "Ondoa kutoka NoiView",
+    "addNoiView": "Ongeza kwenye NoiView",
+    "openNewWindow": "Fungua kwenye dirisha jipya",
+    "openSidePanel": "Fungua kwenye paneli ya pembeni",
+    "pin": "Bandika",
+    "unpin": "Ondoa kubandika",
+    "lockLink": "Funga kiungo",
+    "unlockLink": "Fungua kiungo",
+    "buttonHighlight": "Angazia vitufe vya upau wa kichwa"
+  },
+  "window": {
+    "close": "Funga",
+    "goMain": "Nenda kwenye dirisha kuu",
+    "dialog": "Dirisha la mazungumzo",
+    "drag": "Buruta ili kusogeza",
+    "minimize": "Punguza",
+    "maximize": "Ongeza",
+    "restore": "Rejesha"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Prompts}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Sawazisha",
+    "manageSemVer": "Dhibiti SemVer",
+    "manageLog": "Dhibiti LOG",
+    "addPrompt": "Ongeza prompt",
+    "lockPrompt": "Funga prompt",
+    "unlockPrompt": "Fungua prompt",
+    "copyPrompt": "Nakili prompt",
+    "deletePrompt": "Futa prompt",
+    "filterTags": "Chuja TAG",
+    "filterRule": "Kanuni ya kichujio",
+    "filterLockPrompts": "Kichujio: prompt zilizofungwa"
+  },
+  "history": {
+    "name": "Historia",
+    "clearAll": "Futa historia yote",
+    "refresh": "Sasisha historia",
+    "remove": "Ondoa kwenye historia",
+    "search": "Tafuta historia",
+    "searchClear": "Futa utafutaji",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {Hakuna matokeo ya utafutaji kwa “{q}”} one {Matokeo # ya utafutaji kwa “{q}” yamepatikana} other {Matokeo # ya utafutaji kwa “{q}” yamepatikana}}} other {{count, plural, =0 {Hakuna matokeo} one {Matokeo # yamepatikana} other {Matokeo # yamepatikana}}}}",
+    "moreThisSite": "Zaidi kutoka kwenye tovuti hii",
+    "dialogTitle": "Futa historia yote?",
+    "dialogMessage": "Kitendo hiki hufuta rekodi zote za historia zilizohifadhiwa kabisa na hakiwezi kutenduliwa.",
+    "result1": "Imeshindwa kupakia historia. {error}",
+    "result2": "Bado hakuna historia.",
+    "result3": "Hakuna matokeo ya utafutaji",
+    "result4": "Hakuna data iliyopatikana.",
+    "tips": "Ulinganishaji wa takriban kwenye vichwa na URL. Boresha kwa vichujio vya uga:",
+    "tip1": "kichwa kina “example”",
+    "tip2": "kurasa kutoka “example.com”",
+    "tip3": "mnamo 2024/01/01",
+    "tip4": "ndani ya 2024/01/01–2025/12/31",
+    "tip5": "kabla ya 2024/01/01",
+    "tip6": "baada ya 2024/01/01",
+    "tip7": "imetembelewa mara 3 kabisa",
+    "tip8": "imetembelewa chini ya mara 3",
+    "tip9": "imetembelewa zaidi ya mara 3"
+  },
+  "form": {
+    "editor": "Kihariri",
+    "partition": "Utenganishaji wa kikao",
+    "name": "Jina",
+    "url": "URL",
+    "small": "Ndogo",
+    "medium": "Wastani",
+    "large": "Kubwa",
+    "icon": "Aikoni",
+    "inputElement": "Kipengele cha ingizo",
+    "sendElement": "Kipengele cha kutuma",
+    "cssSelector": "Kiteuzi cha CSS",
+    "lightMode": "Hali angavu",
+    "darkMode": "Hali nyeusi",
+    "customIcon": "Aikoni maalum",
+    "linkIcon": "Aikoni ya kiungo",
+    "dirIcon": "Aikoni ya folda",
+    "dirOpenIcon": "Aikoni ya folda iliyo wazi",
+    "selectUA": "Chagua User Agent",
+    "customUA": "Au ingiza mfuatano maalum wa User Agent…",
+    "rawJson": "Raw JSON",
+    "validation": {
+      "nameRequired": "Tafadhali ingiza jina.",
+      "urlRequired": "Tafadhali ingiza URL.",
+      "userAgentRequired": "Tafadhali ingiza mfuatano wa User Agent.",
+      "invalidJson": "JSON si sahihi.",
+      "fixJsonErrors": "Tafadhali rekebisha makosa ya uthibitishaji wa JSON kabla ya kuhifadhi.",
+      "required": "Sehemu hii inahitajika."
+    },
+    "tip": {
+      "agentWarning": "Onyo la usalama: kuruhusu kurasa za wavuti kufikia API ya Noi kunaweza kuwa hatari."
+    }
+  },
+  "action": {
+    "name": "Kitendo",
+    "archive": "Weka kwenye kumbukumbu",
+    "back": "Rudi",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "create": "Unda",
+    "delete": "Futa",
+    "details": "Maelezo ya kina",
+    "edit": "Hariri",
+    "restore": "Rejesha",
+    "query": "Swali",
+    "refresh": "Sasisha",
+    "rename": "Badilisha jina",
+    "reset": "Weka upya",
+    "save": "Hifadhi",
+    "send": "Tuma",
+    "use": "Tumia",
+    "clean": "Futa kutoka diski",
+    "enable": "Wezesha",
+    "disable": "Zima",
+    "importAsk": "Leta kwenye NoiAsk",
+    "openLocales": "Fungua folda ya Locales"
+  },
+  "table": {
+    "active": "Hai",
+    "archived": "Imehifadhiwa",
+    "color": "Rangi",
+    "createdAt": "Iliundwa",
+    "delete": "Futa",
+    "description": "Maelezo",
+    "details": "Maelezo",
+    "disabled": "Imezimwa",
+    "enabled": "Imewezeshwa",
+    "entries": "Vipengee",
+    "fileSize": "Ukubwa wa faili",
+    "mode": "Modi",
+    "status": "Hali",
+    "trash": "Takataka",
+    "unknown": "Haijulikani",
+    "updatedAt": "Imesasishwa",
+    "usageCount": "Idadi ya matumizi",
+    "tagAdd": "Ongeza TAG",
+    "tagRemove": "Ondoa TAG",
+    "visible": "Inaonekana",
+    "total": "Jumla",
+    "locked": "Imefungwa",
+    "text": "Maandishi",
+    "sendCount": "Idadi ya utumaji",
+    "addSource": "Ongeza chanzo",
+    "lastSynced": "Iliosawazishwa mwisho",
+    "message": {
+      "completed": "Kitendo kimekamilika.",
+      "failed": "Kitendo kimeshindwa.",
+      "noData": "Hakuna data iliyopatikana.",
+      "dataExist": "Data tayari ipo.",
+      "dataExistOrDuplicated": "Data zote tayari zipo au zimerudiwa.",
+      "failedLoad": "Imeshindwa kupakia data.",
+      "importedCount": "Imeingizwa: {count}.",
+      "skippedCount": "Imerukwa: {count}.",
+      "deleteSelected": "Una uhakika unataka kufuta safu ulizochagua? Kitendo hiki hakiwezi kutenduliwa.",
+      "deleteItem": "Una uhakika unataka kufuta kipengee hiki? Kitendo hiki hakiwezi kutenduliwa.",
+      "deleteFile": "Futa faili hii kutoka diski? Kitendo hiki hakiwezi kutenduliwa.",
+      "removeItem": "Ondoa kipengee hiki kutoka kwenye orodha? Faili itabaki kwenye diski.",
+      "deleteBuiltin": "Chanzo kilichojengwa ndani hakiwezi kufutwa.",
+      "importedAsk": "Imeingizwa kwenye NoiAsk.",
+      "deleteUseTag": "TAG hii inatumika kwa sasa na haiwezi kufutwa."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Hitaji uthibitisho wa kuondoka",
+      "title": "Toka Noi sasa?",
+      "detail": "Madirisha na kazi zote zitafungwa."
+    },
+    "nshQuit": {
+      "title": "Funga terminali?",
+      "detail": "Kazi zinazoendelea zitasitishwa mara moja."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Jumla",
+      "language": "Lugha",
+      "sidebarIcon": "Ukubwa wa aikoni ya upau wa pembeni",
+      "homeLink": "Kiungo cha nyumbani",
+      "limit": "Kikomo cha swali",
+      "cometCursor": "Kishale cha kometi cha NoiAsk",
+      "cometTrail": "Mkia wa kometi wa NoiAsk",
+      "lockLocales": "Funga folda ya Locales",
+      "lockLocalesTip": "Funga folda ya locales ili kuzuia masasisho ya kiotomatiki kubadilisha faili za lugha. Inafaa kwa tafsiri maalum.",
+      "urlMetadata": "Metadata ya URL",
+      "sidebarAnchor": {
+        "name": "Nanga ya upau wa pembeni",
+        "off": "Imezimwa",
+        "leftTop": "Juu kushoto",
+        "leftCenter": "Katikati kushoto",
+        "leftBottom": "Chini kushoto",
+        "rightTop": "Juu kulia",
+        "rightCenter": "Katikati kulia",
+        "rightBottom": "Chini kulia",
+        "disableWarning": "Kuzima hii huficha kichochezi kinachoelea. Ni njia ya mkato ya Noi pekee inayoweza kufungua tena upau wa pembeni, na migongano ya njia za mkato na tovuti ni ya kawaida, hivyo haipendekezwi kuzima.",
+        "disableConfirmTitle": "Zima nanga ya upau wa pembeni?"
+      },
+      "nsh": {
+        "name": "NSH (Terminal)",
+        "fontFamily": "Familia ya fonti",
+        "fontSize": "Ukubwa wa fonti",
+        "lineHeight": "Urefu wa mstari",
+        "cursorBlink": "Kumeta kwa kielekezi",
+        "cursorStyle": "Mtindo wa kielekezi",
+        "cursorWidth": "Upana wa kielekezi",
+        "cursorInactiveStyle": "Mtindo wa kielekezi kisicho hai",
+        "scrollback": "Historia ya kusogeza",
+        "tip": {
+          "cursorWidth": "Inatumika tu wakati mtindo wa kielekezi ni “Bar”.",
+          "scrollback": "Idadi ya mistari inayohifadhiwa kwenye historia wakati terminali inaposogeza."
+        }
+      },
+      "proxy": {
+        "name": "Proksi",
+        "rules": "Sheria za proksi",
+        "bypass": "Sheria za kuipita proksi"
+      }
+    },
+    "shortcuts": {
+      "name": "Njia za mkato",
+      "noiAskPrompt": "Prompt ya NoiAsk: {action}",
+      "noiAskPromptWithContext": "Prompt ya NoiAsk: {action} ({context})",
+      "placeholder": "Bonyeza mchanganyiko au andika",
+      "helpText": "Bonyeza mchanganyiko wa vitufe unaotakiwa au uandike (mf. Ctrl+Shift+X)",
+      "conflict": "Njia ya mkato tayari inatumika"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "JSON ya mbali",
+        "remoteCsv": "CSV ya mbali",
+        "localJson": "JSON ya ndani",
+        "localCsv": "CSV ya ndani"
+      },
+      "filePathMissing": "Njia ya faili si halali.",
+      "fileReadFailed": "Imeshindwa kusoma maudhui ya faili.",
+      "fileOpenFailed": "Imeshindwa kufungua kichagua faili.",
+      "fileRequired": "Tafadhali chagua faili ya kusawazisha.",
+      "notFound": "Chanzo cha usawazishaji hakijapatikana.",
+      "error": "Hitilafu ya usawazishaji wa prompt",
+      "pickLocalFile": "Chagua faili ya ndani",
+      "type": "Aina ya chanzo",
+      "alias": "Ulinganisho wa sehemu",
+      "upload": "Pakia faili",
+      "dragJson": "Buruta faili ya JSON au bofya ili kuvinjari",
+      "dragCsv": "Buruta faili ya CSV au bofya ili kuvinjari",
+      "browseLocal": "Chagua kutoka diski"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "Angalia muunganisho wako wa intaneti",
+        "Angalia proksi na ngome"
+      ],
+      "platform": {
+        "windows": "Endesha uchunguzi wa mtandao wa Windows",
+        "mac": "Endesha uchunguzi wa mitandao isiyotumia waya (macOS)"
+      },
+      "unknownError": "Hitilafu isiyojulikana ilitokea",
+      "site": "tovuti hii"
+    },
+    "html": {
+      "tryLabel": "Jaribu:",
+      "showDetails": "Onyesha maelezo",
+      "hideDetails": "Ficha maelezo",
+      "openAction": "Fungua",
+      "reload": "Pakia upya"
+    },
+    "offline": {
+      "headline": "Hakuna intaneti",
+      "message": "Uko nje ya mtandao.",
+      "tryTips": [
+        "Angalia nyaya za mtandao, modemu, au ruta",
+        "Unganisha tena Wi-Fi au badili mtandao"
+      ],
+      "action": "Pakia upya"
+    },
+    "network": {
+      "headline": "Tovuti hii haiwezi kufikiwa",
+      "message": "Muunganisho kwa {hostname} umeisha muda.",
+      "messageFallback": "Tovuti imechukua muda mrefu kujibu.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} ilikataa muunganisho.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "Tovuti ilikataa muunganisho.",
+        "ERR_CONNECTION_RESET": "Muunganisho ulirekebishwa upya.",
+        "ERR_CONNECTION_TIMED_OUT": "Muunganisho umeisha muda.",
+        "ERR_TIMED_OUT": "Muunganisho umeisha muda.",
+        "ERR_ADDRESS_UNREACHABLE": "Anwani haifikiki.",
+        "ERR_NETWORK_CHANGED": "Muunganisho wako wa mtandao umebadilika.",
+        "ERR_CONNECTION_ABORTED": "Muunganisho umevunjwa.",
+        "ERR_CONNECTION_FAILED": "Imeshindwa kuunganisha.",
+        "ERR_CONNECTION_CLOSED": "Muunganisho umefungwa.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "Muunganisho umeingiliwa (hitilafu ya itifaki ya HTTP/2).",
+        "ERR_QUIC_PROTOCOL_ERROR": "Muunganisho umeingiliwa (hitilafu ya itifaki ya QUIC)."
+      },
+      "tryTips": [
+        "Angalia kama tovuti zingine zinafunguka; zisipofunguka, unganisha tena mtandao",
+        "Washa upya ruta au washa/zima hali ya ndege"
+      ],
+      "suggestions": [
+        {
+          "title": "Kagua upatikanaji wa seva",
+          "detail": "Ikiwa {site} ni huduma ya ndani, hakikisha iko mtandaoni au inapatikana kutoka mtandao huu."
+        },
+        {
+          "title": "Kagua programu za usalama",
+          "detail": "Ngome, antivirus, au wateja wa VPN wanaweza kukatiza maombi — simamisha kwa muda na ujaribu tena."
+        }
+      ],
+      "action": "Pakia upya"
+    },
+    "dns": {
+      "headline": "Tovuti hii haiwezi kufikiwa",
+      "message": "Anwani ya IP ya {hostname} haikupatikana.",
+      "messageFallback": "Anwani ya IP ya seva haikupatikana.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "Anwani ya IP ya {hostname} haikupatikana.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Anwani ya IP ya seva haikupatikana.",
+        "ERR_NAME_RESOLUTION_FAILED": "Utafutaji wa DNS umeshindwa kwa {hostname}.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "Utafutaji wa DNS umeshindwa.",
+        "ERR_DNS_TIMED_OUT": "Muda wa seva ya DNS umeisha.",
+        "ERR_DNS_SERVER_FAILED": "Seva ya DNS haikujibu.",
+        "ERR_DNS_MALFORMED_RESPONSE": "Seva ya DNS ilirudisha jibu batili."
+      },
+      "tryTips": [
+        "Thibitisha kuwa anwani ya wavuti imeandikwa vizuri",
+        "Angalia mipangilio ya proksi, ngome na DNS"
+      ],
+      "suggestions": [
+        {
+          "title": "Angalia anwani ya wavuti",
+          "detail": "Hakikisha {site} imeandikwa vizuri. Ikiwa ndivyo, seva ya DNS inaweza kutopatikana kwa muda."
+        },
+        {
+          "title": "Safisha akiba ya DNS",
+          "detail": "Safisha akiba ya DNS na upakie upya (kwa mfano, `ipconfig /flushdns` kwenye Windows au `sudo killall -HUP mDNSResponder` kwenye macOS)."
+        }
+      ],
+      "action": "Pakia upya"
+    },
+    "ssl": {
+      "headline": "Muunganisho wako si wa faragha",
+      "headlineSecure": "Tovuti hii haiwezi kutoa muunganisho salama",
+      "message": "Washambuliaji wanaweza kujaribu kuiba taarifa kutoka {hostname} (kwa mfano, nywila, ujumbe, au kadi za mkopo).",
+      "messageSecure": "Noi haiwezi kuanzisha muunganisho salama kwa {hostname}.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "Tovuti hutumia itifaki ya SSL isiyo sahihi au isiyoungwa mkono.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "Tovuti hutumia itifaki ya SSL au siri isiyoungwa mkono.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "Mlolongo wa cheti hauendani na ufunguo uliopiniwa.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Cheti cha mteja kinahitajika ili kufikia tovuti hii.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "Cheti cha mteja si halali au kilikataliwa.",
+        "ERR_CERT_COMMON_NAME_INVALID": "Cheti ni halali kwa anwani tofauti.",
+        "ERR_CERT_DATE_INVALID": "Cheti kimeisha muda au bado si halali.",
+        "ERR_CERT_AUTHORITY_INVALID": "Cheti hakiaminiki.",
+        "ERR_CERT_REVOKED": "Cheti kimefutwa.",
+        "ERR_CERT_INVALID": "Cheti si halali.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "Cheti kinatumia algorithimu dhaifu ya saini.",
+        "ERR_CERT_WEAK_KEY": "Cheti kinatumia ufunguo dhaifu.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "Cheti kinakiuka vikwazo vya jina.",
+        "ERR_CERT_NON_UNIQUE_NAME": "Cheti kinashirikiwa na tovuti nyingi."
+      },
+      "suggestions": [
+        {
+          "title": "Angalia tarehe na saa ya kompyuta",
+          "detail": "Saa isiyo sahihi inaweza kusababisha hitilafu za cheti."
+        },
+        {
+          "title": "Endelea kwa tahadhari",
+          "detail": "Endelea tu ikiwa unaelewa hatari na unaamini tovuti hii."
+        }
+      ],
+      "action": "Pakia upya"
+    },
+    "proxy": {
+      "headline": "Muunganisho wa proksi umeshindwa",
+      "message": "Noi ilijaribu kufikia tovuti kupitia proksi iliyosanidiwa, lakini muunganisho haukufanikiwa. Kichupo hiki sasa kinatumia muunganisho wa moja kwa moja kama mbadala.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "Seva ya proksi ilikataa muunganisho.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "Handaki la proksi limeshindwa.",
+        "ERR_SOCKS_CONNECTION_FAILED": "Proksi ya SOCKS ilikataa muunganisho.",
+        "ERR_PROXY_AUTH_REQUESTED": "Seva ya proksi inahitaji uthibitisho.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "Njia ya uthibitisho wa proksi haitumiki.",
+        "ERR_PAC_SCRIPT_FAILED": "Hati ya usanidi otomatiki wa proksi (PAC) ilishindwa.",
+        "ERR_NO_SUPPORTED_PROXIES": "Hakuna proksi zinazoungwa mkono zilizopatikana kwa ombi hili.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "Usanidi wa proksi wa lazima umeshindwa.",
+        "ERR_PROXY_REQUIRED": "Proksi inahitajika ili kufikia tovuti hii."
+      },
+      "tryTips": [
+        "Thibitisha mwenyeji, bandari, na uthibitisho wa proksi",
+        "Hakikisha seva ya proksi inaweza kufikiwa kutoka mtandao wa sasa",
+        "Ikiwa shirika linahitaji proksi, irejeshe na upakie upya itakapopatikana"
+      ],
+      "suggestions": [
+        {
+          "title": "Kagua sheria za proksi za Noi",
+          "detail": "Tumia mipangilio ya Noi kuthibitisha kuwa sheria za proksi na orodha ya kuipita zinalingana na mtandao huu.",
+          "actionLabel": "Fungua mipangilio ya Noi"
+        },
+        {
+          "title": "Jaribu tena na proksi baadaye",
+          "detail": "Proksi itakapopatikana tena, pakia upya ili kubadili kutoka hali ya moja kwa moja hadi hali ya proksi."
+        }
+      ],
+      "action": "Pakia upya katika hali ya moja kwa moja"
+    },
+    "blocked": {
+      "headline": "Ukurasa huu umefungwa",
+      "message": "Ombi limezuiwa na kiendelezi au sera ya usalama.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "Ombi limezuiwa na mteja au kiendelezi.",
+        "ERR_BLOCKED_BY_RESPONSE": "Jibu limezuiwa na tovuti au sera.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "Tovuti inahitaji muunganisho salama (HTTPS).",
+        "ERR_NETWORK_ACCESS_DENIED": "Ufikiaji wa mtandao umezuiwa na sera."
+      },
+      "tryTips": [
+        "Zima viendelezi au vizuia maudhui na upakie upya",
+        "Angalia mipangilio ya ngome na antivirus"
+      ],
+      "suggestions": [
+        {
+          "title": "Zima viendelezi au vizuia maudhui",
+          "detail": "Viendelezi kama vizuia matangazo au vifuatiliaji vinaweza kuzuia ombi — vizime kwa muda na ujaribu tena."
+        },
+        {
+          "title": "Kagua sera ya tovuti",
+          "detail": "Jibu linaweza kuzuiwa na X-Frame-Options au Content Security Policy."
+        }
+      ],
+      "action": "Pakia upya"
+    },
+    "client": {
+      "headline": "Ukurasa huu haufanyi kazi",
+      "message": "Tovuti ilirudisha jibu batili.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} ilituma jibu batili au tupu.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "Tovuti ilituma jibu batili au tupu.",
+        "ERR_FILE_NOT_FOUND": "Faili haikupatikana.",
+        "ERR_FILE_ACCESS_DENIED": "Ufikiaji wa faili umekataliwa.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "Seva ilijibu kwa hitilafu.",
+        "ERR_TOO_MANY_REDIRECTS": "Ukurasa haujielekezi kwa usahihi.",
+        "ERR_INVALID_RESPONSE": "Tovuti ilituma jibu batili.",
+        "ERR_INVALID_CHUNKED_ENCODING": "Tovuti ilituma jibu batili.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "Tovuti ilituma jibu lisilokamilika.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "Tovuti ilituma jibu batili.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "Tovuti ilituma data nyingi kwenye vichwa vya majibu.",
+        "ERR_CACHE_MISS": "Ombi linahitaji kutumwa tena.",
+        "ERR_INVALID_URL": "Anwani ya wavuti si sahihi.",
+        "ERR_DISALLOWED_URL_SCHEME": "Skimu hii ya URL hairuhusiwi.",
+        "ERR_UNKNOWN_URL_SCHEME": "Skimu hii ya URL haitumiki.",
+        "ERR_UNSAFE_PORT": "Bandari hii imezuiwa kwa sababu za usalama.",
+        "ERR_INVALID_REDIRECT": "Tovuti ilirudisha uelekezaji batili.",
+        "ERR_UNSAFE_REDIRECT": "Tovuti ilijaribu uelekezaji usio salama.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "Tovuti ilituma data nyingi kwenye vichwa vya majibu.",
+        "ERR_METHOD_NOT_SUPPORTED": "Njia ya ombi haitumiki."
+      },
+      "tryTips": [
+        "Pakia upya ukurasa",
+        "Futa akiba ya kivinjari au data ya tovuti iliyohifadhiwa"
+      ],
+      "suggestions": [
+        {
+          "title": "Futa data ya tovuti",
+          "detail": "Ondoa vidakuzi na faili za akiba za tovuti hii, kisha upakie upya."
+        },
+        {
+          "title": "Ripoti kwa mmiliki wa tovuti",
+          "detail": "Ikiwa tatizo litaendelea, wasiliana na msimamizi wa tovuti ukitumia msimbo wa hitilafu ulioonyeshwa hapa chini."
+        }
+      ],
+      "action": "Pakia upya"
+    },
+    "unknown": {
+      "headline": "Ukurasa huu haufanyi kazi",
+      "message": "Hitilafu isiyotarajiwa imetokea ({code}).",
+      "tryTips": [
+        "Pakia upya ukurasa",
+        "Ikiwa tatizo litaendelea, andika msimbo wa hitilafu na wasiliana na msimamizi wa tovuti au timu ya msaada"
+      ],
+      "action": "Pakia upya"
+    }
+  }
+}

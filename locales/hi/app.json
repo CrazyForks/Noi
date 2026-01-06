@@ -1,0 +1,586 @@
+{
+  "language": "हिन्दी",
+  "engines": "खोज इंजन",
+  "version": "संस्करण",
+  "doc": "दस्तावेज़",
+  "sponsor": "प्रायोजक",
+  "website": "वेबसाइट",
+  "menu": {
+    "name": "मेनू",
+    "about": "Noi के बारे में",
+    "hide": "Noi छिपाएँ",
+    "hideOthers": "अन्य छिपाएँ",
+    "quit": "Noi से बाहर निकलें",
+    "unhide": "सभी दिखाएँ",
+    "noiHotkey": "Noi शॉर्टकट",
+    "noiAskHotkey": "NoiAsk शॉर्टकट",
+    "sidebar": "साइडबार",
+    "checkUpdates": "अपडेट जाँचें…",
+    "settings": "सेटिंग्स",
+    "stayOnTop": "हमेशा ऊपर रखें",
+    "services": "सेवाएँ",
+    "newTabSidePanel": "साइड पैनल में नया टैब",
+    "newTabMain": "मुख्य विंडो में नया टैब",
+    "bordless": "बॉर्डरलेस विंडो",
+    "theme": {
+      "name": "थीम",
+      "system": "सिस्टम के अनुसार",
+      "light": "लाइट",
+      "dark": "डार्क",
+      "style": "थीम शैली"
+    },
+    "find": {
+      "name": "ढूँढें",
+      "next": "अगला ढूँढें",
+      "previous": "पिछला ढूँढें",
+      "jumpToSelection": "चयन पर जाएँ"
+    },
+    "edit": {
+      "name": "संपादन",
+      "undo": "पूर्ववत करें",
+      "redo": "फिर से करें",
+      "cut": "कट",
+      "copy": "कॉपी",
+      "paste": "पेस्ट",
+      "pasteAndMatchStyle": "पेस्ट करें और स्टाइल मिलाएँ",
+      "delete": "हटाएँ",
+      "selectAll": "सभी चुनें"
+    },
+    "tab": {
+      "openDefault": "डिफ़ॉल्ट ब्राउज़र में खोलें",
+      "addSidebarTemp": "साइडबार में जोड़ें (TempLink)",
+      "copyUrl": "URL कॉपी करें",
+      "copyUrlMd": "URL को Markdown में कॉपी करें"
+    },
+    "help": {
+      "name": "सहायता",
+      "feedback": "प्रतिक्रिया"
+    }
+  },
+  "session": {
+    "clearCurrent": "सत्र डेटा साफ़ करें",
+    "clearAll": "सभी सत्र डेटा साफ़ करें",
+    "clearRemovedSites": "हटाई गई साइटों का डेटा साफ़ करें",
+    "confirmCurrent": "«{target}» के साइट डेटा को साफ़ करें? इससे इस सत्र की कुकीज़ और स्टोरेज हट जाएँगे।",
+    "confirmAll": "सभी सत्रों का साइट डेटा साफ़ करें? इससे कुछ साइटों से साइन आउट हो सकते हैं।",
+    "confirmRemovedSites": "जो साइटें अब आपके इंडेक्स में नहीं हैं, उनसे {count, plural, one {# सत्र} other {# सत्र}} का साइट डेटा हटाएँ?",
+    "resultNoRemovedSites": "हटाई गई साइटों के लिए कोई कैश्ड डेटा नहीं मिला।",
+    "helpRemovedSites": "हटाई गई साइटों के सत्र वे कुकीज़ और स्टोरेज हैं जो उन साइटों को आपके इंडेक्स से हटाने के बाद बचे रहते हैं।"
+  },
+  "view": {
+    "name": "दृश्य",
+    "tabs": "Noi टैब",
+    "spaces": "{count, plural, one {Noi स्पेस} other {Noi स्पेस}}",
+    "toolbar": "Noi टूलबार",
+    "markdown": "Markdown",
+    "minibar": "मिनीबार",
+    "manageSpaces": "स्पेस प्रबंधित करें",
+    "reload": "रीलोड करें",
+    "goBack": "पीछे जाएँ",
+    "goForward": "आगे जाएँ",
+    "zoom": "ज़ूम",
+    "actualSize": "वास्तविक आकार",
+    "zoomIn": "ज़ूम इन",
+    "zoomOut": "ज़ूम आउट",
+    "devTools": "डेवलपर टूल",
+    "newTab": "नया टैब",
+    "newTabPlaceholder": "{hasEngine, select, true {{engine} से खोजें या URL दर्ज करें…} other {खोजें या URL दर्ज करें…}}",
+    "closeTab": "टैब बंद करें",
+    "closeOtherTabs": "अन्य टैब बंद करें",
+    "mute": "ध्वनि बंद",
+    "unmute": "ध्वनि चालू",
+    "incognito": "गुप्त मोड",
+    "sidePanel": "साइड पैनल",
+    "newFolder": "नया फ़ोल्डर",
+    "addLink": "लिंक जोड़ें",
+    "mainWindow": "मुख्य विंडो",
+    "switchMainTab": "मुख्य टैब पर जाएँ",
+    "switchSideTab": "साइड पैनल टैब पर जाएँ",
+    "newFile": "नई फ़ाइल",
+    "bookmark": "बुकमार्क",
+    "bookmarkTab": "इस टैब को बुकमार्क करें",
+    "copyUrlMetadata": "URL मेटाडेटा कॉपी करें",
+    "removeNoiView": "NoiView से हटाएँ",
+    "addNoiView": "NoiView में जोड़ें",
+    "openNewWindow": "नई विंडो में खोलें",
+    "openSidePanel": "साइड पैनल में खोलें",
+    "pin": "पिन करें",
+    "unpin": "अनपिन करें",
+    "lockLink": "लिंक लॉक करें",
+    "unlockLink": "लिंक अनलॉक करें",
+    "buttonHighlight": "शीर्षक-बार बटन हाइलाइट"
+  },
+  "window": {
+    "close": "बंद करें",
+    "goMain": "मुख्य विंडो पर जाएँ",
+    "dialog": "डायलॉग विंडो",
+    "drag": "खींचकर ले जाएँ",
+    "minimize": "मिनिमाइज़",
+    "maximize": "मैक्सिमाइज़",
+    "restore": "बहाल करें"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {प्रॉम्प्ट} other {प्रॉम्प्ट्स}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "सिंक",
+    "manageSemVer": "SemVer प्रबंधित करें",
+    "manageLog": "LOG प्रबंधित करें",
+    "addPrompt": "प्रॉम्प्ट जोड़ें",
+    "lockPrompt": "प्रॉम्प्ट लॉक करें",
+    "unlockPrompt": "प्रॉम्प्ट अनलॉक करें",
+    "copyPrompt": "प्रॉम्प्ट कॉपी करें",
+    "deletePrompt": "प्रॉम्प्ट हटाएँ",
+    "filterTags": "TAG फ़िल्टर करें",
+    "filterRule": "फ़िल्टर नियम",
+    "filterLockPrompts": "फ़िल्टर: लॉक किए गए प्रॉम्प्ट"
+  },
+  "history": {
+    "name": "इतिहास",
+    "clearAll": "सारा इतिहास साफ़ करें",
+    "refresh": "इतिहास रीफ़्रेश करें",
+    "remove": "इतिहास से हटाएँ",
+    "search": "इतिहास खोजें",
+    "searchClear": "खोज साफ़ करें",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {«{q}» के लिए कोई खोज परिणाम नहीं} one {«{q}» के लिए # खोज परिणाम मिला} other {«{q}» के लिए # खोज परिणाम मिले}}} other {{count, plural, =0 {कोई परिणाम नहीं} one {# परिणाम मिला} other {# परिणाम मिले}}}}",
+    "moreThisSite": "इस साइट से और देखें",
+    "dialogTitle": "सारा इतिहास साफ़ करें?",
+    "dialogMessage": "यह कार्रवाई सहेजे गए सभी इतिहास रिकॉर्ड स्थायी रूप से हटा देती है और इसे वापस नहीं किया जा सकता।",
+    "result1": "इतिहास लोड करने में विफल। {error}",
+    "result2": "अभी कोई इतिहास नहीं।",
+    "result3": "कोई खोज परिणाम नहीं",
+    "result4": "कोई डेटा नहीं मिला।",
+    "tips": "शीर्षकों और URL पर फज़ी मिलान। फ़ील्ड फ़िल्टर से परिष्कृत करें:",
+    "tip1": "शीर्षक में «example» शामिल है",
+    "tip2": "«example.com» से पेज",
+    "tip3": "2024/01/01 को",
+    "tip4": "2024/01/01–2025/12/31 के बीच",
+    "tip5": "2024/01/01 से पहले",
+    "tip6": "2024/01/01 के बाद",
+    "tip7": "ठीक 3 बार देखा गया",
+    "tip8": "3 बार से कम देखा गया",
+    "tip9": "3 बार से अधिक देखा गया"
+  },
+  "form": {
+    "editor": "एडिटर",
+    "partition": "सत्र पृथक्करण",
+    "name": "नाम",
+    "url": "URL",
+    "small": "छोटा",
+    "medium": "मध्यम",
+    "large": "बड़ा",
+    "icon": "आइकन",
+    "inputElement": "इनपुट एलिमेंट",
+    "sendElement": "सेंड एलिमेंट",
+    "cssSelector": "CSS सेलेक्टर",
+    "lightMode": "लाइट मोड",
+    "darkMode": "डार्क मोड",
+    "customIcon": "कस्टम आइकन",
+    "linkIcon": "लिंक आइकन",
+    "dirIcon": "फ़ोल्डर आइकन",
+    "dirOpenIcon": "फ़ोल्डर ओपन आइकन",
+    "selectUA": "User Agent चुनें",
+    "customUA": "या कस्टम User Agent स्ट्रिंग दर्ज करें…",
+    "rawJson": "रॉ JSON",
+    "validation": {
+      "nameRequired": "कृपया नाम दर्ज करें।",
+      "urlRequired": "कृपया URL दर्ज करें।",
+      "userAgentRequired": "कृपया User Agent स्ट्रिंग दर्ज करें।",
+      "invalidJson": "JSON अमान्य है।",
+      "fixJsonErrors": "सहेजने से पहले JSON सत्यापन त्रुटियाँ ठीक करें।",
+      "required": "यह फ़ील्ड आवश्यक है।"
+    },
+    "tip": {
+      "agentWarning": "सुरक्षा चेतावनी: वेब पेजों को Noi API तक पहुँच की अनुमति देना खतरनाक हो सकता है।"
+    }
+  },
+  "action": {
+    "name": "कार्रवाई",
+    "archive": "आर्काइव करें",
+    "back": "वापस",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "create": "बनाएँ",
+    "delete": "हटाएँ",
+    "details": "विवरण",
+    "edit": "संपादित करें",
+    "restore": "बहाल करें",
+    "query": "क्वेरी",
+    "refresh": "रीफ़्रेश",
+    "rename": "नाम बदलें",
+    "reset": "रीसेट",
+    "save": "सहेजें",
+    "send": "भेजें",
+    "use": "उपयोग करें",
+    "clean": "डिस्क से हटाएँ",
+    "enable": "सक्षम करें",
+    "disable": "अक्षम करें",
+    "importAsk": "NoiAsk में आयात करें",
+    "openLocales": "Locales फ़ोल्डर खोलें"
+  },
+  "table": {
+    "active": "सक्रिय",
+    "archived": "आर्काइव किया गया",
+    "color": "रंग",
+    "createdAt": "बनाया गया",
+    "delete": "हटाएँ",
+    "description": "विवरण",
+    "details": "विवरण",
+    "disabled": "अक्षम",
+    "enabled": "सक्षम",
+    "entries": "एंट्रीज़",
+    "fileSize": "फ़ाइल आकार",
+    "mode": "मोड",
+    "status": "स्थिति",
+    "trash": "ट्रैश",
+    "unknown": "अज्ञात",
+    "updatedAt": "अपडेट किया गया",
+    "usageCount": "उपयोग संख्या",
+    "tagAdd": "TAG जोड़ें",
+    "tagRemove": "TAG हटाएँ",
+    "visible": "दृश्य",
+    "total": "कुल",
+    "locked": "लॉक्ड",
+    "text": "टेक्स्ट",
+    "sendCount": "भेजने की संख्या",
+    "addSource": "स्रोत जोड़ें",
+    "lastSynced": "अंतिम सिंक",
+    "message": {
+      "completed": "कार्रवाई पूरी हुई।",
+      "failed": "कार्रवाई विफल हुई।",
+      "noData": "कोई डेटा नहीं मिला।",
+      "dataExist": "डेटा पहले से मौजूद है।",
+      "dataExistOrDuplicated": "सारा डेटा पहले से मौजूद है या डुप्लिकेट है।",
+      "failedLoad": "डेटा लोड करने में विफल।",
+      "importedCount": "आयात किया गया: {count}।",
+      "skippedCount": "छोड़ा गया: {count}।",
+      "deleteSelected": "क्या आप चयनित पंक्तियाँ हटाना चाहते हैं? यह कार्रवाई वापस नहीं ली जा सकती।",
+      "deleteItem": "क्या आप इस आइटम को हटाना चाहते हैं? यह कार्रवाई वापस नहीं ली जा सकती।",
+      "deleteFile": "इस फ़ाइल को डिस्क से हटाएँ? यह कार्रवाई वापस नहीं ली जा सकती।",
+      "removeItem": "इस आइटम को सूची से हटाएँ? फ़ाइल डिस्क पर बनी रहेगी।",
+      "deleteBuiltin": "बिल्ट-इन स्रोत हटाया नहीं जा सकता।",
+      "importedAsk": "NoiAsk में आयात किया गया।",
+      "deleteUseTag": "यह TAG वर्तमान में उपयोग में है और हटाया नहीं जा सकता।"
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "बाहर निकलने की पुष्टि आवश्यक",
+      "title": "क्या अभी Noi बंद करें?",
+      "detail": "सभी विंडो और कार्य बंद हो जाएंगे।"
+    },
+    "nshQuit": {
+      "title": "टर्मिनल बंद करें?",
+      "detail": "चल रहे कार्य तुरंत समाप्त कर दिए जाएंगे।"
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "सामान्य",
+      "language": "भाषा",
+      "sidebarIcon": "साइडबार आइकन आकार",
+      "homeLink": "होम लिंक",
+      "limit": "क्वेरी सीमा",
+      "cometCursor": "NoiAsk कॉमेट कर्सर",
+      "cometTrail": "NoiAsk कॉमेट ट्रेल",
+      "lockLocales": "Locales फ़ोल्डर लॉक करें",
+      "lockLocalesTip": "locales फ़ोल्डर लॉक करें ताकि स्वचालित अपडेट भाषा फ़ाइलों में बदलाव न करें। कस्टम अनुवादों के लिए उपयोगी।",
+      "urlMetadata": "URL मेटाडेटा",
+      "sidebarAnchor": {
+        "name": "साइडबार एंकर",
+        "off": "बंद",
+        "leftTop": "बाएँ ऊपर",
+        "leftCenter": "बाएँ मध्य",
+        "leftBottom": "बाएँ नीचे",
+        "rightTop": "दाएँ ऊपर",
+        "rightCenter": "दाएँ मध्य",
+        "rightBottom": "दाएँ नीचे",
+        "disableWarning": "इसे बंद करने से फ़्लोटिंग ट्रिगर छिप जाएगा। केवल Noi शॉर्टकट से साइडबार फिर से खोला जा सकता है, और शॉर्टकट का वेबसाइटों से टकराव आम है, इसलिए बंद करना अनुशंसित नहीं है।",
+        "disableConfirmTitle": "साइडबार एंकर अक्षम करें?"
+      },
+      "nsh": {
+        "name": "NSH (टर्मिनल)",
+        "fontFamily": "फ़ॉन्ट फ़ैमिली",
+        "fontSize": "फ़ॉन्ट आकार",
+        "lineHeight": "लाइन हाइट",
+        "cursorBlink": "कर्सर ब्लिंक",
+        "cursorStyle": "कर्सर स्टाइल",
+        "cursorWidth": "कर्सर चौड़ाई",
+        "cursorInactiveStyle": "निष्क्रिय कर्सर स्टाइल",
+        "scrollback": "स्क्रॉलबैक",
+        "tip": {
+          "cursorWidth": "केवल तब लागू होता है जब कर्सर स्टाइल «Bar» हो।",
+          "scrollback": "टर्मिनल स्क्रॉल होने पर इतिहास में रखी जाने वाली पंक्तियों की संख्या।"
+        }
+      },
+      "proxy": {
+        "name": "प्रॉक्सी",
+        "rules": "प्रॉक्सी नियम",
+        "bypass": "प्रॉक्सी बाइपास नियम"
+      }
+    },
+    "shortcuts": {
+      "name": "शॉर्टकट",
+      "noiAskPrompt": "NoiAsk प्रॉम्प्ट: {action}",
+      "noiAskPromptWithContext": "NoiAsk प्रॉम्प्ट: {action} ({context})",
+      "placeholder": "कॉम्बो दबाएँ या टाइप करें",
+      "helpText": "इच्छित कुंजी संयोजन दबाएँ, या टाइप करें (उदा. Ctrl+Shift+X)",
+      "conflict": "शॉर्टकट पहले से उपयोग में है"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "रिमोट JSON",
+        "remoteCsv": "रिमोट CSV",
+        "localJson": "लोकल JSON",
+        "localCsv": "लोकल CSV"
+      },
+      "filePathMissing": "अमान्य फ़ाइल पाथ।",
+      "fileReadFailed": "फ़ाइल सामग्री पढ़ने में विफल।",
+      "fileOpenFailed": "फ़ाइल पिकर खोलने में असमर्थ।",
+      "fileRequired": "सिंक करने के लिए फ़ाइल चुनें।",
+      "notFound": "सिंक स्रोत नहीं मिला।",
+      "error": "प्रॉम्प्ट सिंक त्रुटि",
+      "pickLocalFile": "लोकल फ़ाइल चुनें",
+      "type": "स्रोत प्रकार",
+      "alias": "फ़ील्ड मैपिंग",
+      "upload": "फ़ाइल अपलोड करें",
+      "dragJson": "JSON फ़ाइल खींचें या क्लिक करके ब्राउज़ करें",
+      "dragCsv": "CSV फ़ाइल खींचें या क्लिक करके ब्राउज़ करें",
+      "browseLocal": "डिस्क से चुनें"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "अपना इंटरनेट कनेक्शन जाँचें",
+        "प्रॉक्सी और फ़ायरवॉल जाँचें"
+      ],
+      "platform": {
+        "windows": "Windows नेटवर्क डायग्नोस्टिक्स चलाएँ",
+        "mac": "वायरलेस डायग्नोस्टिक्स चलाएँ (macOS)"
+      },
+      "unknownError": "एक अज्ञात त्रुटि हुई",
+      "site": "यह साइट"
+    },
+    "html": {
+      "tryLabel": "कोशिश करें:",
+      "showDetails": "विवरण दिखाएँ",
+      "hideDetails": "विवरण छिपाएँ",
+      "openAction": "खोलें",
+      "reload": "रीलोड करें"
+    },
+    "offline": {
+      "headline": "कोई इंटरनेट नहीं",
+      "message": "आप ऑफ़लाइन हैं।",
+      "tryTips": [
+        "नेटवर्क केबल, मॉडेम या राउटर जाँचें",
+        "Wi-Fi से फिर जुड़ें या किसी अन्य नेटवर्क पर जाएँ"
+      ],
+      "action": "रीलोड करें"
+    },
+    "network": {
+      "headline": "इस साइट तक पहुँचा नहीं जा सकता",
+      "message": "{hostname} से कनेक्शन का समय समाप्त हो गया।",
+      "messageFallback": "साइट ने जवाब देने में बहुत समय लिया।",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} ने कनेक्शन अस्वीकार कर दिया।",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "साइट ने कनेक्शन अस्वीकार कर दिया।",
+        "ERR_CONNECTION_RESET": "कनेक्शन रीसेट हो गया।",
+        "ERR_CONNECTION_TIMED_OUT": "कनेक्शन का समय समाप्त हो गया।",
+        "ERR_TIMED_OUT": "कनेक्शन का समय समाप्त हो गया।",
+        "ERR_ADDRESS_UNREACHABLE": "पता पहुँच योग्य नहीं है।",
+        "ERR_NETWORK_CHANGED": "आपका नेटवर्क कनेक्शन बदल गया।",
+        "ERR_CONNECTION_ABORTED": "कनेक्शन रद्द कर दिया गया।",
+        "ERR_CONNECTION_FAILED": "कनेक्शन विफल रहा।",
+        "ERR_CONNECTION_CLOSED": "कनेक्शन बंद हो गया।",
+        "ERR_HTTP2_PROTOCOL_ERROR": "कनेक्शन बाधित हुआ (HTTP/2 प्रोटोकॉल त्रुटि)।",
+        "ERR_QUIC_PROTOCOL_ERROR": "कनेक्शन बाधित हुआ (QUIC प्रोटोकॉल त्रुटि)।"
+      },
+      "tryTips": [
+        "जाँचें कि अन्य साइटें खुल रही हैं या नहीं; यदि नहीं, नेटवर्क से फिर जुड़ें",
+        "राउटर रीस्टार्ट करें या एअरप्लेन मोड बंद/चालू करें"
+      ],
+      "suggestions": [
+        {
+          "title": "सर्वर उपलब्धता जाँचें",
+          "detail": "यदि {site} एक आंतरिक सेवा है, तो पुष्टि करें कि यह ऑनलाइन है या वर्तमान नेटवर्क से पहुँचा जा सकता है।"
+        },
+        {
+          "title": "सुरक्षा सॉफ़्टवेयर जाँचें",
+          "detail": "फ़ायरवॉल, एंटीवायरस या VPN क्लाइंट अनुरोधों को बाधित कर सकते हैं—इन टूल्स को अस्थायी रूप से रोकें और फिर कोशिश करें।"
+        }
+      ],
+      "action": "रीलोड करें"
+    },
+    "dns": {
+      "headline": "इस साइट तक पहुँचा नहीं जा सकता",
+      "message": "{hostname} का IP पता नहीं मिल सका।",
+      "messageFallback": "सर्वर का IP पता नहीं मिल सका।",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "{hostname} का IP पता नहीं मिल सका।",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "सर्वर का IP पता नहीं मिल सका।",
+        "ERR_NAME_RESOLUTION_FAILED": "{hostname} के लिए DNS लुकअप विफल रहा।",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "DNS लुकअप विफल रहा।",
+        "ERR_DNS_TIMED_OUT": "DNS सर्वर का समय समाप्त हो गया।",
+        "ERR_DNS_SERVER_FAILED": "DNS सर्वर ने जवाब नहीं दिया।",
+        "ERR_DNS_MALFORMED_RESPONSE": "DNS सर्वर ने अमान्य प्रतिक्रिया भेजी।"
+      },
+      "tryTips": [
+        "वेब पता सही लिखा है या नहीं जाँचें",
+        "प्रॉक्सी, फ़ायरवॉल और DNS कॉन्फ़िगरेशन जाँचें"
+      ],
+      "suggestions": [
+        {
+          "title": "वेब पता जाँचें",
+          "detail": "सुनिश्चित करें कि {site} सही लिखा है। यदि है, तो DNS सर्वर अस्थायी रूप से अनुपलब्ध हो सकता है।"
+        },
+        {
+          "title": "DNS कैश साफ़ करें",
+          "detail": "DNS कैश साफ़ करें और रीलोड करें (उदा. Windows पर `ipconfig /flushdns` या macOS पर `sudo killall -HUP mDNSResponder`)."
+        }
+      ],
+      "action": "रीलोड करें"
+    },
+    "ssl": {
+      "headline": "आपका कनेक्शन निजी नहीं है",
+      "headlineSecure": "यह साइट सुरक्षित कनेक्शन प्रदान नहीं कर सकती",
+      "message": "हमलावर {hostname} से जानकारी चुरा सकते हैं (उदाहरण के लिए, पासवर्ड, संदेश या क्रेडिट कार्ड)।",
+      "messageSecure": "Noi {hostname} से सुरक्षित कनेक्शन स्थापित नहीं कर सकता।",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "साइट एक अमान्य या असमर्थित SSL प्रोटोकॉल का उपयोग करती है।",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "साइट एक असमर्थित SSL प्रोटोकॉल या सिफर का उपयोग करती है।",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "सर्टिफिकेट चेन पिन की गई कुंजी से मेल नहीं खाती।",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "इस साइट तक पहुँचने के लिए क्लाइंट सर्टिफिकेट आवश्यक है।",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "क्लाइंट सर्टिफिकेट अमान्य है या अस्वीकार कर दिया गया।",
+        "ERR_CERT_COMMON_NAME_INVALID": "सर्टिफिकेट किसी अन्य पते के लिए मान्य है।",
+        "ERR_CERT_DATE_INVALID": "सर्टिफिकेट की अवधि समाप्त हो गई है या अभी वैध नहीं है।",
+        "ERR_CERT_AUTHORITY_INVALID": "सर्टिफिकेट विश्वसनीय नहीं है।",
+        "ERR_CERT_REVOKED": "सर्टिफिकेट रद्द कर दिया गया है।",
+        "ERR_CERT_INVALID": "सर्टिफिकेट अमान्य है।",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "सर्टिफिकेट कमजोर सिग्नेचर एल्गोरिद्म का उपयोग करता है।",
+        "ERR_CERT_WEAK_KEY": "सर्टिफिकेट कमजोर कुंजी का उपयोग करता है।",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "सर्टिफिकेट नाम प्रतिबंधों का उल्लंघन करता है।",
+        "ERR_CERT_NON_UNIQUE_NAME": "सर्टिफिकेट कई साइटों द्वारा साझा किया गया है।"
+      },
+      "suggestions": [
+        {
+          "title": "कंप्यूटर की तारीख और समय जाँचें",
+          "detail": "गलत घड़ी सर्टिफिकेट त्रुटियों का कारण बन सकती है।"
+        },
+        {
+          "title": "सावधानी से आगे बढ़ें",
+          "detail": "केवल तभी आगे बढ़ें जब आप जोखिम समझते हों और साइट पर भरोसा करते हों।"
+        }
+      ],
+      "action": "रीलोड करें"
+    },
+    "proxy": {
+      "headline": "प्रॉक्सी कनेक्शन विफल",
+      "message": "Noi ने कॉन्फ़िगर किए गए प्रॉक्सी के माध्यम से साइट तक पहुँचने की कोशिश की, लेकिन कनेक्शन सफल नहीं हुआ। यह टैब अब बैकअप के रूप में सीधे कनेक्शन का उपयोग कर रहा है।",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "प्रॉक्सी सर्वर ने कनेक्शन अस्वीकार कर दिया।",
+        "ERR_TUNNEL_CONNECTION_FAILED": "प्रॉक्सी टनल विफल रही।",
+        "ERR_SOCKS_CONNECTION_FAILED": "SOCKS प्रॉक्सी ने कनेक्शन अस्वीकार कर दिया।",
+        "ERR_PROXY_AUTH_REQUESTED": "प्रॉक्सी सर्वर को प्रमाणीकरण की आवश्यकता है।",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "प्रॉक्सी प्रमाणीकरण विधि समर्थित नहीं है।",
+        "ERR_PAC_SCRIPT_FAILED": "प्रॉक्सी ऑटो-कॉन्फ़िग (PAC) स्क्रिप्ट विफल रही।",
+        "ERR_NO_SUPPORTED_PROXIES": "इस अनुरोध के लिए कोई समर्थित प्रॉक्सी नहीं मिला।",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "आवश्यक प्रॉक्सी कॉन्फ़िगरेशन विफल रहा।",
+        "ERR_PROXY_REQUIRED": "इस साइट तक पहुँचने के लिए प्रॉक्सी आवश्यक है।"
+      },
+      "tryTips": [
+        "प्रॉक्सी होस्ट, पोर्ट और प्रमाणीकरण सेटिंग्स की पुष्टि करें",
+        "सुनिश्चित करें कि प्रॉक्सी सर्वर वर्तमान नेटवर्क से पहुँच योग्य है",
+        "यदि संगठन को प्रॉक्सी की आवश्यकता है, तो उसे बहाल करें और फिर से लोड करें"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi प्रॉक्सी नियमों की समीक्षा करें",
+          "detail": "Noi सेटिंग्स का उपयोग करके पुष्टि करें कि प्रॉक्सी नियम और बाइपास सूची इस नेटवर्क से मेल खाते हैं।",
+          "actionLabel": "Noi सेटिंग्स खोलें"
+        },
+        {
+          "title": "बाद में प्रॉक्सी के साथ पुनः प्रयास करें",
+          "detail": "जब प्रॉक्सी फिर से उपलब्ध हो, तो सीधे कनेक्शन से प्रॉक्सी पर स्विच करने के लिए रीलोड करें।"
+        }
+      ],
+      "action": "सीधे मोड में रीलोड करें"
+    },
+    "blocked": {
+      "headline": "यह पेज ब्लॉक कर दिया गया है",
+      "message": "अनुरोध किसी एक्सटेंशन या सुरक्षा नीति द्वारा ब्लॉक किया गया।",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "अनुरोध किसी क्लाइंट या एक्सटेंशन द्वारा ब्लॉक किया गया।",
+        "ERR_BLOCKED_BY_RESPONSE": "प्रतिक्रिया साइट या नीति द्वारा ब्लॉक की गई।",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "साइट को सुरक्षित (HTTPS) कनेक्शन की आवश्यकता है।",
+        "ERR_NETWORK_ACCESS_DENIED": "नेटवर्क एक्सेस नीति द्वारा अवरुद्ध है।"
+      },
+      "tryTips": [
+        "एक्सटेंशन या कंटेंट ब्लॉकर बंद करके रीलोड करें",
+        "फ़ायरवॉल और एंटीवायरस कॉन्फ़िगरेशन जाँचें"
+      ],
+      "suggestions": [
+        {
+          "title": "एक्सटेंशन या कंटेंट ब्लॉकर बंद करें",
+          "detail": "विज्ञापन या ट्रैकर ब्लॉकर जैसी एक्सटेंशन अनुरोध को रोक सकती हैं—उन्हें अस्थायी रूप से बंद करें और फिर प्रयास करें।"
+        },
+        {
+          "title": "साइट नीति जाँचें",
+          "detail": "प्रतिक्रिया X-Frame-Options या Content Security Policy द्वारा ब्लॉक की जा सकती है।"
+        }
+      ],
+      "action": "रीलोड करें"
+    },
+    "client": {
+      "headline": "यह पेज काम नहीं कर रहा",
+      "message": "साइट ने अमान्य प्रतिक्रिया भेजी।",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} ने अमान्य या खाली प्रतिक्रिया भेजी।",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "साइट ने अमान्य या खाली प्रतिक्रिया भेजी।",
+        "ERR_FILE_NOT_FOUND": "फ़ाइल नहीं मिली।",
+        "ERR_FILE_ACCESS_DENIED": "फ़ाइल तक पहुँच अस्वीकार की गई।",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "सर्वर ने त्रुटि के साथ प्रतिक्रिया दी।",
+        "ERR_TOO_MANY_REDIRECTS": "पेज सही तरह से रीडायरेक्ट नहीं हो रहा है।",
+        "ERR_INVALID_RESPONSE": "साइट ने अमान्य प्रतिक्रिया भेजी।",
+        "ERR_INVALID_CHUNKED_ENCODING": "साइट ने अमान्य प्रतिक्रिया भेजी।",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "साइट ने अधूरी प्रतिक्रिया भेजी।",
+        "ERR_CONTENT_LENGTH_MISMATCH": "साइट ने अमान्य प्रतिक्रिया भेजी।",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "साइट ने प्रतिक्रिया हेडर में बहुत अधिक डेटा भेजा।",
+        "ERR_CACHE_MISS": "अनुरोध को फिर से भेजना आवश्यक है।",
+        "ERR_INVALID_URL": "वेब पता अमान्य है।",
+        "ERR_DISALLOWED_URL_SCHEME": "यह URL स्कीम अनुमत नहीं है।",
+        "ERR_UNKNOWN_URL_SCHEME": "यह URL स्कीम समर्थित नहीं है।",
+        "ERR_UNSAFE_PORT": "सुरक्षा कारणों से यह पोर्ट ब्लॉक है।",
+        "ERR_INVALID_REDIRECT": "साइट ने अमान्य रीडायरेक्ट भेजा।",
+        "ERR_UNSAFE_REDIRECT": "साइट ने असुरक्षित रीडायरेक्ट का प्रयास किया।",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "साइट ने प्रतिक्रिया हेडर में बहुत अधिक डेटा भेजा।",
+        "ERR_METHOD_NOT_SUPPORTED": "अनुरोध विधि समर्थित नहीं है।"
+      },
+      "tryTips": [
+        "पेज को रीलोड करें",
+        "ब्राउज़र कैश या साइट के संग्रहित डेटा को साफ़ करें"
+      ],
+      "suggestions": [
+        {
+          "title": "साइट डेटा साफ़ करें",
+          "detail": "इस साइट के लिए कुकीज़ और कैश्ड फ़ाइलें हटाएँ, फिर रीलोड करें।"
+        },
+        {
+          "title": "साइट मालिक को रिपोर्ट करें",
+          "detail": "यदि समस्या बनी रहती है, तो नीचे दिखाए गए त्रुटि कोड के साथ साइट व्यवस्थापक से संपर्क करें।"
+        }
+      ],
+      "action": "रीलोड करें"
+    },
+    "unknown": {
+      "headline": "यह पेज काम नहीं कर रहा",
+      "message": "एक अप्रत्याशित त्रुटि हुई ({code}).",
+      "tryTips": [
+        "पेज को रीलोड करें",
+        "यदि समस्या बनी रहती है, तो त्रुटि कोड नोट करें और साइट व्यवस्थापक या सहायता टीम से संपर्क करें"
+      ],
+      "action": "रीलोड करें"
+    }
+  }
+}

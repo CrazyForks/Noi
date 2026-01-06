@@ -1,223 +1,586 @@
 {
-  "lang": "日本語",
-  "sponsor": "Noiをスポンサーする",
+  "language": "日本語",
+  "engines": "検索エンジン",
+  "version": "バージョン",
+  "doc": "ドキュメント",
+  "sponsor": "スポンサー",
+  "website": "ウェブサイト",
   "menu": {
     "name": "メニュー",
     "about": "Noiについて",
     "hide": "Noiを隠す",
-    "hideOthers": "他を隠す",
+    "hideOthers": "ほかを隠す",
     "quit": "Noiを終了",
-    "unhide": "すべて表示",
-    "checkUpdates": "更新を確認…",
-
+    "unhide": "すべてを表示",
+    "noiHotkey": "Noiホットキー",
+    "noiAskHotkey": "NoiAskホットキー",
+    "sidebar": "サイドバー",
+    "checkUpdates": "アップデートを確認…",
     "settings": "設定",
-    "languages": "言語",
+    "stayOnTop": "常に最前面に表示",
+    "services": "サービス",
+    "newTabSidePanel": "サイドパネルに新規タブ",
+    "newTabMain": "メインウィンドウに新規タブ",
+    "bordless": "枠なしウィンドウ",
     "theme": {
       "name": "テーマ",
+      "system": "システムに従う",
       "light": "ライト",
       "dark": "ダーク",
-      "system": "システム",
-      "monochromatic": "モノクロ",
-      "frostedTexture": "霜降りテクスチャ"
+      "style": "テーマスタイル"
     },
-    "stayOnTop": "常に最前面に表示",
-    "lockSidebar": "サイドバーをロック",
-    "showSidebar": "サイドバーを表示",
-    "hideSidebar": "サイドバーを隠す",
-    "noiCacheMode": "Noiキャッシュモード",
-    "devTools": "開発者ツール",
-    "xQuit": "[X]をクリックして終了",
-    "systemTray": "システムトレイ",
-
-    "edit": "編集",
-    "undo": "元に戻す",
-    "redo": "やり直し",
-    "pasteAndMatchStyle": "スタイルを合わせて貼り付け",
-    "delete": "削除",
-
-    "view": "表示",
-    "refresh": "ページを更新",
-    "goBack": "戻る",
-    "goForward": "進む",
-    "resetZoom": "実際のサイズ",
-    "zoomIn": "拡大",
-    "zoomOut": "縮小",
-    "fullScreen": "全画面表示にする",
-
-    "help": "ヘルプ",
-    "log": "Noiログ",
-    "gettingStarted": "はじめに",
-    "issues": "GitHubの問題",
-    "shareIdeas": "アイデアとフィードバックを共有",
-
-    "defaultWebBrowser": "デフォルトのウェブブラウザ",
-    "learnSpelling": "スペリングを学ぶ",
-    "lookUpSelection": "「{selection}」を調べる",
-    "searchWithGoogle": "Googleで検索",
-    "searchWithBing": "Bingで検索",
-    "cut": "切り取り",
-    "copy": "コピー",
-    "paste": "貼り付け",
-    "selectAll": "すべて選択",
-    "saveImage": "画像を保存",
-    "saveImageAs": "名前を付けて画像を保存…",
-    "saveVideo": "ビデオを保存",
-    "saveVideoAs": "名前を付けてビデオを保存…",
-    "copyLink": "リンクをコピー",
-    "saveLinkAs": "名前を付けてリンクを保存…",
-    "copyImage": "画像をコピー",
-    "copyImageAddress": "画像のアドレスをコピー",
-    "copyVideoAddress": "ビデオのアドレスをコピー",
-    "inspect": "要素を検証",
-    "services": "サービス",
-    "reload": "再読み込み",
-    "rename": "名前を変更",
-    "user": "ユーザー",
-    "setSystemTray": "システムトレイとして設定",
-    "clearCache": "キャッシュデータをクリア",
     "find": {
       "name": "検索",
-      "findInPage": "ページ内を検索…",
-      "findNext": "次を検索",
-      "findPrevious": "前を検索",
-      "jumpToSelection": "選択箇所にジャンプ"
+      "next": "次を検索",
+      "previous": "前を検索",
+      "jumpToSelection": "選択範囲へ移動"
+    },
+    "edit": {
+      "name": "編集",
+      "undo": "元に戻す",
+      "redo": "やり直す",
+      "cut": "切り取り",
+      "copy": "コピー",
+      "paste": "貼り付け",
+      "pasteAndMatchStyle": "スタイルを合わせて貼り付け",
+      "delete": "削除",
+      "selectAll": "すべて選択"
+    },
+    "tab": {
+      "openDefault": "既定のブラウザーで開く",
+      "addSidebarTemp": "サイドバーに追加（TempLink）",
+      "copyUrl": "URLをコピー",
+      "copyUrlMd": "URLをMarkdownとしてコピー"
+    },
+    "help": {
+      "name": "ヘルプ",
+      "feedback": "フィードバック"
     }
+  },
+  "session": {
+    "clearCurrent": "セッションデータを消去",
+    "clearAll": "すべてのセッションデータを消去",
+    "clearRemovedSites": "削除したサイトのデータを消去",
+    "confirmCurrent": "「{target}」のサイトデータを消去しますか？このセッションのCookieとストレージが削除されます。",
+    "confirmAll": "すべてのセッションのサイトデータを消去しますか？一部のサイトからサインアウトされる場合があります。",
+    "confirmRemovedSites": "インデックスに存在しないサイトの{count, plural, one {# セッション分} other {# セッション分}}のサイトデータを削除しますか？",
+    "resultNoRemovedSites": "削除したサイトのキャッシュデータは見つかりませんでした。",
+    "helpRemovedSites": "削除したサイトのセッションは、インデックスから削除された後に残る Cookie とストレージです。"
+  },
+  "view": {
+    "name": "表示",
+    "tabs": "Noiタブ",
+    "spaces": "{count, plural, one {Noi スペース} other {Noi スペース}}",
+    "toolbar": "Noiツールバー",
+    "markdown": "Markdown",
+    "minibar": "ミニバー",
+    "manageSpaces": "スペースを管理",
+    "reload": "再読み込み",
+    "goBack": "戻る",
+    "goForward": "進む",
+    "zoom": "ズーム",
+    "actualSize": "実際のサイズ",
+    "zoomIn": "拡大",
+    "zoomOut": "縮小",
+    "devTools": "開発者ツール",
+    "newTab": "新しいタブ",
+    "newTabPlaceholder": "{hasEngine, select, true {{engine}で検索するかURLを入力…} other {検索するかURLを入力…}}",
+    "closeTab": "タブを閉じる",
+    "closeOtherTabs": "ほかのタブを閉じる",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "incognito": "シークレット",
+    "sidePanel": "サイドパネル",
+    "newFolder": "新しいフォルダー",
+    "addLink": "リンクを追加",
+    "mainWindow": "メインウィンドウ",
+    "switchMainTab": "メインタブに切り替え",
+    "switchSideTab": "サイドパネルタブに切り替え",
+    "newFile": "新しいファイル",
+    "bookmark": "ブックマーク",
+    "bookmarkTab": "このタブをブックマーク",
+    "copyUrlMetadata": "URLメタデータをコピー",
+    "removeNoiView": "NoiViewから削除",
+    "addNoiView": "NoiViewに追加",
+    "openNewWindow": "新しいウィンドウで開く",
+    "openSidePanel": "サイドパネルで開く",
+    "pin": "ピン留め",
+    "unpin": "ピン留め解除",
+    "lockLink": "リンクをロック",
+    "unlockLink": "リンクのロック解除",
+    "buttonHighlight": "タイトルバーのボタンをハイライト"
+  },
+  "window": {
+    "close": "閉じる",
+    "goMain": "メインウィンドウへ移動",
+    "dialog": "ダイアログウィンドウ",
+    "drag": "ドラッグして移動",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "元に戻す"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {プロンプト} other {プロンプト}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "同期",
+    "manageSemVer": "SemVer を管理",
+    "manageLog": "LOGを管理",
+    "addPrompt": "プロンプトを追加",
+    "lockPrompt": "プロンプトをロック",
+    "unlockPrompt": "プロンプトのロック解除",
+    "copyPrompt": "プロンプトをコピー",
+    "deletePrompt": "プロンプトを削除",
+    "filterTags": "TAGをフィルター",
+    "filterRule": "フィルタールール",
+    "filterLockPrompts": "フィルター: ロックされたプロンプト"
+  },
+  "history": {
+    "name": "履歴",
+    "clearAll": "すべての履歴を消去",
+    "refresh": "履歴を更新",
+    "remove": "履歴から削除",
+    "search": "履歴を検索",
+    "searchClear": "検索をクリア",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {「{q}」の検索結果はありません} one {「{q}」の検索結果が # 件見つかりました} other {「{q}」の検索結果が # 件見つかりました}}} other {{count, plural, =0 {結果がありません} one {# 件見つかりました} other {# 件見つかりました}}}}",
+    "moreThisSite": "このサイトの他の結果",
+    "dialogTitle": "すべての履歴を消去しますか？",
+    "dialogMessage": "この操作は保存された履歴レコードをすべて永久に削除し、元に戻せません。",
+    "result1": "履歴の読み込みに失敗しました。{error}",
+    "result2": "履歴はまだありません。",
+    "result3": "検索結果はありません",
+    "result4": "データが見つかりませんでした。",
+    "tips": "タイトルとURLをあいまい検索します。フィールドフィルターで絞り込み:",
+    "tip1": "タイトルに「example」が含まれる",
+    "tip2": "「example.com」からのページ",
+    "tip3": "2024/01/01に",
+    "tip4": "2024/01/01–2025/12/31 の間",
+    "tip5": "2024/01/01 より前",
+    "tip6": "2024/01/01 より後",
+    "tip7": "ちょうど3回訪問",
+    "tip8": "3回未満の訪問",
+    "tip9": "3回超の訪問"
   },
   "form": {
+    "editor": "エディター",
+    "partition": "セッション分離",
     "name": "名前",
     "url": "URL",
-    "isolatedCookieStorage": "分離されたCookieストレージ",
-    "invalidURL": "有効なURLを入力してください。",
-    "nameNotEmpty": "名前は空にできません。"
-  },
-  "sidebar": {
-    "warn": {
-      "urlDelete": "現在のURLは使用中です。",
-      "dirDelete": "現在のディレクトリは使用中です。",
-      "trayDelete": "システムトレイが現在のURLを使用しているため、削除できません。"
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "icon": "アイコン",
+    "inputElement": "入力要素",
+    "sendElement": "送信要素",
+    "cssSelector": "CSS セレクター",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "customIcon": "カスタムアイコン",
+    "linkIcon": "リンクアイコン",
+    "dirIcon": "フォルダーアイコン",
+    "dirOpenIcon": "フォルダーを開くアイコン",
+    "selectUA": "User Agentを選択",
+    "customUA": "またはカスタムUser Agent文字列を入力…",
+    "rawJson": "Raw JSON",
+    "validation": {
+      "nameRequired": "名前を入力してください。",
+      "urlRequired": "URL を入力してください。",
+      "userAgentRequired": "User Agent 文字列を入力してください。",
+      "invalidJson": "JSON が無効です。",
+      "fixJsonErrors": "保存する前に JSON の検証エラーを修正してください。",
+      "required": "このフィールドは必須です。"
     },
     "tip": {
-      "delete": "削除後は復元できません。本当に削除しますか？",
-      "syncOverwrite": "同期はカスタムデータを除くすべてのデータを上書きします。続行しますか？",
-      "syncReset": "現在最新バージョンにいます。同期はカスタムデータを除くすべてのデータをリセットします。続行しますか？",
-      "syncOk": "同期成功",
-      "syncResetOk": "リセット成功"
-    }
-  },
-  "network": {
-    "error": {
-      "try": "試してみてください：",
-      "title": "このサイトにアクセスできません",
-      "longRespond": "応答に時間がかかりすぎました。",
-      "checkConnection": "接続を確認する",
-      "checkProxy": "プロキシとファイアウォールを確認する"
-    }
-  },
-  "settings": {
-    "menu": {
-      "general": {
-        "name": "一般",
-        "syncBookmarks": "ブックマークを同期する",
-        "proxy": "プロキシ",
-        "proxyRules": "ルール",
-        "proxyBypassRules": "バイパスルール",
-        "promptLogLimit": "ログ制限",
-        "promptLogArchiveLimit": "ログアーカイブ制限",
-        "promptFavoritesLimit": "お気に入り制限",
-        "promptFavoritesArchiveLimit": "お気に入りアーカイブ制限"
-      },
-      "keyboardShortcuts": {
-        "name": "キーボードショートカット",
-        "recording": "記録中…",
-        "globalShortcut": "グローバルショートカット",
-        "trayShortcut": "システムトレイショートカット"
-      },
-      "extensions": "拡張機能",
-      "prompts": {
-        "name": "プロンプト",
-        "userPrompts": "ユーザープロンプト",
-        "promptTags": "プロンプトタグ",
-        "customSync": "カスタム同期"
-      }
-    },
-    "confirm": {
-      "delete": "このレコードを削除してもよろしいですか？",
-      "batchEnable": "これらのプロンプトを有効にしてもよろしいですか？",
-      "batchDelete": "これらのプロンプトを削除してもよろしいですか？",
-      "batchDisable": "これらのプロンプトを無効にしてもよろしいですか？",
-      "batchUse": "これらのプロンプトを使用してもよろしいですか？",
-      "batchTagsAdd": "これらのタグを追加してもよろしいですか？",
-      "batchTagsDelete": "これらのタグを削除してもよろしいですか？"
-    },
-    "message": {
-      "added": "追加されました",
-      "synced": "同期されました",
-      "invalidData": "無効なデータ",
-      "missingActAndPrompt": "'act', 'prompt'のフィールドが不足しています。'Alias'を使用して名前を変更してみてください。",
-      "missingManifest": "manifest.jsonファイルが不足しているか無効です。",
-      "checkExtension": "拡張機能ディレクトリを再確認してください：",
-      "existExtension": "拡張機能は既に存在します。"
-    },
-    "tip": {
-      "proxyRules": "どのプロキシを使用するかを示すルール。",
-      "proxyBypassRules": "プロキシ設定をバイパスするURLを示すルール。",
-      "shortcutRule": "ショートカットルール",
-      "modifierKeys": "修飾キー",
-      "regularKeys": "通常キー",
-      "noiExtension": "NoiはChrome拡張機能APIの全範囲をサポートしていません。サポートされているAPIの詳細については、サポートされる拡張機能APIを参照してください。",
-      "noiCacheMode": "ウェブページの状態をキャッシュし、ブラウザタブのように素早く再アクセスできるようにします。サイドバーリンクへの頻繁なアクセス時にメモリ使用量が増加するため、メモリ影響を軽減するためには、キャッシュを無効にするか、複数回の切り替え後にキャッシュを再起動することを検討してください。",
-      "promptLogLimit": "ログに保持するプロンプトの最大数（10-1000）、デフォルトは300に設定されています。",
-      "promptLogArchiveLimit_1": "単一のアーカイブファイルに格納できるプロンプトの最大数（1000-10000）、デフォルトは1000に設定されています。",
-      "promptLogArchiveLimit_2": "1. 現在アーカイブ中のファイル：{{file}}.archiving.json",
-      "promptLogArchiveLimit_3": "2. 完了したアーカイブファイルの命名規則：{{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json。YYYY.MM.DD.HH.mm.ssはそれぞれ開始と終了の時刻を表します。例：{{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
-    },
-    "table": {
-      "name": "名前",
-      "extension": "拡張機能",
-      "description": "説明",
-      "version": "バージョン",
-      "tag": "タグ",
-      "color": "色",
-      "lastUpdate": "最終更新",
-      "usageCount": "使用回数"
+      "agentWarning": "セキュリティ警告: WebページにNoi APIへのアクセスを許可するのは危険な場合があります。"
     }
   },
   "action": {
     "name": "アクション",
-    "add": "追加",
+    "archive": "アーカイブ",
+    "back": "戻る",
     "cancel": "キャンセル",
-    "create": "作成",
     "confirm": "確認",
-    "detail": "詳細",
+    "create": "作成",
     "delete": "削除",
-    "disable": "無効",
+    "details": "詳細",
     "edit": "編集",
-    "enable": "有効",
-    "export": "エクスポート",
+    "restore": "復元",
+    "query": "クエリ",
     "refresh": "更新",
+    "rename": "名前を変更",
     "reset": "リセット",
-    "sync": "同期",
     "save": "保存",
-    "search": "検索",
-    "select": "選択",
+    "send": "送信",
     "use": "使用",
-    "copied": "コピー済み",
-    "batchAdd": "一括追加",
-    "batchDisable": "一括無効",
-    "batchEnable": "一括有効",
-    "batchDelete": "一括削除",
-    "batchUse": "一括使用"
+    "clean": "ディスクから削除",
+    "enable": "有効化",
+    "disable": "無効化",
+    "importAsk": "NoiAskにインポート",
+    "openLocales": "Localesフォルダーを開く"
   },
-  "prompt": {
-    "promptFavorite": "プロンプトのお気に入り",
-    "promptLog": "プロンプトログ",
-    "promptSend": "プロンプトを送信",
-    "newChat": "新規チャット",
-    "sendMessage": "メッセージを送信",
-    "resetPanel": "パネルをリセット",
-    "promptCmd": "プロンプトコマンド",
-    "sizeSmall": "小",
-    "sizeMedium": "中",
-    "sizeLarge": "大"
+  "table": {
+    "active": "アクティブ",
+    "archived": "アーカイブ済み",
+    "color": "色",
+    "createdAt": "作成日時",
+    "delete": "削除",
+    "description": "説明",
+    "details": "詳細",
+    "disabled": "無効",
+    "enabled": "有効",
+    "entries": "エントリ",
+    "fileSize": "ファイルサイズ",
+    "mode": "モード",
+    "status": "ステータス",
+    "trash": "ゴミ箱",
+    "unknown": "不明",
+    "updatedAt": "更新日時",
+    "usageCount": "使用回数",
+    "tagAdd": "TAG を追加",
+    "tagRemove": "TAG を削除",
+    "visible": "表示",
+    "total": "合計",
+    "locked": "ロック済み",
+    "text": "テキスト",
+    "sendCount": "送信回数",
+    "addSource": "ソースを追加",
+    "lastSynced": "最終同期",
+    "message": {
+      "completed": "操作が完了しました。",
+      "failed": "操作に失敗しました。",
+      "noData": "データが見つかりません。",
+      "dataExist": "データはすでに存在します。",
+      "dataExistOrDuplicated": "すべてのデータは既に存在するか、重複しています。",
+      "failedLoad": "データの読み込みに失敗しました。",
+      "importedCount": "インポート済み: {count}。",
+      "skippedCount": "スキップ: {count}。",
+      "deleteSelected": "選択した行を削除してもよろしいですか？この操作は元に戻せません。",
+      "deleteItem": "この項目を削除してもよろしいですか？この操作は元に戻せません。",
+      "deleteFile": "このファイルをディスクから削除しますか？この操作は元に戻せません。",
+      "removeItem": "この項目を一覧から削除しますか？ファイルはディスクに残ります。",
+      "deleteBuiltin": "組み込みソースは削除できません。",
+      "importedAsk": "NoiAskにインポートしました。",
+      "deleteUseTag": "この TAG は現在使用中のため削除できません。"
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "終了前に確認",
+      "title": "今すぐNoiを終了しますか？",
+      "detail": "すべてのウィンドウとタスクが閉じられます。"
+    },
+    "nshQuit": {
+      "title": "ターミナルを閉じますか？",
+      "detail": "実行中のタスクは直ちに終了します。"
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "一般",
+      "language": "言語",
+      "sidebarIcon": "サイドバーアイコンのサイズ",
+      "homeLink": "ホームリンク",
+      "limit": "クエリ上限",
+      "cometCursor": "NoiAsk コメットカーソル",
+      "cometTrail": "NoiAsk コメットトレイル",
+      "lockLocales": "Locales フォルダーをロック",
+      "lockLocalesTip": "Localesフォルダーをロックして、自動更新が言語ファイルを変更しないようにします。カスタム翻訳に便利です。",
+      "urlMetadata": "URL メタデータ",
+      "sidebarAnchor": {
+        "name": "サイドバーアンカー",
+        "off": "オフ",
+        "leftTop": "左上",
+        "leftCenter": "左中央",
+        "leftBottom": "左下",
+        "rightTop": "右上",
+        "rightCenter": "右中央",
+        "rightBottom": "右下",
+        "disableWarning": "オフにするとフローティングトリガーが非表示になります。Noiホットキーでしかサイドバーを再表示できず、サイトとのホットキー競合も多いため、無効化は推奨されません。",
+        "disableConfirmTitle": "サイドバーアンカーを無効にしますか？"
+      },
+      "nsh": {
+        "name": "NSH（ターミナル）",
+        "fontFamily": "フォントファミリー",
+        "fontSize": "フォントサイズ",
+        "lineHeight": "行間",
+        "cursorBlink": "カーソルの点滅",
+        "cursorStyle": "カーソルスタイル",
+        "cursorWidth": "カーソル幅",
+        "cursorInactiveStyle": "非アクティブカーソルのスタイル",
+        "scrollback": "スクロールバック",
+        "tip": {
+          "cursorWidth": "カーソルスタイルが「Bar」の場合のみ適用されます。",
+          "scrollback": "ターミナルがスクロールする際に履歴に保持される行数。"
+        }
+      },
+      "proxy": {
+        "name": "プロキシ",
+        "rules": "プロキシルール",
+        "bypass": "プロキシバイパスルール"
+      }
+    },
+    "shortcuts": {
+      "name": "ショートカット",
+      "noiAskPrompt": "NoiAsk プロンプト: {action}",
+      "noiAskPromptWithContext": "NoiAsk プロンプト: {action} ({context})",
+      "placeholder": "キーの組み合わせを押すか入力",
+      "helpText": "目的のキーの組み合わせを押すか、入力してください（例: Ctrl+Shift+X）",
+      "conflict": "ショートカットは既に使用されています"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "リモート JSON",
+        "remoteCsv": "リモート CSV",
+        "localJson": "ローカル JSON",
+        "localCsv": "ローカル CSV"
+      },
+      "filePathMissing": "無効なファイルパスです。",
+      "fileReadFailed": "ファイル内容の読み取りに失敗しました。",
+      "fileOpenFailed": "ファイルピッカーを開けませんでした。",
+      "fileRequired": "同期するファイルを選択してください。",
+      "notFound": "同期ソースが見つかりません。",
+      "error": "プロンプト同期エラー",
+      "pickLocalFile": "ローカルファイルを選択",
+      "type": "ソースタイプ",
+      "alias": "フィールドマッピング",
+      "upload": "ファイルをアップロード",
+      "dragJson": "JSON ファイルをドラッグするかクリックして参照",
+      "dragCsv": "CSV ファイルをドラッグするかクリックして参照",
+      "browseLocal": "ディスクから選択"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "インターネット接続を確認してください",
+        "プロキシとファイアウォールを確認してください"
+      ],
+      "platform": {
+        "windows": "Windows のネットワーク診断を実行",
+        "mac": "ワイヤレス診断を実行 (macOS)"
+      },
+      "unknownError": "不明なエラーが発生しました",
+      "site": "このサイト"
+    },
+    "html": {
+      "tryLabel": "お試しください:",
+      "showDetails": "詳細を表示",
+      "hideDetails": "詳細を非表示",
+      "openAction": "開く",
+      "reload": "再読み込み"
+    },
+    "offline": {
+      "headline": "インターネットに接続されていません",
+      "message": "オフラインです。",
+      "tryTips": [
+        "ネットワークケーブル、モデム、ルーターを確認",
+        "Wi-Fi に再接続するか別のネットワークに切り替える"
+      ],
+      "action": "再読み込み"
+    },
+    "network": {
+      "headline": "このサイトにアクセスできません",
+      "message": "{hostname} への接続がタイムアウトしました。",
+      "messageFallback": "サイトの応答が遅すぎます。",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} が接続を拒否しました。",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "サイトが接続を拒否しました。",
+        "ERR_CONNECTION_RESET": "接続がリセットされました。",
+        "ERR_CONNECTION_TIMED_OUT": "接続がタイムアウトしました。",
+        "ERR_TIMED_OUT": "接続がタイムアウトしました。",
+        "ERR_ADDRESS_UNREACHABLE": "アドレスに到達できません。",
+        "ERR_NETWORK_CHANGED": "ネットワーク接続が変更されました。",
+        "ERR_CONNECTION_ABORTED": "接続が中断されました。",
+        "ERR_CONNECTION_FAILED": "接続に失敗しました。",
+        "ERR_CONNECTION_CLOSED": "接続が閉じられました。",
+        "ERR_HTTP2_PROTOCOL_ERROR": "接続が中断されました (HTTP/2 プロトコル エラー)。",
+        "ERR_QUIC_PROTOCOL_ERROR": "接続が中断されました (QUIC プロトコル エラー)。"
+      },
+      "tryTips": [
+        "他のサイトが開くか確認し、開かない場合はネットワークに再接続する",
+        "ルーターを再起動するか機内モードをオン/オフする"
+      ],
+      "suggestions": [
+        {
+          "title": "サーバーの稼働状況を確認",
+          "detail": "{site} が社内サービスであれば、オンラインか、現在のネットワークから到達可能か確認してください。"
+        },
+        {
+          "title": "セキュリティソフトを確認",
+          "detail": "ファイアウォール、アンチウイルス、VPN クライアントがリクエストを妨げることがあります。これらを一時停止して再試行してください。"
+        }
+      ],
+      "action": "再読み込み"
+    },
+    "dns": {
+      "headline": "このサイトにアクセスできません",
+      "message": "{hostname} の IP アドレスが見つかりませんでした。",
+      "messageFallback": "サーバーの IP アドレスが見つかりませんでした。",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "{hostname} の IP アドレスが見つかりませんでした。",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "サーバーの IP アドレスが見つかりませんでした。",
+        "ERR_NAME_RESOLUTION_FAILED": "{hostname} の DNS ルックアップに失敗しました。",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "DNS ルックアップに失敗しました。",
+        "ERR_DNS_TIMED_OUT": "DNS サーバーがタイムアウトしました。",
+        "ERR_DNS_SERVER_FAILED": "DNS サーバーが応答しませんでした。",
+        "ERR_DNS_MALFORMED_RESPONSE": "DNS サーバーが無効な応答を返しました。"
+      },
+      "tryTips": [
+        "Web アドレスのスペルが正しいか確認する",
+        "プロキシ、ファイアウォール、DNS 設定を確認する"
+      ],
+      "suggestions": [
+        {
+          "title": "Web アドレスを確認",
+          "detail": "{site} のスペルが正しいか確認してください。正しい場合、DNS サーバーが一時的に利用できない可能性があります。"
+        },
+        {
+          "title": "DNS キャッシュをフラッシュ",
+          "detail": "DNS キャッシュをフラッシュして再読み込みします (例: Windows なら `ipconfig /flushdns`、macOS なら `sudo killall -HUP mDNSResponder`)。"
+        }
+      ],
+      "action": "再読み込み"
+    },
+    "ssl": {
+      "headline": "この接続ではプライバシーが保護されません",
+      "headlineSecure": "このサイトは安全な接続を提供できません",
+      "message": "攻撃者が {hostname} から情報 (パスワード、メッセージ、クレジットカードなど) を盗み取ろうとしている可能性があります。",
+      "messageSecure": "Noi は {hostname} への安全な接続を確立できません。",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "サイトが無効またはサポートされていない SSL プロトコルを使用しています。",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "サイトがサポートされていない SSL プロトコルまたは暗号を使用しています。",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "証明書チェーンがピン留めされた鍵と一致しません。",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "このサイトにアクセスするにはクライアント証明書が必要です。",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "クライアント証明書が無効または拒否されました。",
+        "ERR_CERT_COMMON_NAME_INVALID": "証明書は別のアドレスに対して有効です。",
+        "ERR_CERT_DATE_INVALID": "証明書の期限が切れているか、まだ有効ではありません。",
+        "ERR_CERT_AUTHORITY_INVALID": "証明書は信頼されていません。",
+        "ERR_CERT_REVOKED": "証明書が失効しています。",
+        "ERR_CERT_INVALID": "証明書が無効です。",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "証明書が弱い署名アルゴリズムを使用しています。",
+        "ERR_CERT_WEAK_KEY": "証明書が弱い鍵を使用しています。",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "証明書が名前制約に違反しています。",
+        "ERR_CERT_NON_UNIQUE_NAME": "証明書が複数のサイトで共有されています。"
+      },
+      "suggestions": [
+        {
+          "title": "パソコンの日時を確認",
+          "detail": "時計が正しくないと証明書エラーが発生します。"
+        },
+        {
+          "title": "注意して続行",
+          "detail": "リスクを理解し、そのサイトを信頼できる場合にのみ続行してください。"
+        }
+      ],
+      "action": "再読み込み"
+    },
+    "proxy": {
+      "headline": "プロキシ接続に失敗しました",
+      "message": "Noi は設定されたプロキシ経由でサイトにアクセスしようとしましたが、接続できませんでした。このタブは代替として直接接続を使用しています。",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "プロキシサーバーが接続を拒否しました。",
+        "ERR_TUNNEL_CONNECTION_FAILED": "プロキシトンネルに失敗しました。",
+        "ERR_SOCKS_CONNECTION_FAILED": "SOCKS プロキシが接続を拒否しました。",
+        "ERR_PROXY_AUTH_REQUESTED": "プロキシサーバーが認証を要求しています。",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "プロキシ認証方式はサポートされていません。",
+        "ERR_PAC_SCRIPT_FAILED": "プロキシ自動設定 (PAC) スクリプトに失敗しました。",
+        "ERR_NO_SUPPORTED_PROXIES": "このリクエストに対応するプロキシが見つかりませんでした。",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "必須のプロキシ設定に失敗しました。",
+        "ERR_PROXY_REQUIRED": "このサイトにアクセスするにはプロキシが必要です。"
+      },
+      "tryTips": [
+        "プロキシのホスト、ポート、認証設定を確認する",
+        "現在のネットワークからプロキシサーバーに到達できるか確認する",
+        "組織でプロキシが必須の場合は、復旧後に再読み込みする"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi のプロキシルールを確認",
+          "detail": "Noi の設定でプロキシルールとバイパスリストがこのネットワークに合っているか確認します。",
+          "actionLabel": "Noi 設定を開く"
+        },
+        {
+          "title": "後でプロキシで再試行",
+          "detail": "プロキシが再び利用可能になったら、直接接続からプロキシへ切り替えるために再読み込みします。"
+        }
+      ],
+      "action": "直接モードで再読み込み"
+    },
+    "blocked": {
+      "headline": "このページはブロックされています",
+      "message": "リクエストが拡張機能またはセキュリティポリシーによってブロックされました。",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "リクエストがクライアントまたは拡張機能によってブロックされました。",
+        "ERR_BLOCKED_BY_RESPONSE": "レスポンスがサイトまたはポリシーによってブロックされました。",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "サイトは安全な (HTTPS) 接続を要求しています。",
+        "ERR_NETWORK_ACCESS_DENIED": "ネットワークアクセスがポリシーでブロックされています。"
+      },
+      "tryTips": [
+        "拡張機能またはコンテンツブロッカーを無効にして再読み込みする",
+        "ファイアウォールとアンチウイルスの設定を確認する"
+      ],
+      "suggestions": [
+        {
+          "title": "拡張機能やコンテンツブロッカーを無効化",
+          "detail": "広告やトラッカーブロッカーなどの拡張機能がリクエストを妨げる場合があります。一時的に無効にして再試行してください。"
+        },
+        {
+          "title": "サイトのポリシーを確認",
+          "detail": "レスポンスは X-Frame-Options または Content Security Policy によってブロックされている可能性があります。"
+        }
+      ],
+      "action": "再読み込み"
+    },
+    "client": {
+      "headline": "このページは動作していません",
+      "message": "サイトから無効なレスポンスが返されました。",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} が無効または空のレスポンスを送信しました。",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "サイトが無効または空のレスポンスを送信しました。",
+        "ERR_FILE_NOT_FOUND": "ファイルが見つかりませんでした。",
+        "ERR_FILE_ACCESS_DENIED": "ファイルへのアクセスが拒否されました。",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "サーバーがエラーで応答しました。",
+        "ERR_TOO_MANY_REDIRECTS": "ページが正しくリダイレクトされていません。",
+        "ERR_INVALID_RESPONSE": "サイトが無効なレスポンスを送信しました。",
+        "ERR_INVALID_CHUNKED_ENCODING": "サイトが無効なレスポンスを送信しました。",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "サイトが不完全なレスポンスを送信しました。",
+        "ERR_CONTENT_LENGTH_MISMATCH": "サイトが無効なレスポンスを送信しました。",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "サイトがレスポンスヘッダーに過剰なデータを送信しました。",
+        "ERR_CACHE_MISS": "リクエストを再送信する必要があります。",
+        "ERR_INVALID_URL": "Web アドレスが無効です。",
+        "ERR_DISALLOWED_URL_SCHEME": "この URL スキームは許可されていません。",
+        "ERR_UNKNOWN_URL_SCHEME": "この URL スキームはサポートされていません。",
+        "ERR_UNSAFE_PORT": "このポートはセキュリティ上の理由でブロックされています。",
+        "ERR_INVALID_REDIRECT": "サイトが無効なリダイレクトを返しました。",
+        "ERR_UNSAFE_REDIRECT": "サイトが安全でないリダイレクトを試みました。",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "サイトがレスポンスヘッダーに過剰なデータを送信しました。",
+        "ERR_METHOD_NOT_SUPPORTED": "リクエストのメソッドはサポートされていません。"
+      },
+      "tryTips": [
+        "ページを再読み込みする",
+        "ブラウザーのキャッシュまたは保存されたサイトデータを消去する"
+      ],
+      "suggestions": [
+        {
+          "title": "サイトデータを消去",
+          "detail": "このサイトの Cookie とキャッシュファイルを削除してから再読み込みしてください。"
+        },
+        {
+          "title": "サイト所有者に報告",
+          "detail": "問題が続く場合は、下に表示されているエラーコードを添えてサイト管理者に連絡してください。"
+        }
+      ],
+      "action": "再読み込み"
+    },
+    "unknown": {
+      "headline": "このページは動作していません",
+      "message": "予期しないエラーが発生しました ({code})。",
+      "tryTips": [
+        "ページを再読み込みする",
+        "問題が続く場合はエラーコードを記録してサイト管理者またはサポートチームに連絡する"
+      ],
+      "action": "再読み込み"
+    }
   }
 }

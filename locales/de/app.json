@@ -1,223 +1,586 @@
 {
-  "lang": "Deutsch",
-  "sponsor": "Noi unterstützen",
+  "language": "Deutsch",
+  "engines": "Suchmaschinen",
+  "version": "Version",
+  "doc": "Dokumentation",
+  "sponsor": "Sponsor",
+  "website": "Website",
   "menu": {
     "name": "Menü",
     "about": "Über Noi",
-    "hide": "Noi verstecken",
-    "hideOthers": "Andere verstecken",
+    "hide": "Noi ausblenden",
+    "hideOthers": "Andere ausblenden",
     "quit": "Noi beenden",
-    "unhide": "Alle anzeigen",
+    "unhide": "Alle einblenden",
+    "noiHotkey": "Noi-Hotkey",
+    "noiAskHotkey": "NoiAsk-Hotkey",
+    "sidebar": "Seitenleiste",
     "checkUpdates": "Nach Updates suchen…",
-
     "settings": "Einstellungen",
-    "languages": "Sprachen",
+    "stayOnTop": "Immer im Vordergrund bleiben",
+    "services": "Dienste",
+    "newTabSidePanel": "Neuer Tab in der Seitenleiste",
+    "newTabMain": "Neuer Tab im Hauptfenster",
+    "bordless": "Fenster ohne Rahmen",
     "theme": {
-      "name": "Thema",
+      "name": "Design",
+      "system": "Systemstandard",
       "light": "Hell",
       "dark": "Dunkel",
-      "system": "System",
-      "monochromatic": "Monochrom",
-      "frostedTexture": "Mattierte Textur"
+      "style": "Designstil"
     },
-    "stayOnTop": "Immer im Vordergrund",
-    "lockSidebar": "Seitenleiste sperren",
-    "showSidebar": "Seitenleiste anzeigen",
-    "hideSidebar": "Seitenleiste verstecken",
-    "noiCacheMode": "Noi Cache-Modus",
-    "devTools": "Entwicklerwerkzeuge",
-    "xQuit": "Klicken Sie auf [X] zum Beenden",
-    "systemTray": "Systemtray",
-
-    "edit": "Bearbeiten",
-    "undo": "Rückgängig",
-    "redo": "Wiederholen",
-    "pasteAndMatchStyle": "Einfügen und Stil anpassen",
-    "delete": "Löschen",
-
-    "view": "Ansicht",
-    "refresh": "Seite aktualisieren",
-    "goBack": "Zurück",
-    "goForward": "Vorwärts",
-    "resetZoom": "Tatsächliche Größe",
-    "zoomIn": "Vergrößern",
-    "zoomOut": "Verkleinern",
-    "fullScreen": "Vollbildmodus",
-
-    "help": "Hilfe",
-    "log": "Noi-Log",
-    "gettingStarted": "Erste Schritte",
-    "issues": "GitHub-Probleme",
-    "shareIdeas": "Ideen und Feedback teilen",
-
-    "defaultWebBrowser": "Standard-Webbrowser",
-    "learnSpelling": "Rechtschreibung lernen",
-    "lookUpSelection": "„{selection}“ nachschlagen",
-    "searchWithGoogle": "Mit Google suchen",
-    "searchWithBing": "Mit Bing suchen",
-    "cut": "Ausschneiden",
-    "copy": "Kopieren",
-    "paste": "Einfügen",
-    "selectAll": "Alles auswählen",
-    "saveImage": "Bild speichern",
-    "saveImageAs": "Bild speichern unter…",
-    "saveVideo": "Video speichern",
-    "saveVideoAs": "Video speichern unter…",
-    "copyLink": "Link kopieren",
-    "saveLinkAs": "Link speichern unter…",
-    "copyImage": "Bild kopieren",
-    "copyImageAddress": "Bildadresse kopieren",
-    "copyVideoAddress": "Videoadresse kopieren",
-    "inspect": "Element untersuchen",
-    "services": "Dienste",
-    "reload": "Neu laden",
-    "rename": "Umbenennen",
-    "user": "Benutzer",
-    "setSystemTray": "Als Systemtray festlegen",
-    "clearCache": "Cache-Daten löschen",
     "find": {
       "name": "Suchen",
-      "findInPage": "Auf Seite suchen…",
-      "findNext": "Nächstes finden",
-      "findPrevious": "Vorheriges finden",
+      "next": "Weitersuchen",
+      "previous": "Vorheriges suchen",
       "jumpToSelection": "Zur Auswahl springen"
+    },
+    "edit": {
+      "name": "Bearbeiten",
+      "undo": "Rückgängig",
+      "redo": "Wiederholen",
+      "cut": "Ausschneiden",
+      "copy": "Kopieren",
+      "paste": "Einfügen",
+      "pasteAndMatchStyle": "Einfügen und Stil übernehmen",
+      "delete": "Löschen",
+      "selectAll": "Alles auswählen"
+    },
+    "tab": {
+      "openDefault": "Im Standardbrowser öffnen",
+      "addSidebarTemp": "Zur Seitenleiste hinzufügen (TempLink)",
+      "copyUrl": "URL kopieren",
+      "copyUrlMd": "URL als Markdown kopieren"
+    },
+    "help": {
+      "name": "Hilfe",
+      "feedback": "Feedback"
     }
+  },
+  "session": {
+    "clearCurrent": "Sitzungsdaten löschen",
+    "clearAll": "Alle Sitzungsdaten löschen",
+    "clearRemovedSites": "Daten entfernter Websites löschen",
+    "confirmCurrent": "Websitedaten für „{target}“ löschen? Dadurch werden Cookies und Speicher für diese Sitzung entfernt.",
+    "confirmAll": "Websitedaten für alle Sitzungen löschen? Dadurch werden Sie möglicherweise von einigen Websites abgemeldet.",
+    "confirmRemovedSites": "Websitedaten für {count, plural, one {# Sitzung} other {# Sitzungen}} von Websites entfernen, die nicht mehr in Ihrem Index sind?",
+    "resultNoRemovedSites": "Keine zwischengespeicherten Daten für entfernte Websites gefunden.",
+    "helpRemovedSites": "Sitzungen entfernter Websites sind Cookies und Speicher, die nach dem Entfernen dieser Websites aus Ihrem Index übrig bleiben."
+  },
+  "view": {
+    "name": "Ansicht",
+    "tabs": "Noi-Tabs",
+    "spaces": "{count, plural, one {Noi-Space} other {Noi-Spaces}}",
+    "toolbar": "Noi-Werkzeugleiste",
+    "markdown": "Markdown",
+    "minibar": "Minileiste",
+    "manageSpaces": "Spaces verwalten",
+    "reload": "Neu laden",
+    "goBack": "Zurück",
+    "goForward": "Vorwärts",
+    "zoom": "Zoom",
+    "actualSize": "Tatsächliche Größe",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "devTools": "Entwicklertools",
+    "newTab": "Neuer Tab",
+    "newTabPlaceholder": "{hasEngine, select, true {Mit {engine} suchen oder URL eingeben…} other {Suchen oder URL eingeben…}}",
+    "closeTab": "Tab schließen",
+    "closeOtherTabs": "Andere Tabs schließen",
+    "mute": "Stummschalten",
+    "unmute": "Stummschaltung aufheben",
+    "incognito": "Inkognito",
+    "sidePanel": "Seitenleiste",
+    "newFolder": "Neuer Ordner",
+    "addLink": "Link hinzufügen",
+    "mainWindow": "Hauptfenster",
+    "switchMainTab": "Zum Haupt-Tab wechseln",
+    "switchSideTab": "Zum Seitenleisten-Tab wechseln",
+    "newFile": "Neue Datei",
+    "bookmark": "Lesezeichen",
+    "bookmarkTab": "Diesen Tab als Lesezeichen speichern",
+    "copyUrlMetadata": "URL-Metadaten kopieren",
+    "removeNoiView": "Aus NoiView entfernen",
+    "addNoiView": "Zu NoiView hinzufügen",
+    "openNewWindow": "In neuem Fenster öffnen",
+    "openSidePanel": "In der Seitenleiste öffnen",
+    "pin": "Anheften",
+    "unpin": "Lösen",
+    "lockLink": "Link sperren",
+    "unlockLink": "Link entsperren",
+    "buttonHighlight": "Titelleisten-Schaltflächen hervorheben"
+  },
+  "window": {
+    "close": "Schließen",
+    "goMain": "Zum Hauptfenster",
+    "dialog": "Dialogfenster",
+    "drag": "Zum Verschieben ziehen",
+    "minimize": "Minimieren",
+    "maximize": "Maximieren",
+    "restore": "Wiederherstellen"
+  },
+  "ask": {
+    "prompts": "{count, plural, one {Prompt} other {Prompts}}",
+    "semver": "SemVer",
+    "tag": "TAG",
+    "log": "LOG",
+    "sync": "Synchronisieren",
+    "manageSemVer": "SemVer verwalten",
+    "manageLog": "LOG verwalten",
+    "addPrompt": "Prompt hinzufügen",
+    "lockPrompt": "Prompt sperren",
+    "unlockPrompt": "Prompt entsperren",
+    "copyPrompt": "Prompt kopieren",
+    "deletePrompt": "Prompt löschen",
+    "filterTags": "TAG filtern",
+    "filterRule": "Filterregel",
+    "filterLockPrompts": "Filter: gesperrte Prompts"
+  },
+  "history": {
+    "name": "Verlauf",
+    "clearAll": "Gesamten Verlauf löschen",
+    "refresh": "Verlauf aktualisieren",
+    "remove": "Aus dem Verlauf entfernen",
+    "search": "Im Verlauf suchen",
+    "searchClear": "Suche löschen",
+    "searchFound": "{hasQ, select, true {{count, plural, =0 {Keine Suchergebnisse für „{q}“} one {# Suchergebnis für „{q}“ gefunden} other {# Suchergebnisse für „{q}“ gefunden}}} other {{count, plural, =0 {Keine Ergebnisse} one {# Ergebnis gefunden} other {# Ergebnisse gefunden}}}}",
+    "moreThisSite": "Mehr von dieser Website",
+    "dialogTitle": "Gesamten Verlauf löschen?",
+    "dialogMessage": "Diese Aktion löscht alle gespeicherten Verlaufsdaten dauerhaft und kann nicht rückgängig gemacht werden.",
+    "result1": "Verlauf konnte nicht geladen werden. {error}",
+    "result2": "Noch kein Verlauf.",
+    "result3": "Keine Suchergebnisse",
+    "result4": "Keine Daten gefunden.",
+    "tips": "Fuzzy-Matching über Titel und URLs. Präzisieren Sie mit Feldfiltern:",
+    "tip1": "Titel enthält „example“",
+    "tip2": "Seiten von „example.com“",
+    "tip3": "am 2024/01/01",
+    "tip4": "zwischen 2024/01/01–2025/12/31",
+    "tip5": "vor 2024/01/01",
+    "tip6": "nach 2024/01/01",
+    "tip7": "genau 3-mal besucht",
+    "tip8": "weniger als 3-mal besucht",
+    "tip9": "mehr als 3-mal besucht"
   },
   "form": {
+    "editor": "Editor",
+    "partition": "Sitzungsisolierung",
     "name": "Name",
     "url": "URL",
-    "isolatedCookieStorage": "Isolierter Cookie-Speicher",
-    "invalidURL": "Bitte geben Sie eine gültige URL ein.",
-    "nameNotEmpty": "Name darf nicht leer sein."
-  },
-  "sidebar": {
-    "warn": {
-      "urlDelete": "Die aktuelle URL wird verwendet.",
-      "dirDelete": "Das aktuelle Verzeichnis wird verwendet.",
-      "trayDelete": "Das Systemtray verwendet die aktuelle URL, sie kann nicht gelöscht werden."
+    "small": "Klein",
+    "medium": "Mittel",
+    "large": "Groß",
+    "icon": "Symbol",
+    "inputElement": "Eingabeelement",
+    "sendElement": "Sendeelement",
+    "cssSelector": "CSS-Selektor",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "customIcon": "Benutzerdefiniertes Symbol",
+    "linkIcon": "Link-Symbol",
+    "dirIcon": "Ordnersymbol",
+    "dirOpenIcon": "Geöffnetes Ordnersymbol",
+    "selectUA": "User Agent auswählen",
+    "customUA": "Oder einen benutzerdefinierten User-Agent-String eingeben…",
+    "rawJson": "Raw JSON",
+    "validation": {
+      "nameRequired": "Bitte geben Sie einen Namen ein.",
+      "urlRequired": "Bitte geben Sie eine URL ein.",
+      "userAgentRequired": "Bitte geben Sie einen User-Agent-String ein.",
+      "invalidJson": "JSON ist ungültig.",
+      "fixJsonErrors": "Bitte beheben Sie die JSON-Validierungsfehler vor dem Speichern.",
+      "required": "Dieses Feld ist erforderlich."
     },
     "tip": {
-      "delete": "Nach dem Löschen nicht wiederherstellbar, sind Sie sicher, dass Sie löschen möchten?",
-      "syncOverwrite": "Die Synchronisation wird alle Daten außer benutzerdefinierten Daten überschreiben. Möchten Sie fortfahren?",
-      "syncReset": "Sie befinden sich derzeit auf der neuesten Version. Die Synchronisation wird alle Daten außer benutzerdefinierten Daten zurücksetzen. Möchten Sie fortfahren?",
-      "syncOk": "Synchronisation erfolgreich",
-      "syncResetOk": "Zurücksetzen erfolgreich"
-    }
-  },
-  "network": {
-    "error": {
-      "try": "Versuchen Sie:",
-      "title": "Diese Seite kann nicht erreicht werden",
-      "longRespond": "hat zu lange zum Antworten gebraucht.",
-      "checkConnection": "Verbindung prüfen",
-      "checkProxy": "Proxy und Firewall prüfen"
-    }
-  },
-  "settings": {
-    "menu": {
-      "general": {
-        "name": "Allgemein",
-        "syncBookmarks": "Lesezeichen synchronisieren",
-        "proxy": "Proxy",
-        "proxyRules": "Regeln",
-        "proxyBypassRules": "Umgehungsregeln",
-        "promptLogLimit": "Protokolllimit",
-        "promptLogArchiveLimit": "Archivlimit für Protokolle",
-        "promptFavoritesLimit": "Limit für Favoriten",
-        "promptFavoritesArchiveLimit": "Archivlimit für Favoriten"
-      },
-      "keyboardShortcuts": {
-        "name": "Tastenkürzel",
-        "recording": "Aufnahme…",
-        "globalShortcut": "Globales Kürzel",
-        "trayShortcut": "Systemablage-Kürzel"
-      },
-      "extensions": "Erweiterungen",
-      "prompts": {
-        "name": "Aufforderungen",
-        "userPrompts": "Benutzeraufforderungen",
-        "promptTags": "Aufforderungstags",
-        "customSync": "Benutzerdefinierte Synchronisierung"
-      }
-    },
-    "confirm": {
-      "delete": "Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?",
-      "batchEnable": "Sind Sie sicher, dass Sie diese Aufforderungen aktivieren möchten?",
-      "batchDelete": "Sind Sie sicher, dass Sie diese Aufforderungen löschen möchten?",
-      "batchDisable": "Sind Sie sicher, dass Sie diese Aufforderungen deaktivieren möchten?",
-      "batchUse": "Sind Sie sicher, dass Sie diese Aufforderungen verwenden möchten?",
-      "batchTagsAdd": "Sind Sie sicher, dass Sie diese Tags hinzufügen möchten?",
-      "batchTagsDelete": "Sind Sie sicher, dass Sie diese Tags löschen möchten?"
-    },
-    "message": {
-      "added": "Hinzugefügt",
-      "synced": "Synchronisiert",
-      "invalidData": "Ungültige Daten",
-      "missingActAndPrompt": "Fehlende Felder: 'act', 'prompt'. Versuchen Sie, 'Alias' zur Umbenennung zu verwenden.",
-      "missingManifest": "Die Datei manifest.json fehlt oder ist ungültig.",
-      "checkExtension": "Bitte überprüfen Sie erneut das Erweiterungsverzeichnis:",
-      "existExtension": "Die Erweiterung existiert bereits."
-    },
-    "tip": {
-      "proxyRules": "Regeln, die angeben, welche Proxies verwendet werden sollen.",
-      "proxyBypassRules": "Regeln, die angeben, welche URLs die Proxy-Einstellungen umgehen sollen.",
-      "shortcutRule": "Kürzelregel",
-      "modifierKeys": "Modifier-Tasten",
-      "regularKeys": "Reguläre Tasten",
-      "noiExtension": "Beachten Sie, dass Noi nicht den vollen Umfang der Chrome-Erweiterungs-APIs unterstützt. Weitere Details dazu, was unterstützt wird, finden Sie unter Unterstützte Erweiterungs-APIs.",
-      "noiCacheMode": "Speichert Webseitenzustände für den schnellen Wiederzugriff, ähnlich wie Browsertabs. Die kontinuierliche Zustandserfassung erhöht den Speicherverbrauch, insbesondere beim häufigen Zugriff auf unterschiedliche Seitenleistenlinks. Um den Speichereinfluss zu mildern, insbesondere bei Systemverzögerungen, erwägen Sie, den Cache nach mehreren Wechseln zu de aktivieren oder neu zu starten.",
-      "promptLogLimit": "Maximale Anzahl von Aufforderungen, die im Protokoll behalten werden (10-1000), standardmäßig auf 300 gesetzt.",
-      "promptLogArchiveLimit_1": "Maximale Anzahl von Aufforderungen, die in einer einzelnen Archivdatei gespeichert werden können (1000-10000), standardmäßig auf 1000 gesetzt.",
-      "promptLogArchiveLimit_2": "1. Derzeit archivierte Datei: {{file}}.archiving.json",
-      "promptLogArchiveLimit_3": "2. Namenskonvention für abgeschlossene Archivdateien: {{file}}_JJJJ.MM.TT.SS.mm.ss_JJJJ.MM.TT.SS.mm.ss.json, wobei JJJJ.MM.TT.SS.mm.ss jeweils die Anfangs- und Endzeiten darstellen. Zum Beispiel: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
-    },
-    "table": {
-      "name": "Name",
-      "extension": "Erweiterung",
-      "description": "Beschreibung",
-      "version": "Version",
-      "tag": "Tag",
-      "color": "Farbe",
-      "lastUpdate": "Letztes Update",
-      "usageCount": "Nutzungsanzahl"
+      "agentWarning": "Sicherheitswarnung: Webseiten den Zugriff auf die Noi API zu erlauben, kann gefährlich sein."
     }
   },
   "action": {
     "name": "Aktion",
-    "add": "Hinzufügen",
+    "archive": "Archivieren",
+    "back": "Zurück",
     "cancel": "Abbrechen",
-    "create": "Erstellen",
     "confirm": "Bestätigen",
-    "detail": "Detail",
+    "create": "Erstellen",
     "delete": "Löschen",
-    "disable": "Deaktivieren",
+    "details": "Details",
     "edit": "Bearbeiten",
-    "enable": "Aktivieren",
-    "export": "Exportieren",
+    "restore": "Wiederherstellen",
+    "query": "Abfrage",
     "refresh": "Aktualisieren",
+    "rename": "Umbenennen",
     "reset": "Zurücksetzen",
-    "sync": "Synchronisieren",
     "save": "Speichern",
-    "search": "Suchen",
-    "select": "Auswählen",
+    "send": "Senden",
     "use": "Verwenden",
-    "copied": "Kopiert",
-    "batchAdd": "Batch-Hinzufügung",
-    "batchDisable": "Batch-Deaktivierung",
-    "batchEnable": "Batch-Aktivierung",
-    "batchDelete": "Batch-Löschung",
-    "batchUse": "Batch-Verwendung"
+    "clean": "Vom Datenträger löschen",
+    "enable": "Aktivieren",
+    "disable": "Deaktivieren",
+    "importAsk": "In NoiAsk importieren",
+    "openLocales": "Locales-Ordner öffnen"
   },
-  "prompt": {
-    "promptFavorite": "Prompt-Favoriten",
-    "promptLog": "Prompt-Protokoll",
-    "promptSend": "Prompt senden",
-    "newChat": "Neuer Chat",
-    "sendMessage": "Nachricht senden",
-    "resetPanel": "Panel zurücksetzen",
-    "promptCmd": "Prompt-Befehl",
-    "sizeSmall": "Klein",
-    "sizeMedium": "Mittel",
-    "sizeLarge": "Groß"
+  "table": {
+    "active": "Aktiv",
+    "archived": "Archiviert",
+    "color": "Farbe",
+    "createdAt": "Erstellt am",
+    "delete": "Löschen",
+    "description": "Beschreibung",
+    "details": "Details",
+    "disabled": "Deaktiviert",
+    "enabled": "Aktiviert",
+    "entries": "Einträge",
+    "fileSize": "Dateigröße",
+    "mode": "Modus",
+    "status": "Status",
+    "trash": "Papierkorb",
+    "unknown": "Unbekannt",
+    "updatedAt": "Aktualisiert am",
+    "usageCount": "Nutzungsanzahl",
+    "tagAdd": "TAG hinzufügen",
+    "tagRemove": "TAG entfernen",
+    "visible": "Sichtbar",
+    "total": "Gesamt",
+    "locked": "Gesperrt",
+    "text": "Text",
+    "sendCount": "Anzahl der Sendungen",
+    "addSource": "Quelle hinzufügen",
+    "lastSynced": "Zuletzt synchronisiert",
+    "message": {
+      "completed": "Aktion abgeschlossen.",
+      "failed": "Aktion fehlgeschlagen.",
+      "noData": "Keine Daten gefunden.",
+      "dataExist": "Daten existieren bereits.",
+      "dataExistOrDuplicated": "Alle Daten existieren bereits oder sind dupliziert.",
+      "failedLoad": "Daten konnten nicht geladen werden.",
+      "importedCount": "Importiert: {count}.",
+      "skippedCount": "Übersprungen: {count}.",
+      "deleteSelected": "Möchten Sie die ausgewählten Zeilen wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleteItem": "Möchten Sie dieses Element wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleteFile": "Diese Datei vom Datenträger löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "removeItem": "Dieses Element aus der Liste entfernen? Die Datei bleibt auf dem Datenträger.",
+      "deleteBuiltin": "Integrierte Quelle kann nicht gelöscht werden.",
+      "importedAsk": "In NoiAsk importiert.",
+      "deleteUseTag": "Dieses TAG wird derzeit verwendet und kann nicht gelöscht werden."
+    }
+  },
+  "dialog": {
+    "appQuit": {
+      "quitConfirm": "Bestätigung beim Beenden erforderlich",
+      "title": "Noi jetzt beenden?",
+      "detail": "Alle Fenster und Aufgaben werden geschlossen."
+    },
+    "nshQuit": {
+      "title": "Terminal schließen?",
+      "detail": "Laufende Aufgaben werden sofort beendet."
+    }
+  },
+  "settings": {
+    "general": {
+      "name": "Allgemein",
+      "language": "Sprache",
+      "sidebarIcon": "Größe der Seitenleisten-Symbole",
+      "homeLink": "Startseitenlink",
+      "limit": "Abfragelimit",
+      "cometCursor": "NoiAsk-Kometencursor",
+      "cometTrail": "NoiAsk-Kometenschweif",
+      "lockLocales": "Locales-Ordner sperren",
+      "lockLocalesTip": "Sperren Sie den Locales-Ordner, damit automatische Updates die Sprachdateien nicht verändern. Nützlich für benutzerdefinierte Übersetzungen.",
+      "urlMetadata": "URL-Metadaten",
+      "sidebarAnchor": {
+        "name": "Seitenleistenanker",
+        "off": "Aus",
+        "leftTop": "Links oben",
+        "leftCenter": "Links Mitte",
+        "leftBottom": "Links unten",
+        "rightTop": "Rechts oben",
+        "rightCenter": "Rechts Mitte",
+        "rightBottom": "Rechts unten",
+        "disableWarning": "Das Deaktivieren blendet den schwebenden Trigger aus. Nur der Noi-Hotkey kann die Seitenleiste wieder öffnen, und Hotkey-Konflikte mit Websites sind häufig, daher wird das Deaktivieren nicht empfohlen.",
+        "disableConfirmTitle": "Seitenleistenanker deaktivieren?"
+      },
+      "nsh": {
+        "name": "NSH (Terminal)",
+        "fontFamily": "Schriftfamilie",
+        "fontSize": "Schriftgröße",
+        "lineHeight": "Zeilenhöhe",
+        "cursorBlink": "Cursor-Blinken",
+        "cursorStyle": "Cursor-Stil",
+        "cursorWidth": "Cursor-Breite",
+        "cursorInactiveStyle": "Stil des inaktiven Cursors",
+        "scrollback": "Scrollback",
+        "tip": {
+          "cursorWidth": "Gilt nur, wenn der Cursor-Stil „Bar“ ist.",
+          "scrollback": "Anzahl der Zeilen, die beim Scrollen im Verlauf behalten werden."
+        }
+      },
+      "proxy": {
+        "name": "Proxy",
+        "rules": "Proxy-Regeln",
+        "bypass": "Proxy-Bypass-Regeln"
+      }
+    },
+    "shortcuts": {
+      "name": "Kurzbefehle",
+      "noiAskPrompt": "NoiAsk-Prompt: {action}",
+      "noiAskPromptWithContext": "NoiAsk-Prompt: {action} ({context})",
+      "placeholder": "Kombination drücken oder tippen",
+      "helpText": "Drücken Sie die gewünschte Tastenkombination oder geben Sie sie ein (z. B. Ctrl+Shift+X)",
+      "conflict": "Kurzbefehl wird bereits verwendet"
+    },
+    "promptSync": {
+      "option": {
+        "remoteJson": "Remote-JSON",
+        "remoteCsv": "Remote-CSV",
+        "localJson": "Lokales JSON",
+        "localCsv": "Lokales CSV"
+      },
+      "filePathMissing": "Ungültiger Dateipfad.",
+      "fileReadFailed": "Dateiinhalt konnte nicht gelesen werden.",
+      "fileOpenFailed": "Dateiauswahl konnte nicht geöffnet werden.",
+      "fileRequired": "Bitte wählen Sie eine Datei zum Synchronisieren aus.",
+      "notFound": "Synchronisierungsquelle nicht gefunden.",
+      "error": "Prompt-Synchronisierungsfehler",
+      "pickLocalFile": "Lokale Datei auswählen",
+      "type": "Quellentyp",
+      "alias": "Feldzuordnung",
+      "upload": "Datei hochladen",
+      "dragJson": "JSON-Datei hierher ziehen oder klicken, um zu durchsuchen",
+      "dragCsv": "CSV-Datei hierher ziehen oder klicken, um zu durchsuchen",
+      "browseLocal": "Vom Datenträger auswählen"
+    }
+  },
+  "errorPage": {
+    "shared": {
+      "defaultTryTips": [
+        "Prüfen Sie Ihre Internetverbindung",
+        "Prüfen Sie Proxy und Firewall"
+      ],
+      "platform": {
+        "windows": "Windows-Netzwerkdiagnose ausführen",
+        "mac": "Drahtlosdiagnose ausführen (macOS)"
+      },
+      "unknownError": "Ein unbekannter Fehler ist aufgetreten",
+      "site": "diese Website"
+    },
+    "html": {
+      "tryLabel": "Versuchen Sie:",
+      "showDetails": "Details anzeigen",
+      "hideDetails": "Details ausblenden",
+      "openAction": "Öffnen",
+      "reload": "Neu laden"
+    },
+    "offline": {
+      "headline": "Kein Internet",
+      "message": "Sie sind offline.",
+      "tryTips": [
+        "Prüfen Sie Netzwerkkabel, Modem oder Router",
+        "Verbinden Sie sich erneut mit dem WLAN oder wechseln Sie das Netzwerk"
+      ],
+      "action": "Neu laden"
+    },
+    "network": {
+      "headline": "Diese Website ist nicht erreichbar",
+      "message": "Die Verbindung zu {hostname} ist abgelaufen.",
+      "messageFallback": "Die Website hat zu lange zum Antworten gebraucht.",
+      "messageByCode": {
+        "ERR_CONNECTION_REFUSED": "{hostname} hat die Verbindung abgelehnt.",
+        "ERR_CONNECTION_REFUSED_FALLBACK": "Die Website hat die Verbindung abgelehnt.",
+        "ERR_CONNECTION_RESET": "Die Verbindung wurde zurückgesetzt.",
+        "ERR_CONNECTION_TIMED_OUT": "Die Verbindung ist abgelaufen.",
+        "ERR_TIMED_OUT": "Die Verbindung ist abgelaufen.",
+        "ERR_ADDRESS_UNREACHABLE": "Die Adresse ist nicht erreichbar.",
+        "ERR_NETWORK_CHANGED": "Ihre Netzwerkverbindung hat sich geändert.",
+        "ERR_CONNECTION_ABORTED": "Die Verbindung wurde abgebrochen.",
+        "ERR_CONNECTION_FAILED": "Verbindung fehlgeschlagen.",
+        "ERR_CONNECTION_CLOSED": "Die Verbindung wurde geschlossen.",
+        "ERR_HTTP2_PROTOCOL_ERROR": "Die Verbindung wurde unterbrochen (HTTP/2-Protokollfehler).",
+        "ERR_QUIC_PROTOCOL_ERROR": "Die Verbindung wurde unterbrochen (QUIC-Protokollfehler)."
+      },
+      "tryTips": [
+        "Prüfen Sie, ob andere Websites geöffnet werden; wenn nicht, verbinden Sie sich erneut mit dem Netzwerk",
+        "Starten Sie den Router neu oder schalten Sie den Flugmodus aus/ein"
+      ],
+      "suggestions": [
+        {
+          "title": "Serververfügbarkeit prüfen",
+          "detail": "Wenn {site} ein interner Dienst ist, stellen Sie sicher, dass er online ist oder vom aktuellen Netzwerk erreichbar ist."
+        },
+        {
+          "title": "Sicherheitssoftware prüfen",
+          "detail": "Firewall, Antivirus oder VPN-Clients können Anfragen unterbrechen — pausieren Sie diese Tools vorübergehend und versuchen Sie es erneut."
+        }
+      ],
+      "action": "Neu laden"
+    },
+    "dns": {
+      "headline": "Diese Website ist nicht erreichbar",
+      "message": "Die IP-Adresse von {hostname} konnte nicht gefunden werden.",
+      "messageFallback": "Die IP-Adresse des Servers konnte nicht gefunden werden.",
+      "messageByCode": {
+        "ERR_NAME_NOT_RESOLVED": "Die IP-Adresse von {hostname} konnte nicht gefunden werden.",
+        "ERR_NAME_NOT_RESOLVED_FALLBACK": "Die IP-Adresse des Servers konnte nicht gefunden werden.",
+        "ERR_NAME_RESOLUTION_FAILED": "DNS-Abfrage für {hostname} fehlgeschlagen.",
+        "ERR_NAME_RESOLUTION_FAILED_FALLBACK": "Die DNS-Abfrage ist fehlgeschlagen.",
+        "ERR_DNS_TIMED_OUT": "Der DNS-Server hat nicht geantwortet.",
+        "ERR_DNS_SERVER_FAILED": "Der DNS-Server hat nicht geantwortet.",
+        "ERR_DNS_MALFORMED_RESPONSE": "Der DNS-Server hat eine ungültige Antwort zurückgegeben."
+      },
+      "tryTips": [
+        "Prüfen Sie, ob die Webadresse korrekt geschrieben ist",
+        "Prüfen Sie Proxy-, Firewall- und DNS-Konfiguration"
+      ],
+      "suggestions": [
+        {
+          "title": "Webadresse prüfen",
+          "detail": "Stellen Sie sicher, dass {site} korrekt geschrieben ist. Wenn ja, ist der DNS-Server möglicherweise vorübergehend nicht verfügbar."
+        },
+        {
+          "title": "DNS-Cache leeren",
+          "detail": "Leeren Sie den DNS-Cache und laden Sie neu (z. B. `ipconfig /flushdns` unter Windows oder `sudo killall -HUP mDNSResponder` unter macOS)."
+        }
+      ],
+      "action": "Neu laden"
+    },
+    "ssl": {
+      "headline": "Ihre Verbindung ist nicht privat",
+      "headlineSecure": "Diese Website kann keine sichere Verbindung bereitstellen",
+      "message": "Angreifer könnten versuchen, Informationen von {hostname} zu stehlen (z. B. Passwörter, Nachrichten oder Kreditkarten).",
+      "messageSecure": "Noi kann keine sichere Verbindung zu {hostname} herstellen.",
+      "messageByCode": {
+        "ERR_SSL_PROTOCOL_ERROR": "Die Website verwendet ein ungültiges oder nicht unterstütztes SSL-Protokoll.",
+        "ERR_SSL_VERSION_OR_CIPHER_MISMATCH": "Die Website verwendet ein nicht unterstütztes SSL-Protokoll oder eine nicht unterstützte Chiffre.",
+        "ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN": "Die Zertifikatskette stimmt nicht mit dem gepinnten Schlüssel überein.",
+        "ERR_SSL_CLIENT_AUTH_CERT_NEEDED": "Für den Zugriff auf diese Website ist ein Client-Zertifikat erforderlich.",
+        "ERR_BAD_SSL_CLIENT_AUTH_CERT": "Das Client-Zertifikat ist ungültig oder wurde abgelehnt.",
+        "ERR_CERT_COMMON_NAME_INVALID": "Das Zertifikat ist für eine andere Adresse gültig.",
+        "ERR_CERT_DATE_INVALID": "Das Zertifikat ist abgelaufen oder noch nicht gültig.",
+        "ERR_CERT_AUTHORITY_INVALID": "Das Zertifikat ist nicht vertrauenswürdig.",
+        "ERR_CERT_REVOKED": "Das Zertifikat wurde widerrufen.",
+        "ERR_CERT_INVALID": "Das Zertifikat ist ungültig.",
+        "ERR_CERT_WEAK_SIGNATURE_ALGORITHM": "Das Zertifikat verwendet einen schwachen Signaturalgorithmus.",
+        "ERR_CERT_WEAK_KEY": "Das Zertifikat verwendet einen schwachen Schlüssel.",
+        "ERR_CERT_NAME_CONSTRAINT_VIOLATION": "Das Zertifikat verletzt Namensbeschränkungen.",
+        "ERR_CERT_NON_UNIQUE_NAME": "Das Zertifikat wird von mehreren Websites verwendet."
+      },
+      "suggestions": [
+        {
+          "title": "Datum und Uhrzeit des Computers prüfen",
+          "detail": "Eine falsche Uhrzeit kann zu Zertifikatfehlern führen."
+        },
+        {
+          "title": "Mit Vorsicht fortfahren",
+          "detail": "Fahren Sie nur fort, wenn Sie die Risiken verstehen und der Website vertrauen."
+        }
+      ],
+      "action": "Neu laden"
+    },
+    "proxy": {
+      "headline": "Proxy-Verbindung fehlgeschlagen",
+      "message": "Noi hat versucht, die Website über den konfigurierten Proxy zu erreichen, aber die Verbindung war nicht erfolgreich. Dieser Tab verwendet nun eine direkte Verbindung als Fallback.",
+      "messageByCode": {
+        "ERR_PROXY_CONNECTION_FAILED": "Der Proxyserver hat die Verbindung abgelehnt.",
+        "ERR_TUNNEL_CONNECTION_FAILED": "Der Proxy-Tunnel ist fehlgeschlagen.",
+        "ERR_SOCKS_CONNECTION_FAILED": "Der SOCKS-Proxy hat die Verbindung abgelehnt.",
+        "ERR_PROXY_AUTH_REQUESTED": "Der Proxyserver erfordert eine Authentifizierung.",
+        "ERR_PROXY_AUTH_UNSUPPORTED": "Die Proxy-Authentifizierungsmethode wird nicht unterstützt.",
+        "ERR_PAC_SCRIPT_FAILED": "Das Proxy-Autokonfigurationsskript (PAC) ist fehlgeschlagen.",
+        "ERR_NO_SUPPORTED_PROXIES": "Für diese Anfrage wurden keine unterstützten Proxys gefunden.",
+        "ERR_MANDATORY_PROXY_CONFIGURATION_FAILED": "Eine erforderliche Proxy-Konfiguration ist fehlgeschlagen.",
+        "ERR_PROXY_REQUIRED": "Für den Zugriff auf diese Website ist ein Proxy erforderlich."
+      },
+      "tryTips": [
+        "Proxy-Host, Port und Authentifizierung bestätigen",
+        "Stellen Sie sicher, dass der Proxyserver vom aktuellen Netzwerk aus erreichbar ist",
+        "Wenn die Organisation einen Proxy erfordert, stellen Sie ihn wieder her und laden Sie neu, sobald er wieder verfügbar ist"
+      ],
+      "suggestions": [
+        {
+          "title": "Noi-Proxy-Regeln prüfen",
+          "detail": "Verwenden Sie die Noi-Einstellungen, um zu bestätigen, dass die Proxy-Regeln und die Bypass-Liste zu diesem Netzwerk passen.",
+          "actionLabel": "Noi-Einstellungen öffnen"
+        },
+        {
+          "title": "Später mit Proxy erneut versuchen",
+          "detail": "Wenn der Proxy wieder verfügbar ist, laden Sie neu, um vom direkten Modus zum Proxy-Modus zu wechseln."
+        }
+      ],
+      "action": "Im Direktmodus neu laden"
+    },
+    "blocked": {
+      "headline": "Diese Seite wurde blockiert",
+      "message": "Die Anfrage wurde durch eine Erweiterung oder Sicherheitsrichtlinie blockiert.",
+      "messageByCode": {
+        "ERR_BLOCKED_BY_CLIENT": "Die Anfrage wurde durch einen Client oder eine Erweiterung blockiert.",
+        "ERR_BLOCKED_BY_RESPONSE": "Die Antwort wurde von der Website oder einer Richtlinie blockiert.",
+        "ERR_CLEARTEXT_NOT_PERMITTED": "Die Website erfordert eine sichere (HTTPS) Verbindung.",
+        "ERR_NETWORK_ACCESS_DENIED": "Der Netzwerkzugriff ist durch eine Richtlinie blockiert."
+      },
+      "tryTips": [
+        "Deaktivieren Sie Erweiterungen oder Inhaltsblocker und laden Sie neu",
+        "Prüfen Sie die Firewall- und Antivirus-Konfiguration"
+      ],
+      "suggestions": [
+        {
+          "title": "Erweiterungen oder Inhaltsblocker deaktivieren",
+          "detail": "Erweiterungen wie Werbe- oder Tracker-Blocker können die Anfrage verhindern — deaktivieren Sie sie vorübergehend und versuchen Sie es erneut."
+        },
+        {
+          "title": "Website-Richtlinie prüfen",
+          "detail": "Die Antwort könnte durch X-Frame-Options oder Content Security Policy blockiert sein."
+        }
+      ],
+      "action": "Neu laden"
+    },
+    "client": {
+      "headline": "Diese Seite funktioniert nicht",
+      "message": "Die Website hat eine ungültige Antwort zurückgegeben.",
+      "messageByCode": {
+        "ERR_EMPTY_RESPONSE": "{hostname} hat eine ungültige oder leere Antwort gesendet.",
+        "ERR_EMPTY_RESPONSE_FALLBACK": "Die Website hat eine ungültige oder leere Antwort gesendet.",
+        "ERR_FILE_NOT_FOUND": "Die Datei wurde nicht gefunden.",
+        "ERR_FILE_ACCESS_DENIED": "Der Zugriff auf die Datei wurde verweigert.",
+        "ERR_HTTP_RESPONSE_CODE_FAILURE": "Der Server hat mit einem Fehler geantwortet.",
+        "ERR_TOO_MANY_REDIRECTS": "Die Seite wird nicht korrekt weitergeleitet.",
+        "ERR_INVALID_RESPONSE": "Die Website hat eine ungültige Antwort gesendet.",
+        "ERR_INVALID_CHUNKED_ENCODING": "Die Website hat eine ungültige Antwort gesendet.",
+        "ERR_INCOMPLETE_CHUNKED_ENCODING": "Die Website hat eine unvollständige Antwort gesendet.",
+        "ERR_CONTENT_LENGTH_MISMATCH": "Die Website hat eine ungültige Antwort gesendet.",
+        "ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_LENGTH": "Die Website hat zu viele Daten in den Antwort-Headern gesendet.",
+        "ERR_CACHE_MISS": "Die Anfrage muss erneut gesendet werden.",
+        "ERR_INVALID_URL": "Die Webadresse ist ungültig.",
+        "ERR_DISALLOWED_URL_SCHEME": "Dieses URL-Schema ist nicht zulässig.",
+        "ERR_UNKNOWN_URL_SCHEME": "Dieses URL-Schema wird nicht unterstützt.",
+        "ERR_UNSAFE_PORT": "Dieser Port ist aus Sicherheitsgründen blockiert.",
+        "ERR_INVALID_REDIRECT": "Die Website hat eine ungültige Weiterleitung zurückgegeben.",
+        "ERR_UNSAFE_REDIRECT": "Die Website hat eine unsichere Weiterleitung versucht.",
+        "ERR_RESPONSE_HEADERS_TOO_BIG": "Die Website hat zu viele Daten in den Antwort-Headern gesendet.",
+        "ERR_METHOD_NOT_SUPPORTED": "Die Anfragemethode wird nicht unterstützt."
+      },
+      "tryTips": [
+        "Laden Sie die Seite neu",
+        "Löschen Sie den Browser-Cache oder gespeicherte Website-Daten"
+      ],
+      "suggestions": [
+        {
+          "title": "Website-Daten löschen",
+          "detail": "Entfernen Sie Cookies und zwischengespeicherte Dateien dieser Website und laden Sie dann neu."
+        },
+        {
+          "title": "Website-Betreiber informieren",
+          "detail": "Wenn das Problem weiterhin besteht, wenden Sie sich mit dem unten angezeigten Fehlercode an den Website-Administrator."
+        }
+      ],
+      "action": "Neu laden"
+    },
+    "unknown": {
+      "headline": "Diese Seite funktioniert nicht",
+      "message": "Ein unerwarteter Fehler ist aufgetreten ({code}).",
+      "tryTips": [
+        "Laden Sie die Seite neu",
+        "Wenn das Problem weiterhin besteht, notieren Sie den Fehlercode und wenden Sie sich an den Website-Administrator oder das Support-Team"
+      ],
+      "action": "Neu laden"
+    }
   }
 }
