@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Noi',
   tagline: '🚀 Less chaos. More flow.',
-  favicon: 'img/noi.png',
+  favicon: 'static/readme/noi.png',
 
   // Set the production url of your site here
   url: 'https://noib.app',
