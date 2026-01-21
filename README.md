@@ -12,18 +12,21 @@
 
 ### Features
 
-* **Interaction-first workflow refresh** for a more focused browsing experience
+* **Interaction-first workflow refresh** for a tighter, more focused browsing loop
 * **Multi-window management** to run parallel workspaces side by side
-* **Session isolation** to keep browsing contexts clean and separate
+* **Session isolation** to keep contexts clean, separated, and predictable
 * **Local-first data**: history, prompts, and settings stay on-device
-* **AI chat prompt management** to organize, reuse, and iterate on workflows
-* **Built-in terminal** to run local commands and scripts faster
-* **Multiple themes & visual styles** to match different moods and setups
+* **Prompt management for AI chats**: organize, reuse, and iterate on workflows
+* **Built-in terminal** for fast local commands, scripts, and tooling
+* **`noi` CLI command**: control Noi from tools like Claude Code, Codex, and Gemini CLI (more commands coming)
+* **Multiple themes & visual styles** to fit different setups and vibes
 * ...
 
 [Download...](https://github.com/lencx/Noi/releases/tag/v1.0.0)
 
-<img width="1440" height="877" alt="Noi Preview" src="https://github.com/user-attachments/assets/1cbe417c-4548-407b-b5c3-a4e33fea69b1" />
+<img alt="Noi Preview" src="./website/static/readme/preview.png" />
+
+<img alt="Noi Preview" src="./website/static/readme/nsh.png" />
 
 ## 中国用户
 

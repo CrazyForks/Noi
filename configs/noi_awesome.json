@@ -73,7 +73,9 @@
     "url": "https://claude.ai",
     "active": false,
     "ask": true,
-    "favicon": "https://claude.ai/favicon.ico"
+    "favicon": "https://claude.ai/favicon.ico",
+    "askInput":"[contenteditable]",
+    "askSend":"button[class*=\"Button_claude\"]"
   },
   {
     "id": "noi:gemini",
