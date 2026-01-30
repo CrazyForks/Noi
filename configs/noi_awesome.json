@@ -96,6 +96,15 @@
     "favicon": "https://grok.com/images/favicon-dark.png"
   },
   {
+    "id": "noi:grokipedia",
+    "parent": "noi@ai",
+    "text": "Grokipedia",
+    "url": "https://grokipedia.com",
+    "active": false,
+    "ask": true,
+    "favicon": "https://grokipedia.com/favicon.ico"
+  },
+  {
     "id": "noi:githubcopilot",
     "parent": "noi@ai",
     "text": "GitHub Copilot",
